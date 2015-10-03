@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 a oa:FragmentSelector .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 ui:h "0.3756410256410257"^^xsd:float .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 ui:w "0.5034188034188034"^^xsd:float .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 ui:x "0.10170940170940171"^^xsd:float .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 ui:y "0.2987179487179487"^^xsd:float .
+target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 rdf:value "#xywh=percent:10,30,50,38" .
+
+target:target_54750c685e2e5c94c1188a527b7b78a8287e2689 a oa:SpecificResource .
+target:target_54750c685e2e5c94c1188a527b7b78a8287e2689 oa:hasSelector target:selector_54750c685e2e5c94c1188a527b7b78a8287e2689 .
+target:target_54750c685e2e5c94c1188a527b7b78a8287e2689 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135080/format/large> .
+
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> a oa:Annotation .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> terms:title "Kwikstaarten: Motacilla" .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> ui:reachedObjectWith "random, 6" .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> ui:typingTime 5952 .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:annotatedAt "2015-10-04T00:01:35+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:annotatedBy user:n21 .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:hasBody birds:genus-motacilla .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:hasTarget target:target_54750c685e2e5c94c1188a527b7b78a8287e2689 .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:hasTarget naturalis:print-135080 .
+<http://localhost/annotation/instances/id_0b7ba0111af2de5ba26b852b338cb96722258c35> oa:motivatedBy oa:tagging .
