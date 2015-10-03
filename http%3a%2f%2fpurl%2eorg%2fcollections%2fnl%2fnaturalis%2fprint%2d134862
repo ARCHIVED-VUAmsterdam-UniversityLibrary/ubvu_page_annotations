@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,8 +7,11 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134862/format/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 a oa:FragmentSelector .
 target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -17,17 +21,41 @@ target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 ui:x "0.593162393162393
 target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 ui:y "0.5088319088319089"^^xsd:float .
 target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 rdf:value "#xywh=percent:59,51,6,3" .
 
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 a oa:FragmentSelector .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:h "0.05641025641025642"^^xsd:float .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:w "0.07777777777777778"^^xsd:float .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:x "0.3837606837606838"^^xsd:float .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:y "0.07293447293447293"^^xsd:float .
+target:selector_8504f1bce1923808af3c31083f819d8780d30a56 rdf:value "#xywh=percent:38,7,8,6" .
+
 target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 a oa:SpecificResource .
 target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSelector target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 .
-target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134862/format/large> .
+target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSource format:large .
 
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> a oa:Annotation .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> terms:title "buie" .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> ui:typingTime 2878 .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:annotatedAt "2015-10-03T23:32:53+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:annotatedBy user:n11 .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "buie" ] .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:hasTarget target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:hasTarget naturalis:print-134862 .
-<http://localhost/annotation/instances/id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f> oa:motivatedBy oa:tagging .
+target:target_8504f1bce1923808af3c31083f819d8780d30a56 a oa:SpecificResource .
+target:target_8504f1bce1923808af3c31083f819d8780d30a56 oa:hasSelector target:selector_8504f1bce1923808af3c31083f819d8780d30a56 .
+target:target_8504f1bce1923808af3c31083f819d8780d30a56 oa:hasSource format:large .
+
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 a oa:Annotation .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 terms:title "neus" .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 ui:reachedObjectWith "expertise, 10" .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 ui:typingTime 1175 .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:annotatedAt "2015-10-03T23:54:10+02:00"^^xsd:dateTime .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:annotatedBy <http://test.sealinc.eculture.labs.vu.nl/user/admin> .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "neus" ] .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget target:target_8504f1bce1923808af3c31083f819d8780d30a56 .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget naturalis:print-134862 .
+instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:motivatedBy oa:tagging .
+
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f a oa:Annotation .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f terms:title "buie" .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f ui:typingTime 2878 .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:annotatedAt "2015-10-03T23:32:53+02:00"^^xsd:dateTime .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:annotatedBy user:n11 .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "buie" ] .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:hasTarget target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:hasTarget naturalis:print-134862 .
+instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f oa:motivatedBy oa:tagging .
