@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix format: <http://medialib.naturalis.nl/file/id/image-134900/format/> .
@@ -11,6 +13,14 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd a oa:FragmentSelector .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd ui:h "0.052564102564102544"^^xsd:float .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd ui:w "0.1316239316239317"^^xsd:float .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd ui:x "0.6692307692307692"^^xsd:float .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd ui:y "0.3858974358974359"^^xsd:float .
+target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd rdf:value "#xywh=percent:67,39,13,5" .
 
 target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 a oa:FragmentSelector .
 target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +38,10 @@ target:selector_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 ui:x "0.446153846153846
 target:selector_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 ui:y "0.5897435897435898"^^xsd:float .
 target:selector_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 rdf:value "#xywh=percent:45,59,21,13" .
 
+target:target_021d97bce6083b170da7c53d3471d4e9c1cfc7fd a oa:SpecificResource .
+target:target_021d97bce6083b170da7c53d3471d4e9c1cfc7fd oa:hasSelector target:selector_021d97bce6083b170da7c53d3471d4e9c1cfc7fd .
+target:target_021d97bce6083b170da7c53d3471d4e9c1cfc7fd oa:hasSource format:large .
+
 target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 a oa:SpecificResource .
 target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 oa:hasSelector target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 .
 target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 oa:hasSource format:large .
@@ -35,6 +49,17 @@ target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 oa:hasSource format:large
 target:target_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 a oa:SpecificResource .
 target:target_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 oa:hasSelector target:selector_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 .
 target:target_9c7fd35bcca18c01eca60ac2ae9e07d6009804a2 oa:hasSource format:large .
+
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 a oa:Annotation .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 terms:title "meerkoet22" .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 ui:typingTime 3767 .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:annotatedAt "2015-10-03T23:49:08+02:00"^^xsd:dateTime .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:annotatedBy user:n99 .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "meerkoet22" ] .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:hasTarget target:target_021d97bce6083b170da7c53d3471d4e9c1cfc7fd .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:hasTarget naturalis:print-134900 .
+instances:id_0b5f55093eb8ded9fc7ad89ef93c866ac241bd62 oa:motivatedBy oa:tagging .
 
 instances:id_158a0e3c7015d9a65270ac3c3c353476b35caa8e a oa:Annotation .
 instances:id_158a0e3c7015d9a65270ac3c3c353476b35caa8e terms:title "Meerkoet: Eurasian Coot" .
