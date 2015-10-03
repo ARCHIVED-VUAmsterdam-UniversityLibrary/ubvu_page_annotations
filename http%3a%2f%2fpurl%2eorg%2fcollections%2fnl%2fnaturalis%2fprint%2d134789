@@ -1,0 +1,34 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 a oa:FragmentSelector .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 ui:h "0.03076923076923077"^^xsd:float .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 ui:w "0.08290598290598294"^^xsd:float .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 ui:x "0.5094017094017094"^^xsd:float .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 ui:y "0.19943019943019943"^^xsd:float .
+target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 rdf:value "#xywh=percent:51,20,8,3" .
+
+target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 a oa:SpecificResource .
+target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 oa:hasSelector target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 .
+target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134789/format/large> .
+
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> a oa:Annotation .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> terms:title "a" .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> ui:reachedObjectWith "expertise, 10" .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> ui:typingTime 2183 .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:annotatedAt "2015-10-04T00:04:18+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:annotatedBy user:n21 .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a" ] .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:hasTarget target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:hasTarget naturalis:print-134789 .
+<http://localhost/annotation/instances/id_2fa1765e8bafb280ac1aa22988d29f93f9f42065> oa:motivatedBy oa:tagging .
