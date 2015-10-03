@@ -1,0 +1,34 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 a oa:FragmentSelector .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 ui:h "0.09358974358974359"^^xsd:float .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 ui:w "0.10427350427350424"^^xsd:float .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 ui:x "0.4358974358974359"^^xsd:float .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 ui:y "0.1076923076923077"^^xsd:float .
+target:selector_3398f01304eb32f9575ce341d54df7217a437662 rdf:value "#xywh=percent:44,11,10,9" .
+
+target:target_3398f01304eb32f9575ce341d54df7217a437662 a oa:SpecificResource .
+target:target_3398f01304eb32f9575ce341d54df7217a437662 oa:hasSelector target:selector_3398f01304eb32f9575ce341d54df7217a437662 .
+target:target_3398f01304eb32f9575ce341d54df7217a437662 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135069/format/large> .
+
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> a oa:Annotation .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> terms:title "riet" .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> ui:reachedObjectWith "expertise, 1" .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> ui:typingTime 1136 .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:annotatedAt "2015-10-04T00:04:04+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:annotatedBy user:n21 .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "riet" ] .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:hasTarget target:target_3398f01304eb32f9575ce341d54df7217a437662 .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:hasTarget naturalis:print-135069 .
+<http://localhost/annotation/instances/id_97428d99f248802c3df0d589ed365cffed718a8c> oa:motivatedBy oa:tagging .
