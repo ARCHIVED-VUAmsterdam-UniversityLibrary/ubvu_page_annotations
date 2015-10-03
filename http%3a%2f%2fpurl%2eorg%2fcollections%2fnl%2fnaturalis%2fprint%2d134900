@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 a oa:FragmentSelector .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 ui:h "0.34487179487179487"^^xsd:float .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 ui:w "0.28034188034188035"^^xsd:float .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 ui:x "0.5307692307692308"^^xsd:float .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 ui:y "0.09615384615384616"^^xsd:float .
+target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 rdf:value "#xywh=percent:53,10,28,34" .
+
+target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 a oa:SpecificResource .
+target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 oa:hasSelector target:selector_3c0fdef5e35e762c7267477de0e4c57828c15631 .
+target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134900/format/large> .
+
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> a oa:Annotation .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> terms:title "Meerkoet: Eurasian Coot" .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> ui:typingTime 4499 .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:annotatedAt "2015-10-03T23:22:10+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:annotatedBy user:n7 .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:hasBody birds:species-fulica_atra .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:hasTarget target:target_3c0fdef5e35e762c7267477de0e4c57828c15631 .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:hasTarget naturalis:print-134900 .
+<http://localhost/annotation/instances/id_a74817134df4ce67ce8ab4076813eb65f1397963> oa:motivatedBy oa:tagging .
