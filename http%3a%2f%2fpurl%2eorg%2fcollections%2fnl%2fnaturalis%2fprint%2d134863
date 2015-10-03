@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:FragmentSelector .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:h "0.06039886039886039"^^xsd:float .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:w "0.19914529914529916"^^xsd:float .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:x "0.38461538461538464"^^xsd:float .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:y "0.1207977207977208"^^xsd:float .
+target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e rdf:value "#xywh=percent:38,12,20,6" .
+
+target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:SpecificResource .
+target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSelector target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
+target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSource <http://medialib.naturalis.nl/file/id/image-134863/format/large> .
+
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> a oa:Annotation .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> terms:title "kievit" .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> ui:typingTime 3634 .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:annotatedAt "2015-10-03T23:51:12+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:annotatedBy user:n33 .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "kievit" ] .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasTarget target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasTarget naturalis:print-134863 .
+<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:motivatedBy oa:tagging .
