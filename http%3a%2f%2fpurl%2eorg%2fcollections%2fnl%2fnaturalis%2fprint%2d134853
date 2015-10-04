@@ -97,6 +97,18 @@ instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 oa:hasTarget target:target
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 oa:hasTarget naturalis:print-134853 .
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 oa:motivatedBy oa:tagging .
 
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 a oa:Annotation .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 terms:title "juveniel" .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 ui:annotationField bird:StageOfLife .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 ui:reachedObjectWith "expertise, 1" .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 ui:typingTime 1461 .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:annotatedAt "2015-10-04T12:22:57+02:00"^^xsd:dateTime .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:annotatedBy user:user8 .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:hasTarget target:target_565d670be9c963e108c07b6a013848f65910b99f .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:hasTarget naturalis:print-134853 .
+instances:id_9a924e0454b4945d4cdeb3f05b5f41d8d4de7b57 oa:motivatedBy oa:tagging .
+
 instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 a oa:Annotation .
 instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 terms:title "Circus aeruginosus: Western Marsh Harrier" .
 instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 ui:annotationField bird:IOCScientificNameAnnotation .
