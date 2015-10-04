@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -45,3 +47,15 @@ instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasBody birds:species-t
 instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
 instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasTarget naturalis:print-135033 .
 instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:motivatedBy oa:tagging .
+
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 a oa:Annotation .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 terms:title "juveniel" .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 ui:annotationField bird:StageOfLife .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 ui:reachedObjectWith "random, 9" .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 ui:typingTime 2139 .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:annotatedAt "2015-10-04T12:41:10+02:00"^^xsd:dateTime .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:annotatedBy user:user39 .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:hasTarget naturalis:print-135033 .
+instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:motivatedBy oa:tagging .
