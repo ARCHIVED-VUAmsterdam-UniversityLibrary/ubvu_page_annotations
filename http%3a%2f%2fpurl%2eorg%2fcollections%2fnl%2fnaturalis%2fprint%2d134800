@@ -30,6 +30,14 @@ target:selector_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c ui:x "0.516239316239316
 target:selector_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c ui:y "0.020512820512820513"^^xsd:float .
 target:selector_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c rdf:value "#xywh=percent:52,2,37,71" .
 
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 a oa:FragmentSelector .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 ui:h "0.13205128205128203"^^xsd:float .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 ui:w "0.12478632478632479"^^xsd:float .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 ui:x "0.6504273504273504"^^xsd:float .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 ui:y "0.358974358974359"^^xsd:float .
+target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 rdf:value "#xywh=percent:65,36,12,13" .
+
 target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 a oa:SpecificResource .
 target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 oa:hasSelector target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
 target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 oa:hasSource format:large .
@@ -37,6 +45,10 @@ target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 oa:hasSource format:large
 target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c a oa:SpecificResource .
 target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c oa:hasSelector target:selector_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c .
 target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c oa:hasSource format:large .
+
+target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 a oa:SpecificResource .
+target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 oa:hasSelector target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 .
+target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 oa:hasSource format:large .
 
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 a oa:Annotation .
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 terms:title "man" .
@@ -145,6 +157,18 @@ instances:id_b90d70d4f118fa3508b0371fc18bc93b6ed35a36 oa:hasBody [ a content:Con
 instances:id_b90d70d4f118fa3508b0371fc18bc93b6ed35a36 oa:hasTarget target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c .
 instances:id_b90d70d4f118fa3508b0371fc18bc93b6ed35a36 oa:hasTarget naturalis:print-134800 .
 instances:id_b90d70d4f118fa3508b0371fc18bc93b6ed35a36 oa:motivatedBy oa:tagging .
+
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 a oa:Annotation .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 terms:title "Zwarte Ooievaar: Black Stork" .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 ui:reachedObjectWith "random, 0" .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 ui:typingTime 5136 .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:annotatedAt "2015-10-04T11:53:27+02:00"^^xsd:dateTime .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:annotatedBy user:Debby .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:hasBody birds:species-ciconia_nigra .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:hasTarget target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:hasTarget naturalis:print-134800 .
+instances:id_d887fa1cd30678ee8275cb1070422aaac4683b50 oa:motivatedBy oa:tagging .
 
 instances:id_f75bba5007570365c42651df25fed489413433cc a oa:Annotation .
 instances:id_f75bba5007570365c42651df25fed489413433cc terms:title "Zwarte Ooievaar: Black Stork" .
