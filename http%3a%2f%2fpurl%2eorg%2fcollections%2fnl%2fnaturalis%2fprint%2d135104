@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 a oa:FragmentSelector .
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_f528eab421856553436f9be8dff67227e82fdbf0 a oa:SpecificResource .
 target:target_f528eab421856553436f9be8dff67227e82fdbf0 oa:hasSelector target:selector_f528eab421856553436f9be8dff67227e82fdbf0 .
 target:target_f528eab421856553436f9be8dff67227e82fdbf0 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135104/format/large> .
 
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> a oa:Annotation .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> terms:title "Bruinkopgors: Red-headed Bunting" .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> ui:reachedObjectWith "random, 1" .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> ui:typingTime 6859 .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:annotatedAt "2015-10-04T12:03:20+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:annotatedBy user:user29 .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:hasBody birds:species-emberiza_bruniceps .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:hasTarget target:target_f528eab421856553436f9be8dff67227e82fdbf0 .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:hasTarget naturalis:print-135104 .
-<http://localhost/annotation/instances/id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd> oa:motivatedBy oa:tagging .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 a oa:Annotation .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 terms:title "Emberiza bruniceps: Red-headed Bunting" .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 ui:reachedObjectWith "random, 1" .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 ui:typingTime 12035 .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:annotatedAt "2015-10-04T12:03:34+02:00"^^xsd:dateTime .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:annotatedBy user:user29 .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasBody birds:species-emberiza_bruniceps .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget target:target_f528eab421856553436f9be8dff67227e82fdbf0 .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget naturalis:print-135104 .
+instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:motivatedBy oa:tagging .
+
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd a oa:Annotation .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd terms:title "Bruinkopgors: Red-headed Bunting" .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd ui:reachedObjectWith "random, 1" .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd ui:typingTime 6859 .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:annotatedAt "2015-10-04T12:03:20+02:00"^^xsd:dateTime .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:annotatedBy user:user29 .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:hasBody birds:species-emberiza_bruniceps .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:hasTarget target:target_f528eab421856553436f9be8dff67227e82fdbf0 .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:hasTarget naturalis:print-135104 .
+instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd oa:motivatedBy oa:tagging .
