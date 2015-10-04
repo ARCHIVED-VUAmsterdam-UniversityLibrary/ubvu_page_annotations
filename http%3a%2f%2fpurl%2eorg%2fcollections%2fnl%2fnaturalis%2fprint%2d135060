@@ -1,10 +1,8 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -23,18 +21,6 @@ target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 rdf:value "#xywh=percen
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:SpecificResource .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSelector target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135060/format/large> .
-
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 a oa:Annotation .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 terms:title "man" .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 ui:annotationField bird:Gender .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 ui:reachedObjectWith "random, 6" .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 ui:typingTime 1233 .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:annotatedAt "2015-10-04T12:12:18+02:00"^^xsd:dateTime .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:annotatedBy user:user29 .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:hasTarget naturalis:print-135060 .
-instances:id_3f9452697efc3cfc8a22d378961881603cefeb36 oa:motivatedBy oa:tagging .
 
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 a oa:Annotation .
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 terms:title "Sylvia curruca: Lesser Whitethroat" .
