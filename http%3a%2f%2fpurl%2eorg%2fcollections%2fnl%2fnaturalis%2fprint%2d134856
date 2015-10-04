@@ -121,6 +121,18 @@ instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:hasTarget target:target
 instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:hasTarget naturalis:print-134856 .
 instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:motivatedBy oa:tagging .
 
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b a oa:Annotation .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b terms:title "vrouw" .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b ui:annotationField bird:Gender .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b ui:reachedObjectWith "expertise, 4" .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b ui:typingTime 501025 .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:annotatedAt "2015-10-04T12:39:29+02:00"^^xsd:dateTime .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:annotatedBy user:user8 .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:hasTarget target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:hasTarget naturalis:print-134856 .
+instances:id_3fd04d272688393efe23ea18db7409c240ad9a7b oa:motivatedBy oa:tagging .
+
 instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 a oa:Annotation .
 instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 ui:annotationField bird:IOCCommonNameAnnotation .
