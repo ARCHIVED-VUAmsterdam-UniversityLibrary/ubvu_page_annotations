@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134792/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a a oa:FragmentSelector .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a ui:h "0.3082621082621082"^^xsd:float .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a ui:w "0.5"^^xsd:float .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a ui:x "0.15897435897435896"^^xsd:float .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a ui:y "0.49401709401709404"^^xsd:float .
+target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a rdf:value "#xywh=percent:16,49,50,31" .
 
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c a oa:FragmentSelector .
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:x "0.441025641025641
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:y "0.2968660968660969"^^xsd:float .
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c rdf:value "#xywh=percent:44,30,52,37" .
 
+target:target_95299b0ee402ff008733b2b42bf4ef321baba36a a oa:SpecificResource .
+target:target_95299b0ee402ff008733b2b42bf4ef321baba36a oa:hasSelector target:selector_95299b0ee402ff008733b2b42bf4ef321baba36a .
+target:target_95299b0ee402ff008733b2b42bf4ef321baba36a oa:hasSource format:large .
+
 target:target_e673877028dcf5aab45a0571434699ce4e46853c a oa:SpecificResource .
 target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSelector target:selector_e673877028dcf5aab45a0571434699ce4e46853c .
-target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134792/format/large> .
+target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSource format:large .
 
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f a oa:Annotation .
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f terms:title "onbekend" .
@@ -35,6 +49,18 @@ instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasBody [ a content:Con
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget naturalis:print-134792 .
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:motivatedBy oa:tagging .
+
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 a oa:Annotation .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 terms:title "Kleine Zilverreiger: Little Egret" .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 ui:reachedObjectWith "expertise, 3" .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 ui:typingTime 6227 .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:annotatedAt "2015-10-04T12:32:43+02:00"^^xsd:dateTime .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:annotatedBy user:user3 .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:hasBody birds:species-egretta_garzetta .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:hasTarget target:target_95299b0ee402ff008733b2b42bf4ef321baba36a .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:hasTarget naturalis:print-134792 .
+instances:id_19eefad40187784cf667053d9267f99ae6377fc7 oa:motivatedBy oa:tagging .
 
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 a oa:Annotation .
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 terms:title "adult" .
