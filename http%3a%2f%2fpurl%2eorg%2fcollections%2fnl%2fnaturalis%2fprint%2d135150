@@ -74,6 +74,18 @@ instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:hasTarget target:target
 instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:hasTarget naturalis:print-135150 .
 instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:motivatedBy oa:tagging .
 
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d a oa:Annotation .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d terms:title "Carpodacus erythrinus" .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d ui:reachedObjectWith "random, 0" .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d ui:typingTime 24604 .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:annotatedAt "2015-10-04T13:00:09+02:00"^^xsd:dateTime .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:annotatedBy user:user37 .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Carpodacus erythrinus" ] .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:hasTarget target:target_df41680ba141f3642841e1dad2d56bbce1996008 .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:hasTarget naturalis:print-135150 .
+instances:id_0f7e77f23249e9ec0e84ad1866c8fe9b79e18a6d oa:motivatedBy oa:tagging .
+
 instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c a oa:Annotation .
 instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c terms:title "Roodmus: Common Rosefinch" .
 instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c ui:annotationField bird:IOCCommonNameAnnotation .
