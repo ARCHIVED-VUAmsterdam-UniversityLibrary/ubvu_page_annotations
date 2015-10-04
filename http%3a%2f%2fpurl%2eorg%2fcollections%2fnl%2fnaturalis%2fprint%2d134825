@@ -6,8 +6,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 a oa:FragmentSelector .
 target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -21,14 +23,26 @@ target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 a oa:SpecificResource .
 target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSelector target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
 target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134825/format/large> .
 
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> a oa:Annotation .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> terms:title "Blauwvleugeltaling" .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:typingTime 9700 .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:annotatedAt "2015-10-04T13:13:45+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:annotatedBy user:user37 .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Blauwvleugeltaling" ] .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasTarget naturalis:print-134825 .
-<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:motivatedBy oa:tagging .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 a oa:Annotation .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 terms:title "Blauwvleugeltaling" .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 ui:reachedObjectWith "random, 6" .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 ui:typingTime 9700 .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:annotatedAt "2015-10-04T13:13:45+02:00"^^xsd:dateTime .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:annotatedBy user:user37 .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Blauwvleugeltaling" ] .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:hasTarget naturalis:print-134825 .
+instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 oa:motivatedBy oa:tagging .
+
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 a oa:Annotation .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 terms:title "man woerd" .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 ui:annotationField bird:Gender .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 ui:reachedObjectWith "random, 6" .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 ui:typingTime 4438 .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:annotatedAt "2015-10-04T13:14:20+02:00"^^xsd:dateTime .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:annotatedBy user:user37 .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man woerd" ] .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasTarget naturalis:print-134825 .
+instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:motivatedBy oa:tagging .
