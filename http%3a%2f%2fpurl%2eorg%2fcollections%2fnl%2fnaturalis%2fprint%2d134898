@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134898/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:x "0.435525192143467
 target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:y "0.16282051282051282"^^xsd:float .
 target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc rdf:value "#xywh=percent:44,16,41,62" .
 
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a a oa:FragmentSelector .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a ui:h "0.5538461538461539"^^xsd:float .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a ui:w "0.3629376601195559"^^xsd:float .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a ui:x "0.1246797608881298"^^xsd:float .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a ui:y "0.18333333333333332"^^xsd:float .
+target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a rdf:value "#xywh=percent:12,18,36,55" .
+
 target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc a oa:SpecificResource .
 target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSelector target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
-target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSource <http://medialib.naturalis.nl/file/id/image-134898/format/large> .
+target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSource format:large .
+
+target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a a oa:SpecificResource .
+target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a oa:hasSelector target:selector_db9efe7b908c166a977ffb045a53b76a37d69b0a .
+target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a oa:hasSource format:large .
 
 instances:id_709932043fb857621c6134045c807e916001ca0e a oa:Annotation .
 instances:id_709932043fb857621c6134045c807e916001ca0e terms:title "Porzana pusilla: Baillon's Crake" .
@@ -59,6 +73,18 @@ instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasBody birds:species-p
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget naturalis:print-134898 .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:motivatedBy oa:tagging .
+
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 a oa:Annotation .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 terms:title "Baillon's Crake" .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:reachedObjectWith "random, 7" .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:typingTime 3126 .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:annotatedAt "2015-10-04T12:16:57+02:00"^^xsd:dateTime .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:annotatedBy user:user34 .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasBody birds:species-porzana_pusilla .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasTarget naturalis:print-134898 .
+instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:motivatedBy oa:tagging .
 
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 a oa:Annotation .
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 terms:title "adult" .
