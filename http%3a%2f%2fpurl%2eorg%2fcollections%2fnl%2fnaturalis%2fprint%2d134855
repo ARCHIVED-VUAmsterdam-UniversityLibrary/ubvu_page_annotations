@@ -768,3 +768,15 @@ instances:id_f8e21d66e68536d4ba4410f914da883916e881df oa:hasBody birds:species-c
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df oa:hasTarget target:target_8f80791badd05004507c25693c6c1891af995a12 .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df oa:hasTarget naturalis:print-134855 .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df oa:motivatedBy oa:tagging .
+
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 a oa:Annotation .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 terms:title "adult" .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 ui:annotationField bird:StageOfLife .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 ui:reachedObjectWith "expertise, 5" .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 ui:typingTime 1475 .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:annotatedAt "2015-10-04T13:01:22+02:00"^^xsd:dateTime .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:annotatedBy user:Kvliet .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:hasTarget target:target_515464a0428dda010063d8bc382d05323fade719 .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:hasTarget naturalis:print-134855 .
+instances:id_fb8f99b8df2a778d2b15dd284f55d89e24bbd226 oa:motivatedBy oa:tagging .
