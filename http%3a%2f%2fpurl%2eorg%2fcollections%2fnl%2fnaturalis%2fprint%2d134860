@@ -122,6 +122,18 @@ instances:id_037a6ed45a779341613430bfb217777d5d119e63 oa:hasTarget target:target
 instances:id_037a6ed45a779341613430bfb217777d5d119e63 oa:hasTarget naturalis:print-134860 .
 instances:id_037a6ed45a779341613430bfb217777d5d119e63 oa:motivatedBy oa:tagging .
 
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a a oa:Annotation .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a terms:title "adult" .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a ui:annotationField bird:StageOfLife .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a ui:reachedObjectWith "expertise, 10" .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a ui:typingTime 1347 .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:annotatedAt "2015-10-04T12:55:44+02:00"^^xsd:dateTime .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:annotatedBy user:user27 .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:hasTarget target:target_5da56136d1f082e23e1482d7e990070f51ca2d59 .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:hasTarget naturalis:print-134860 .
+instances:id_0c7b92fb0aaca2948ae3a9172fe1c9afe5f25d5a oa:motivatedBy oa:tagging .
+
 instances:id_0f26c515c5b38531bb1b50c19c509dc10d4a9029 a oa:Annotation .
 instances:id_0f26c515c5b38531bb1b50c19c509dc10d4a9029 terms:title "adult" .
 instances:id_0f26c515c5b38531bb1b50c19c509dc10d4a9029 ui:annotationField bird:StageOfLife .
