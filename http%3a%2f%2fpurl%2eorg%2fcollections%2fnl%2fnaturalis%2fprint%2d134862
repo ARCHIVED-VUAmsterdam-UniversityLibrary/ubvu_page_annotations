@@ -74,6 +74,18 @@ instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget target:target
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget naturalis:print-134862 .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:motivatedBy oa:tagging .
 
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 a oa:Annotation .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 terms:title "Milvus milvus" .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 ui:reachedObjectWith "expertise, 10" .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 ui:typingTime 6598 .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:annotatedAt "2015-10-04T11:35:04+02:00"^^xsd:dateTime .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:annotatedBy user:user8 .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Milvus milvus" ] .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:hasTarget target:target_c956ac885c22314b9f111a14e2da98356e416a4b .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:hasTarget naturalis:print-134862 .
+instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 oa:motivatedBy oa:tagging .
+
 instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f a oa:Annotation .
 instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f terms:title "buie" .
 instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f ui:annotationField bird:IOCCommonNameAnnotation .
