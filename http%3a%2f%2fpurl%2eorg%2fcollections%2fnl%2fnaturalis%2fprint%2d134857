@@ -397,18 +397,6 @@ instances:id_ec1c5cd6de973266a69d62a92310dbf43b0fa364 oa:hasTarget target:target
 instances:id_ec1c5cd6de973266a69d62a92310dbf43b0fa364 oa:hasTarget naturalis:print-134857 .
 instances:id_ec1c5cd6de973266a69d62a92310dbf43b0fa364 oa:motivatedBy oa:tagging .
 
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 a oa:Annotation .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 terms:title "Circus marcourus" .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 ui:annotationField bird:IOCCommonNameAnnotation .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 ui:reachedObjectWith "expertise, 2" .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 ui:typingTime 17560 .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:annotatedAt "2015-10-04T12:16:14+02:00"^^xsd:dateTime .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:annotatedBy user:user26 .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Circus marcourus" ] .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:hasTarget target:target_8838015bbac2f9b49babe5dd03ae3431e8821908 .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:hasTarget naturalis:print-134857 .
-instances:id_edf4afe0b70a9b49444f026fe445ba6296e26ed2 oa:motivatedBy oa:tagging .
-
 instances:id_ff60cc35d51a7bc107d9d4888a28f63d4dcef833 a oa:Annotation .
 instances:id_ff60cc35d51a7bc107d9d4888a28f63d4dcef833 terms:title "adult" .
 instances:id_ff60cc35d51a7bc107d9d4888a28f63d4dcef833 ui:annotationField bird:StageOfLife .
