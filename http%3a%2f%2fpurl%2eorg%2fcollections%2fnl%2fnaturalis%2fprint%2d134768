@@ -38,6 +38,18 @@ target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb a oa:SpecificResource .
 target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb oa:hasSelector target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
 target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb oa:hasSource format:large .
 
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 a oa:Annotation .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 terms:title "Podiceps grisegena: Red-necked Grebe" .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 ui:reachedObjectWith "random, 6" .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 ui:typingTime 6300 .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:annotatedAt "2015-10-04T12:19:19+02:00"^^xsd:dateTime .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:annotatedBy user:user3 .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:hasBody birds:species-podiceps_grisegena .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:hasTarget target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:hasTarget naturalis:print-134768 .
+instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:motivatedBy oa:tagging .
+
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b a oa:Annotation .
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b terms:title "Roodhalsfuut: Red-necked Grebe" .
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b ui:annotationField bird:IOCCommonNameAnnotation .
