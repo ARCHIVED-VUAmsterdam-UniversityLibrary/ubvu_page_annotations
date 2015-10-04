@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_d9f19354719398e4a9932415972abbcfbb88d185 rdf:value "#xywh=percen
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 a oa:SpecificResource .
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSelector target:selector_d9f19354719398e4a9932415972abbcfbb88d185 .
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135106/format/large> .
+
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 a oa:Annotation .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 terms:title "man" .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 ui:annotationField bird:Gender .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 ui:reachedObjectWith "random, 10" .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 ui:typingTime 2199 .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:annotatedAt "2015-10-04T12:18:05+02:00"^^xsd:dateTime .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:annotatedBy user:user39 .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:hasTarget target:target_d9f19354719398e4a9932415972abbcfbb88d185 .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:hasTarget naturalis:print-135106 .
+instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:motivatedBy oa:tagging .
 
 instances:id_98c4d27e85cd25230171578175214732909948fb a oa:Annotation .
 instances:id_98c4d27e85cd25230171578175214732909948fb terms:title "Parus major: Great Tit" .
