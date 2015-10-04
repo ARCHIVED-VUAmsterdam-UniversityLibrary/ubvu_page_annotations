@@ -74,6 +74,18 @@ instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:hasTarget target:target
 instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:hasTarget naturalis:print-135143 .
 instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:motivatedBy oa:tagging .
 
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 a oa:Annotation .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 terms:title "Petronia petronia: Rock Sparrow" .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 ui:reachedObjectWith "random, 3" .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 ui:typingTime 8319 .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:annotatedAt "2015-10-04T12:12:30+02:00"^^xsd:dateTime .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:annotatedBy user:user5 .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:hasBody birds:species-petronia_petronia .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:hasTarget target:target_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:hasTarget naturalis:print-135143 .
+instances:id_78a638aa67c7ef11a2a81cd4a8c88eb86dfe1af4 oa:motivatedBy oa:tagging .
+
 instances:id_9cbefb9b43ddf8051bf0a57e680777d2c1d8c585 a oa:Annotation .
 instances:id_9cbefb9b43ddf8051bf0a57e680777d2c1d8c585 terms:title "Petronia petronia: Rock Sparrow" .
 instances:id_9cbefb9b43ddf8051bf0a57e680777d2c1d8c585 ui:annotationField bird:IOCScientificNameAnnotation .
