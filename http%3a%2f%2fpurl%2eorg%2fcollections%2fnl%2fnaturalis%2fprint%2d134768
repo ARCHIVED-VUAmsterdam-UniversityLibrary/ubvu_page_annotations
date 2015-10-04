@@ -48,6 +48,18 @@ instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:hasTarget target:target
 instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:hasTarget naturalis:print-134768 .
 instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:motivatedBy oa:tagging .
 
+instances:id_b1510fd39baf13370942b28864a193d833209e70 a oa:Annotation .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 terms:title "echt" .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 ui:reachedObjectWith "random, 6" .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 ui:typingTime 2056 .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:annotatedAt "2015-10-04T12:18:29+02:00"^^xsd:dateTime .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:annotatedBy user:user3 .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:hasTarget naturalis:print-134768 .
+instances:id_b1510fd39baf13370942b28864a193d833209e70 oa:motivatedBy oa:tagging .
+
 instances:id_c5253751af7e02cab7dff6f3e4c85eed25770e6f a oa:Annotation .
 instances:id_c5253751af7e02cab7dff6f3e4c85eed25770e6f terms:title "onbekend" .
 instances:id_c5253751af7e02cab7dff6f3e4c85eed25770e6f ui:annotationField bird:Gender .
