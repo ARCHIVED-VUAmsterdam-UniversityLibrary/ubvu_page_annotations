@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 a oa:FragmentSelector .
 target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 a oa:SpecificResource .
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSelector target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134775/format/large> .
 
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> a oa:Annotation .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> terms:title "Parelduiker: Black-throated Loon" .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> ui:reachedObjectWith "expertise, 11" .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> ui:typingTime 5958 .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:annotatedAt "2015-10-04T12:38:37+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:hasBody birds:species-gavia_arctica .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:hasTarget naturalis:print-134775 .
-<http://localhost/annotation/instances/id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3> oa:motivatedBy oa:tagging .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 a oa:Annotation .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 terms:title "Parelduiker: Black-throated Loon" .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 ui:reachedObjectWith "expertise, 11" .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 ui:typingTime 5958 .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:annotatedAt "2015-10-04T12:38:37+02:00"^^xsd:dateTime .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:annotatedBy user:user3 .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasBody birds:species-gavia_arctica .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget naturalis:print-134775 .
+instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:motivatedBy oa:tagging .
+
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 a oa:Annotation .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 terms:title "Gavia arctica: Black-throated Loon" .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 ui:reachedObjectWith "expertise, 11" .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 ui:typingTime 5292 .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:annotatedAt "2015-10-04T12:38:51+02:00"^^xsd:dateTime .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:annotatedBy user:user3 .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:hasBody birds:species-gavia_arctica .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:hasTarget naturalis:print-134775 .
+instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 oa:motivatedBy oa:tagging .
