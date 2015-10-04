@@ -361,6 +361,18 @@ instances:id_976cf00ce0bf0feac6af494d8083ea6b6c7dd0cc oa:hasTarget target:target
 instances:id_976cf00ce0bf0feac6af494d8083ea6b6c7dd0cc oa:hasTarget naturalis:print-134857 .
 instances:id_976cf00ce0bf0feac6af494d8083ea6b6c7dd0cc oa:motivatedBy oa:tagging .
 
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf a oa:Annotation .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf terms:title "Circus macrourus: Pallid Harrier" .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf ui:reachedObjectWith "expertise, 4" .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf ui:typingTime 16831 .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:annotatedAt "2015-10-04T12:34:41+02:00"^^xsd:dateTime .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:annotatedBy user:user27 .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:hasBody birds:species-circus_macrourus .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:hasTarget target:target_5247a1b009aa8f25eabc256a852d83f3d034f4f3 .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:hasTarget naturalis:print-134857 .
+instances:id_a7f9dfa33a80b0d96484724f095db6f0fc755edf oa:motivatedBy oa:tagging .
+
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb a oa:Annotation .
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb terms:title "man" .
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb ui:annotationField bird:Gender .
