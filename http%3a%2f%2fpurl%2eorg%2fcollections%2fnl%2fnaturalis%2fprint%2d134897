@@ -30,6 +30,14 @@ target:selector_9e608c253273a35f9baed3b82942523a75969f4a ui:x "0.469230769230769
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a ui:y "0.3282051282051282"^^xsd:float .
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a rdf:value "#xywh=percent:47,33,47,62" .
 
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 a oa:FragmentSelector .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 ui:h "0.3243589743589743"^^xsd:float .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 ui:w "0.3965811965811965"^^xsd:float .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 ui:x "0.5555555555555556"^^xsd:float .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 ui:y "0.18333333333333332"^^xsd:float .
+target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 rdf:value "#xywh=percent:56,18,40,32" .
+
 target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 a oa:SpecificResource .
 target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 oa:hasSelector target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
 target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 oa:hasSource format:large .
@@ -37,6 +45,10 @@ target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 oa:hasSource format:large
 target:target_9e608c253273a35f9baed3b82942523a75969f4a a oa:SpecificResource .
 target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSelector target:selector_9e608c253273a35f9baed3b82942523a75969f4a .
 target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSource format:large .
+
+target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 a oa:SpecificResource .
+target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 oa:hasSelector target:selector_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 .
+target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 oa:hasSource format:large .
 
 instances:id_137d63b2270da74f8b3a3fa685e997b26a4e8b5e a oa:Annotation .
 instances:id_137d63b2270da74f8b3a3fa685e997b26a4e8b5e terms:title "adult" .
@@ -145,6 +157,18 @@ instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasBody birds:species-p
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasTarget target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasTarget naturalis:print-134897 .
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:motivatedBy oa:tagging .
+
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 a oa:Annotation .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 terms:title "Klein Waterhoen: Little Crake" .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 ui:reachedObjectWith "random, 8" .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 ui:typingTime 4304 .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:annotatedAt "2015-10-04T12:16:13+02:00"^^xsd:dateTime .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:annotatedBy user:user3 .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:hasBody birds:species-porzana_parva .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:hasTarget target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:hasTarget naturalis:print-134897 .
+instances:id_bd470d31b7bcaaa31e91ba3fa680ceffa306b939 oa:motivatedBy oa:tagging .
 
 instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb a oa:Annotation .
 instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb terms:title "vrouw" .
