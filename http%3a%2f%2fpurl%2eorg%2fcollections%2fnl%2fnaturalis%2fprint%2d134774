@@ -62,6 +62,18 @@ target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 a oa:SpecificResource .
 target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 oa:hasSelector target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 .
 target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 oa:hasSource format:large .
 
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 a oa:Annotation .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 terms:title "Gavia immer: Great Northern Loon" .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 ui:reachedObjectWith "expertise, 11" .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 ui:typingTime 3317 .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:annotatedAt "2015-10-04T12:37:02+02:00"^^xsd:dateTime .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:annotatedBy user:user3 .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:hasBody birds:species-gavia_immer .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:hasTarget target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:hasTarget naturalis:print-134774 .
+instances:id_18865997b463f4cabf33c8ff98301bd725a94cb1 oa:motivatedBy oa:tagging .
+
 instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f a oa:Annotation .
 instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f terms:title "IJsduiker: Great Northern Loon" .
 instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f ui:annotationField bird:IOCCommonNameAnnotation .
