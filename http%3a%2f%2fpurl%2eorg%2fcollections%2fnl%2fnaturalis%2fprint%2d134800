@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 a oa:FragmentSelector .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 ui:h "0.6217948717948718"^^xsd:float .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 ui:w "0.5487179487179488"^^xsd:float .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 ui:x "0.10256410256410256"^^xsd:float .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 ui:y "0.2782051282051282"^^xsd:float .
+target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 rdf:value "#xywh=percent:10,28,55,62" .
+
+target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 a oa:SpecificResource .
+target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 oa:hasSelector target:selector_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
+target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134800/format/large> .
+
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> a oa:Annotation .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> terms:title "Zwarte Ooievaar: Black Stork" .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> ui:reachedObjectWith "random, 4" .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> ui:typingTime 8048 .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:annotatedAt "2015-10-04T11:43:26+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:annotatedBy user:user3 .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:hasBody birds:species-ciconia_nigra .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:hasTarget target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:hasTarget naturalis:print-134800 .
+<http://localhost/annotation/instances/id_69b850a62fa689be91be4dac591daedc11bba565> oa:motivatedBy oa:tagging .
