@@ -302,6 +302,18 @@ instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget target:target
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget naturalis:print-134854 .
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:motivatedBy oa:tagging .
 
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f a oa:Annotation .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f terms:title "Circus cyaneus: Hen Harrier" .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f ui:reachedObjectWith "expertise, 3" .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f ui:typingTime 20392 .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:annotatedAt "2015-10-04T12:36:55+02:00"^^xsd:dateTime .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:annotatedBy user:user27 .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:hasBody birds:species-circus_cyaneus .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:hasTarget target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:hasTarget naturalis:print-134854 .
+instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f oa:motivatedBy oa:tagging .
+
 instances:id_7b3afba8e1dcc44ddf893194e8e78f4dbefe25fe a oa:Annotation .
 instances:id_7b3afba8e1dcc44ddf893194e8e78f4dbefe25fe terms:title "adult" .
 instances:id_7b3afba8e1dcc44ddf893194e8e78f4dbefe25fe ui:annotationField bird:StageOfLife .
