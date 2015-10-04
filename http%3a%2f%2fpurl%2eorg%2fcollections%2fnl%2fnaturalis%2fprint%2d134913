@@ -50,6 +50,18 @@ instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:hasTarget target:target
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:hasTarget naturalis:print-134913 .
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:motivatedBy oa:tagging .
 
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca a oa:Annotation .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca terms:title "Vanellus gregarius: Sociable Lapwing" .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca ui:reachedObjectWith "random, 10" .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca ui:typingTime 9561 .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:annotatedAt "2015-10-04T13:01:20+02:00"^^xsd:dateTime .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:annotatedBy user:user26 .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:hasBody birds:species-vanellus_gregarius .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:hasTarget target:target_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:hasTarget naturalis:print-134913 .
+instances:id_3601a28c93e42473c40d7f4f1f5dc3e0a08691ca oa:motivatedBy oa:tagging .
+
 instances:id_400b4746eac0f14348a79a73eabbabaef9713784 a oa:Annotation .
 instances:id_400b4746eac0f14348a79a73eabbabaef9713784 terms:title "Steppekievit: Sociable Lapwing" .
 instances:id_400b4746eac0f14348a79a73eabbabaef9713784 ui:annotationField bird:IOCCommonNameAnnotation .
