@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 a oa:FragmentSelector .
 target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_af7797e41396e8e641b2a6c2ac09350557db0489 a oa:SpecificResource .
 target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSelector target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 .
 target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134768/format/large> .
 
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> a oa:Annotation .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> terms:title "Roodhalsfuut: Red-necked Grebe" .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:typingTime 8078 .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:annotatedAt "2015-10-04T12:17:47+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasBody birds:species-podiceps_grisegena .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasTarget naturalis:print-134768 .
-<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:motivatedBy oa:tagging .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 a oa:Annotation .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 terms:title "Podiceps grisegena: Red-necked Grebe" .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 ui:reachedObjectWith "random, 6" .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 ui:typingTime 10405 .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:annotatedAt "2015-10-04T12:18:05+02:00"^^xsd:dateTime .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:annotatedBy user:user3 .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasBody birds:species-podiceps_grisegena .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasTarget naturalis:print-134768 .
+instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:motivatedBy oa:tagging .
+
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 a oa:Annotation .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 terms:title "Roodhalsfuut: Red-necked Grebe" .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 ui:reachedObjectWith "random, 6" .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 ui:typingTime 8078 .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:annotatedAt "2015-10-04T12:17:47+02:00"^^xsd:dateTime .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:annotatedBy user:user3 .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:hasBody birds:species-podiceps_grisegena .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:hasTarget naturalis:print-134768 .
+instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 oa:motivatedBy oa:tagging .
