@@ -74,6 +74,18 @@ instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:hasTarget target:target
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:hasTarget naturalis:print-134855 .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:motivatedBy oa:tagging .
 
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 a oa:Annotation .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 terms:title "echt" .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 ui:reachedObjectWith "expertise, 3" .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 ui:typingTime 1308 .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:annotatedAt "2015-10-04T11:45:08+02:00"^^xsd:dateTime .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:annotatedBy user:user8 .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:hasTarget target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:hasTarget naturalis:print-134855 .
+instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:motivatedBy oa:tagging .
+
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb a oa:Annotation .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb terms:title "a" .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb ui:annotationField bird:IOCCommonNameAnnotation .
