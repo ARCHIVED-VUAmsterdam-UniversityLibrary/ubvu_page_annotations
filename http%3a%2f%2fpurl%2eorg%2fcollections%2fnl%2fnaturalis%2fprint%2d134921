@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 rdf:value "#xywh=percen
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:SpecificResource .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSelector target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134921/format/large> .
+
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 a oa:Annotation .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 terms:title "man" .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 ui:annotationField bird:Gender .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 ui:reachedObjectWith "random, 0" .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 ui:typingTime 2650 .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:annotatedAt "2015-10-04T12:10:26+02:00"^^xsd:dateTime .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:annotatedBy user:user29 .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasTarget naturalis:print-134921 .
+instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:motivatedBy oa:tagging .
 
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d a oa:Annotation .
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d terms:title "Calidris ferruginea: Curlew Sandpiper" .
