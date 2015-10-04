@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:FragmentSelector .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:h "0.3615384615384616"^^xsd:float .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:w "0.4128205128205128"^^xsd:float .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:x "0.4076923076923077"^^xsd:float .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:y "0.441025641025641"^^xsd:float .
+target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 rdf:value "#xywh=percent:41,44,41,36" .
+
+target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:SpecificResource .
+target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSelector target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
+target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134835/format/large> .
+
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> a oa:Annotation .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> terms:title "Kuifeend: Tufted Duck" .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> ui:typingTime 41552 .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:annotatedAt "2015-10-04T11:37:18+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:annotatedBy user:user5 .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:hasBody birds:species-aythya_fuligula .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:hasTarget naturalis:print-134835 .
+<http://localhost/annotation/instances/id_4fc7306df4b81939d6495ce1d24750985214d8b1> oa:motivatedBy oa:tagging .
