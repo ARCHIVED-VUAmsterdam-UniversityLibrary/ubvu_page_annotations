@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 a oa:FragmentSelector .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 ui:h "0.5243589743589744"^^xsd:float .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 ui:w "0.5478632478632478"^^xsd:float .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 ui:x "0.04957264957264957"^^xsd:float .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 ui:y "0.31666666666666665"^^xsd:float .
+target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 rdf:value "#xywh=percent:5,32,55,52" .
+
 target:selector_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 a oa:FragmentSelector .
 target:selector_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 ui:h "0.04999999999999999"^^xsd:float .
@@ -53,6 +61,10 @@ target:selector_f5eb4cf51c9a9e816f480fa216553317953498a7 ui:w "0.341880341880341
 target:selector_f5eb4cf51c9a9e816f480fa216553317953498a7 ui:x "0.594017094017094"^^xsd:float .
 target:selector_f5eb4cf51c9a9e816f480fa216553317953498a7 ui:y "0.03461538461538462"^^xsd:float .
 target:selector_f5eb4cf51c9a9e816f480fa216553317953498a7 rdf:value "#xywh=percent:59,3,34,88" .
+
+target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 a oa:SpecificResource .
+target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 oa:hasSelector target:selector_19dad558fbccd3239ee8b08a84c7602f53c41f11 .
+target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 oa:hasSource format:large .
 
 target:target_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 a oa:SpecificResource .
 target:target_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 oa:hasSelector target:selector_8aed9eb3d457483ed3a876d622c43eaf23a4a9e0 .
@@ -108,6 +120,18 @@ instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:hasBody birds:species-c
 instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:hasTarget target:target_f5eb4cf51c9a9e816f480fa216553317953498a7 .
 instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:hasTarget naturalis:print-134856 .
 instances:id_353ec4939118a24e1f541bb622d4172b65cd7dcf oa:motivatedBy oa:tagging .
+
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 a oa:Annotation .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 terms:title "Grauwe Kiekendief: Montagu's Harrier" .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 ui:reachedObjectWith "expertise, 4" .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 ui:typingTime 7150 .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:annotatedAt "2015-10-04T12:38:59+02:00"^^xsd:dateTime .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:annotatedBy user:user8 .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:hasBody birds:species-circus_pygargus .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:hasTarget target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:hasTarget naturalis:print-134856 .
+instances:id_4184e0279869296c7a0dc97b91419ae20f6f9b49 oa:motivatedBy oa:tagging .
 
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a a oa:Annotation .
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a terms:title "Black Harrier" .
