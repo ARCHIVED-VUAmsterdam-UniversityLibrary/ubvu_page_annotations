@@ -134,6 +134,18 @@ instances:id_a4bd7a04ffa5ae14a5007c7a299ec97117154a14 oa:hasTarget target:target
 instances:id_a4bd7a04ffa5ae14a5007c7a299ec97117154a14 oa:hasTarget naturalis:print-134835 .
 instances:id_a4bd7a04ffa5ae14a5007c7a299ec97117154a14 oa:motivatedBy oa:tagging .
 
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b a oa:Annotation .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b terms:title "Aythya collaris: Ring-necked Duck" .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b ui:reachedObjectWith "random, 0" .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b ui:typingTime 6025 .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:annotatedAt "2015-10-04T11:47:49+02:00"^^xsd:dateTime .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:annotatedBy user:user5 .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:hasBody birds:species-aythya_collaris .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:hasTarget target:target_939ba67d56e828593a3b8976de12e07c9a765886 .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:hasTarget naturalis:print-134835 .
+instances:id_a51d174e9a4d5b269b4a3af327fa8cd9d632652b oa:motivatedBy oa:tagging .
+
 instances:id_cb77d149ecbe2b8335dd80d82dea4aa45e9cead3 a oa:Annotation .
 instances:id_cb77d149ecbe2b8335dd80d82dea4aa45e9cead3 terms:title "man" .
 instances:id_cb77d149ecbe2b8335dd80d82dea4aa45e9cead3 ui:annotationField bird:Gender .
