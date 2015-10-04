@@ -50,6 +50,18 @@ target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:SpecificResource .
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSelector target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSource format:large .
 
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d a oa:Annotation .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d terms:title "Circaetus gallicus: Short-toed Snake Eagle" .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d ui:reachedObjectWith "expertise, 1" .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d ui:typingTime 4809 .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:annotatedAt "2015-10-04T12:02:42+02:00"^^xsd:dateTime .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:annotatedBy user:Debby .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:hasBody birds:species-circaetus_gallicus .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:hasTarget target:target_16a8ce49be0e887332638f1d5b5a6bdedaaaa96c .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:hasTarget naturalis:print-134861 .
+instances:id_01dff670b2d2f714d75fb8cfce55741e94e9a94d oa:motivatedBy oa:tagging .
+
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 a oa:Annotation .
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 terms:title "Slangenarend: Short-toed Snake Eagle" .
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 ui:annotationField bird:IOCCommonNameAnnotation .
