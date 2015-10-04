@@ -373,6 +373,18 @@ instances:id_4853117db86cd33a8fc6851c92d683ef06f93031 oa:hasTarget target:target
 instances:id_4853117db86cd33a8fc6851c92d683ef06f93031 oa:hasTarget naturalis:print-134859 .
 instances:id_4853117db86cd33a8fc6851c92d683ef06f93031 oa:motivatedBy oa:tagging .
 
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec a oa:Annotation .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec terms:title "Eurasian Sparrowhawk" .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec ui:reachedObjectWith "expertise, 7" .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec ui:typingTime 54233 .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:annotatedAt "2015-10-04T12:55:52+02:00"^^xsd:dateTime .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:annotatedBy user:user8 .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:hasBody birds:species-accipiter_nisus .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:hasTarget target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:hasTarget naturalis:print-134859 .
+instances:id_4a5893696ed0ea9bb8a430ac4517edd6171360ec oa:motivatedBy oa:tagging .
+
 instances:id_5610197219e6438fb052a43d5bc871965e8434c3 a oa:Annotation .
 instances:id_5610197219e6438fb052a43d5bc871965e8434c3 terms:title "vrouw" .
 instances:id_5610197219e6438fb052a43d5bc871965e8434c3 ui:annotationField bird:Gender .
