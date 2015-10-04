@@ -86,6 +86,18 @@ instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:hasTarget target:target
 instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:hasTarget naturalis:print-134854 .
 instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:motivatedBy oa:tagging .
 
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 a oa:Annotation .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 terms:title "Circus cyaneus: Hen Harrier" .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 ui:reachedObjectWith "expertise, 3" .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 ui:typingTime 1443951407293 .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:annotatedAt "2015-10-04T11:37:39+02:00"^^xsd:dateTime .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:annotatedBy user:Sir_Iain .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:hasBody birds:species-circus_cyaneus .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:hasTarget target:target_7fb4fe779834ee0fa43a762b8d21f8705ef13efa .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:hasTarget naturalis:print-134854 .
+instances:id_9bfd9fc7070fc7a0dfed3ee4702c7392e6b7c684 oa:motivatedBy oa:tagging .
+
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf a oa:Annotation .
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf terms:title "Blauwe Kiekendief: Hen Harrier" .
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf ui:annotationField bird:IOCCommonNameAnnotation .
