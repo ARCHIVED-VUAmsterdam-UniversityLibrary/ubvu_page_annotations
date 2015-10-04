@@ -98,6 +98,18 @@ instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:hasTarget target:target
 instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:hasTarget naturalis:print-134852 .
 instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:motivatedBy oa:tagging .
 
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 a oa:Annotation .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 terms:title "Circus aeruginosus: Western Marsh Harrier" .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 ui:reachedObjectWith "expertise, 3" .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 ui:typingTime 5767 .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:annotatedAt "2015-10-04T12:33:48+02:00"^^xsd:dateTime .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:annotatedBy user:Kvliet .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:hasBody birds:species-circus_aeruginosus .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:hasTarget target:target_d2d3dfc894ae784203f4ee989a1bdd09014af3a7 .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:hasTarget naturalis:print-134852 .
+instances:id_6520ce375b71f9069ca9663cc44ef99188825b62 oa:motivatedBy oa:tagging .
+
 instances:id_7a89149938c2fb231e18a580e37b2d66e903984e a oa:Annotation .
 instances:id_7a89149938c2fb231e18a580e37b2d66e903984e terms:title "adult" .
 instances:id_7a89149938c2fb231e18a580e37b2d66e903984e ui:annotationField bird:StageOfLife .
