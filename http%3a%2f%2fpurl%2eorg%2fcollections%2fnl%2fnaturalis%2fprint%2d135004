@@ -46,3 +46,15 @@ instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasBody [ a content:Con
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasTarget naturalis:print-135004 .
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:motivatedBy oa:tagging .
+
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 a oa:Annotation .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 terms:title "man vrouw" .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 ui:annotationField bird:Gender .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 ui:reachedObjectWith "random, 11" .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 ui:typingTime 6284 .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:annotatedAt "2015-10-04T13:21:49+02:00"^^xsd:dateTime .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:annotatedBy user:user37 .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man vrouw" ] .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasTarget naturalis:print-135004 .
+instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:motivatedBy oa:tagging .
