@@ -134,6 +134,18 @@ instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:hasTarget target:target
 instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:hasTarget naturalis:print-135033 .
 instances:id_8414c7d325c1270f4033c407cce3b9226decae14 oa:motivatedBy oa:tagging .
 
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 a oa:Annotation .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 terms:title "man" .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 ui:annotationField bird:Gender .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 ui:reachedObjectWith "random, 9" .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 ui:typingTime 1743 .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:annotatedAt "2015-10-04T12:43:04+02:00"^^xsd:dateTime .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:annotatedBy user:user39 .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:hasTarget target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:hasTarget naturalis:print-135033 .
+instances:id_beb6a1809d3b0c150841496f6e98b3f50978d2a4 oa:motivatedBy oa:tagging .
+
 instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f a oa:Annotation .
 instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f terms:title "Turdus merula: Common Blackbird" .
 instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f ui:annotationField bird:IOCScientificNameAnnotation .
