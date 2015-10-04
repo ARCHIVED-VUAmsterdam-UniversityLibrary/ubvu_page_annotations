@@ -58,3 +58,15 @@ instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasBody [ a content:Con
 instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
 instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:hasTarget naturalis:print-134825 .
 instances:id_aafc091de80ca7ea19c8f6f8786920d067620ed5 oa:motivatedBy oa:tagging .
+
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee a oa:Annotation .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee terms:title "opm. de zwart/witte inspringing bij het oog staat niet in de gids van Svensson" .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee ui:annotationField bird:RealOrNotAnnotation .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee ui:reachedObjectWith "random, 6" .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee ui:typingTime 73919 .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:annotatedAt "2015-10-04T13:19:37+02:00"^^xsd:dateTime .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:annotatedBy user:user37 .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "opm. de zwart/witte inspringing bij het oog staat niet in de gids van Svensson" ] .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:hasTarget naturalis:print-134825 .
+instances:id_cb9f2b7bbf6497e90f412945bf7fc0fd03fe2dee oa:motivatedBy oa:tagging .
