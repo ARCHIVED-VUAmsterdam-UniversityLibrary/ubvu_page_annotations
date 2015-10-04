@@ -181,3 +181,15 @@ instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasBody [ a content:Con
 instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasTarget target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
 instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasTarget naturalis:print-134897 .
 instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:motivatedBy oa:tagging .
+
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 a oa:Annotation .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 terms:title "Porzana parva: Little Crake" .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 ui:reachedObjectWith "random, 8" .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 ui:typingTime 8206 .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:annotatedAt "2015-10-04T12:16:23+02:00"^^xsd:dateTime .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:annotatedBy user:user3 .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:hasBody birds:species-porzana_parva .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:hasTarget target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:hasTarget naturalis:print-134897 .
+instances:id_fb38a01595e80f001fe16dd351e3798adad38d97 oa:motivatedBy oa:tagging .
