@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_c5dd04f07971bb8085a2016710116f44663bd500 a oa:FragmentSelector .
 target:selector_c5dd04f07971bb8085a2016710116f44663bd500 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_c5dd04f07971bb8085a2016710116f44663bd500 a oa:SpecificResource .
 target:target_c5dd04f07971bb8085a2016710116f44663bd500 oa:hasSelector target:selector_c5dd04f07971bb8085a2016710116f44663bd500 .
 target:target_c5dd04f07971bb8085a2016710116f44663bd500 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135016/format/large> .
 
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> a oa:Annotation .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> terms:title "Bandijsvogel: Belted Kingfisher" .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> ui:reachedObjectWith "expertise, 0" .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> ui:typingTime 2494 .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:annotatedAt "2015-10-04T11:51:28+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:annotatedBy user:user34 .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:hasBody birds:species-megaceryle_alcyon .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:hasTarget target:target_c5dd04f07971bb8085a2016710116f44663bd500 .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:hasTarget naturalis:print-135016 .
-<http://localhost/annotation/instances/id_58f9036b666bf54a60a23126cbe7641016448238> oa:motivatedBy oa:tagging .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 a oa:Annotation .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 terms:title "Megaceryle alcyon: Belted Kingfisher" .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 ui:reachedObjectWith "expertise, 0" .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 ui:typingTime 3509 .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:annotatedAt "2015-10-04T11:51:33+02:00"^^xsd:dateTime .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:annotatedBy user:user34 .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:hasBody birds:species-megaceryle_alcyon .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:hasTarget target:target_c5dd04f07971bb8085a2016710116f44663bd500 .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:hasTarget naturalis:print-135016 .
+instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 oa:motivatedBy oa:tagging .
+
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 a oa:Annotation .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 terms:title "Bandijsvogel: Belted Kingfisher" .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 ui:reachedObjectWith "expertise, 0" .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 ui:typingTime 2494 .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:annotatedAt "2015-10-04T11:51:28+02:00"^^xsd:dateTime .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:annotatedBy user:user34 .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:hasBody birds:species-megaceryle_alcyon .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:hasTarget target:target_c5dd04f07971bb8085a2016710116f44663bd500 .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:hasTarget naturalis:print-135016 .
+instances:id_58f9036b666bf54a60a23126cbe7641016448238 oa:motivatedBy oa:tagging .
