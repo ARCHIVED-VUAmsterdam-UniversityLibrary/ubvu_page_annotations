@@ -86,6 +86,18 @@ instances:id_23a3450dfe40d2d6493a5d098fa70f3f63cebe9c oa:hasTarget target:target
 instances:id_23a3450dfe40d2d6493a5d098fa70f3f63cebe9c oa:hasTarget naturalis:print-134897 .
 instances:id_23a3450dfe40d2d6493a5d098fa70f3f63cebe9c oa:motivatedBy oa:tagging .
 
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d a oa:Annotation .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d terms:title "echt" .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d ui:annotationField bird:RealOrNotAnnotation .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d ui:reachedObjectWith "random, 8" .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d ui:typingTime 3070 .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:annotatedAt "2015-10-04T12:16:41+02:00"^^xsd:dateTime .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:annotatedBy user:user3 .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:hasTarget target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:hasTarget naturalis:print-134897 .
+instances:id_5e0c321dc7d46a59bc8d6bd7f5cf1b0746911d5d oa:motivatedBy oa:tagging .
+
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 a oa:Annotation .
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 terms:title "Porzana parva: Little Crake" .
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 ui:annotationField bird:IOCScientificNameAnnotation .
