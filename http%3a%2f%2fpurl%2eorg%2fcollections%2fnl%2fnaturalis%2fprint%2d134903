@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134903/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:x "0.303418803418803
 target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:y "0.30313390313390315"^^xsd:float .
 target:selector_10502ee42590ca02b14edd311b99a28aac431f5f rdf:value "#xywh=percent:30,30,69,51" .
 
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 a oa:FragmentSelector .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 ui:h "0.3806267806267807"^^xsd:float .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 ui:w "0.7273504273504273"^^xsd:float .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 ui:x "0.08888888888888889"^^xsd:float .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 ui:y "0.23646723646723647"^^xsd:float .
+target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 rdf:value "#xywh=percent:9,24,73,38" .
+
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f a oa:SpecificResource .
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSelector target:selector_10502ee42590ca02b14edd311b99a28aac431f5f .
-target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSource <http://medialib.naturalis.nl/file/id/image-134903/format/large> .
+target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSource format:large .
+
+target:target_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 a oa:SpecificResource .
+target:target_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 oa:hasSelector target:selector_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 .
+target:target_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 oa:hasSource format:large .
+
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 a oa:Annotation .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 terms:title "Kleine Trap: Little Bustard" .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 ui:reachedObjectWith "random, 2" .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 ui:typingTime 15199 .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:annotatedAt "2015-10-04T11:53:30+02:00"^^xsd:dateTime .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:annotatedBy user:user5 .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:hasBody birds:species-tetrax_tetrax .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:hasTarget target:target_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:hasTarget naturalis:print-134903 .
+instances:id_225a936325931375fe7dfdd4134aee5453bbd8e9 oa:motivatedBy oa:tagging .
 
 instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 a oa:Annotation .
 instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 terms:title "adult" .
