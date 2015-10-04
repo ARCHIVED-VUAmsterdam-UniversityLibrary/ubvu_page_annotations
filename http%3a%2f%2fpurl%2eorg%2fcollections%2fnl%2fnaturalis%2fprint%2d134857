@@ -85,6 +85,18 @@ instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:hasTarget target:target
 instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:hasTarget naturalis:print-134857 .
 instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:motivatedBy oa:tagging .
 
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab a oa:Annotation .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab terms:title "Circus cyaneus: Hen Harrier" .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab ui:reachedObjectWith "expertise, 1" .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab ui:typingTime 1443952843696 .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:annotatedAt "2015-10-04T12:01:36+02:00"^^xsd:dateTime .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:annotatedBy user:Sir_Iain .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:hasBody birds:species-circus_cyaneus .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:hasTarget target:target_3098241d5b319605a4006af5d2c3b44afe82c115 .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:hasTarget naturalis:print-134857 .
+instances:id_9560b4fcb6710d0546afb93aa2fd3b2eb016cbab oa:motivatedBy oa:tagging .
+
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb a oa:Annotation .
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb terms:title "man" .
 instances:id_aa2ce040617595c016a0b14b36bba399194df6bb ui:annotationField bird:Gender .
