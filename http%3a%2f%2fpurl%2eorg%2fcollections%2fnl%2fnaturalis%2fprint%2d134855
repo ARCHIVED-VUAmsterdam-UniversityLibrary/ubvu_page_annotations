@@ -146,6 +146,18 @@ instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:hasTarget target:target
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:hasTarget naturalis:print-134855 .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c oa:motivatedBy oa:tagging .
 
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 a oa:Annotation .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 terms:title "echt" .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 ui:reachedObjectWith "expertise, 3" .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 ui:typingTime 1504 .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:annotatedAt "2015-10-04T11:48:46+02:00"^^xsd:dateTime .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:annotatedBy user:user8 .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget naturalis:print-134855 .
+instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:motivatedBy oa:tagging .
+
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 a oa:Annotation .
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 terms:title "/" .
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 ui:annotationField bird:Gender .
