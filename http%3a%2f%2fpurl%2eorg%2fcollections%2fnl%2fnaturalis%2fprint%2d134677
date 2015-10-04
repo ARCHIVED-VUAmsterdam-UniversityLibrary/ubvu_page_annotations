@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:FragmentSelector .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:h "0.717948717948718"^^xsd:float .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:w "0.3683760683760683"^^xsd:float .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:x "0.5213675213675214"^^xsd:float .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:y "0.11538461538461539"^^xsd:float .
+target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 rdf:value "#xywh=percent:52,12,37,72" .
+
+target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:SpecificResource .
+target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSelector target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
+target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134677/format/large> .
+
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> a oa:Annotation .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> terms:title "Kerkuil: Western Barn Owl" .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> ui:reachedObjectWith "random, 1" .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> ui:typingTime 154143 .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:annotatedAt "2015-10-04T11:52:28+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:annotatedBy user:user39 .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:hasBody birds:species-tyto_alba .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:hasTarget target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:hasTarget naturalis:print-134677 .
+<http://localhost/annotation/instances/id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc> oa:motivatedBy oa:tagging .
