@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde a oa:FragmentSelector .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde ui:h "0.31666666666666665"^^xsd:float .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde ui:w "0.5017094017094017"^^xsd:float .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde ui:x "0.42136752136752137"^^xsd:float .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde ui:y "0.41025641025641024"^^xsd:float .
+target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde rdf:value "#xywh=percent:42,41,50,32" .
+
+target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde a oa:SpecificResource .
+target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde oa:hasSelector target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde .
+target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde oa:hasSource <http://medialib.naturalis.nl/file/id/image-134960/format/large> .
+
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> a oa:Annotation .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> terms:title "Kleinste Jager: Long-tailed Jaeger" .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> ui:reachedObjectWith "random, 7" .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> ui:typingTime 11690 .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:annotatedAt "2015-10-04T12:00:59+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:annotatedBy user:user4 .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:hasBody birds:species-stercorarius_longicaudus .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:hasTarget target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:hasTarget naturalis:print-134960 .
+<http://localhost/annotation/instances/id_a603a51c83ff4289880c06b020ccc9cf2a76f80c> oa:motivatedBy oa:tagging .
