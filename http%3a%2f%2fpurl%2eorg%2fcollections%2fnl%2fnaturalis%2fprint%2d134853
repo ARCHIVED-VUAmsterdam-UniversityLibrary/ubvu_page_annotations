@@ -457,6 +457,18 @@ instances:id_bf6b20ceeed46111adc2cc61eae111ed245051ce oa:hasTarget target:target
 instances:id_bf6b20ceeed46111adc2cc61eae111ed245051ce oa:hasTarget naturalis:print-134853 .
 instances:id_bf6b20ceeed46111adc2cc61eae111ed245051ce oa:motivatedBy oa:tagging .
 
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 a oa:Annotation .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 terms:title "man" .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 ui:annotationField bird:Gender .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 ui:reachedObjectWith "expertise, 4" .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 ui:typingTime 1385 .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:annotatedAt "2015-10-04T12:54:15+02:00"^^xsd:dateTime .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:annotatedBy user:Kvliet .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:hasTarget target:target_e45b74ebf10f0bd0688f3dd4d9331f3cb87a77e9 .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:hasTarget naturalis:print-134853 .
+instances:id_c3bf788e8ae6e7319cf62affbaa96cfbcddf0243 oa:motivatedBy oa:tagging .
+
 instances:id_cbd117400d9b91d4676fc605605775e094d95b39 a oa:Annotation .
 instances:id_cbd117400d9b91d4676fc605605775e094d95b39 terms:title "juveniel" .
 instances:id_cbd117400d9b91d4676fc605605775e094d95b39 ui:annotationField bird:StageOfLife .
