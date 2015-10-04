@@ -433,6 +433,18 @@ instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:hasTarget target:target
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:hasTarget naturalis:print-134862 .
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:motivatedBy oa:tagging .
 
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e a oa:Annotation .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e terms:title "vrouw" .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e ui:annotationField bird:Gender .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e ui:reachedObjectWith "expertise, 0" .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e ui:typingTime 2735 .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:annotatedAt "2015-10-04T12:21:28+02:00"^^xsd:dateTime .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:annotatedBy user:user5 .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:hasTarget target:target_b7919efc0be124ef31530c8829530abb696a9df5 .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:hasTarget naturalis:print-134862 .
+instances:id_f0a319471083f8829ec7655962ae3208ac369e4e oa:motivatedBy oa:tagging .
+
 instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 a oa:Annotation .
 instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 terms:title "Milvus milvus: Red Kite" .
 instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 ui:annotationField bird:IOCScientificNameAnnotation .
