@@ -122,6 +122,18 @@ instances:id_806d2def735657de71036704d497cd36d89a77da oa:hasTarget target:target
 instances:id_806d2def735657de71036704d497cd36d89a77da oa:hasTarget naturalis:print-134897 .
 instances:id_806d2def735657de71036704d497cd36d89a77da oa:motivatedBy oa:tagging .
 
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac a oa:Annotation .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac terms:title "juveniel" .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac ui:annotationField bird:StageOfLife .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac ui:reachedObjectWith "random, 8" .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac ui:typingTime 3167 .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:annotatedAt "2015-10-04T12:16:36+02:00"^^xsd:dateTime .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:annotatedBy user:user3 .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:hasTarget target:target_a018d9a7b21e67984c00005cb1d2b46ca4fbf1a5 .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:hasTarget naturalis:print-134897 .
+instances:id_959fd72fd9491e7580c99894e8afc3ce74ab74ac oa:motivatedBy oa:tagging .
+
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c a oa:Annotation .
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c terms:title "Klein Waterhoen: Little Crake" .
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c ui:annotationField bird:IOCCommonNameAnnotation .
