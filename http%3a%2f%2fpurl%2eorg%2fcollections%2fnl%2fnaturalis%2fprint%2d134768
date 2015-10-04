@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasBody birds:species-p
 instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
 instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:hasTarget naturalis:print-134768 .
 instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 oa:motivatedBy oa:tagging .
+
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 a oa:Annotation .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 terms:title "adult" .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 ui:annotationField bird:StageOfLife .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 ui:reachedObjectWith "random, 6" .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 ui:typingTime 3155 .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:annotatedAt "2015-10-04T12:18:22+02:00"^^xsd:dateTime .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:annotatedBy user:user3 .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:hasTarget naturalis:print-134768 .
+instances:id_5f063a60293682965103246e72ac7d02676f8f81 oa:motivatedBy oa:tagging .
 
 instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 a oa:Annotation .
 instances:id_c7d974cc0202d56d1931201b7ccc7c7979075c94 terms:title "Roodhalsfuut: Red-necked Grebe" .
