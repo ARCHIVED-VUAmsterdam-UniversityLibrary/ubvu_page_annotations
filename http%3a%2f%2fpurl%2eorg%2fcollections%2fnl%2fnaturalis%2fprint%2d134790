@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134790/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 a oa:FragmentSelector .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 ui:h "0.42621082621082623"^^xsd:float .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 ui:w "0.44957264957264953"^^xsd:float .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 ui:x "0.5256410256410257"^^xsd:float .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 ui:y "0.3641025641025641"^^xsd:float .
+target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 rdf:value "#xywh=percent:53,36,45,43" .
 
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:FragmentSelector .
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:x "0.045299145299145
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:y "0.26894586894586897"^^xsd:float .
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 rdf:value "#xywh=percent:5,27,65,53" .
 
+target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 a oa:SpecificResource .
+target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 oa:hasSelector target:selector_1207e9269562563bb19d4673ada1f691ddb6ba48 .
+target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 oa:hasSource format:large .
+
 target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:SpecificResource .
 target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSelector target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
-target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134790/format/large> .
+target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSource format:large .
 
 instances:id_3e4e1cf1b51d0ed57bcbdb13b852d94ad64afca0 a oa:Annotation .
 instances:id_3e4e1cf1b51d0ed57bcbdb13b852d94ad64afca0 terms:title "onbekend" .
@@ -71,6 +85,18 @@ instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasBody [ a content:Con
 instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
 instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget naturalis:print-134790 .
 instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:motivatedBy oa:tagging .
+
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c a oa:Annotation .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c terms:title "Purperreiger: Purple Heron" .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c ui:reachedObjectWith "expertise, 2" .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c ui:typingTime 4536 .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:annotatedAt "2015-10-04T12:27:27+02:00"^^xsd:dateTime .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:annotatedBy user:user3 .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:hasBody birds:species-ardea_purpurea .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:hasTarget target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:hasTarget naturalis:print-134790 .
+instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c oa:motivatedBy oa:tagging .
 
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 a oa:Annotation .
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 terms:title "Purperreiger: Purple Heron" .
