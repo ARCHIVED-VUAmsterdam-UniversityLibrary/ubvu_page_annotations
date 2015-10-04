@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134965/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 ui:x "0.046153846153846
 target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 ui:y "0.16538461538461538"^^xsd:float .
 target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 rdf:value "#xywh=percent:5,17,66,70" .
 
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a a oa:FragmentSelector .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a ui:h "0.6487179487179487"^^xsd:float .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a ui:w "0.6470085470085469"^^xsd:float .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a ui:x "0.29572649572649573"^^xsd:float .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a ui:y "0.041025641025641026"^^xsd:float .
+target:selector_9a8758ccde48953d4719e014515f18ba99fe925a rdf:value "#xywh=percent:30,4,65,65" .
+
 target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 a oa:SpecificResource .
 target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 oa:hasSelector target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 .
-target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134965/format/large> .
+target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 oa:hasSource format:large .
+
+target:target_9a8758ccde48953d4719e014515f18ba99fe925a a oa:SpecificResource .
+target:target_9a8758ccde48953d4719e014515f18ba99fe925a oa:hasSelector target:selector_9a8758ccde48953d4719e014515f18ba99fe925a .
+target:target_9a8758ccde48953d4719e014515f18ba99fe925a oa:hasSource format:large .
+
+instances:id_207394550298afcbed5086f230cf9688fcf314dc a oa:Annotation .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc terms:title "Grote Mantelmeeuw: Great Black-backed Gull" .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc ui:reachedObjectWith "random, 11" .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc ui:typingTime 15045 .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:annotatedAt "2015-10-04T12:35:21+02:00"^^xsd:dateTime .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:annotatedBy user:user39 .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:hasBody birds:species-larus_marinus .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:hasTarget target:target_9a8758ccde48953d4719e014515f18ba99fe925a .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:hasTarget naturalis:print-134965 .
+instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:motivatedBy oa:tagging .
 
 instances:id_5fad66e253879938506d38323c3a86dd55c98eed a oa:Annotation .
 instances:id_5fad66e253879938506d38323c3a86dd55c98eed terms:title "adult" .
