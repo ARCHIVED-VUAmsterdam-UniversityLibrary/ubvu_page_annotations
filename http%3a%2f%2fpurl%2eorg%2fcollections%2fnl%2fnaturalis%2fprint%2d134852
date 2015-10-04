@@ -145,3 +145,15 @@ instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasBody [ a content:Con
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget naturalis:print-134852 .
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:motivatedBy oa:tagging .
+
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 a oa:Annotation .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 terms:title "echt" .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 ui:reachedObjectWith "expertise, 0" .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 ui:typingTime 1728 .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:annotatedAt "2015-10-04T11:53:13+02:00"^^xsd:dateTime .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:annotatedBy user:user8 .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:hasTarget target:target_8847921550e845fa4f1fbf8ac4228da3c66ca91c .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:hasTarget naturalis:print-134852 .
+instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 oa:motivatedBy oa:tagging .
