@@ -22,6 +22,14 @@ target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:x "0.025641025641025
 target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:y "0.27564102564102566"^^xsd:float .
 target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b rdf:value "#xywh=percent:3,28,57,57" .
 
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d a oa:FragmentSelector .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d ui:h "0.5538461538461539"^^xsd:float .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d ui:w "0.6641025641025642"^^xsd:float .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d ui:x "0.1358974358974359"^^xsd:float .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d ui:y "0.035897435897435895"^^xsd:float .
+target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d rdf:value "#xywh=percent:14,4,66,55" .
+
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:FragmentSelector .
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:h "0.2897435897435898"^^xsd:float .
@@ -34,9 +42,25 @@ target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b a oa:SpecificResource .
 target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b oa:hasSelector target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b .
 target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b oa:hasSource format:large .
 
+target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d a oa:SpecificResource .
+target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d oa:hasSelector target:selector_2e246f4fbcf357a048420392f39cfe257d1e9b4d .
+target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d oa:hasSource format:large .
+
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:SpecificResource .
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSelector target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSource format:large .
+
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c a oa:Annotation .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c terms:title "Merel: Common Blackbird" .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c ui:reachedObjectWith "random, 9" .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c ui:typingTime 3634 .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:annotatedAt "2015-10-04T12:42:46+02:00"^^xsd:dateTime .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:annotatedBy user:user39 .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:hasBody birds:species-turdus_merula .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:hasTarget target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:hasTarget naturalis:print-135033 .
+instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:motivatedBy oa:tagging .
 
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 a oa:Annotation .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 terms:title "Turdus merula: Common Blackbird" .
