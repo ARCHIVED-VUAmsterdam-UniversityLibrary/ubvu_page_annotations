@@ -74,6 +74,18 @@ instances:id_920d3339443cf91f48875bd1e832a66a4bd3cd3b oa:hasTarget target:target
 instances:id_920d3339443cf91f48875bd1e832a66a4bd3cd3b oa:hasTarget naturalis:print-134912 .
 instances:id_920d3339443cf91f48875bd1e832a66a4bd3cd3b oa:motivatedBy oa:tagging .
 
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e a oa:Annotation .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e terms:title "Vanellus vanellus: Northern Lapwing" .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e ui:reachedObjectWith "expertise, 11" .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e ui:typingTime 6170 .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:annotatedAt "2015-10-04T12:03:40+02:00"^^xsd:dateTime .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:annotatedBy user:user34 .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:hasBody birds:species-vanellus_vanellus .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:hasTarget target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:hasTarget naturalis:print-134912 .
+instances:id_94319f50e74b3dc41476616caff618e27f0afd0e oa:motivatedBy oa:tagging .
+
 instances:id_c85173cc56967d035c4aea90115df0b53081ee5a a oa:Annotation .
 instances:id_c85173cc56967d035c4aea90115df0b53081ee5a terms:title "Vanellus vanellus: Northern Lapwing" .
 instances:id_c85173cc56967d035c4aea90115df0b53081ee5a ui:annotationField bird:IOCScientificNameAnnotation .
