@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135143/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_5038080a7dbafeedebc54ae271ab75db4192857e ui:x "0.147008547008547
 target:selector_5038080a7dbafeedebc54ae271ab75db4192857e ui:y "0.15384615384615385"^^xsd:float .
 target:selector_5038080a7dbafeedebc54ae271ab75db4192857e rdf:value "#xywh=percent:15,15,40,48" .
 
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f a oa:FragmentSelector .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f ui:h "0.3730769230769231"^^xsd:float .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f ui:w "0.34786324786324785"^^xsd:float .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f ui:x "0.5196581196581197"^^xsd:float .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f ui:y "0.43846153846153846"^^xsd:float .
+target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f rdf:value "#xywh=percent:52,44,35,37" .
+
 target:target_5038080a7dbafeedebc54ae271ab75db4192857e a oa:SpecificResource .
 target:target_5038080a7dbafeedebc54ae271ab75db4192857e oa:hasSelector target:selector_5038080a7dbafeedebc54ae271ab75db4192857e .
-target:target_5038080a7dbafeedebc54ae271ab75db4192857e oa:hasSource <http://medialib.naturalis.nl/file/id/image-135143/format/large> .
+target:target_5038080a7dbafeedebc54ae271ab75db4192857e oa:hasSource format:large .
+
+target:target_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f a oa:SpecificResource .
+target:target_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f oa:hasSelector target:selector_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f .
+target:target_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f oa:hasSource format:large .
 
 instances:id_1682e2cb63b17e5249a4bf2fb5b1053905e894f1 a oa:Annotation .
 instances:id_1682e2cb63b17e5249a4bf2fb5b1053905e894f1 terms:title "Rotsmus: Rock Sparrow" .
@@ -47,6 +61,18 @@ instances:id_1741a11faf80c560d5d3f03145f7aab80ca54505 oa:hasBody [ a content:Con
 instances:id_1741a11faf80c560d5d3f03145f7aab80ca54505 oa:hasTarget target:target_5038080a7dbafeedebc54ae271ab75db4192857e .
 instances:id_1741a11faf80c560d5d3f03145f7aab80ca54505 oa:hasTarget naturalis:print-135143 .
 instances:id_1741a11faf80c560d5d3f03145f7aab80ca54505 oa:motivatedBy oa:tagging .
+
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 a oa:Annotation .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 terms:title "Rotsmus: Rock Sparrow" .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 ui:reachedObjectWith "random, 3" .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 ui:typingTime 7472 .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:annotatedAt "2015-10-04T12:12:17+02:00"^^xsd:dateTime .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:annotatedBy user:user5 .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:hasBody birds:species-petronia_petronia .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:hasTarget target:target_67b4301fb1fbc0533d85b7b0c6a8c4be50a8a54f .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:hasTarget naturalis:print-135143 .
+instances:id_29bd7f65443cc276f033209988aac2dc58d215e2 oa:motivatedBy oa:tagging .
 
 instances:id_9cbefb9b43ddf8051bf0a57e680777d2c1d8c585 a oa:Annotation .
 instances:id_9cbefb9b43ddf8051bf0a57e680777d2c1d8c585 terms:title "Petronia petronia: Rock Sparrow" .
