@@ -98,6 +98,18 @@ instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget target:target
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget naturalis:print-134775 .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:motivatedBy oa:tagging .
 
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 a oa:Annotation .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 terms:title "Gavia arctica: Black-throated Loon" .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 ui:reachedObjectWith "expertise, 11" .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 ui:typingTime 4223 .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:annotatedAt "2015-10-04T12:40:53+02:00"^^xsd:dateTime .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:annotatedBy user:user3 .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:hasBody birds:species-gavia_arctica .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:hasTarget target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:hasTarget naturalis:print-134775 .
+instances:id_3f29be8bf00aab8a7dfb0d8be9f96bac11439453 oa:motivatedBy oa:tagging .
+
 instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d a oa:Annotation .
 instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d terms:title "Parelduiker: Black-throated Loon" .
 instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d ui:annotationField bird:IOCCommonNameAnnotation .
