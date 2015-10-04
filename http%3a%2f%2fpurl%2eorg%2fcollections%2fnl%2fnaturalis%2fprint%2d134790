@@ -48,6 +48,18 @@ instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget target:target
 instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget naturalis:print-134790 .
 instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:motivatedBy oa:tagging .
 
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca a oa:Annotation .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca terms:title "echt" .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca ui:annotationField bird:RealOrNotAnnotation .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca ui:reachedObjectWith "expertise, 2" .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca ui:typingTime 1533 .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:annotatedAt "2015-10-04T12:27:05+02:00"^^xsd:dateTime .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:annotatedBy user:user3 .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:hasTarget naturalis:print-134790 .
+instances:id_a6d92eb2e6aad3243a3796a76db6b2e5fadfceca oa:motivatedBy oa:tagging .
+
 instances:id_bad250f84d110e0501fe65af045199e15947f48d a oa:Annotation .
 instances:id_bad250f84d110e0501fe65af045199e15947f48d terms:title "adult" .
 instances:id_bad250f84d110e0501fe65af045199e15947f48d ui:annotationField bird:StageOfLife .
