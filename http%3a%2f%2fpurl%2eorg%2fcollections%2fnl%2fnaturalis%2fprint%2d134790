@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:FragmentSelector .
 target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:SpecificResource .
 target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSelector target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
 target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134790/format/large> .
 
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> a oa:Annotation .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> terms:title "Purperreiger: Purple Heron" .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:reachedObjectWith "expertise, 2" .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:typingTime 5625 .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:annotatedAt "2015-10-04T12:26:39+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasBody birds:species-ardea_purpurea .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasTarget naturalis:print-134790 .
-<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:motivatedBy oa:tagging .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b a oa:Annotation .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b terms:title "Ardea purpurea: Purple Heron" .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b ui:reachedObjectWith "expertise, 2" .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b ui:typingTime 5873 .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:annotatedAt "2015-10-04T12:26:50+02:00"^^xsd:dateTime .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:annotatedBy user:user3 .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasBody birds:species-ardea_purpurea .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget naturalis:print-134790 .
+instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:motivatedBy oa:tagging .
+
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 a oa:Annotation .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 terms:title "Purperreiger: Purple Heron" .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 ui:reachedObjectWith "expertise, 2" .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 ui:typingTime 5625 .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:annotatedAt "2015-10-04T12:26:39+02:00"^^xsd:dateTime .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:annotatedBy user:user3 .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasBody birds:species-ardea_purpurea .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasTarget naturalis:print-134790 .
+instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:motivatedBy oa:tagging .
