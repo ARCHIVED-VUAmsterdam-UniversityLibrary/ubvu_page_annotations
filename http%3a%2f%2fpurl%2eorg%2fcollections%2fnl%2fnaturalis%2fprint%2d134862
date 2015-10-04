@@ -134,6 +134,18 @@ instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:hasTarget target:target
 instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:hasTarget naturalis:print-134862 .
 instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:motivatedBy oa:tagging .
 
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 a oa:Annotation .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 terms:title "adult" .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 ui:annotationField bird:StageOfLife .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 ui:reachedObjectWith "expertise, 0" .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 ui:typingTime 1386 .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:annotatedAt "2015-10-04T12:06:32+02:00"^^xsd:dateTime .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:annotatedBy user:Debby .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasTarget target:target_df71cf2dfa2b68bb08ee9ae426407a42de9594a0 .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasTarget naturalis:print-134862 .
+instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:motivatedBy oa:tagging .
+
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 a oa:Annotation .
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 terms:title "Milvus milvus: Red Kite" .
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 ui:annotationField bird:IOCScientificNameAnnotation .
