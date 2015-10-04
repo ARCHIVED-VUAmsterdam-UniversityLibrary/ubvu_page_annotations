@@ -23,6 +23,18 @@ target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 a oa:SpecificResource .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSelector target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135005/format/large> .
 
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 a oa:Annotation .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 terms:title "adult" .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 ui:annotationField bird:StageOfLife .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 ui:reachedObjectWith "random, 5" .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 ui:typingTime 3565 .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:annotatedAt "2015-10-04T11:54:10+02:00"^^xsd:dateTime .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:annotatedBy user:user37 .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:hasTarget target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:hasTarget naturalis:print-135005 .
+instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 oa:motivatedBy oa:tagging .
+
 instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 a oa:Annotation .
 instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 terms:title "onbekend" .
 instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 ui:annotationField bird:Gender .
