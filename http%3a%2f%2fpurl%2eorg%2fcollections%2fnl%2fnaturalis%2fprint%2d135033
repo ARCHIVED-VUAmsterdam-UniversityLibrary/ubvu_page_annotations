@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135033/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b a oa:FragmentSelector .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:h "0.573076923076923"^^xsd:float .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:w "0.5709401709401709"^^xsd:float .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:x "0.02564102564102564"^^xsd:float .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b ui:y "0.27564102564102566"^^xsd:float .
+target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b rdf:value "#xywh=percent:3,28,57,57" .
 
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:FragmentSelector .
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:x "0.461538461538461
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:y "0.5384615384615384"^^xsd:float .
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 rdf:value "#xywh=percent:46,54,47,29" .
 
+target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b a oa:SpecificResource .
+target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b oa:hasSelector target:selector_0d69fea65310945c8ee1ec59e2d65596cd0ea21b .
+target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b oa:hasSource format:large .
+
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:SpecificResource .
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSelector target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
-target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135033/format/large> .
+target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSource format:large .
 
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 a oa:Annotation .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 terms:title "Turdus merula: Common Blackbird" .
@@ -35,6 +49,18 @@ instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasBody birds:species-t
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget naturalis:print-135033 .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:motivatedBy oa:tagging .
+
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a a oa:Annotation .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a terms:title "Merel: Common Blackbird" .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a ui:reachedObjectWith "random, 9" .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a ui:typingTime 3069 .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:annotatedAt "2015-10-04T12:41:46+02:00"^^xsd:dateTime .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:annotatedBy user:user39 .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:hasBody birds:species-turdus_merula .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:hasTarget target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:hasTarget naturalis:print-135033 .
+instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a oa:motivatedBy oa:tagging .
 
 instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 a oa:Annotation .
 instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 terms:title "Merel: Common Blackbird" .
