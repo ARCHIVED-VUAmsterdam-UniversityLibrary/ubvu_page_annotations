@@ -169,6 +169,18 @@ instances:id_7620634417d4913660300f06830aa242cb4c00cc oa:hasTarget target:target
 instances:id_7620634417d4913660300f06830aa242cb4c00cc oa:hasTarget naturalis:print-134856 .
 instances:id_7620634417d4913660300f06830aa242cb4c00cc oa:motivatedBy oa:tagging .
 
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 a oa:Annotation .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 terms:title "juveniel of adulte vrouw" .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 ui:annotationField bird:StageOfLife .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 ui:reachedObjectWith "expertise, 4" .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 ui:typingTime 529538 .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:annotatedAt "2015-10-04T12:39:59+02:00"^^xsd:dateTime .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:annotatedBy user:user8 .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel of adulte vrouw" ] .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:hasTarget target:target_19dad558fbccd3239ee8b08a84c7602f53c41f11 .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:hasTarget naturalis:print-134856 .
+instances:id_78e3b8d419d89d958bfa9992a301373b273f1b77 oa:motivatedBy oa:tagging .
+
 instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 a oa:Annotation .
 instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 terms:title "vrouw" .
 instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 ui:annotationField bird:Gender .
