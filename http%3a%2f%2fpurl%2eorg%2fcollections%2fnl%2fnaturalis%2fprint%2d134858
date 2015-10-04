@@ -218,6 +218,18 @@ instances:id_a64100a054378be7c7412c6d3cb291d290f4d973 oa:hasTarget target:target
 instances:id_a64100a054378be7c7412c6d3cb291d290f4d973 oa:hasTarget naturalis:print-134858 .
 instances:id_a64100a054378be7c7412c6d3cb291d290f4d973 oa:motivatedBy oa:tagging .
 
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 a oa:Annotation .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 terms:title "adult" .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 ui:annotationField bird:StageOfLife .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 ui:reachedObjectWith "expertise, 8" .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 ui:typingTime 1589 .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:annotatedAt "2015-10-04T12:41:22+02:00"^^xsd:dateTime .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:annotatedBy user:Kvliet .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:hasTarget target:target_d4987237335b0ba3ec70d38a9c896f041e98756c .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:hasTarget naturalis:print-134858 .
+instances:id_b373313f59e22595eee83bf8524cb7a56e7d8239 oa:motivatedBy oa:tagging .
+
 instances:id_b7bce227793a92d53cb1a1510feaa370756c50b7 a oa:Annotation .
 instances:id_b7bce227793a92d53cb1a1510feaa370756c50b7 terms:title "Accipiter gentilis: Northern Goshawk" .
 instances:id_b7bce227793a92d53cb1a1510feaa370756c50b7 ui:annotationField bird:IOCScientificNameAnnotation .
