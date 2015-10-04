@@ -122,6 +122,18 @@ instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:hasTarget target:target
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:hasTarget naturalis:print-134792 .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:motivatedBy oa:tagging .
 
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d a oa:Annotation .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d terms:title "adult" .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d ui:annotationField bird:StageOfLife .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d ui:reachedObjectWith "expertise, 3" .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d ui:typingTime 2585 .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:annotatedAt "2015-10-04T12:34:00+02:00"^^xsd:dateTime .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:annotatedBy user:user3 .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:hasTarget target:target_95299b0ee402ff008733b2b42bf4ef321baba36a .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:hasTarget naturalis:print-134792 .
+instances:id_dc86f6bcbc2be224b610888fce785a97b18d6e6d oa:motivatedBy oa:tagging .
+
 instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae a oa:Annotation .
 instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae terms:title "Kleine Zilverreiger: Little Egret" .
 instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae ui:annotationField bird:IOCCommonNameAnnotation .
