@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasBody birds:species-p
 instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
 instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasTarget naturalis:print-134898 .
 instances:id_709932043fb857621c6134045c807e916001ca0e oa:motivatedBy oa:tagging .
+
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b a oa:Annotation .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b terms:title "man" .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b ui:annotationField bird:Gender .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b ui:reachedObjectWith "random, 7" .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b ui:typingTime 698 .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:annotatedAt "2015-10-04T12:16:42+02:00"^^xsd:dateTime .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:annotatedBy user:user34 .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:hasTarget naturalis:print-134898 .
+instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:motivatedBy oa:tagging .
 
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 a oa:Annotation .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 terms:title "Kleinst Waterhoen: Baillon's Crake" .
