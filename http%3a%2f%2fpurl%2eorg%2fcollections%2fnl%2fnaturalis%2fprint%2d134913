@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134913/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 a oa:FragmentSelector .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 ui:h "0.7705128205128206"^^xsd:float .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 ui:w "0.49059829059829063"^^xsd:float .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 ui:x "0.02905982905982906"^^xsd:float .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 ui:y "0.06666666666666667"^^xsd:float .
+target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 rdf:value "#xywh=percent:3,7,49,77" .
 
 target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 a oa:FragmentSelector .
 target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 ui:x "0.328205128205128
 target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 ui:y "0.03717948717948718"^^xsd:float .
 target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 rdf:value "#xywh=percent:33,4,58,87" .
 
+target:target_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 a oa:SpecificResource .
+target:target_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 oa:hasSelector target:selector_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 .
+target:target_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 oa:hasSource format:large .
+
 target:target_f028e238eea24e261f03166fe253d2c73833e0d6 a oa:SpecificResource .
 target:target_f028e238eea24e261f03166fe253d2c73833e0d6 oa:hasSelector target:selector_f028e238eea24e261f03166fe253d2c73833e0d6 .
-target:target_f028e238eea24e261f03166fe253d2c73833e0d6 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134913/format/large> .
+target:target_f028e238eea24e261f03166fe253d2c73833e0d6 oa:hasSource format:large .
 
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d a oa:Annotation .
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d terms:title "Steppekievit: Sociable Lapwing" .
@@ -35,6 +49,18 @@ instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:hasBody birds:species-v
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:hasTarget target:target_f028e238eea24e261f03166fe253d2c73833e0d6 .
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:hasTarget naturalis:print-134913 .
 instances:id_0c36f8527491d616cf1bd26b277ab6ffcff9236d oa:motivatedBy oa:tagging .
+
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 a oa:Annotation .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 terms:title "Steppekievit: Sociable Lapwing" .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 ui:reachedObjectWith "random, 10" .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 ui:typingTime 5244 .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:annotatedAt "2015-10-04T13:01:05+02:00"^^xsd:dateTime .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:annotatedBy user:user26 .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:hasBody birds:species-vanellus_gregarius .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:hasTarget target:target_83e4d4a42704814d57aae7ebbcbbc80d18946bc2 .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:hasTarget naturalis:print-134913 .
+instances:id_400b4746eac0f14348a79a73eabbabaef9713784 oa:motivatedBy oa:tagging .
 
 instances:id_a34bc5bca38f2727503a064c639a623733c35e71 a oa:Annotation .
 instances:id_a34bc5bca38f2727503a064c639a623733c35e71 terms:title "man" .
