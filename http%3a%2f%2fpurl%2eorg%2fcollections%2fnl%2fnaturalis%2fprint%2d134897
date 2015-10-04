@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasBody birds:species-p
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasTarget naturalis:print-134897 .
 instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:motivatedBy oa:tagging .
+
+instances:id_806d2def735657de71036704d497cd36d89a77da a oa:Annotation .
+instances:id_806d2def735657de71036704d497cd36d89a77da terms:title "man" .
+instances:id_806d2def735657de71036704d497cd36d89a77da ui:annotationField bird:Gender .
+instances:id_806d2def735657de71036704d497cd36d89a77da ui:reachedObjectWith "random, 8" .
+instances:id_806d2def735657de71036704d497cd36d89a77da ui:typingTime 1893 .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:annotatedAt "2015-10-04T12:14:45+02:00"^^xsd:dateTime .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:annotatedBy user:user3 .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:hasTarget naturalis:print-134897 .
+instances:id_806d2def735657de71036704d497cd36d89a77da oa:motivatedBy oa:tagging .
 
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c a oa:Annotation .
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c terms:title "Klein Waterhoen: Little Crake" .
