@@ -122,6 +122,18 @@ instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:hasTarget target:target
 instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:hasTarget naturalis:print-135078 .
 instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:motivatedBy oa:tagging .
 
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 a oa:Annotation .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 terms:title "juveniel" .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 ui:annotationField bird:StageOfLife .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 ui:reachedObjectWith "random, 6" .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 ui:typingTime 5350 .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:annotatedAt "2015-10-04T12:06:53+02:00"^^xsd:dateTime .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:annotatedBy user:user5 .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:hasTarget target:target_48d8ece9f462ba4edd3907901c29d32a0641a8e3 .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:hasTarget naturalis:print-135078 .
+instances:id_8dbafb6031c24359f72ef266cc86f4abdfc40ad9 oa:motivatedBy oa:tagging .
+
 instances:id_a7184d9ef8a470ee865b112df07f3f835c4b62ab a oa:Annotation .
 instances:id_a7184d9ef8a470ee865b112df07f3f835c4b62ab terms:title "Cinclus cinclus: White-throated Dipper" .
 instances:id_a7184d9ef8a470ee865b112df07f3f835c4b62ab ui:annotationField bird:IOCScientificNameAnnotation .
