@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_e673877028dcf5aab45a0571434699ce4e46853c rdf:value "#xywh=percen
 target:target_e673877028dcf5aab45a0571434699ce4e46853c a oa:SpecificResource .
 target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSelector target:selector_e673877028dcf5aab45a0571434699ce4e46853c .
 target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134792/format/large> .
+
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f a oa:Annotation .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f terms:title "onbekend" .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f ui:annotationField bird:Gender .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f ui:reachedObjectWith "expertise, 3" .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f ui:typingTime 3918 .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:annotatedAt "2015-10-04T12:31:35+02:00"^^xsd:dateTime .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:annotatedBy user:user3 .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget naturalis:print-134792 .
+instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:motivatedBy oa:tagging .
 
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 a oa:Annotation .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 terms:title "Egretta garzetta: Little Egret" .
