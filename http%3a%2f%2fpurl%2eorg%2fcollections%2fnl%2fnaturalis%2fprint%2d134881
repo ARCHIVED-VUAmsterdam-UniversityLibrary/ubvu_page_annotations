@@ -62,6 +62,18 @@ instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:hasTarget target:target
 instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:hasTarget naturalis:print-134881 .
 instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:motivatedBy oa:tagging .
 
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a a oa:Annotation .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a terms:title "echt" .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a ui:annotationField bird:RealOrNotAnnotation .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a ui:reachedObjectWith "random, 5" .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a ui:typingTime 1584 .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:annotatedAt "2015-10-04T11:47:47+02:00"^^xsd:dateTime .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:annotatedBy user:user39 .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:hasTarget target:target_6b28fecb698e1e4db96abeff16b01b6126e8c96e .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:hasTarget naturalis:print-134881 .
+instances:id_09b6c6e6b6fe8ab091321d583ee9114a0a82511a oa:motivatedBy oa:tagging .
+
 instances:id_2ae6537bca3a49beb27eac10791815fc319559ab a oa:Annotation .
 instances:id_2ae6537bca3a49beb27eac10791815fc319559ab terms:title "Falco peregrinus: Peregrine Falcon" .
 instances:id_2ae6537bca3a49beb27eac10791815fc319559ab ui:annotationField bird:IOCScientificNameAnnotation .
