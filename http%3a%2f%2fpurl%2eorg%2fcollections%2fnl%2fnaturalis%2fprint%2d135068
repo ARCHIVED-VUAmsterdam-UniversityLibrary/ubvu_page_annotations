@@ -7,6 +7,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
 @prefix format: <http://medialib.naturalis.nl/file/id/image-135068/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
@@ -60,3 +61,15 @@ instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:hasBody [ a content:Con
 instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:hasTarget target:target_29ad45a5b91fef34975d1957d7bba2947f3ee3b8 .
 instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:hasTarget naturalis:print-135068 .
 instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:motivatedBy oa:tagging .
+
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 a oa:Annotation .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 terms:title "Hippolais icterina: Icterine Warbler" .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 ui:reachedObjectWith "random, 5" .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 ui:typingTime 50330 .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:annotatedAt "2015-10-04T12:03:37+02:00"^^xsd:dateTime .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:annotatedBy user:user4 .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:hasBody birds:species-hippolais_icterina .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:hasTarget target:target_1fe7adf2f84b11bb341c2f51c0c91c936a5d478e .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:hasTarget naturalis:print-135068 .
+instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 oa:motivatedBy oa:tagging .
