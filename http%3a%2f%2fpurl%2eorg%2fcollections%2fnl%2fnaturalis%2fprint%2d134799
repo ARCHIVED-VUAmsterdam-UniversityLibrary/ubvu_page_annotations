@@ -50,6 +50,18 @@ instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget target:target
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget naturalis:print-134799 .
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:motivatedBy oa:tagging .
 
+instances:id_11772239a073d6daa712617dd00ca1016743f22b a oa:Annotation .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b terms:title "Ciconia ciconia: White Stork" .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b ui:reachedObjectWith "random, 6" .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b ui:typingTime 4381 .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:annotatedAt "2015-10-04T12:25:31+02:00"^^xsd:dateTime .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:annotatedBy user:user3 .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:hasBody birds:species-ciconia_ciconia .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:hasTarget target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:hasTarget naturalis:print-134799 .
+instances:id_11772239a073d6daa712617dd00ca1016743f22b oa:motivatedBy oa:tagging .
+
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 a oa:Annotation .
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 terms:title "echt" .
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 ui:annotationField bird:RealOrNotAnnotation .
