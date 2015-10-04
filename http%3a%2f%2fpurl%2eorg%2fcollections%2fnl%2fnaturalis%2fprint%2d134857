@@ -194,18 +194,6 @@ instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:hasTarget target:target
 instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:hasTarget naturalis:print-134857 .
 instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:motivatedBy oa:tagging .
 
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 a oa:Annotation .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 terms:title "Circus cinereus: Cinereous Harrier" .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 ui:annotationField bird:IOCScientificNameAnnotation .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 ui:reachedObjectWith "expertise, 2" .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 ui:typingTime 8855 .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:annotatedAt "2015-10-04T12:16:24+02:00"^^xsd:dateTime .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:annotatedBy user:user5 .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:hasBody birds:species-circus_cinereus .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:hasTarget target:target_4ba0a365c702d8cfbe328c5d73714728d33f7fa7 .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:hasTarget naturalis:print-134857 .
-instances:id_34cc3df85320d317640feed8113cf461955af2e0 oa:motivatedBy oa:tagging .
-
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e a oa:Annotation .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e terms:title "a" .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e ui:annotationField bird:IOCCommonNameAnnotation .
