@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135025/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 ui:x "0.039316239316239
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 ui:y "0.2227920227920228"^^xsd:float .
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 rdf:value "#xywh=percent:4,22,35,38" .
 
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad a oa:FragmentSelector .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad ui:h "0.24786324786324787"^^xsd:float .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad ui:w "0.6282051282051282"^^xsd:float .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad ui:x "0.3111111111111111"^^xsd:float .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad ui:y "0.45242165242165244"^^xsd:float .
+target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad rdf:value "#xywh=percent:31,45,63,25" .
+
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 a oa:SpecificResource .
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSelector target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
-target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135025/format/large> .
+target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSource format:large .
+
+target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad a oa:SpecificResource .
+target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad oa:hasSelector target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad .
+target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad oa:hasSource format:large .
+
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 a oa:Annotation .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 terms:title "Draaihals: Eurasian Wryneck" .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 ui:reachedObjectWith "random, 6" .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 ui:typingTime 10509 .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:annotatedAt "2015-10-04T12:56:21+02:00"^^xsd:dateTime .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:annotatedBy user:user26 .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:hasBody birds:species-jynx_torquilla .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:hasTarget target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:hasTarget naturalis:print-135025 .
+instances:id_0ab4155142e154a1adc2d7166464dcab0e6242b2 oa:motivatedBy oa:tagging .
 
 instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c a oa:Annotation .
 instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c terms:title "Jynx torquilla: Eurasian Wryneck" .
