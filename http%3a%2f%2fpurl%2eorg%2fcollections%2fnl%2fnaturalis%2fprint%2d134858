@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_c348ca53ebe7557467297a84213cdedb63f79818 rdf:value "#xywh=percen
 target:target_c348ca53ebe7557467297a84213cdedb63f79818 a oa:SpecificResource .
 target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSelector target:selector_c348ca53ebe7557467297a84213cdedb63f79818 .
 target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134858/format/large> .
+
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a a oa:Annotation .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a terms:title "vrouw" .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a ui:annotationField bird:Gender .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a ui:reachedObjectWith "expertise, 6" .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a ui:typingTime 2798 .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:annotatedAt "2015-10-04T11:39:53+02:00"^^xsd:dateTime .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:annotatedBy user:user8 .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:hasTarget target:target_c348ca53ebe7557467297a84213cdedb63f79818 .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:hasTarget naturalis:print-134858 .
+instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a oa:motivatedBy oa:tagging .
 
 instances:id_308b616ee080ec5106236f99dcd0291ca8e13346 a oa:Annotation .
 instances:id_308b616ee080ec5106236f99dcd0291ca8e13346 terms:title "Accipiter gentilis: Northern Goshawk" .
