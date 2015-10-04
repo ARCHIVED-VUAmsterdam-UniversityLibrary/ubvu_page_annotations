@@ -48,6 +48,18 @@ instances:id_6ea2661a290ed8a9431593dee90791f9dee340c2 oa:hasTarget target:target
 instances:id_6ea2661a290ed8a9431593dee90791f9dee340c2 oa:hasTarget naturalis:print-135017 .
 instances:id_6ea2661a290ed8a9431593dee90791f9dee340c2 oa:motivatedBy oa:tagging .
 
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 a oa:Annotation .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 terms:title "echt" .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 ui:reachedObjectWith "random, 0" .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 ui:typingTime 2213 .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:annotatedAt "2015-10-04T11:58:36+02:00"^^xsd:dateTime .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:annotatedBy user:user3 .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:hasTarget naturalis:print-135017 .
+instances:id_8eb495278b950f10bfab50ddc9389077ecbe3a40 oa:motivatedBy oa:tagging .
+
 instances:id_9e60781695a1705ac148d77564db1024b7962b12 a oa:Annotation .
 instances:id_9e60781695a1705ac148d77564db1024b7962b12 terms:title "adult" .
 instances:id_9e60781695a1705ac148d77564db1024b7962b12 ui:annotationField bird:StageOfLife .
