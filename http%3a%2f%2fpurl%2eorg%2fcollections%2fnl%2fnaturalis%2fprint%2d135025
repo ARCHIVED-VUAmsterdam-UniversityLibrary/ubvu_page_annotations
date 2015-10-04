@@ -98,6 +98,18 @@ instances:id_4325c4773206a924c29afd993927f763de06e0f5 oa:hasTarget target:target
 instances:id_4325c4773206a924c29afd993927f763de06e0f5 oa:hasTarget naturalis:print-135025 .
 instances:id_4325c4773206a924c29afd993927f763de06e0f5 oa:motivatedBy oa:tagging .
 
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf a oa:Annotation .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf terms:title "juveniel" .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf ui:annotationField bird:StageOfLife .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf ui:reachedObjectWith "random, 6" .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf ui:typingTime 3193 .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:annotatedAt "2015-10-04T12:57:33+02:00"^^xsd:dateTime .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:annotatedBy user:user26 .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:hasTarget target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:hasTarget naturalis:print-135025 .
+instances:id_55cda14430b904354d37fc3b071f8f1fc19fb7bf oa:motivatedBy oa:tagging .
+
 instances:id_57c2b9990f4d412cf618840fe8b1dceba2a80aac a oa:Annotation .
 instances:id_57c2b9990f4d412cf618840fe8b1dceba2a80aac terms:title "Jynx torquilla: Eurasian Wryneck" .
 instances:id_57c2b9990f4d412cf618840fe8b1dceba2a80aac ui:annotationField bird:IOCScientificNameAnnotation .
