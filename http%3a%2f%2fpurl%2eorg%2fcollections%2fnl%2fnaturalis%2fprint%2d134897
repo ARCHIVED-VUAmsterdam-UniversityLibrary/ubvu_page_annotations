@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134897/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 a oa:FragmentSelector .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 ui:h "0.4038461538461538"^^xsd:float .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 ui:w "0.4923076923076922"^^xsd:float .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 ui:x "0.08547008547008547"^^xsd:float .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 ui:y "0.4807692307692308"^^xsd:float .
+target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 rdf:value "#xywh=percent:9,48,49,40" .
 
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a a oa:FragmentSelector .
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_9e608c253273a35f9baed3b82942523a75969f4a ui:x "0.469230769230769
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a ui:y "0.3282051282051282"^^xsd:float .
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a rdf:value "#xywh=percent:47,33,47,62" .
 
+target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 a oa:SpecificResource .
+target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 oa:hasSelector target:selector_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
+target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 oa:hasSource format:large .
+
 target:target_9e608c253273a35f9baed3b82942523a75969f4a a oa:SpecificResource .
 target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSelector target:selector_9e608c253273a35f9baed3b82942523a75969f4a .
-target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134897/format/large> .
+target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSource format:large .
 
 instances:id_23a3450dfe40d2d6493a5d098fa70f3f63cebe9c a oa:Annotation .
 instances:id_23a3450dfe40d2d6493a5d098fa70f3f63cebe9c terms:title "echt" .
@@ -71,6 +85,18 @@ instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasBody birds:species-p
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasTarget naturalis:print-134897 .
 instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:motivatedBy oa:tagging .
+
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 a oa:Annotation .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 terms:title "Klein Waterhoen: Little Crake" .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 ui:reachedObjectWith "random, 8" .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 ui:typingTime 3334 .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:annotatedAt "2015-10-04T12:15:21+02:00"^^xsd:dateTime .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:annotatedBy user:user3 .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:hasBody birds:species-porzana_parva .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:hasTarget target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:hasTarget naturalis:print-134897 .
+instances:id_acc92de1c1049c4ebbf4c408582901d0cd950522 oa:motivatedBy oa:tagging .
 
 instances:id_b86d4e144c380a3dad6935ffd939806befe20fe0 a oa:Annotation .
 instances:id_b86d4e144c380a3dad6935ffd939806befe20fe0 terms:title "adult" .
