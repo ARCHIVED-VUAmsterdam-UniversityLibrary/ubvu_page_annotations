@@ -278,6 +278,18 @@ instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:hasTarget target:target
 instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:hasTarget naturalis:print-134858 .
 instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:motivatedBy oa:tagging .
 
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 a oa:Annotation .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 terms:title "Accipiter gentilis: Northern Goshawk" .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 ui:reachedObjectWith "expertise, 8" .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 ui:typingTime 9848 .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:annotatedAt "2015-10-04T12:41:12+02:00"^^xsd:dateTime .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:annotatedBy user:Kvliet .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:hasBody birds:species-accipiter_gentilis .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:hasTarget target:target_d4987237335b0ba3ec70d38a9c896f041e98756c .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:hasTarget naturalis:print-134858 .
+instances:id_e7d3eb48fca5b3d2a0abe26e04781ce0c64c6d98 oa:motivatedBy oa:tagging .
+
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e a oa:Annotation .
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e terms:title "Accipiter gentilis: Northern Goshawk" .
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e ui:annotationField bird:IOCScientificNameAnnotation .
