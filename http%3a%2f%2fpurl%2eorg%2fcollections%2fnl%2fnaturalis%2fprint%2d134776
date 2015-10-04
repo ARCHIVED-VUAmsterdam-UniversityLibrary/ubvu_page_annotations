@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 a oa:FragmentSelector .
 target:selector_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 a oa:SpecificResource .
 target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 oa:hasSelector target:selector_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
 target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134776/format/large> .
 
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> a oa:Annotation .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> terms:title "Roodkeelduiker: Red-throated Loon" .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> ui:reachedObjectWith "expertise, 11" .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> ui:typingTime 7193 .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:annotatedAt "2015-10-04T12:41:38+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:hasBody birds:species-gavia_stellata .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:hasTarget naturalis:print-134776 .
-<http://localhost/annotation/instances/id_21dc4f1506fb49adec808eb32f1154f0b1532f1c> oa:motivatedBy oa:tagging .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 a oa:Annotation .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 terms:title "Gavia stellata: Red-throated Loon" .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 ui:reachedObjectWith "expertise, 11" .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 ui:typingTime 2952 .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:annotatedAt "2015-10-04T12:41:49+02:00"^^xsd:dateTime .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:annotatedBy user:user3 .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:hasBody birds:species-gavia_stellata .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:hasTarget naturalis:print-134776 .
+instances:id_1bfdcf7178dcd72a5544691cb7e203bfd52cd525 oa:motivatedBy oa:tagging .
+
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c a oa:Annotation .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c terms:title "Roodkeelduiker: Red-throated Loon" .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c ui:reachedObjectWith "expertise, 11" .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c ui:typingTime 7193 .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:annotatedAt "2015-10-04T12:41:38+02:00"^^xsd:dateTime .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:annotatedBy user:user3 .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasBody birds:species-gavia_stellata .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget naturalis:print-134776 .
+instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:motivatedBy oa:tagging .
