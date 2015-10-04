@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:FragmentSelector .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:h "0.6282051282051282"^^xsd:float .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:w "0.48290598290598286"^^xsd:float .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:x "0.4641025641025641"^^xsd:float .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:y "0.24487179487179486"^^xsd:float .
+target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 rdf:value "#xywh=percent:46,24,48,63" .
+
+target:target_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:SpecificResource .
+target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSelector target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 .
+target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134921/format/large> .
+
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> a oa:Annotation .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> terms:title "Krombekstrandloper: Curlew Sandpiper" .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:typingTime 2264 .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:annotatedAt "2015-10-04T12:09:58+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:annotatedBy user:user29 .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasBody birds:species-calidris_ferruginea .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasTarget naturalis:print-134921 .
+<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:motivatedBy oa:tagging .
