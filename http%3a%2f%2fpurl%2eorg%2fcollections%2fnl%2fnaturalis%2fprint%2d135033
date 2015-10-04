@@ -50,6 +50,18 @@ instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget target:target
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget naturalis:print-135033 .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:motivatedBy oa:tagging .
 
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 a oa:Annotation .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 terms:title "adult" .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 ui:annotationField bird:StageOfLife .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 ui:reachedObjectWith "random, 9" .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 ui:typingTime 1889 .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:annotatedAt "2015-10-04T12:42:13+02:00"^^xsd:dateTime .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:annotatedBy user:user39 .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:hasTarget target:target_0d69fea65310945c8ee1ec59e2d65596cd0ea21b .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:hasTarget naturalis:print-135033 .
+instances:id_4479fcf1fc0e24ff8273116fbb197f5d014f4122 oa:motivatedBy oa:tagging .
+
 instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a a oa:Annotation .
 instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a terms:title "Merel: Common Blackbird" .
 instances:id_468a2f38a2a1e975cc4d4e814324c57668efaa5a ui:annotationField bird:IOCCommonNameAnnotation .
