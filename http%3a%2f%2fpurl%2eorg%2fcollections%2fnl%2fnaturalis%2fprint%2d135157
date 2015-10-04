@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -45,3 +47,15 @@ instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasBody birds:species-e
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasTarget target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasTarget naturalis:print-135157 .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:motivatedBy oa:tagging .
+
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 a oa:Annotation .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 terms:title "man" .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 ui:annotationField bird:Gender .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 ui:reachedObjectWith "random, 0" .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 ui:typingTime 2695 .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:annotatedAt "2015-10-04T12:05:33+02:00"^^xsd:dateTime .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:annotatedBy user:user29 .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:hasTarget target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:hasTarget naturalis:print-135157 .
+instances:id_c6028210b3b65603deb7b6895787031d2309a290 oa:motivatedBy oa:tagging .
