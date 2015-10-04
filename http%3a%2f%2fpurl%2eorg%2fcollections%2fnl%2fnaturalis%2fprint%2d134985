@@ -22,6 +22,14 @@ target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:x "0.270940170940170
 target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:y "0.26282051282051283"^^xsd:float .
 target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a rdf:value "#xywh=percent:27,26,56,35" .
 
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 a oa:FragmentSelector .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 ui:h "0.3384615384615385"^^xsd:float .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 ui:w "0.4735042735042735"^^xsd:float .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 ui:x "0.46324786324786327"^^xsd:float .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 ui:y "0.5115384615384615"^^xsd:float .
+target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 rdf:value "#xywh=percent:46,51,47,34" .
+
 target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 a oa:FragmentSelector .
 target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 ui:h "0.46538461538461534"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 rdf:value "#xywh=percen
 target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a a oa:SpecificResource .
 target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSelector target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
 target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSource format:large .
+
+target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 a oa:SpecificResource .
+target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 oa:hasSelector target:selector_1e1bc189257bfacc47c464c2d209036dc1931ed5 .
+target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 oa:hasSource format:large .
 
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 a oa:SpecificResource .
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 oa:hasSelector target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
@@ -109,3 +121,15 @@ instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasBody [ a content:Con
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasTarget target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasTarget naturalis:print-134985 .
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:motivatedBy oa:tagging .
+
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 a oa:Annotation .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 terms:title "Visdief: Common Tern" .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 ui:reachedObjectWith "random, 2" .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 ui:typingTime 3668 .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:annotatedAt "2015-10-04T11:59:48+02:00"^^xsd:dateTime .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:annotatedBy user:Debby .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:hasBody birds:species-sterna_hirundo .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:hasTarget target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:hasTarget naturalis:print-134985 .
+instances:id_e12f300580897b7bed731ae4b2ed33f321e93193 oa:motivatedBy oa:tagging .
