@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,8 +7,12 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134857/format/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 a oa:FragmentSelector .
 target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -17,17 +22,41 @@ target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 ui:x "0.523076923076923
 target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 ui:y "0.09743589743589744"^^xsd:float .
 target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 rdf:value "#xywh=percent:52,10,4,3" .
 
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a a oa:FragmentSelector .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:h "0.2833333333333333"^^xsd:float .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:w "0.9128205128205128"^^xsd:float .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:x "0.06752136752136752"^^xsd:float .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:y "0.02435897435897436"^^xsd:float .
+target:selector_4e910bead62463b0098d179e92a0cfddd0af579a rdf:value "#xywh=percent:7,2,91,28" .
+
 target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 a oa:SpecificResource .
 target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 oa:hasSelector target:selector_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 .
-target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134857/format/large> .
+target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 oa:hasSource format:large .
 
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> a oa:Annotation .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> terms:title "a" .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> ui:typingTime 278 .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:annotatedAt "2015-10-03T22:17:42+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:annotatedBy user:n2 .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a" ] .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:hasTarget target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:hasTarget naturalis:print-134857 .
-<http://localhost/annotation/instances/id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e> oa:motivatedBy oa:tagging .
+target:target_4e910bead62463b0098d179e92a0cfddd0af579a a oa:SpecificResource .
+target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSelector target:selector_4e910bead62463b0098d179e92a0cfddd0af579a .
+target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSource format:large .
+
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e a oa:Annotation .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e terms:title "a" .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e ui:typingTime 278 .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:annotatedAt "2015-10-03T22:17:42+02:00"^^xsd:dateTime .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:annotatedBy user:n2 .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a" ] .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:hasTarget target:target_05b78eec84c3d4cd8e762e1f2eee27d649b5b726 .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:hasTarget naturalis:print-134857 .
+instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:motivatedBy oa:tagging .
+
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 a oa:Annotation .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 terms:title "Steppekiekendief: Pallid Harrier" .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:reachedObjectWith "expertise, 5" .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:typingTime 8964 .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:annotatedAt "2015-10-04T11:47:06+02:00"^^xsd:dateTime .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:annotatedBy user:user4 .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasBody birds:species-circus_macrourus .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasTarget target:target_4e910bead62463b0098d179e92a0cfddd0af579a .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasTarget naturalis:print-134857 .
+instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:motivatedBy oa:tagging .
