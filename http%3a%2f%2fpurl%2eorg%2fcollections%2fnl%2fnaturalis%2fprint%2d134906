@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_e842ce34a64001592405563dc1f037f8461e5082 a oa:FragmentSelector .
 target:selector_e842ce34a64001592405563dc1f037f8461e5082 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_e842ce34a64001592405563dc1f037f8461e5082 a oa:SpecificResource .
 target:target_e842ce34a64001592405563dc1f037f8461e5082 oa:hasSelector target:selector_e842ce34a64001592405563dc1f037f8461e5082 .
 target:target_e842ce34a64001592405563dc1f037f8461e5082 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134906/format/large> .
 
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> a oa:Annotation .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> terms:title "Amerikaanse Goudplevier: American Golden Plover" .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> ui:reachedObjectWith "expertise, 6" .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> ui:typingTime 7816 .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:annotatedAt "2015-10-04T12:01:43+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:annotatedBy user:user34 .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:hasBody birds:species-pluvialis_dominica .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:hasTarget target:target_e842ce34a64001592405563dc1f037f8461e5082 .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:hasTarget naturalis:print-134906 .
-<http://localhost/annotation/instances/id_64cd2d9e57690fc61833bad153577faa9566d2e6> oa:motivatedBy oa:tagging .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 a oa:Annotation .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 terms:title "Pluvialis dominica: American Golden Plover" .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 ui:reachedObjectWith "expertise, 6" .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 ui:typingTime 4895 .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:annotatedAt "2015-10-04T12:02:01+02:00"^^xsd:dateTime .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:annotatedBy user:user34 .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:hasBody birds:species-pluvialis_dominica .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:hasTarget target:target_e842ce34a64001592405563dc1f037f8461e5082 .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:hasTarget naturalis:print-134906 .
+instances:id_3ae02269251264c3a70f1978d2374a387d785a85 oa:motivatedBy oa:tagging .
+
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 a oa:Annotation .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 terms:title "Amerikaanse Goudplevier: American Golden Plover" .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 ui:reachedObjectWith "expertise, 6" .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 ui:typingTime 7816 .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:annotatedAt "2015-10-04T12:01:43+02:00"^^xsd:dateTime .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:annotatedBy user:user34 .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:hasBody birds:species-pluvialis_dominica .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:hasTarget target:target_e842ce34a64001592405563dc1f037f8461e5082 .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:hasTarget naturalis:print-134906 .
+instances:id_64cd2d9e57690fc61833bad153577faa9566d2e6 oa:motivatedBy oa:tagging .
