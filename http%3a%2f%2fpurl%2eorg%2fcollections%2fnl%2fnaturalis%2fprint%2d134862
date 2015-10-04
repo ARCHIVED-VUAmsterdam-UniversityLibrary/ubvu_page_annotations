@@ -194,6 +194,18 @@ instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget target:target
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget naturalis:print-134862 .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:motivatedBy oa:tagging .
 
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba a oa:Annotation .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba terms:title "adult" .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba ui:annotationField bird:StageOfLife .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba ui:reachedObjectWith "expertise, 0" .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba ui:typingTime 2472 .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:annotatedAt "2015-10-04T12:20:22+02:00"^^xsd:dateTime .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:annotatedBy user:user5 .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:hasTarget target:target_5dbfc00c348b6ae90dfe1a6ec74ea44c0e544714 .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:hasTarget naturalis:print-134862 .
+instances:id_8673f5dca12821ade8896ade9b78e8c8348f2eba oa:motivatedBy oa:tagging .
+
 instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 a oa:Annotation .
 instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 terms:title "Milvus milvus" .
 instances:id_95cf2d92661f3e47b1cbbd39d2556ccc029272e5 ui:annotationField bird:IOCCommonNameAnnotation .
