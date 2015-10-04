@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 a oa:FragmentSelector .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:h "0.558974358974359"^^xsd:float .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:w "0.6264957264957265"^^xsd:float .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:x "0.3384615384615385"^^xsd:float .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:y "0.26794871794871794"^^xsd:float .
+target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 rdf:value "#xywh=percent:34,27,63,56" .
+
+target:target_af7797e41396e8e641b2a6c2ac09350557db0489 a oa:SpecificResource .
+target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSelector target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 .
+target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134768/format/large> .
+
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> a oa:Annotation .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> terms:title "Roodhalsfuut: Red-necked Grebe" .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:reachedObjectWith "random, 6" .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> ui:typingTime 8078 .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:annotatedAt "2015-10-04T12:17:47+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:annotatedBy user:user3 .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasBody birds:species-podiceps_grisegena .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasTarget target:target_af7797e41396e8e641b2a6c2ac09350557db0489 .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:hasTarget naturalis:print-134768 .
+<http://localhost/annotation/instances/id_c7d974cc0202d56d1931201b7ccc7c7979075c94> oa:motivatedBy oa:tagging .
