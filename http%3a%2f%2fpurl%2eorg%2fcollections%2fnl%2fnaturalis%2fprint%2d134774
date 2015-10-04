@@ -156,6 +156,18 @@ instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:hasTarget target:target
 instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:hasTarget naturalis:print-134774 .
 instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:motivatedBy oa:tagging .
 
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f a oa:Annotation .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f terms:title "onbekend" .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f ui:annotationField bird:Gender .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f ui:reachedObjectWith "expertise, 11" .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f ui:typingTime 3113 .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:annotatedAt "2015-10-04T12:37:09+02:00"^^xsd:dateTime .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:annotatedBy user:user3 .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:hasTarget target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:hasTarget naturalis:print-134774 .
+instances:id_e8d38931b4531add16e06d2dd1ffbef79fb5bc4f oa:motivatedBy oa:tagging .
+
 instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 a oa:Annotation .
 instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 terms:title "Gavia immer: Great Northern Loon" .
 instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 ui:annotationField bird:IOCScientificNameAnnotation .
