@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasBody birds:species-p
 instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
 instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasTarget naturalis:print-134781 .
 instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:motivatedBy oa:tagging .
+
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de a oa:Annotation .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de terms:title "adult" .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de ui:annotationField bird:StageOfLife .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de ui:reachedObjectWith "random, 0" .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de ui:typingTime 1175 .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:annotatedAt "2015-10-04T11:52:50+02:00"^^xsd:dateTime .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:annotatedBy user:Debby .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:hasTarget naturalis:print-134781 .
+instances:id_31fc23a112922dce3cfa08137641ec16ff3094de oa:motivatedBy oa:tagging .
 
 instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 a oa:Annotation .
 instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 terms:title "Puffinus gravis: Great Shearwater" .
