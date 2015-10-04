@@ -22,6 +22,14 @@ target:selector_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 ui:x "0.458119658119658
 target:selector_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 ui:y "0.2917378917378917"^^xsd:float .
 target:selector_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 rdf:value "#xywh=percent:46,29,33,58" .
 
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 a oa:FragmentSelector .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 ui:h "0.3185185185185185"^^xsd:float .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 ui:w "0.3965811965811966"^^xsd:float .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 ui:x "0.5581196581196581"^^xsd:float .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 ui:y "0.07977207977207977"^^xsd:float .
+target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 rdf:value "#xywh=percent:56,8,40,32" .
+
 target:selector_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 a oa:FragmentSelector .
 target:selector_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 ui:h "0.6609686609686609"^^xsd:float .
@@ -49,6 +57,10 @@ target:selector_82a8dec84403097c6c73135c165dacfaa3655aa6 rdf:value "#xywh=percen
 target:target_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 a oa:SpecificResource .
 target:target_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 oa:hasSelector target:selector_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 .
 target:target_0e63a81cc6b9d0c4d88d9b5aba9172a3006d87e9 oa:hasSource format:large .
+
+target:target_45540c405509de94e7304b1629cc7ce69b8ead29 a oa:SpecificResource .
+target:target_45540c405509de94e7304b1629cc7ce69b8ead29 oa:hasSelector target:selector_45540c405509de94e7304b1629cc7ce69b8ead29 .
+target:target_45540c405509de94e7304b1629cc7ce69b8ead29 oa:hasSource format:large .
 
 target:target_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 a oa:SpecificResource .
 target:target_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 oa:hasSelector target:selector_5b55f8ee39a5d6ee12a6e80a52023c3c1978a1e0 .
@@ -145,6 +157,18 @@ instances:id_9689475f9e0da7a7b05ab38e062dd177cc97639a oa:hasBody birds:species-a
 instances:id_9689475f9e0da7a7b05ab38e062dd177cc97639a oa:hasTarget target:target_80ff8b424ffdb46db25e32dbb380ddc8e83e9313 .
 instances:id_9689475f9e0da7a7b05ab38e062dd177cc97639a oa:hasTarget naturalis:print-134860 .
 instances:id_9689475f9e0da7a7b05ab38e062dd177cc97639a oa:motivatedBy oa:tagging .
+
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c a oa:Annotation .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c terms:title "Accipiter gentilis: Northern Goshawk" .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c ui:reachedObjectWith "expertise, 6" .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c ui:typingTime 11799 .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:annotatedAt "2015-10-04T12:41:27+02:00"^^xsd:dateTime .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:annotatedBy user:user26 .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:hasBody birds:species-accipiter_gentilis .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:hasTarget target:target_45540c405509de94e7304b1629cc7ce69b8ead29 .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:hasTarget naturalis:print-134860 .
+instances:id_9e15ef21e3cbffcdec25474d5bb109426a38134c oa:motivatedBy oa:tagging .
 
 instances:id_bde073670a45ec84457706cf05d02cb98b686365 a oa:Annotation .
 instances:id_bde073670a45ec84457706cf05d02cb98b686365 terms:title "adult" .
