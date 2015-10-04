@@ -61,3 +61,15 @@ instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasBody [ a content:Con
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 .
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget naturalis:print-134789 .
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:motivatedBy oa:tagging .
+
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 a oa:Annotation .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 terms:title "adult" .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 ui:annotationField bird:StageOfLife .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 ui:reachedObjectWith "random, 9" .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 ui:typingTime 2087 .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:annotatedAt "2015-10-04T12:00:59+02:00"^^xsd:dateTime .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:annotatedBy user:user29 .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:hasTarget target:target_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:hasTarget naturalis:print-134789 .
+instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 oa:motivatedBy oa:tagging .
