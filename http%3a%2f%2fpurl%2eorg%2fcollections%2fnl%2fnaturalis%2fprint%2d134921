@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134921/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 a oa:FragmentSelector .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 ui:h "0.5230769230769231"^^xsd:float .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 ui:w "0.4034188034188034"^^xsd:float .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 ui:x "0.024786324786324785"^^xsd:float .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 ui:y "0.37051282051282053"^^xsd:float .
+target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 rdf:value "#xywh=percent:2,37,40,52" .
 
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:FragmentSelector .
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:x "0.464102564102564
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:y "0.24487179487179486"^^xsd:float .
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 rdf:value "#xywh=percent:46,24,48,63" .
 
+target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 a oa:SpecificResource .
+target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 oa:hasSelector target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 .
+target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 oa:hasSource format:large .
+
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:SpecificResource .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSelector target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 .
-target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134921/format/large> .
+target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource format:large .
 
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 a oa:Annotation .
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 terms:title "man" .
@@ -47,6 +61,18 @@ instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasBody birds:species-c
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasTarget naturalis:print-134921 .
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:motivatedBy oa:tagging .
+
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 a oa:Annotation .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 terms:title "Krombekstrandloper: Curlew Sandpiper" .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 ui:reachedObjectWith "random, 0" .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 ui:typingTime 2609 .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:annotatedAt "2015-10-04T12:10:45+02:00"^^xsd:dateTime .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:annotatedBy user:user29 .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:hasBody birds:species-calidris_ferruginea .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:hasTarget target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:hasTarget naturalis:print-134921 .
+instances:id_5ca0683d2a642c85b83cb19360883e2fd2cbedd6 oa:motivatedBy oa:tagging .
 
 instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 a oa:Annotation .
 instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 terms:title "Krombekstrandloper: Curlew Sandpiper" .
