@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a a oa:FragmentSelector .
 target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a a oa:SpecificResource .
 target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSelector target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
 target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134985/format/large> .
 
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> a oa:Annotation .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> terms:title "Visdief: Common Tern" .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:reachedObjectWith "random, 2" .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:typingTime 20947 .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:annotatedAt "2015-10-04T11:58:48+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:annotatedBy user:Debby .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasBody birds:species-sterna_hirundo .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasTarget target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasTarget naturalis:print-134985 .
-<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:motivatedBy oa:tagging .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 a oa:Annotation .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 terms:title "Sterna hirundo: Common Tern" .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 ui:reachedObjectWith "random, 2" .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 ui:typingTime 6291 .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:annotatedAt "2015-10-04T11:58:55+02:00"^^xsd:dateTime .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:annotatedBy user:Debby .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:hasBody birds:species-sterna_hirundo .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:hasTarget target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:hasTarget naturalis:print-134985 .
+instances:id_8141fd784b80202de954ac28dd604c5bc18de9e1 oa:motivatedBy oa:tagging .
+
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 a oa:Annotation .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 terms:title "Visdief: Common Tern" .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 ui:reachedObjectWith "random, 2" .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 ui:typingTime 20947 .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:annotatedAt "2015-10-04T11:58:48+02:00"^^xsd:dateTime .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:annotatedBy user:Debby .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:hasBody birds:species-sterna_hirundo .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:hasTarget target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:hasTarget naturalis:print-134985 .
+instances:id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2 oa:motivatedBy oa:tagging .
