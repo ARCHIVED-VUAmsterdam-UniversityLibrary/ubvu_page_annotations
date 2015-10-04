@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_e7f21194ca63080a5e992c4162f627239e8561d4 a oa:FragmentSelector .
 target:selector_e7f21194ca63080a5e992c4162f627239e8561d4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_e7f21194ca63080a5e992c4162f627239e8561d4 a oa:SpecificResource .
 target:target_e7f21194ca63080a5e992c4162f627239e8561d4 oa:hasSelector target:selector_e7f21194ca63080a5e992c4162f627239e8561d4 .
 target:target_e7f21194ca63080a5e992c4162f627239e8561d4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135142/format/large> .
 
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> a oa:Annotation .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> terms:title "Ringmus: Eurasian Tree Sparrow" .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> ui:reachedObjectWith "random, 1" .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> ui:typingTime 8072 .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:annotatedAt "2015-10-04T12:06:54+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:annotatedBy user:user4 .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:hasBody birds:species-passer_montanus .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:hasTarget target:target_e7f21194ca63080a5e992c4162f627239e8561d4 .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:hasTarget naturalis:print-135142 .
-<http://localhost/annotation/instances/id_f90ffe56d49c44b53e11db32bfa0c17f318492f9> oa:motivatedBy oa:tagging .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 a oa:Annotation .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 terms:title "Passer montanus: Eurasian Tree Sparrow" .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 ui:reachedObjectWith "random, 1" .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 ui:typingTime 4791 .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:annotatedAt "2015-10-04T12:07:22+02:00"^^xsd:dateTime .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:annotatedBy user:user4 .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:hasBody birds:species-passer_montanus .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:hasTarget target:target_e7f21194ca63080a5e992c4162f627239e8561d4 .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:hasTarget naturalis:print-135142 .
+instances:id_8de33baf3494aa190d76eeff750998aeac2a1b55 oa:motivatedBy oa:tagging .
+
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 a oa:Annotation .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 terms:title "Ringmus: Eurasian Tree Sparrow" .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 ui:reachedObjectWith "random, 1" .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 ui:typingTime 8072 .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:annotatedAt "2015-10-04T12:06:54+02:00"^^xsd:dateTime .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:annotatedBy user:user4 .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:hasBody birds:species-passer_montanus .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:hasTarget target:target_e7f21194ca63080a5e992c4162f627239e8561d4 .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:hasTarget naturalis:print-135142 .
+instances:id_f90ffe56d49c44b53e11db32bfa0c17f318492f9 oa:motivatedBy oa:tagging .
