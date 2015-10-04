@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:FragmentSelector .
 target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:SpecificResource .
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSelector target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
 target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135033/format/large> .
 
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> a oa:Annotation .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> terms:title "Merel: Common Blackbird" .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:reachedObjectWith "random, 9" .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:typingTime 4191 .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:annotatedAt "2015-10-04T12:40:26+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:annotatedBy user:user39 .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasBody birds:species-turdus_merula .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasTarget naturalis:print-135033 .
-<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:motivatedBy oa:tagging .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 a oa:Annotation .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 terms:title "Turdus merula: Common Blackbird" .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 ui:reachedObjectWith "random, 9" .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 ui:typingTime 9179 .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:annotatedAt "2015-10-04T12:41:03+02:00"^^xsd:dateTime .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:annotatedBy user:user39 .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasBody birds:species-turdus_merula .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:hasTarget naturalis:print-135033 .
+instances:id_414790ea2f773651f0f2b6f932ae605340081c28 oa:motivatedBy oa:tagging .
+
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 a oa:Annotation .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 terms:title "Merel: Common Blackbird" .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 ui:reachedObjectWith "random, 9" .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 ui:typingTime 4191 .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:annotatedAt "2015-10-04T12:40:26+02:00"^^xsd:dateTime .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:annotatedBy user:user39 .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasBody birds:species-turdus_merula .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:hasTarget naturalis:print-135033 .
+instances:id_5069c01e12e3ed90bee8a09e5832f76fe924daf6 oa:motivatedBy oa:tagging .
