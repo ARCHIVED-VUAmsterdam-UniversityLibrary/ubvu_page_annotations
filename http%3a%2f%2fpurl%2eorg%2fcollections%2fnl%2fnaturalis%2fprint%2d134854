@@ -206,6 +206,18 @@ instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf oa:hasTarget target:target
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf oa:hasTarget naturalis:print-134854 .
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf oa:motivatedBy oa:tagging .
 
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 a oa:Annotation .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 terms:title "man" .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 ui:annotationField bird:Gender .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 ui:reachedObjectWith "expertise, 2" .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 ui:typingTime 1566 .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:annotatedAt "2015-10-04T12:18:43+02:00"^^xsd:dateTime .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:annotatedBy user:user8 .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:hasTarget target:target_fc2e1770bdd6400875386953ef99b566d7d4fdd6 .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:hasTarget naturalis:print-134854 .
+instances:id_a985b846fa042fc640a5a604135843ec5e10b801 oa:motivatedBy oa:tagging .
+
 instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 a oa:Annotation .
 instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 terms:title "Circus cyaneus: Hen Harrier" .
 instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 ui:annotationField bird:IOCScientificNameAnnotation .
