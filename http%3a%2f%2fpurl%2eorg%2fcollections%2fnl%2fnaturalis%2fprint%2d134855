@@ -194,6 +194,18 @@ instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget target:target
 instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget naturalis:print-134855 .
 instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:motivatedBy oa:tagging .
 
+instances:id_61654258f878413da36ff816664186ea11e32822 a oa:Annotation .
+instances:id_61654258f878413da36ff816664186ea11e32822 terms:title "man" .
+instances:id_61654258f878413da36ff816664186ea11e32822 ui:annotationField bird:Gender .
+instances:id_61654258f878413da36ff816664186ea11e32822 ui:reachedObjectWith "expertise, 4" .
+instances:id_61654258f878413da36ff816664186ea11e32822 ui:typingTime 999 .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:annotatedAt "2015-10-04T12:03:51+02:00"^^xsd:dateTime .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:annotatedBy user:Debby .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:hasTarget target:target_012541652a4bc98bb6879dcf6f473ca6b949fe03 .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:hasTarget naturalis:print-134855 .
+instances:id_61654258f878413da36ff816664186ea11e32822 oa:motivatedBy oa:tagging .
+
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 a oa:Annotation .
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 terms:title "/" .
 instances:id_62817eb69c52fe46bd9342e89c83a247826b87f8 ui:annotationField bird:Gender .
