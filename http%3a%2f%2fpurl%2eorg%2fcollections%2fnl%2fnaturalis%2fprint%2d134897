@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a a oa:FragmentSelector .
 target:selector_9e608c253273a35f9baed3b82942523a75969f4a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_9e608c253273a35f9baed3b82942523a75969f4a a oa:SpecificResource .
 target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSelector target:selector_9e608c253273a35f9baed3b82942523a75969f4a .
 target:target_9e608c253273a35f9baed3b82942523a75969f4a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134897/format/large> .
 
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> a oa:Annotation .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> terms:title "Klein Waterhoen: Little Crake" .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> ui:reachedObjectWith "random, 8" .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> ui:typingTime 5003 .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:annotatedAt "2015-10-04T12:14:17+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:hasBody birds:species-porzana_parva .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:hasTarget naturalis:print-134897 .
-<http://localhost/annotation/instances/id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c> oa:motivatedBy oa:tagging .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 a oa:Annotation .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 terms:title "Porzana parva: Little Crake" .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 ui:reachedObjectWith "random, 8" .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 ui:typingTime 16408 .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:annotatedAt "2015-10-04T12:14:40+02:00"^^xsd:dateTime .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:annotatedBy user:user3 .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasBody birds:species-porzana_parva .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:hasTarget naturalis:print-134897 .
+instances:id_737be0bf48096d6705635fa50299e29a822ed665 oa:motivatedBy oa:tagging .
+
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c a oa:Annotation .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c terms:title "Klein Waterhoen: Little Crake" .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c ui:reachedObjectWith "random, 8" .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c ui:typingTime 5003 .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:annotatedAt "2015-10-04T12:14:17+02:00"^^xsd:dateTime .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:annotatedBy user:user3 .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasBody birds:species-porzana_parva .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasTarget target:target_9e608c253273a35f9baed3b82942523a75969f4a .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:hasTarget naturalis:print-134897 .
+instances:id_9d7339d5a6a0f14c8e17ac4add6055e80ded989c oa:motivatedBy oa:tagging .
