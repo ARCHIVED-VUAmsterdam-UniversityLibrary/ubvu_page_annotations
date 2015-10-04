@@ -121,6 +121,18 @@ instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:hasTarget target:target
 instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:hasTarget naturalis:print-134857 .
 instances:id_86bada3f5d58383b99007042ca5845f7c42978c7 oa:motivatedBy oa:tagging .
 
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 a oa:Annotation .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 terms:title "vrouw" .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 ui:annotationField bird:Gender .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 ui:reachedObjectWith "expertise, 1" .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 ui:typingTime 2881 .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:annotatedAt "2015-10-04T12:02:18+02:00"^^xsd:dateTime .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:annotatedBy user:Sir_Iain .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:hasTarget target:target_ba20c673e1ab2e7a645d04c0edf92d427b875687 .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:hasTarget naturalis:print-134857 .
+instances:id_8cbaec85f63a7f257acfc38d01bf798efa591218 oa:motivatedBy oa:tagging .
+
 instances:id_94562b6a0c579acd5a8ed2213a88f24bdbdc3eff a oa:Annotation .
 instances:id_94562b6a0c579acd5a8ed2213a88f24bdbdc3eff terms:title "Blauwe Kiekendief: Hen Harrier" .
 instances:id_94562b6a0c579acd5a8ed2213a88f24bdbdc3eff ui:annotationField bird:IOCCommonNameAnnotation .
