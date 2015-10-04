@@ -85,3 +85,15 @@ instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasBody [ a content:Con
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasTarget naturalis:print-135078 .
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:motivatedBy oa:tagging .
+
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b a oa:Annotation .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b terms:title "Cinclus cinclus: White-throated Dipper" .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b ui:reachedObjectWith "random, 6" .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b ui:typingTime 107870 .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:annotatedAt "2015-10-04T12:03:45+02:00"^^xsd:dateTime .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:annotatedBy user:user5 .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:hasBody birds:species-cinclus_cinclus .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:hasTarget target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:hasTarget naturalis:print-135078 .
+instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b oa:motivatedBy oa:tagging .
