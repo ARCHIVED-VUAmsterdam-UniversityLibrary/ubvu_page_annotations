@@ -98,6 +98,18 @@ instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget target:target
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget naturalis:print-135015 .
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:motivatedBy oa:tagging .
 
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 a oa:Annotation .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 terms:title "Alcedo atthis: Common Kingfisher" .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 ui:reachedObjectWith "expertise, 0" .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 ui:typingTime 2581 .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:annotatedAt "2015-10-04T11:47:38+02:00"^^xsd:dateTime .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:annotatedBy user:user34 .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:hasBody birds:species-alcedo_atthis .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:hasTarget target:target_09e5a1c9752366212fb8817e15b25c11d8b25984 .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:hasTarget naturalis:print-135015 .
+instances:id_4b41217bfd600968c3cad6c882522a5e9be60b80 oa:motivatedBy oa:tagging .
+
 instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 a oa:Annotation .
 instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 terms:title "IJsvogel: Common Kingfisher" .
 instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 ui:annotationField bird:IOCCommonNameAnnotation .
