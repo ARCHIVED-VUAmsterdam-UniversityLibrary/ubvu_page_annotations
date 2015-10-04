@@ -110,6 +110,18 @@ instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb oa:hasTarget target:target
 instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb oa:hasTarget naturalis:print-135053 .
 instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb oa:motivatedBy oa:tagging .
 
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf a oa:Annotation .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf terms:title "Saxicola rubicola: European Stonechat" .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf ui:reachedObjectWith "random, 0" .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf ui:typingTime 8221 .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:annotatedAt "2015-10-04T12:07:43+02:00"^^xsd:dateTime .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:annotatedBy user:user34 .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:hasBody birds:species-saxicola_rubicola .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:hasTarget target:target_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:hasTarget naturalis:print-135053 .
+instances:id_f1a94e4c8939cc0d3c2b97a16202c8b3d88a4acf oa:motivatedBy oa:tagging .
+
 instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 a oa:Annotation .
 instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 terms:title "Roodborsttapuit: European Stonechat" .
 instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 ui:annotationField bird:IOCCommonNameAnnotation .
