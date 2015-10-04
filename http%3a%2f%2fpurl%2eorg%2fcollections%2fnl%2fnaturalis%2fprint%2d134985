@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a a oa:FragmentSelector .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:h "0.3474358974358975"^^xsd:float .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:w "0.5606837606837607"^^xsd:float .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:x "0.2709401709401709"^^xsd:float .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a ui:y "0.26282051282051283"^^xsd:float .
+target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a rdf:value "#xywh=percent:27,26,56,35" .
+
+target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a a oa:SpecificResource .
+target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSelector target:selector_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
+target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134985/format/large> .
+
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> a oa:Annotation .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> terms:title "Visdief: Common Tern" .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:reachedObjectWith "random, 2" .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> ui:typingTime 20947 .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:annotatedAt "2015-10-04T11:58:48+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:annotatedBy user:Debby .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasBody birds:species-sterna_hirundo .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasTarget target:target_0ac9aee00362aa931d5aa7f3cb62eba814430e0a .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:hasTarget naturalis:print-134985 .
+<http://localhost/annotation/instances/id_cb45aa51f1b6ba291a0f2b8b05127be0df86eeb2> oa:motivatedBy oa:tagging .
