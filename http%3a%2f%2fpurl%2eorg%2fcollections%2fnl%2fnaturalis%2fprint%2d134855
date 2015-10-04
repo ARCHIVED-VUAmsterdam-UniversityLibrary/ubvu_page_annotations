@@ -458,6 +458,18 @@ instances:id_9e5ea50f88c1882469c8f21d0a6efc7dd8b63f48 oa:hasTarget target:target
 instances:id_9e5ea50f88c1882469c8f21d0a6efc7dd8b63f48 oa:hasTarget naturalis:print-134855 .
 instances:id_9e5ea50f88c1882469c8f21d0a6efc7dd8b63f48 oa:motivatedBy oa:tagging .
 
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 a oa:Annotation .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 terms:title "Circus pygargus: Montagu's Harrier" .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 ui:reachedObjectWith "expertise, 5" .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 ui:typingTime 6839 .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:annotatedAt "2015-10-04T12:59:04+02:00"^^xsd:dateTime .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:annotatedBy user:Kvliet .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:hasBody birds:species-circus_pygargus .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:hasTarget target:target_33f6093d25c0501150de24d6112539e0c6f48ca6 .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:hasTarget naturalis:print-134855 .
+instances:id_a09f7ed029a3e2e549ea7074d4286d85b51a3997 oa:motivatedBy oa:tagging .
+
 instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 a oa:Annotation .
 instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 ui:annotationField bird:IOCCommonNameAnnotation .
