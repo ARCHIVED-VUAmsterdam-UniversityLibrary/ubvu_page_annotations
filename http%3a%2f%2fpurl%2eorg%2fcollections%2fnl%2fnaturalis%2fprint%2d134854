@@ -326,6 +326,18 @@ instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget target:target
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget naturalis:print-134854 .
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:motivatedBy oa:tagging .
 
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 a oa:Annotation .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 terms:title "vrouw" .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 ui:annotationField bird:Gender .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 ui:reachedObjectWith "expertise, 3" .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 ui:typingTime 1396 .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:annotatedAt "2015-10-04T12:37:46+02:00"^^xsd:dateTime .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:annotatedBy user:user27 .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:hasTarget target:target_8e23489d9b9f8ece8ea86440b28dc843ea203d48 .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:hasTarget naturalis:print-134854 .
+instances:id_6ff1b1d38f31265f997ba8afa74758b3e26f3530 oa:motivatedBy oa:tagging .
+
 instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f a oa:Annotation .
 instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f terms:title "Circus cyaneus: Hen Harrier" .
 instances:id_778991a96ce27e97f90683c42770b76ad4d9c24f ui:annotationField bird:IOCScientificNameAnnotation .
