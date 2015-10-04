@@ -59,3 +59,15 @@ instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasBody birds:species-p
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget naturalis:print-134898 .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:motivatedBy oa:tagging .
+
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 a oa:Annotation .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 terms:title "adult" .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 ui:annotationField bird:StageOfLife .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 ui:reachedObjectWith "random, 7" .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 ui:typingTime 809 .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:annotatedAt "2015-10-04T12:16:44+02:00"^^xsd:dateTime .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:annotatedBy user:user34 .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasTarget naturalis:print-134898 .
+instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:motivatedBy oa:tagging .
