@@ -22,6 +22,14 @@ target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:x "0.419658119658119
 target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:y "0.48205128205128206"^^xsd:float .
 target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 rdf:value "#xywh=percent:42,48,27,30" .
 
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 a oa:FragmentSelector .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 ui:h "0.34615384615384615"^^xsd:float .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 ui:w "0.405982905982906"^^xsd:float .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 ui:x "0.06837606837606838"^^xsd:float .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 ui:y "0.1564102564102564"^^xsd:float .
+target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 rdf:value "#xywh=percent:7,16,41,35" .
+
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:FragmentSelector .
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 ui:h "0.36410256410256414"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 rdf:value "#xywh=percen
 target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 a oa:SpecificResource .
 target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 oa:hasSelector target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 .
 target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 oa:hasSource format:large .
+
+target:target_caded83c56ee334671844421d4c41ca6e3dd1784 a oa:SpecificResource .
+target:target_caded83c56ee334671844421d4c41ca6e3dd1784 oa:hasSelector target:selector_caded83c56ee334671844421d4c41ca6e3dd1784 .
+target:target_caded83c56ee334671844421d4c41ca6e3dd1784 oa:hasSource format:large .
 
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:SpecificResource .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSelector target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
@@ -109,3 +121,15 @@ instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e oa:hasBody [ a content:Con
 instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
 instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e oa:hasTarget naturalis:print-135060 .
 instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e oa:motivatedBy oa:tagging .
+
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 a oa:Annotation .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 terms:title "Braamsluiper: Lesser Whitethroat" .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 ui:reachedObjectWith "random, 6" .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 ui:typingTime 2186 .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:annotatedAt "2015-10-04T12:13:25+02:00"^^xsd:dateTime .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:annotatedBy user:user29 .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:hasBody birds:species-sylvia_curruca .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:hasTarget target:target_caded83c56ee334671844421d4c41ca6e3dd1784 .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:hasTarget naturalis:print-135060 .
+instances:id_e095769fa2d350aed2c3f4e7424564a184a311e0 oa:motivatedBy oa:tagging .
