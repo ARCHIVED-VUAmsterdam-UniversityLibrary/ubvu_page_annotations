@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_b269ff0b3a56883090befb26a3d65f98c4615fda a oa:FragmentSelector .
 target:selector_b269ff0b3a56883090befb26a3d65f98c4615fda terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_b269ff0b3a56883090befb26a3d65f98c4615fda a oa:SpecificResource .
 target:target_b269ff0b3a56883090befb26a3d65f98c4615fda oa:hasSelector target:selector_b269ff0b3a56883090befb26a3d65f98c4615fda .
 target:target_b269ff0b3a56883090befb26a3d65f98c4615fda oa:hasSource <http://medialib.naturalis.nl/file/id/image-134930/format/large> .
 
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> a oa:Annotation .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> terms:title "Kemphaan: Ruff" .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> ui:reachedObjectWith "random, 1" .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> ui:typingTime 3261 .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:annotatedAt "2015-10-04T12:13:54+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:annotatedBy user:user34 .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:hasBody birds:species-philomachus_pugnax .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:hasTarget target:target_b269ff0b3a56883090befb26a3d65f98c4615fda .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:hasTarget naturalis:print-134930 .
-<http://localhost/annotation/instances/id_f59ba108f72077be413b6e744799a54335a18e1e> oa:motivatedBy oa:tagging .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b a oa:Annotation .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b terms:title "Philomachus pugnax: Ruff" .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b ui:reachedObjectWith "random, 1" .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b ui:typingTime 3376 .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:annotatedAt "2015-10-04T12:13:58+02:00"^^xsd:dateTime .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:annotatedBy user:user34 .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:hasBody birds:species-philomachus_pugnax .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:hasTarget target:target_b269ff0b3a56883090befb26a3d65f98c4615fda .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:hasTarget naturalis:print-134930 .
+instances:id_d03443a20cecd1a8440955728fd73e02d277a90b oa:motivatedBy oa:tagging .
+
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e a oa:Annotation .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e terms:title "Kemphaan: Ruff" .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e ui:reachedObjectWith "random, 1" .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e ui:typingTime 3261 .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:annotatedAt "2015-10-04T12:13:54+02:00"^^xsd:dateTime .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:annotatedBy user:user34 .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:hasBody birds:species-philomachus_pugnax .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:hasTarget target:target_b269ff0b3a56883090befb26a3d65f98c4615fda .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:hasTarget naturalis:print-134930 .
+instances:id_f59ba108f72077be413b6e744799a54335a18e1e oa:motivatedBy oa:tagging .
