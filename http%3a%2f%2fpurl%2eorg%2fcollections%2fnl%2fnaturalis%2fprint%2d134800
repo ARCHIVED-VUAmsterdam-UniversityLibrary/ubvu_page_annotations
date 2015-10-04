@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_69b850a62fa689be91be4dac591daedc11bba565 oa:hasBody birds:species-c
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 oa:hasTarget target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 oa:hasTarget naturalis:print-134800 .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 oa:motivatedBy oa:tagging .
+
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 a oa:Annotation .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 terms:title "ciconia nigra" .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 ui:reachedObjectWith "random, 4" .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 ui:typingTime 274462 .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:annotatedAt "2015-10-04T11:49:02+02:00"^^xsd:dateTime .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:annotatedBy user:user3 .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "ciconia nigra" ] .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:hasTarget target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:hasTarget naturalis:print-134800 .
+instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:motivatedBy oa:tagging .
 
 instances:id_feee2a45905c0c1f03e22aab19fd7291a6731ed7 a oa:Annotation .
 instances:id_feee2a45905c0c1f03e22aab19fd7291a6731ed7 terms:title "Zwarte Ooievaar: Black Stork" .
