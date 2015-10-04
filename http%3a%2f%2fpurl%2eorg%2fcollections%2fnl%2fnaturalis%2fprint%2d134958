@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:FragmentSelector .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:h "0.08205128205128209"^^xsd:float .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:w "0.05555555555555558"^^xsd:float .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:x "0.3606837606837607"^^xsd:float .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:y "0.5294871794871795"^^xsd:float .
+target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a rdf:value "#xywh=percent:36,53,6,8" .
+
+target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:SpecificResource .
+target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSelector target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
+target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134958/format/large> .
+
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> a oa:Annotation .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> terms:title "Kleine Jager: Parasitic Jaeger" .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:reachedObjectWith "random, 6" .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:typingTime 3762 .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:annotatedAt "2015-10-04T11:53:56+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:annotatedBy user:Debby .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasBody birds:species-stercorarius_parasiticus .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasTarget target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasTarget naturalis:print-134958 .
+<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:motivatedBy oa:tagging .
