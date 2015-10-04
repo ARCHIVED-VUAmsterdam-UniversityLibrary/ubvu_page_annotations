@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135150/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b a oa:FragmentSelector .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b ui:h "0.5474358974358974"^^xsd:float .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b ui:w "0.29999999999999993"^^xsd:float .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b ui:x "0.5230769230769231"^^xsd:float .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b ui:y "0.30641025641025643"^^xsd:float .
+target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b rdf:value "#xywh=percent:52,31,30,55" .
 
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:FragmentSelector .
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,25 @@ target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:x "0.181196581196581
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:y "0.14102564102564102"^^xsd:float .
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 rdf:value "#xywh=percent:18,14,28,58" .
 
+target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b a oa:SpecificResource .
+target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b oa:hasSelector target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b .
+target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b oa:hasSource format:large .
+
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:SpecificResource .
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSelector target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 .
-target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135150/format/large> .
+target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSource format:large .
+
+instances:id_0f4e30168f705357202b378589409362fa6f7211 a oa:Annotation .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 terms:title "Carpodacus erythrinus: Common Rosefinch" .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 ui:reachedObjectWith "random, 2" .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 ui:typingTime 6153 .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:annotatedAt "2015-10-04T12:52:47+02:00"^^xsd:dateTime .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:annotatedBy user:user26 .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:hasBody birds:species-carpodacus_erythrinus .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:hasTarget target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:hasTarget naturalis:print-135150 .
+instances:id_0f4e30168f705357202b378589409362fa6f7211 oa:motivatedBy oa:tagging .
 
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab a oa:Annotation .
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab terms:title "man" .
