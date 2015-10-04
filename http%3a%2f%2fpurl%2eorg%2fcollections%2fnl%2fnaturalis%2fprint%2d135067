@@ -1,14 +1,24 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135067/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 a oa:FragmentSelector .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 ui:h "0.3012820512820513"^^xsd:float .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 ui:w "0.3817250213492741"^^xsd:float .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 ui:x "0.09308283518360376"^^xsd:float .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 ui:y "0.2846153846153846"^^xsd:float .
+target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 rdf:value "#xywh=percent:9,28,38,30" .
 
 target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc a oa:FragmentSelector .
 target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -18,9 +28,25 @@ target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc ui:x "0.438941076003415
 target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc ui:y "0.5064102564102564"^^xsd:float .
 target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc rdf:value "#xywh=percent:44,51,35,34" .
 
+target:target_0400f833c8a7574aefc2540bb1b6771993a6aba3 a oa:SpecificResource .
+target:target_0400f833c8a7574aefc2540bb1b6771993a6aba3 oa:hasSelector target:selector_0400f833c8a7574aefc2540bb1b6771993a6aba3 .
+target:target_0400f833c8a7574aefc2540bb1b6771993a6aba3 oa:hasSource format:large .
+
 target:target_89377dea35666c226f5981bbd8f8a63613df7ccc a oa:SpecificResource .
 target:target_89377dea35666c226f5981bbd8f8a63613df7ccc oa:hasSelector target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc .
-target:target_89377dea35666c226f5981bbd8f8a63613df7ccc oa:hasSource <http://medialib.naturalis.nl/file/id/image-135067/format/large> .
+target:target_89377dea35666c226f5981bbd8f8a63613df7ccc oa:hasSource format:large .
+
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd a oa:Annotation .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd terms:title "Bladkoning: Yellow-browed Warbler" .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd ui:reachedObjectWith "random, 9" .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd ui:typingTime 4291 .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:annotatedAt "2015-10-04T12:23:35+02:00"^^xsd:dateTime .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:annotatedBy user:user34 .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:hasBody birds:species-phylloscopus_inornatus .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:hasTarget target:target_0400f833c8a7574aefc2540bb1b6771993a6aba3 .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:hasTarget naturalis:print-135067 .
+instances:id_5621304c4ae123dc434975d81eeba34d449615dd oa:motivatedBy oa:tagging .
 
 instances:id_ab1aae0bb87a6028f3a36bd86f67802c6c50f156 a oa:Annotation .
 instances:id_ab1aae0bb87a6028f3a36bd86f67802c6c50f156 terms:title "Phylloscopus proregulus: Pallas's Leaf Warbler" .
