@@ -22,6 +22,14 @@ target:selector_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 ui:x "0.288888888888888
 target:selector_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 ui:y "0.23931623931623933"^^xsd:float .
 target:selector_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 rdf:value "#xywh=percent:29,24,68,46" .
 
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 a oa:FragmentSelector .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 ui:h "0.30427350427350425"^^xsd:float .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 ui:w "0.40341880341880343"^^xsd:float .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 ui:x "0.5811965811965812"^^xsd:float .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 ui:y "0.12478632478632479"^^xsd:float .
+target:selector_28c6367267e5253e468a20ac861a34612b2375c8 rdf:value "#xywh=percent:58,12,40,30" .
+
 target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 a oa:FragmentSelector .
 target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 ui:h "0.03076923076923077"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 rdf:value "#xywh=percen
 target:target_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 a oa:SpecificResource .
 target:target_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 oa:hasSelector target:selector_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 .
 target:target_24c986e63cbabeaa4b7ce9680e4c8f57ed27a499 oa:hasSource format:large .
+
+target:target_28c6367267e5253e468a20ac861a34612b2375c8 a oa:SpecificResource .
+target:target_28c6367267e5253e468a20ac861a34612b2375c8 oa:hasSelector target:selector_28c6367267e5253e468a20ac861a34612b2375c8 .
+target:target_28c6367267e5253e468a20ac861a34612b2375c8 oa:hasSource format:large .
 
 target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 a oa:SpecificResource .
 target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 oa:hasSelector target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 .
@@ -61,6 +73,18 @@ instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasBody [ a content:Con
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 .
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget naturalis:print-134789 .
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:motivatedBy oa:tagging .
+
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 a oa:Annotation .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 terms:title "Blauwe Reiger: Grey Heron" .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 ui:reachedObjectWith "random, 9" .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 ui:typingTime 3673 .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:annotatedAt "2015-10-04T12:01:14+02:00"^^xsd:dateTime .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:annotatedBy user:user29 .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:hasBody birds:species-ardea_cinerea .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:hasTarget target:target_28c6367267e5253e468a20ac861a34612b2375c8 .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:hasTarget naturalis:print-134789 .
+instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 oa:motivatedBy oa:tagging .
 
 instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 a oa:Annotation .
 instances:id_c9ff5bdf99971c073aaa81de7b61517c28402d20 terms:title "adult" .
