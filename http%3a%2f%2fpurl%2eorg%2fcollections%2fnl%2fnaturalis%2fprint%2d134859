@@ -146,6 +146,18 @@ instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:hasTarget target:target
 instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:hasTarget naturalis:print-134859 .
 instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:motivatedBy oa:tagging .
 
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd a oa:Annotation .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd terms:title "Accipiter gentilis: Northern Goshawk" .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd ui:reachedObjectWith "expertise, 9" .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd ui:typingTime 15386 .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:annotatedAt "2015-10-04T12:30:14+02:00"^^xsd:dateTime .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:annotatedBy user:Kvliet .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:hasBody birds:species-accipiter_gentilis .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:hasTarget target:target_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:hasTarget naturalis:print-134859 .
+instances:id_2367567de3b56b7964c16107d92ee28fa1b811bd oa:motivatedBy oa:tagging .
+
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 a oa:Annotation .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 ui:annotationField bird:IOCCommonNameAnnotation .
