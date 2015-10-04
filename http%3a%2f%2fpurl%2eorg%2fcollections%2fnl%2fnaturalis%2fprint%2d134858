@@ -74,6 +74,18 @@ instances:id_308b616ee080ec5106236f99dcd0291ca8e13346 oa:hasTarget target:target
 instances:id_308b616ee080ec5106236f99dcd0291ca8e13346 oa:hasTarget naturalis:print-134858 .
 instances:id_308b616ee080ec5106236f99dcd0291ca8e13346 oa:motivatedBy oa:tagging .
 
+instances:id_389e55e1510bbcca6221e0983830c591d424120c a oa:Annotation .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c terms:title "echt" .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c ui:annotationField bird:RealOrNotAnnotation .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c ui:reachedObjectWith "expertise, 6" .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c ui:typingTime 1301 .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:annotatedAt "2015-10-04T11:41:29+02:00"^^xsd:dateTime .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:annotatedBy user:user8 .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:hasTarget target:target_275fa20d1207c657d69cfd45104caa524b774b58 .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:hasTarget naturalis:print-134858 .
+instances:id_389e55e1510bbcca6221e0983830c591d424120c oa:motivatedBy oa:tagging .
+
 instances:id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3 a oa:Annotation .
 instances:id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3 terms:title "Havik: Northern Goshawk" .
 instances:id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3 ui:annotationField bird:IOCCommonNameAnnotation .
