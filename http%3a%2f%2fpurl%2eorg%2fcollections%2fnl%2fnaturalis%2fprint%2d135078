@@ -30,6 +30,14 @@ target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:x "0.449572649572649
 target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:y "0.29102564102564105"^^xsd:float .
 target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 rdf:value "#xywh=percent:45,29,46,56" .
 
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 a oa:FragmentSelector .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 ui:h "0.35"^^xsd:float .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 ui:w "0.42222222222222217"^^xsd:float .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 ui:x "0.12393162393162394"^^xsd:float .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 ui:y "0.4756410256410256"^^xsd:float .
+target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 rdf:value "#xywh=percent:12,48,42,35" .
+
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e a oa:SpecificResource .
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSelector target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSource format:large .
@@ -37,6 +45,10 @@ target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSource format:large
 target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 a oa:SpecificResource .
 target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 oa:hasSelector target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 .
 target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 oa:hasSource format:large .
+
+target:target_48d8ece9f462ba4edd3907901c29d32a0641a8e3 a oa:SpecificResource .
+target:target_48d8ece9f462ba4edd3907901c29d32a0641a8e3 oa:hasSelector target:selector_48d8ece9f462ba4edd3907901c29d32a0641a8e3 .
+target:target_48d8ece9f462ba4edd3907901c29d32a0641a8e3 oa:hasSource format:large .
 
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b a oa:Annotation .
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b terms:title "Waterspreeuw: White-throated Dipper" .
@@ -97,6 +109,18 @@ instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasBody [ a content:Con
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:hasTarget naturalis:print-135078 .
 instances:id_690c3e304bf087e278038ecfbaa9a6bed5664742 oa:motivatedBy oa:tagging .
+
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab a oa:Annotation .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab terms:title "Waterspreeuw: White-throated Dipper" .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab ui:reachedObjectWith "random, 6" .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab ui:typingTime 8377 .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:annotatedAt "2015-10-04T12:06:19+02:00"^^xsd:dateTime .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:annotatedBy user:user5 .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:hasBody birds:species-cinclus_cinclus .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:hasTarget target:target_48d8ece9f462ba4edd3907901c29d32a0641a8e3 .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:hasTarget naturalis:print-135078 .
+instances:id_7e54125ccfd7841fa56f43d986954ce0ef5efdab oa:motivatedBy oa:tagging .
 
 instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b a oa:Annotation .
 instances:id_ed725cb9d0445785c51e3f2308e4ba0ff9e62f9b terms:title "Cinclus cinclus: White-throated Dipper" .
