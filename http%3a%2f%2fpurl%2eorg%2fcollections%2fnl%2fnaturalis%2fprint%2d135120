@@ -74,6 +74,18 @@ instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget target:target
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget naturalis:print-135120 .
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:motivatedBy oa:tagging .
 
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc a oa:Annotation .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc terms:title "juveniel" .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc ui:annotationField bird:StageOfLife .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc ui:reachedObjectWith "random, 2" .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc ui:typingTime 7722 .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:annotatedAt "2015-10-04T12:22:29+02:00"^^xsd:dateTime .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:annotatedBy user:user3 .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:hasTarget target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:hasTarget naturalis:print-135120 .
+instances:id_7748d64e7c0b4809bd9b7fa64aa7f978c9a732cc oa:motivatedBy oa:tagging .
+
 instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e a oa:Annotation .
 instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e terms:title "Corvus frugilegus: Rook" .
 instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e ui:annotationField bird:IOCScientificNameAnnotation .
