@@ -86,6 +86,18 @@ instances:id_02aad889d45afdc9ea6e83c5ea264aabc873b559 oa:hasTarget target:target
 instances:id_02aad889d45afdc9ea6e83c5ea264aabc873b559 oa:hasTarget naturalis:print-135053 .
 instances:id_02aad889d45afdc9ea6e83c5ea264aabc873b559 oa:motivatedBy oa:tagging .
 
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 a oa:Annotation .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 terms:title "juveniel" .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 ui:annotationField bird:StageOfLife .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 ui:reachedObjectWith "random, 0" .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 ui:typingTime 898 .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:annotatedAt "2015-10-04T12:10:11+02:00"^^xsd:dateTime .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:annotatedBy user:user34 .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:hasTarget target:target_a8f8586ab94924624a13a756420136fb3cd884e1 .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:hasTarget naturalis:print-135053 .
+instances:id_17cc60a4c943e0a13a97475c33cf23324ac45dd8 oa:motivatedBy oa:tagging .
+
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 a oa:Annotation .
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 terms:title "Roodborsttapuit: European Stonechat" .
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 ui:annotationField bird:IOCCommonNameAnnotation .
