@@ -54,6 +54,14 @@ target:selector_e92e949e5414c29ad321a3a8980f45fb94df117b ui:x "0.277777777777777
 target:selector_e92e949e5414c29ad321a3a8980f45fb94df117b ui:y "0.12307692307692308"^^xsd:float .
 target:selector_e92e949e5414c29ad321a3a8980f45fb94df117b rdf:value "#xywh=percent:28,12,33,21" .
 
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 a oa:FragmentSelector .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 ui:h "0.631908831908832"^^xsd:float .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 ui:w "0.611965811965812"^^xsd:float .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 ui:x "0.2829059829059829"^^xsd:float .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 ui:y "0.13276353276353275"^^xsd:float .
+target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 rdf:value "#xywh=percent:28,13,61,63" .
+
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 a oa:FragmentSelector .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:h "0.21025641025641026"^^xsd:float .
@@ -81,6 +89,10 @@ target:target_e626e75df7e8c28dcf55cc16af4d0fef32b7a0a9 oa:hasSource format:large
 target:target_e92e949e5414c29ad321a3a8980f45fb94df117b a oa:SpecificResource .
 target:target_e92e949e5414c29ad321a3a8980f45fb94df117b oa:hasSelector target:selector_e92e949e5414c29ad321a3a8980f45fb94df117b .
 target:target_e92e949e5414c29ad321a3a8980f45fb94df117b oa:hasSource format:large .
+
+target:target_eef1bf1d58f02a036b83328b63e5784d7f692235 a oa:SpecificResource .
+target:target_eef1bf1d58f02a036b83328b63e5784d7f692235 oa:hasSelector target:selector_eef1bf1d58f02a036b83328b63e5784d7f692235 .
+target:target_eef1bf1d58f02a036b83328b63e5784d7f692235 oa:hasSource format:large .
 
 target:target_f33b970565bd1c35e17995711203e6468c0f0fb7 a oa:SpecificResource .
 target:target_f33b970565bd1c35e17995711203e6468c0f0fb7 oa:hasSelector target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 .
@@ -252,6 +264,18 @@ instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasBody birds:species-a
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget target:target_e626e75df7e8c28dcf55cc16af4d0fef32b7a0a9 .
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget naturalis:print-134859 .
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:motivatedBy oa:tagging .
+
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc a oa:Annotation .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc terms:title "Sperwer: Eurasian Sparrowhawk" .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc ui:reachedObjectWith "expertise, 8" .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc ui:typingTime 3949 .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:annotatedAt "2015-10-04T12:18:44+02:00"^^xsd:dateTime .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:annotatedBy user:user29 .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:hasBody birds:species-accipiter_nisus .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:hasTarget target:target_eef1bf1d58f02a036b83328b63e5784d7f692235 .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:hasTarget naturalis:print-134859 .
+instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc oa:motivatedBy oa:tagging .
 
 instances:id_e534120fb92f34f721ae0b3a8e36fb1fc57e7699 a oa:Annotation .
 instances:id_e534120fb92f34f721ae0b3a8e36fb1fc57e7699 terms:title "Sperwer: Eurasian Sparrowhawk" .
