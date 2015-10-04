@@ -71,3 +71,15 @@ instances:id_7435f2f5ea1b0ea965f9868d05f82f42471b9042 oa:hasBody [ a content:Con
 instances:id_7435f2f5ea1b0ea965f9868d05f82f42471b9042 oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
 instances:id_7435f2f5ea1b0ea965f9868d05f82f42471b9042 oa:hasTarget naturalis:print-134776 .
 instances:id_7435f2f5ea1b0ea965f9868d05f82f42471b9042 oa:motivatedBy oa:tagging .
+
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 a oa:Annotation .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 terms:title "echt" .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 ui:reachedObjectWith "expertise, 11" .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 ui:typingTime 774 .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:annotatedAt "2015-10-04T12:42:00+02:00"^^xsd:dateTime .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:annotatedBy user:user3 .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:hasTarget naturalis:print-134776 .
+instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:motivatedBy oa:tagging .
