@@ -182,6 +182,18 @@ instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 oa:hasTarget target:target
 instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 oa:hasTarget naturalis:print-134855 .
 instances:id_a1914e575162daf89ca9ec17df9a2da4bd4e8b74 oa:motivatedBy oa:tagging .
 
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 a oa:Annotation .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 terms:title "adult" .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 ui:annotationField bird:StageOfLife .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 ui:reachedObjectWith "expertise, 3" .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 ui:typingTime 1503 .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:annotatedAt "2015-10-04T11:48:40+02:00"^^xsd:dateTime .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:annotatedBy user:user8 .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:hasTarget target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:hasTarget naturalis:print-134855 .
+instances:id_c4081619c6a02ed6cd1467a0047425fe7e5afe34 oa:motivatedBy oa:tagging .
+
 instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b a oa:Annotation .
 instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b terms:title "echt" .
 instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b ui:annotationField bird:RealOrNotAnnotation .
