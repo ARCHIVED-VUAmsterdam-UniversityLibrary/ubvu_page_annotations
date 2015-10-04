@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,8 +7,20 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134863/format/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 a oa:FragmentSelector .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 ui:h "0.6729344903234064"^^xsd:float .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 ui:w "0.3888888888888889"^^xsd:float .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 ui:x "0.06324786324786325"^^xsd:float .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 ui:y "0.12316238968460648"^^xsd:float .
+target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 rdf:value "#xywh=percent:6,12,39,67" .
 
 target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:FragmentSelector .
 target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -17,17 +30,33 @@ target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:x "0.384615384615384
 target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e ui:y "0.1207977207977208"^^xsd:float .
 target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e rdf:value "#xywh=percent:38,12,20,6" .
 
+target:target_3423eaff4fcc4c276d934c96f54809da90cff203 a oa:SpecificResource .
+target:target_3423eaff4fcc4c276d934c96f54809da90cff203 oa:hasSelector target:selector_3423eaff4fcc4c276d934c96f54809da90cff203 .
+target:target_3423eaff4fcc4c276d934c96f54809da90cff203 oa:hasSource format:large .
+
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:SpecificResource .
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSelector target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
-target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSource <http://medialib.naturalis.nl/file/id/image-134863/format/large> .
+target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSource format:large .
 
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> a oa:Annotation .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> terms:title "kievit" .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> ui:typingTime 3634 .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:annotatedAt "2015-10-03T23:51:12+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:annotatedBy user:n33 .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "kievit" ] .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasTarget target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:hasTarget naturalis:print-134863 .
-<http://localhost/annotation/instances/id_92191144c4d52febad6e2bdc9078c3879602e5d5> oa:motivatedBy oa:tagging .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 a oa:Annotation .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 terms:title "kievit" .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 ui:typingTime 3634 .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:annotatedAt "2015-10-03T23:51:12+02:00"^^xsd:dateTime .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:annotatedBy user:n33 .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "kievit" ] .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:hasTarget target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:hasTarget naturalis:print-134863 .
+instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:motivatedBy oa:tagging .
+
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 a oa:Annotation .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 terms:title "Zwarte Wouw: Black Kite" .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 ui:reachedObjectWith "expertise, 11" .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 ui:typingTime 8530 .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:annotatedAt "2015-10-04T13:07:16+02:00"^^xsd:dateTime .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:annotatedBy user:Kvliet .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:hasBody birds:species-milvus_migrans .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:hasTarget target:target_3423eaff4fcc4c276d934c96f54809da90cff203 .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:hasTarget naturalis:print-134863 .
+instances:id_fffa8c3a0919d2412d03033b4ac74c96a014c153 oa:motivatedBy oa:tagging .
