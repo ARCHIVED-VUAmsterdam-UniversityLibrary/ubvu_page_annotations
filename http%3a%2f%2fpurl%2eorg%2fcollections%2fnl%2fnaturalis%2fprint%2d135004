@@ -70,3 +70,15 @@ instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasBody [ a content:Con
 instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
 instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:hasTarget naturalis:print-135004 .
 instances:id_c6833f2037c3b88e07fb03f7a6ca1ee072e8f3f1 oa:motivatedBy oa:tagging .
+
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d a oa:Annotation .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d terms:title "Opmerking ook hier zijn de tenen verkeerd afgebeeld; er horen er twee naar voren en twee naarschteren te staan" .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d ui:annotationField bird:RealOrNotAnnotation .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d ui:reachedObjectWith "random, 11" .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d ui:typingTime 38991 .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:annotatedAt "2015-10-04T13:22:45+02:00"^^xsd:dateTime .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:annotatedBy user:user37 .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Opmerking ook hier zijn de tenen verkeerd afgebeeld; er horen er twee naar voren en twee naarschteren te staan" ] .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:hasTarget naturalis:print-135004 .
+instances:id_ea265acd087a32714551f6a17d6f2904ad34d98d oa:motivatedBy oa:tagging .
