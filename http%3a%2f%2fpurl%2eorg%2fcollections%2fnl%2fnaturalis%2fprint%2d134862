@@ -54,6 +54,14 @@ target:selector_958678ee54d284d43e7da4066120182c38194b88 ui:x "0.509401709401709
 target:selector_958678ee54d284d43e7da4066120182c38194b88 ui:y "0.045584045584045586"^^xsd:float .
 target:selector_958678ee54d284d43e7da4066120182c38194b88 rdf:value "#xywh=percent:51,5,39,27" .
 
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 a oa:FragmentSelector .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 ui:h "0.6649572649572649"^^xsd:float .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 ui:w "0.817948717948718"^^xsd:float .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 ui:x "0.10427350427350428"^^xsd:float .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 ui:y "0.12535612535612536"^^xsd:float .
+target:selector_b7919efc0be124ef31530c8829530abb696a9df5 rdf:value "#xywh=percent:10,13,82,66" .
+
 target:selector_c956ac885c22314b9f111a14e2da98356e416a4b a oa:FragmentSelector .
 target:selector_c956ac885c22314b9f111a14e2da98356e416a4b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c956ac885c22314b9f111a14e2da98356e416a4b ui:h "0.2655270655270655"^^xsd:float .
@@ -105,6 +113,10 @@ target:target_8504f1bce1923808af3c31083f819d8780d30a56 oa:hasSource format:large
 target:target_958678ee54d284d43e7da4066120182c38194b88 a oa:SpecificResource .
 target:target_958678ee54d284d43e7da4066120182c38194b88 oa:hasSelector target:selector_958678ee54d284d43e7da4066120182c38194b88 .
 target:target_958678ee54d284d43e7da4066120182c38194b88 oa:hasSource format:large .
+
+target:target_b7919efc0be124ef31530c8829530abb696a9df5 a oa:SpecificResource .
+target:target_b7919efc0be124ef31530c8829530abb696a9df5 oa:hasSelector target:selector_b7919efc0be124ef31530c8829530abb696a9df5 .
+target:target_b7919efc0be124ef31530c8829530abb696a9df5 oa:hasSource format:large .
 
 target:target_c956ac885c22314b9f111a14e2da98356e416a4b a oa:SpecificResource .
 target:target_c956ac885c22314b9f111a14e2da98356e416a4b oa:hasSelector target:selector_c956ac885c22314b9f111a14e2da98356e416a4b .
@@ -193,6 +205,18 @@ instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasBody [ a content:Con
 instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasTarget target:target_df71cf2dfa2b68bb08ee9ae426407a42de9594a0 .
 instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:hasTarget naturalis:print-134862 .
 instances:id_40c642dc68bd6cbceb55286929240edebfd84c36 oa:motivatedBy oa:tagging .
+
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 a oa:Annotation .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 terms:title "Rode Wouw: Red Kite" .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 ui:reachedObjectWith "expertise, 0" .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 ui:typingTime 6608 .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:annotatedAt "2015-10-04T12:21:09+02:00"^^xsd:dateTime .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:annotatedBy user:user5 .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:hasBody birds:species-milvus_milvus .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:hasTarget target:target_b7919efc0be124ef31530c8829530abb696a9df5 .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:hasTarget naturalis:print-134862 .
+instances:id_4c6a4f6e8fec9969921c648f788194e4055a1c11 oa:motivatedBy oa:tagging .
 
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 a oa:Annotation .
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 terms:title "Milvus milvus: Red Kite" .
