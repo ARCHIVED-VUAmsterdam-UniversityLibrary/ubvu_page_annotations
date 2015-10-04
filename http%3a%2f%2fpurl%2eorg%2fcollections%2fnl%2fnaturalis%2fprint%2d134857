@@ -38,6 +38,14 @@ target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:x "0.067521367521367
 target:selector_4e910bead62463b0098d179e92a0cfddd0af579a ui:y "0.02435897435897436"^^xsd:float .
 target:selector_4e910bead62463b0098d179e92a0cfddd0af579a rdf:value "#xywh=percent:7,2,91,28" .
 
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 a oa:FragmentSelector .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:h "0.5423076923076923"^^xsd:float .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:w "0.805982905982906"^^xsd:float .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:x "0.13675213675213677"^^xsd:float .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:y "0.029487179487179487"^^xsd:float .
+target:selector_54e00fba6a9dee820cc6560d0683006600092579 rdf:value "#xywh=percent:14,3,81,54" .
+
 target:selector_ba20c673e1ab2e7a645d04c0edf92d427b875687 a oa:FragmentSelector .
 target:selector_ba20c673e1ab2e7a645d04c0edf92d427b875687 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_ba20c673e1ab2e7a645d04c0edf92d427b875687 ui:h "0.41025641025641024"^^xsd:float .
@@ -58,6 +66,10 @@ target:target_4e910bead62463b0098d179e92a0cfddd0af579a a oa:SpecificResource .
 target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSelector target:selector_4e910bead62463b0098d179e92a0cfddd0af579a .
 target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSource format:large .
 
+target:target_54e00fba6a9dee820cc6560d0683006600092579 a oa:SpecificResource .
+target:target_54e00fba6a9dee820cc6560d0683006600092579 oa:hasSelector target:selector_54e00fba6a9dee820cc6560d0683006600092579 .
+target:target_54e00fba6a9dee820cc6560d0683006600092579 oa:hasSource format:large .
+
 target:target_ba20c673e1ab2e7a645d04c0edf92d427b875687 a oa:SpecificResource .
 target:target_ba20c673e1ab2e7a645d04c0edf92d427b875687 oa:hasSelector target:selector_ba20c673e1ab2e7a645d04c0edf92d427b875687 .
 target:target_ba20c673e1ab2e7a645d04c0edf92d427b875687 oa:hasSource format:large .
@@ -73,6 +85,18 @@ instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasBody [ a content:Con
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget target:target_3098241d5b319605a4006af5d2c3b44afe82c115 .
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget naturalis:print-134857 .
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:motivatedBy oa:tagging .
+
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 a oa:Annotation .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 terms:title "Steppekiekendief: Pallid Harrier" .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 ui:reachedObjectWith "expertise, 1" .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 ui:typingTime 19813 .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:annotatedAt "2015-10-04T12:04:30+02:00"^^xsd:dateTime .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:annotatedBy user:Debby .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:hasBody birds:species-circus_macrourus .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:hasTarget target:target_54e00fba6a9dee820cc6560d0683006600092579 .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:hasTarget naturalis:print-134857 .
+instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 oa:motivatedBy oa:tagging .
 
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e a oa:Annotation .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e terms:title "a" .
