@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135017/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf a oa:FragmentSelector .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf ui:h "0.9333333333333333"^^xsd:float .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf ui:w "0.9350982066609735"^^xsd:float .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf ui:x "0.035866780529461996"^^xsd:float .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf ui:y "0.02435897435897436"^^xsd:float .
+target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf rdf:value "#xywh=percent:4,2,94,93" .
 
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:FragmentSelector .
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:x "0.368376068376068
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:y "0.035897435897435895"^^xsd:float .
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c rdf:value "#xywh=percent:37,4,59,80" .
 
+target:target_0d295a075133d7d3291122ec8fc9c6d0703fb4bf a oa:SpecificResource .
+target:target_0d295a075133d7d3291122ec8fc9c6d0703fb4bf oa:hasSelector target:selector_0d295a075133d7d3291122ec8fc9c6d0703fb4bf .
+target:target_0d295a075133d7d3291122ec8fc9c6d0703fb4bf oa:hasSource format:large .
+
 target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:SpecificResource .
 target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSelector target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
-target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSource <http://medialib.naturalis.nl/file/id/image-135017/format/large> .
+target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSource format:large .
 
 instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 a oa:Annotation .
 instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 terms:title "Merops apiaster: European Bee-eater" .
@@ -83,3 +97,15 @@ instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasBody birds:species-m
 instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
 instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasTarget naturalis:print-135017 .
 instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:motivatedBy oa:tagging .
+
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 a oa:Annotation .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 terms:title "Bijeneter: European Bee-eater" .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 ui:reachedObjectWith "random, 11" .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 ui:typingTime 3075 .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:annotatedAt "2015-10-04T12:26:26+02:00"^^xsd:dateTime .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:annotatedBy user:user34 .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:hasBody birds:species-merops_apiaster .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:hasTarget target:target_0d295a075133d7d3291122ec8fc9c6d0703fb4bf .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:hasTarget naturalis:print-135017 .
+instances:id_fb094f06be3d58a47bcc698121658140a51fc3d5 oa:motivatedBy oa:tagging .
