@@ -134,6 +134,18 @@ instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:hasTarget target:target
 instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:hasTarget naturalis:print-134992 .
 instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:motivatedBy oa:tagging .
 
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 a oa:Annotation .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 terms:title "adult" .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 ui:annotationField bird:StageOfLife .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 ui:reachedObjectWith "expertise, 0" .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 ui:typingTime 4063 .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:annotatedAt "2015-10-04T12:00:28+02:00"^^xsd:dateTime .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:annotatedBy user:user34 .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:hasTarget target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:hasTarget naturalis:print-134992 .
+instances:id_cc5f87d61aa97a7b30d4f7897924d0726589b670 oa:motivatedBy oa:tagging .
+
 instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 a oa:Annotation .
 instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 terms:title "Zeekoet: Common Murre" .
 instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 ui:annotationField bird:IOCCommonNameAnnotation .
