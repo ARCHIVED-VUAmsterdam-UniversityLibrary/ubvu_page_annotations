@@ -60,18 +60,6 @@ instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:hasTarget target:target
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:hasTarget naturalis:print-135106 .
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:motivatedBy oa:tagging .
 
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 a oa:Annotation .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 terms:title "juveniel" .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 ui:annotationField bird:StageOfLife .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 ui:reachedObjectWith "random, 10" .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 ui:typingTime 2439 .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:annotatedAt "2015-10-04T12:18:11+02:00"^^xsd:dateTime .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:annotatedBy user:user39 .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:hasTarget target:target_d9f19354719398e4a9932415972abbcfbb88d185 .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:hasTarget naturalis:print-135106 .
-instances:id_f3b0b03ab03d62d2f3ac9506773dd8953b6ef408 oa:motivatedBy oa:tagging .
-
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b a oa:Annotation .
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b terms:title "Koolmees: Great Tit" .
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b ui:annotationField bird:IOCCommonNameAnnotation .
