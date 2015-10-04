@@ -134,6 +134,18 @@ instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:hasTarget target:target
 instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:hasTarget naturalis:print-134854 .
 instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:motivatedBy oa:tagging .
 
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e a oa:Annotation .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e terms:title "echt" .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e ui:annotationField bird:RealOrNotAnnotation .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e ui:reachedObjectWith "expertise, 2" .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e ui:typingTime 1398 .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:annotatedAt "2015-10-04T12:18:50+02:00"^^xsd:dateTime .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:annotatedBy user:user8 .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:hasTarget target:target_fc2e1770bdd6400875386953ef99b566d7d4fdd6 .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:hasTarget naturalis:print-134854 .
+instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e oa:motivatedBy oa:tagging .
+
 instances:id_18cf9533c68f24e73b4eef51f41d34573bc2b12d a oa:Annotation .
 instances:id_18cf9533c68f24e73b4eef51f41d34573bc2b12d terms:title "Blauwe Kiekendief: Hen Harrier" .
 instances:id_18cf9533c68f24e73b4eef51f41d34573bc2b12d ui:annotationField bird:IOCCommonNameAnnotation .
