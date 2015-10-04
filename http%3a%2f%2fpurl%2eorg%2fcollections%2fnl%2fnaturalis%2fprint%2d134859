@@ -314,6 +314,18 @@ instances:id_29214999ed14c63ff280dd3d81c300b2274bc983 oa:hasTarget target:target
 instances:id_29214999ed14c63ff280dd3d81c300b2274bc983 oa:hasTarget naturalis:print-134859 .
 instances:id_29214999ed14c63ff280dd3d81c300b2274bc983 oa:motivatedBy oa:tagging .
 
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf a oa:Annotation .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf terms:title "echt" .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf ui:annotationField bird:RealOrNotAnnotation .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf ui:reachedObjectWith "expertise, 7" .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf ui:typingTime 1342 .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:annotatedAt "2015-10-04T12:57:29+02:00"^^xsd:dateTime .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:annotatedBy user:user8 .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:hasTarget target:target_5637e796f303fd72579db1d61fed053561b72c99 .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:hasTarget naturalis:print-134859 .
+instances:id_2a377a4ad2613adfda9c630a349e9197776d0dcf oa:motivatedBy oa:tagging .
+
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 a oa:Annotation .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 ui:annotationField bird:IOCCommonNameAnnotation .
