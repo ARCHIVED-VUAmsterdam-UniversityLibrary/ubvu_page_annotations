@@ -36,6 +36,18 @@ instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget target:target
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:hasTarget naturalis:print-134792 .
 instances:id_0383a46d9deb11c06ddf8a4873b54d9368005b7f oa:motivatedBy oa:tagging .
 
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 a oa:Annotation .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 terms:title "adult" .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 ui:annotationField bird:StageOfLife .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 ui:reachedObjectWith "expertise, 3" .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 ui:typingTime 1816 .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:annotatedAt "2015-10-04T12:31:39+02:00"^^xsd:dateTime .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:annotatedBy user:user3 .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget naturalis:print-134792 .
+instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:motivatedBy oa:tagging .
+
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 a oa:Annotation .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 terms:title "Egretta garzetta: Little Egret" .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 ui:annotationField bird:IOCScientificNameAnnotation .
