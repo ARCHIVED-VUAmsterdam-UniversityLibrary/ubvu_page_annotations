@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135104/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 a oa:FragmentSelector .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 ui:h "0.6076923076923078"^^xsd:float .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 ui:w "0.4128205128205128"^^xsd:float .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 ui:x "0.5008547008547009"^^xsd:float .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 ui:y "0.19230769230769232"^^xsd:float .
+target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 rdf:value "#xywh=percent:50,19,41,61" .
 
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 a oa:FragmentSelector .
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_f528eab421856553436f9be8dff67227e82fdbf0 ui:x "0.147008547008547
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 ui:y "0.0641025641025641"^^xsd:float .
 target:selector_f528eab421856553436f9be8dff67227e82fdbf0 rdf:value "#xywh=percent:15,6,34,67" .
 
+target:target_d744337147c1b6c81316752c988cb80a0ed0c2d2 a oa:SpecificResource .
+target:target_d744337147c1b6c81316752c988cb80a0ed0c2d2 oa:hasSelector target:selector_d744337147c1b6c81316752c988cb80a0ed0c2d2 .
+target:target_d744337147c1b6c81316752c988cb80a0ed0c2d2 oa:hasSource format:large .
+
 target:target_f528eab421856553436f9be8dff67227e82fdbf0 a oa:SpecificResource .
 target:target_f528eab421856553436f9be8dff67227e82fdbf0 oa:hasSelector target:selector_f528eab421856553436f9be8dff67227e82fdbf0 .
-target:target_f528eab421856553436f9be8dff67227e82fdbf0 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135104/format/large> .
+target:target_f528eab421856553436f9be8dff67227e82fdbf0 oa:hasSource format:large .
 
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 a oa:Annotation .
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 terms:title "Emberiza bruniceps: Red-headed Bunting" .
@@ -71,3 +85,15 @@ instances:id_d166048ae440ae86b2f52b8a079088d711cd5bec oa:hasBody [ a content:Con
 instances:id_d166048ae440ae86b2f52b8a079088d711cd5bec oa:hasTarget target:target_f528eab421856553436f9be8dff67227e82fdbf0 .
 instances:id_d166048ae440ae86b2f52b8a079088d711cd5bec oa:hasTarget naturalis:print-135104 .
 instances:id_d166048ae440ae86b2f52b8a079088d711cd5bec oa:motivatedBy oa:tagging .
+
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 a oa:Annotation .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 terms:title "Bruinkopgors: Red-headed Bunting" .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 ui:reachedObjectWith "random, 1" .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 ui:typingTime 4769 .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:annotatedAt "2015-10-04T12:04:04+02:00"^^xsd:dateTime .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:annotatedBy user:user29 .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:hasBody birds:species-emberiza_bruniceps .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:hasTarget target:target_d744337147c1b6c81316752c988cb80a0ed0c2d2 .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:hasTarget naturalis:print-135104 .
+instances:id_f92d6fe1c12a7e1cff8ca996ceaa0c27743b6e55 oa:motivatedBy oa:tagging .
