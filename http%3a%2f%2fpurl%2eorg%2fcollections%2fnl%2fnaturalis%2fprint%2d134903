@@ -74,6 +74,18 @@ instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:hasTarget target:target
 instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:hasTarget naturalis:print-134903 .
 instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:motivatedBy oa:tagging .
 
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f a oa:Annotation .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f terms:title "Tetrax tetrax: Little Bustard" .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f ui:reachedObjectWith "random, 2" .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f ui:typingTime 8695 .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:annotatedAt "2015-10-04T11:53:46+02:00"^^xsd:dateTime .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:annotatedBy user:user5 .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:hasBody birds:species-tetrax_tetrax .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:hasTarget target:target_9aa4056fb7d013be1c573c3f8f8f23506f67dbd6 .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:hasTarget naturalis:print-134903 .
+instances:id_92cb1bc6192ced363ceabcce580eaa351ec5106f oa:motivatedBy oa:tagging .
+
 instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 a oa:Annotation .
 instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 terms:title "Kleine Trap: Little Bustard" .
 instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 ui:annotationField bird:IOCCommonNameAnnotation .
