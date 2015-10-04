@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_10502ee42590ca02b14edd311b99a28aac431f5f a oa:FragmentSelector .
 target:selector_10502ee42590ca02b14edd311b99a28aac431f5f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_10502ee42590ca02b14edd311b99a28aac431f5f a oa:SpecificResource .
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSelector target:selector_10502ee42590ca02b14edd311b99a28aac431f5f .
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSource <http://medialib.naturalis.nl/file/id/image-134903/format/large> .
 
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> a oa:Annotation .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> terms:title "Kleine Trap: Little Bustard" .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:reachedObjectWith "random, 2" .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:typingTime 15944 .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:annotatedAt "2015-10-04T11:50:28+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:annotatedBy user:user5 .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasBody birds:species-tetrax_tetrax .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasTarget target:target_10502ee42590ca02b14edd311b99a28aac431f5f .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasTarget naturalis:print-134903 .
-<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:motivatedBy oa:tagging .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d a oa:Annotation .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d terms:title "Tetrax tetrax: Little Bustard" .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d ui:reachedObjectWith "random, 2" .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d ui:typingTime 8047 .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:annotatedAt "2015-10-04T11:50:50+02:00"^^xsd:dateTime .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:annotatedBy user:user5 .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:hasBody birds:species-tetrax_tetrax .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:hasTarget target:target_10502ee42590ca02b14edd311b99a28aac431f5f .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:hasTarget naturalis:print-134903 .
+instances:id_49a5603b7225663bdb173d17c482687863ecb78d oa:motivatedBy oa:tagging .
+
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 a oa:Annotation .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 terms:title "Kleine Trap: Little Bustard" .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 ui:reachedObjectWith "random, 2" .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 ui:typingTime 15944 .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:annotatedAt "2015-10-04T11:50:28+02:00"^^xsd:dateTime .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:annotatedBy user:user5 .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:hasBody birds:species-tetrax_tetrax .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:hasTarget target:target_10502ee42590ca02b14edd311b99a28aac431f5f .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:hasTarget naturalis:print-134903 .
+instances:id_cedda6190ff1e6275b0b987e65681a23c91351c2 oa:motivatedBy oa:tagging .
