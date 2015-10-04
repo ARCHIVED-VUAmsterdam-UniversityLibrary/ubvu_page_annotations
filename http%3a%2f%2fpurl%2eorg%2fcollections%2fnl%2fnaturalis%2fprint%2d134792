@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c a oa:FragmentSelector .
 target:selector_e673877028dcf5aab45a0571434699ce4e46853c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_e673877028dcf5aab45a0571434699ce4e46853c a oa:SpecificResource .
 target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSelector target:selector_e673877028dcf5aab45a0571434699ce4e46853c .
 target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134792/format/large> .
 
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> a oa:Annotation .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> terms:title "Kleine Zilverreiger: Little Egret" .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:reachedObjectWith "expertise, 3" .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:typingTime 6435 .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:annotatedAt "2015-10-04T12:31:12+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasBody birds:species-egretta_garzetta .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasTarget naturalis:print-134792 .
-<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:motivatedBy oa:tagging .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 a oa:Annotation .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 terms:title "Egretta garzetta: Little Egret" .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 ui:reachedObjectWith "expertise, 3" .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 ui:typingTime 4993 .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:annotatedAt "2015-10-04T12:31:23+02:00"^^xsd:dateTime .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:annotatedBy user:user3 .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:hasBody birds:species-egretta_garzetta .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:hasTarget naturalis:print-134792 .
+instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 oa:motivatedBy oa:tagging .
+
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae a oa:Annotation .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae terms:title "Kleine Zilverreiger: Little Egret" .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae ui:reachedObjectWith "expertise, 3" .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae ui:typingTime 6435 .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:annotatedAt "2015-10-04T12:31:12+02:00"^^xsd:dateTime .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:annotatedBy user:user3 .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:hasBody birds:species-egretta_garzetta .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:hasTarget naturalis:print-134792 .
+instances:id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae oa:motivatedBy oa:tagging .
