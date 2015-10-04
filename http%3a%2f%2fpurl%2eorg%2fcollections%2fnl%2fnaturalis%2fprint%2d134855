@@ -409,6 +409,18 @@ instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:hasTarget target:target
 instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:hasTarget naturalis:print-134855 .
 instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:motivatedBy oa:tagging .
 
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 a oa:Annotation .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 terms:title "adult" .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 ui:annotationField bird:StageOfLife .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 ui:reachedObjectWith "expertise, 5" .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 ui:typingTime 2330 .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:annotatedAt "2015-10-04T12:09:50+02:00"^^xsd:dateTime .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:annotatedBy user:user27 .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:hasTarget target:target_e15478bea3785e6d9dd011886ab815727f2babbf .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:hasTarget naturalis:print-134855 .
+instances:id_f1ef66bba410dbb9c6786307689e6413ff2ec5a3 oa:motivatedBy oa:tagging .
+
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df a oa:Annotation .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df terms:title "Circus pygargus: Montagu's Harrier" .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df ui:annotationField bird:IOCScientificNameAnnotation .
