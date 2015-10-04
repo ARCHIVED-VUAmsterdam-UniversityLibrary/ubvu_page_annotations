@@ -110,6 +110,18 @@ instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:hasTarget target:target
 instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:hasTarget naturalis:print-134985 .
 instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:motivatedBy oa:tagging .
 
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 a oa:Annotation .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 terms:title "Sterna hirundo: Common Tern" .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 ui:reachedObjectWith "random, 2" .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 ui:typingTime 3532 .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:annotatedAt "2015-10-04T11:59:55+02:00"^^xsd:dateTime .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:annotatedBy user:Debby .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:hasBody birds:species-sterna_hirundo .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:hasTarget target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:hasTarget naturalis:print-134985 .
+instances:id_d2d49233c6af7e2f0ba1e495faa1aa6de3bc5b82 oa:motivatedBy oa:tagging .
+
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df a oa:Annotation .
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df terms:title "winter kleed" .
 instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df ui:annotationField bird:StageOfLife .
