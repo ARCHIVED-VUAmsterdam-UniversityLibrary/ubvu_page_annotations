@@ -35,6 +35,18 @@ instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:hasTarget target:target
 instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:hasTarget naturalis:print-135004 .
 instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:motivatedBy oa:tagging .
 
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f a oa:Annotation .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f terms:title "adult en juveniel" .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f ui:annotationField bird:StageOfLife .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f ui:reachedObjectWith "random, 11" .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f ui:typingTime 7174 .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:annotatedAt "2015-10-04T13:22:00+02:00"^^xsd:dateTime .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:annotatedBy user:user37 .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult en juveniel" ] .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:hasTarget naturalis:print-135004 .
+instances:id_5af81df62834c7823cd019179cbbf5da5741e95f oa:motivatedBy oa:tagging .
+
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e a oa:Annotation .
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e terms:title "Velduil" .
 instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e ui:annotationField bird:IOCCommonNameAnnotation .
