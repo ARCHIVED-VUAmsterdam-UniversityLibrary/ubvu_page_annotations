@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134958/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 a oa:FragmentSelector .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 ui:h "0.3615384615384615"^^xsd:float .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 ui:w "0.45811965811965816"^^xsd:float .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 ui:x "0.06581196581196581"^^xsd:float .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 ui:y "0.24102564102564103"^^xsd:float .
+target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 rdf:value "#xywh=percent:7,24,46,36" .
 
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:FragmentSelector .
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,25 @@ target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:x "0.360683760683760
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a ui:y "0.5294871794871795"^^xsd:float .
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a rdf:value "#xywh=percent:36,53,6,8" .
 
+target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 a oa:SpecificResource .
+target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 oa:hasSelector target:selector_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 .
+target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 oa:hasSource format:large .
+
 target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:SpecificResource .
 target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSelector target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
-target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134958/format/large> .
+target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSource format:large .
+
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d a oa:Annotation .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d terms:title "Kleine Jager: Parasitic Jaeger" .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d ui:reachedObjectWith "random, 0" .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d ui:typingTime 7513 .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:annotatedAt "2015-10-04T12:49:53+02:00"^^xsd:dateTime .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:annotatedBy user:user39 .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:hasBody birds:species-stercorarius_parasiticus .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:hasTarget target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:hasTarget naturalis:print-134958 .
+instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:motivatedBy oa:tagging .
 
 instances:id_b44be80a9fbcdbe5ecdd8e945eecff30a6aab4fc a oa:Annotation .
 instances:id_b44be80a9fbcdbe5ecdd8e945eecff30a6aab4fc terms:title "adult" .
