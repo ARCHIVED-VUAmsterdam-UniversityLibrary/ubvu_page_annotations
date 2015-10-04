@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134881/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:x "0.402564102564102
 target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:y "0.07521367521367521"^^xsd:float .
 target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 rdf:value "#xywh=percent:40,8,57,13" .
 
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 a oa:FragmentSelector .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 ui:h "0.252991452991453"^^xsd:float .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 ui:w "0.37008547008547016"^^xsd:float .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 ui:x "0.4598290598290598"^^xsd:float .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 ui:y "0.21766381766381768"^^xsd:float .
+target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 rdf:value "#xywh=percent:46,22,37,25" .
+
 target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 a oa:SpecificResource .
 target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSelector target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 .
-target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134881/format/large> .
+target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSource format:large .
+
+target:target_c4980905476a31ae06f6a3ea3307b2633c2eeb19 a oa:SpecificResource .
+target:target_c4980905476a31ae06f6a3ea3307b2633c2eeb19 oa:hasSelector target:selector_c4980905476a31ae06f6a3ea3307b2633c2eeb19 .
+target:target_c4980905476a31ae06f6a3ea3307b2633c2eeb19 oa:hasSource format:large .
+
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 a oa:Annotation .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 terms:title "Slechtvalk: Peregrine Falcon" .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 ui:reachedObjectWith "random, 5" .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 ui:typingTime 6806 .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:annotatedAt "2015-10-04T11:46:22+02:00"^^xsd:dateTime .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:annotatedBy user:user39 .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:hasBody birds:species-falco_peregrinus .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:hasTarget target:target_c4980905476a31ae06f6a3ea3307b2633c2eeb19 .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:hasTarget naturalis:print-134881 .
+instances:id_086c7784743b9583f02e38dcdd4bb8956f09d2f4 oa:motivatedBy oa:tagging .
 
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 a oa:Annotation .
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 terms:title "Falco peregrinus: Peregrine Falcon" .
