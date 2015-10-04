@@ -83,3 +83,15 @@ instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:hasBody [ a content:Con
 instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:hasTarget target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 .
 instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:hasTarget naturalis:print-134774 .
 instances:id_973d0577f14a07da4aeff833660c73c1f39b5fef oa:motivatedBy oa:tagging .
+
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 a oa:Annotation .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 terms:title "Gavia immer: Great Northern Loon" .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 ui:reachedObjectWith "expertise, 11" .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 ui:typingTime 4002 .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:annotatedAt "2015-10-04T12:35:40+02:00"^^xsd:dateTime .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:annotatedBy user:user3 .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:hasBody birds:species-gavia_immer .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:hasTarget target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:hasTarget naturalis:print-134774 .
+instances:id_f9e0e7f88d08827303a8e22662d6cdb1272ff226 oa:motivatedBy oa:tagging .
