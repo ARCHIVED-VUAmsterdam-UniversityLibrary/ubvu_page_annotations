@@ -23,6 +23,18 @@ target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 a oa:SpecificResource .
 target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSelector target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
 target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134825/format/large> .
 
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e a oa:Annotation .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e terms:title "adult" .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e ui:annotationField bird:StageOfLife .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e ui:reachedObjectWith "random, 6" .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e ui:typingTime 9363 .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:annotatedAt "2015-10-04T13:14:32+02:00"^^xsd:dateTime .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:annotatedBy user:user37 .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:hasTarget naturalis:print-134825 .
+instances:id_24b9c7dd020a60377891e2555bf61179a15a0a1e oa:motivatedBy oa:tagging .
+
 instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 a oa:Annotation .
 instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 terms:title "Blauwvleugeltaling" .
 instances:id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9 ui:annotationField bird:IOCCommonNameAnnotation .
