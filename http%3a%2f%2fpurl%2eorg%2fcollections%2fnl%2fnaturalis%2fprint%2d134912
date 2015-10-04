@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134912/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c a oa:FragmentSelector .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c ui:h "0.7205128205128205"^^xsd:float .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c ui:w "0.4987190435525193"^^xsd:float .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c ui:x "0.05209222886421862"^^xsd:float .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c ui:y "0.12692307692307692"^^xsd:float .
+target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c rdf:value "#xywh=percent:5,13,50,72" .
 
 target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d a oa:FragmentSelector .
 target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:x "0.366353543979504
 target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:y "0.029487179487179487"^^xsd:float .
 target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d rdf:value "#xywh=percent:37,3,56,88" .
 
+target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c a oa:SpecificResource .
+target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c oa:hasSelector target:selector_b40ab6dc573f231f62d42b1bfe9250afe452194c .
+target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c oa:hasSource format:large .
+
 target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d a oa:SpecificResource .
 target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSelector target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
-target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSource <http://medialib.naturalis.nl/file/id/image-134912/format/large> .
+target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSource format:large .
 
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 a oa:Annotation .
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 terms:title "adult" .
@@ -35,6 +49,18 @@ instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasBody [ a content:Con
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget naturalis:print-134912 .
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:motivatedBy oa:tagging .
+
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 a oa:Annotation .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 terms:title "Australische Kievit: Banded Lapwing" .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 ui:reachedObjectWith "expertise, 11" .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 ui:typingTime 2968 .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:annotatedAt "2015-10-04T12:03:24+02:00"^^xsd:dateTime .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:annotatedBy user:user34 .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:hasBody birds:species-vanellus_tricolor .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:hasTarget target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:hasTarget naturalis:print-134912 .
+instances:id_457dcf5931c86260e0db396f36b5eb9c05558b16 oa:motivatedBy oa:tagging .
 
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 a oa:Annotation .
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 terms:title "Kievit: Northern Lapwing" .
