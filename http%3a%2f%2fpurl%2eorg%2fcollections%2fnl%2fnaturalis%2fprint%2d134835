@@ -45,15 +45,3 @@ instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasBody birds:species-a
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasTarget naturalis:print-134835 .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:motivatedBy oa:tagging .
-
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b a oa:Annotation .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b terms:title "Aythya" .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b ui:annotationField bird:IOCScientificNameAnnotation .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b ui:reachedObjectWith "random, 0" .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b ui:typingTime 17530 .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:annotatedAt "2015-10-04T11:37:55+02:00"^^xsd:dateTime .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:annotatedBy user:user5 .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:hasBody birds:genus-aythya .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:hasTarget naturalis:print-134835 .
-instances:id_c4a0c6854b231dee72e340d7e08e78c7739ee14b oa:motivatedBy oa:tagging .
