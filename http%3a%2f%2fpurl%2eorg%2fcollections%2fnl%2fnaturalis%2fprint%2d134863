@@ -38,6 +38,18 @@ target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:SpecificResource .
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSelector target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSource format:large .
 
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 a oa:Annotation .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 terms:title "Milvus migrans: Black Kite" .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 ui:reachedObjectWith "expertise, 11" .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 ui:typingTime 7577 .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:annotatedAt "2015-10-04T13:07:32+02:00"^^xsd:dateTime .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:annotatedBy user:Kvliet .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:hasBody birds:species-milvus_migrans .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:hasTarget target:target_3423eaff4fcc4c276d934c96f54809da90cff203 .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:hasTarget naturalis:print-134863 .
+instances:id_8c8003a6b0cf67b3b0c2ed5931220f5bc9d18fd8 oa:motivatedBy oa:tagging .
+
 instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 a oa:Annotation .
 instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 terms:title "kievit" .
 instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 ui:annotationField bird:IOCCommonNameAnnotation .
