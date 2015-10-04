@@ -70,6 +70,14 @@ target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:x "0.136752136752136
 target:selector_54e00fba6a9dee820cc6560d0683006600092579 ui:y "0.029487179487179487"^^xsd:float .
 target:selector_54e00fba6a9dee820cc6560d0683006600092579 rdf:value "#xywh=percent:14,3,81,54" .
 
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 a oa:FragmentSelector .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 ui:h "0.5217948424510467"^^xsd:float .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 ui:w "0.7"^^xsd:float .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 ui:x "0.15726495726495726"^^xsd:float .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 ui:y "0.034705127813877204"^^xsd:float .
+target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 rdf:value "#xywh=percent:16,3,70,52" .
+
 target:selector_8838015bbac2f9b49babe5dd03ae3431e8821908 a oa:FragmentSelector .
 target:selector_8838015bbac2f9b49babe5dd03ae3431e8821908 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8838015bbac2f9b49babe5dd03ae3431e8821908 ui:h "0.13333333333333336"^^xsd:float .
@@ -129,6 +137,10 @@ target:target_5247a1b009aa8f25eabc256a852d83f3d034f4f3 oa:hasSource format:large
 target:target_54e00fba6a9dee820cc6560d0683006600092579 a oa:SpecificResource .
 target:target_54e00fba6a9dee820cc6560d0683006600092579 oa:hasSelector target:selector_54e00fba6a9dee820cc6560d0683006600092579 .
 target:target_54e00fba6a9dee820cc6560d0683006600092579 oa:hasSource format:large .
+
+target:target_770ce82002ca69df0e6797efbb84dd314c8c7d00 a oa:SpecificResource .
+target:target_770ce82002ca69df0e6797efbb84dd314c8c7d00 oa:hasSelector target:selector_770ce82002ca69df0e6797efbb84dd314c8c7d00 .
+target:target_770ce82002ca69df0e6797efbb84dd314c8c7d00 oa:hasSource format:large .
 
 target:target_8838015bbac2f9b49babe5dd03ae3431e8821908 a oa:SpecificResource .
 target:target_8838015bbac2f9b49babe5dd03ae3431e8821908 oa:hasSelector target:selector_8838015bbac2f9b49babe5dd03ae3431e8821908 .
@@ -241,6 +253,18 @@ instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:hasBody [ a content:Con
 instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:hasTarget target:target_4a9f71289889d186c0e6124df688127f0d130c87 .
 instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:hasTarget naturalis:print-134857 .
 instances:id_32e5c220deaf6436d41d6451102f81ec05e411a3 oa:motivatedBy oa:tagging .
+
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 a oa:Annotation .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 terms:title "Steppekiekendief: Pallid Harrier" .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 ui:reachedObjectWith "expertise, 2" .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 ui:typingTime 8125 .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:annotatedAt "2015-10-04T12:45:46+02:00"^^xsd:dateTime .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:annotatedBy user:Kvliet .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:hasBody birds:species-circus_macrourus .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:hasTarget target:target_770ce82002ca69df0e6797efbb84dd314c8c7d00 .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:hasTarget naturalis:print-134857 .
+instances:id_35c9ca23750223feea9143a5506f7efb25591441 oa:motivatedBy oa:tagging .
 
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e a oa:Annotation .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e terms:title "a" .
