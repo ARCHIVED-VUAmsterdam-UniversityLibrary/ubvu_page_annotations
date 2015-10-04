@@ -170,6 +170,18 @@ instances:id_7576305947a1722062412444c3655121709c68ea oa:hasTarget target:target
 instances:id_7576305947a1722062412444c3655121709c68ea oa:hasTarget naturalis:print-135157 .
 instances:id_7576305947a1722062412444c3655121709c68ea oa:motivatedBy oa:tagging .
 
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a a oa:Annotation .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a terms:title "pul" .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a ui:annotationField bird:StageOfLife .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a ui:reachedObjectWith "random, 0" .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a ui:typingTime 4145 .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:annotatedAt "2015-10-04T12:09:03+02:00"^^xsd:dateTime .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:annotatedBy user:user29 .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "pul" ] .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:hasTarget target:target_2172a87df9b30e99c5acf657eddb641683040bb4 .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:hasTarget naturalis:print-135157 .
+instances:id_8b0984b4ce89afe5648bdbfd5981e45c2b4e790a oa:motivatedBy oa:tagging .
+
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c a oa:Annotation .
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c terms:title "adult" .
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c ui:annotationField bird:StageOfLife .
