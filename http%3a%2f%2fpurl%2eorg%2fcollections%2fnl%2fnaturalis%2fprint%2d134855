@@ -325,6 +325,18 @@ instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget target:target
 instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget naturalis:print-134855 .
 instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:motivatedBy oa:tagging .
 
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec a oa:Annotation .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec terms:title "Circus pygargus: Montagu's Harrier" .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec ui:reachedObjectWith "expertise, 4" .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec ui:typingTime 6556 .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:annotatedAt "2015-10-04T12:03:48+02:00"^^xsd:dateTime .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:annotatedBy user:Debby .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:hasBody birds:species-circus_pygargus .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:hasTarget target:target_012541652a4bc98bb6879dcf6f473ca6b949fe03 .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:hasTarget naturalis:print-134855 .
+instances:id_e9a4e0bf99406f4d368a25dfaca6b789f8579cec oa:motivatedBy oa:tagging .
+
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df a oa:Annotation .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df terms:title "Circus pygargus: Montagu's Harrier" .
 instances:id_f8e21d66e68536d4ba4410f914da883916e881df ui:annotationField bird:IOCScientificNameAnnotation .
