@@ -50,6 +50,18 @@ instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:hasTarget target:target
 instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:hasTarget naturalis:print-134768 .
 instances:id_0a8dc749ce4de1b27e2510d902b061d3f9f77638 oa:motivatedBy oa:tagging .
 
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 a oa:Annotation .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 terms:title "echt" .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 ui:reachedObjectWith "random, 6" .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 ui:typingTime 1751 .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:annotatedAt "2015-10-04T12:19:33+02:00"^^xsd:dateTime .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:annotatedBy user:user3 .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:hasTarget target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:hasTarget naturalis:print-134768 .
+instances:id_109194af6c4a1f42d82cc1ce381ca6fe2ea4cfe6 oa:motivatedBy oa:tagging .
+
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b a oa:Annotation .
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b terms:title "Roodhalsfuut: Red-necked Grebe" .
 instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b ui:annotationField bird:IOCCommonNameAnnotation .
