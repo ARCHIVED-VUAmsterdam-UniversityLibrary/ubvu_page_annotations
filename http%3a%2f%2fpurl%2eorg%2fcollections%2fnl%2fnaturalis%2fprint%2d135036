@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135036/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:x "0.275213675213675
 target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:y "0.046153846153846156"^^xsd:float .
 target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 rdf:value "#xywh=percent:28,5,64,56" .
 
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 a oa:FragmentSelector .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 ui:h "0.6858974358974359"^^xsd:float .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 ui:w "0.7128205128205128"^^xsd:float .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 ui:x "0.06581196581196581"^^xsd:float .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 ui:y "0.2602564102564103"^^xsd:float .
+target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 rdf:value "#xywh=percent:7,26,71,69" .
+
 target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 a oa:SpecificResource .
 target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 oa:hasSelector target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 .
-target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135036/format/large> .
+target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 oa:hasSource format:large .
+
+target:target_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 a oa:SpecificResource .
+target:target_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 oa:hasSelector target:selector_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 .
+target:target_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 oa:hasSource format:large .
 
 instances:id_604bdef93d81bed78d2f8cba5eff421645880338 a oa:Annotation .
 instances:id_604bdef93d81bed78d2f8cba5eff421645880338 terms:title "Turdus torquatus: Ring Ouzel" .
@@ -47,6 +61,18 @@ instances:id_80a476569a1211875e9ed48d80a3ab8fe5f68d07 oa:hasBody [ a content:Con
 instances:id_80a476569a1211875e9ed48d80a3ab8fe5f68d07 oa:hasTarget target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 .
 instances:id_80a476569a1211875e9ed48d80a3ab8fe5f68d07 oa:hasTarget naturalis:print-135036 .
 instances:id_80a476569a1211875e9ed48d80a3ab8fe5f68d07 oa:motivatedBy oa:tagging .
+
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c a oa:Annotation .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c terms:title "Beflijster: Ring Ouzel" .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c ui:reachedObjectWith "random, 1" .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c ui:typingTime 3690 .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:annotatedAt "2015-10-04T13:09:29+02:00"^^xsd:dateTime .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:annotatedBy user:user26 .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:hasBody birds:species-turdus_torquatus .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:hasTarget target:target_a90fa4ad5252154aa54431c1c10a95c1f5bf2904 .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:hasTarget naturalis:print-135036 .
+instances:id_8b91394d7eb92395c3af4bedc5ef694da2ee3a7c oa:motivatedBy oa:tagging .
 
 instances:id_c8c8708056983334493871e3de79ea54b42dfffc a oa:Annotation .
 instances:id_c8c8708056983334493871e3de79ea54b42dfffc terms:title "Beflijster: Ring Ouzel" .
