@@ -36,6 +36,18 @@ instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:hasTarget target:target
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:hasTarget naturalis:print-135106 .
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 oa:motivatedBy oa:tagging .
 
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd a oa:Annotation .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd terms:title "echt" .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd ui:annotationField bird:RealOrNotAnnotation .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd ui:reachedObjectWith "random, 10" .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd ui:typingTime 2157 .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:annotatedAt "2015-10-04T12:26:00+02:00"^^xsd:dateTime .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:annotatedBy user:user39 .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget target:target_d9f19354719398e4a9932415972abbcfbb88d185 .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget naturalis:print-135106 .
+instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:motivatedBy oa:tagging .
+
 instances:id_98c4d27e85cd25230171578175214732909948fb a oa:Annotation .
 instances:id_98c4d27e85cd25230171578175214732909948fb terms:title "Parus major: Great Tit" .
 instances:id_98c4d27e85cd25230171578175214732909948fb ui:annotationField bird:IOCScientificNameAnnotation .
