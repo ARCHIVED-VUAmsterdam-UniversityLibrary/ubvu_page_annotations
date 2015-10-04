@@ -50,6 +50,18 @@ instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:hasTarget target:target
 instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:hasTarget naturalis:print-134855 .
 instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:motivatedBy oa:tagging .
 
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac a oa:Annotation .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac terms:title "man" .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac ui:annotationField bird:Gender .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac ui:reachedObjectWith "expertise, 3" .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac ui:typingTime 1350 .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:annotatedAt "2015-10-04T11:45:01+02:00"^^xsd:dateTime .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:annotatedBy user:user8 .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:hasTarget target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:hasTarget naturalis:print-134855 .
+instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:motivatedBy oa:tagging .
+
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c a oa:Annotation .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c ui:annotationField bird:IOCCommonNameAnnotation .
