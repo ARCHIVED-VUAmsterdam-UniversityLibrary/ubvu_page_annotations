@@ -98,6 +98,18 @@ instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget target:target
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget naturalis:print-134857 .
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:motivatedBy oa:tagging .
 
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 a oa:Annotation .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 terms:title "Circus macrourus: Pallid Harrier" .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 ui:reachedObjectWith "expertise, 1" .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 ui:typingTime 3320 .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:annotatedAt "2015-10-04T12:05:12+02:00"^^xsd:dateTime .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:annotatedBy user:Debby .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:hasBody birds:species-circus_macrourus .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:hasTarget target:target_4a9f71289889d186c0e6124df688127f0d130c87 .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:hasTarget naturalis:print-134857 .
+instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 oa:motivatedBy oa:tagging .
+
 instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 a oa:Annotation .
 instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 terms:title "Steppekiekendief: Pallid Harrier" .
 instances:id_214b5840b0fa517307015c6bc1e6f142dacfb984 ui:annotationField bird:IOCCommonNameAnnotation .
