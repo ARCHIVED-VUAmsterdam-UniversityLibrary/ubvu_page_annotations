@@ -7,6 +7,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
 @prefix format: <http://medialib.naturalis.nl/file/id/image-134862/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
@@ -29,6 +30,14 @@ target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:x "0.383760683760683
 target:selector_8504f1bce1923808af3c31083f819d8780d30a56 ui:y "0.07293447293447293"^^xsd:float .
 target:selector_8504f1bce1923808af3c31083f819d8780d30a56 rdf:value "#xywh=percent:38,7,8,6" .
 
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b a oa:FragmentSelector .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b ui:h "0.2655270655270655"^^xsd:float .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b ui:w "0.4760683760683761"^^xsd:float .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b ui:x "0.4888888888888889"^^xsd:float .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b ui:y "0.05868945868945869"^^xsd:float .
+target:selector_c956ac885c22314b9f111a14e2da98356e416a4b rdf:value "#xywh=percent:49,6,48,27" .
+
 target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 a oa:SpecificResource .
 target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSelector target:selector_0636a1ae07f0de3d8e606d24fad7225cddd46133 .
 target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSource format:large .
@@ -36,6 +45,10 @@ target:target_0636a1ae07f0de3d8e606d24fad7225cddd46133 oa:hasSource format:large
 target:target_8504f1bce1923808af3c31083f819d8780d30a56 a oa:SpecificResource .
 target:target_8504f1bce1923808af3c31083f819d8780d30a56 oa:hasSelector target:selector_8504f1bce1923808af3c31083f819d8780d30a56 .
 target:target_8504f1bce1923808af3c31083f819d8780d30a56 oa:hasSource format:large .
+
+target:target_c956ac885c22314b9f111a14e2da98356e416a4b a oa:SpecificResource .
+target:target_c956ac885c22314b9f111a14e2da98356e416a4b oa:hasSelector target:selector_c956ac885c22314b9f111a14e2da98356e416a4b .
+target:target_c956ac885c22314b9f111a14e2da98356e416a4b oa:hasSource format:large .
 
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 a oa:Annotation .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 terms:title "neus" .
@@ -48,6 +61,18 @@ instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasBody [ a content:Con
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget target:target_8504f1bce1923808af3c31083f819d8780d30a56 .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget naturalis:print-134862 .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:motivatedBy oa:tagging .
+
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 a oa:Annotation .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 terms:title "Rode Wouw: Red Kite" .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 ui:reachedObjectWith "expertise, 10" .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 ui:typingTime 5402 .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:annotatedAt "2015-10-04T11:33:58+02:00"^^xsd:dateTime .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:annotatedBy user:user8 .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasBody birds:species-milvus_milvus .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget target:target_c956ac885c22314b9f111a14e2da98356e416a4b .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:hasTarget naturalis:print-134862 .
+instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 oa:motivatedBy oa:tagging .
 
 instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f a oa:Annotation .
 instances:id_a1b0015dd330c3e3658a6ab143713f5b0ee4373f terms:title "buie" .
