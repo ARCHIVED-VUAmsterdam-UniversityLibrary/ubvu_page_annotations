@@ -98,6 +98,18 @@ instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget target:target
 instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget naturalis:print-134790 .
 instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:motivatedBy oa:tagging .
 
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 a oa:Annotation .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 terms:title "juveniel" .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 ui:annotationField bird:StageOfLife .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 ui:reachedObjectWith "expertise, 2" .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 ui:typingTime 2903 .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:annotatedAt "2015-10-04T12:27:46+02:00"^^xsd:dateTime .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:annotatedBy user:user3 .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:hasTarget target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:hasTarget naturalis:print-134790 .
+instances:id_ca2df50d47ad7ff1e598454545d82235dd041332 oa:motivatedBy oa:tagging .
+
 instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c a oa:Annotation .
 instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c terms:title "Purperreiger: Purple Heron" .
 instances:id_ea2c8d607d7cb6d4c297da95481bffe20f70674c ui:annotationField bird:IOCCommonNameAnnotation .
