@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134677/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 a oa:FragmentSelector .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:h "0.3384615384615385"^^xsd:float .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:w "0.18632478632478633"^^xsd:float .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:x "0.0641025641025641"^^xsd:float .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:y "0.1282051282051282"^^xsd:float .
+target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 rdf:value "#xywh=percent:6,13,19,34" .
 
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:FragmentSelector .
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:x "0.521367521367521
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:y "0.11538461538461539"^^xsd:float .
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 rdf:value "#xywh=percent:52,12,37,72" .
 
+target:target_01537757d778079a9b16c5b1e729c4700ba3e850 a oa:SpecificResource .
+target:target_01537757d778079a9b16c5b1e729c4700ba3e850 oa:hasSelector target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 .
+target:target_01537757d778079a9b16c5b1e729c4700ba3e850 oa:hasSource format:large .
+
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:SpecificResource .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSelector target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
-target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134677/format/large> .
+target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSource format:large .
 
 instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f a oa:Annotation .
 instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f terms:title "adult" .
@@ -71,3 +85,15 @@ instances:id_59076195cbaad61d444915cbee0e7c286adcd88b oa:hasBody [ a content:Con
 instances:id_59076195cbaad61d444915cbee0e7c286adcd88b oa:hasTarget target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
 instances:id_59076195cbaad61d444915cbee0e7c286adcd88b oa:hasTarget naturalis:print-134677 .
 instances:id_59076195cbaad61d444915cbee0e7c286adcd88b oa:motivatedBy oa:tagging .
+
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 a oa:Annotation .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 terms:title "Kerkuil: Western Barn Owl" .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 ui:reachedObjectWith "random, 1" .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 ui:typingTime 4025 .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:annotatedAt "2015-10-04T11:53:30+02:00"^^xsd:dateTime .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:annotatedBy user:user39 .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:hasBody birds:species-tyto_alba .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:hasTarget target:target_01537757d778079a9b16c5b1e729c4700ba3e850 .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:hasTarget naturalis:print-134677 .
+instances:id_652f40d2d9525d241e46cc451705b6ad77e50821 oa:motivatedBy oa:tagging .
