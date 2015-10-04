@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134775/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 ui:x "0.215384615384615
 target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 ui:y "0.38846153846153847"^^xsd:float .
 target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 rdf:value "#xywh=percent:22,39,70,52" .
 
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee a oa:FragmentSelector .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:h "0.4461538461538462"^^xsd:float .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:w "0.4076923076923077"^^xsd:float .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:x "0.04957264957264957"^^xsd:float .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:y "0.42948717948717946"^^xsd:float .
+target:selector_4eacf102dab57f26cf85208d645acbce894f19ee rdf:value "#xywh=percent:5,43,41,45" .
+
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 a oa:SpecificResource .
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSelector target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
-target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134775/format/large> .
+target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSource format:large .
+
+target:target_4eacf102dab57f26cf85208d645acbce894f19ee a oa:SpecificResource .
+target:target_4eacf102dab57f26cf85208d645acbce894f19ee oa:hasSelector target:selector_4eacf102dab57f26cf85208d645acbce894f19ee .
+target:target_4eacf102dab57f26cf85208d645acbce894f19ee oa:hasSource format:large .
 
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 a oa:Annotation .
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 terms:title "onbekend" .
@@ -71,6 +85,18 @@ instances:id_64812fa1161b9f4b240c520b12b2ae366131ffc8 oa:hasBody [ a content:Con
 instances:id_64812fa1161b9f4b240c520b12b2ae366131ffc8 oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
 instances:id_64812fa1161b9f4b240c520b12b2ae366131ffc8 oa:hasTarget naturalis:print-134775 .
 instances:id_64812fa1161b9f4b240c520b12b2ae366131ffc8 oa:motivatedBy oa:tagging .
+
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 a oa:Annotation .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 terms:title "Parelduiker: Black-throated Loon" .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 ui:reachedObjectWith "expertise, 11" .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 ui:typingTime 3981 .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:annotatedAt "2015-10-04T12:39:59+02:00"^^xsd:dateTime .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:annotatedBy user:user3 .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:hasBody birds:species-gavia_arctica .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:hasTarget naturalis:print-134775 .
+instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:motivatedBy oa:tagging .
 
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b a oa:Annotation .
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b terms:title "adult" .
