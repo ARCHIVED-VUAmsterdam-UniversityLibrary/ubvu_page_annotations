@@ -84,3 +84,15 @@ instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasBody [ a content:Con
 instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget target:target_e92e949e5414c29ad321a3a8980f45fb94df117b .
 instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget naturalis:print-134859 .
 instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:motivatedBy oa:tagging .
+
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f a oa:Annotation .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f terms:title "Accipiter nisus: Eurasian Sparrowhawk" .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:reachedObjectWith "expertise, 7" .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:typingTime 1443951701405 .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:annotatedAt "2015-10-04T11:42:33+02:00"^^xsd:dateTime .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:annotatedBy user:Sir_Iain .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:hasBody birds:species-accipiter_nisus .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:hasTarget target:target_e92e949e5414c29ad321a3a8980f45fb94df117b .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:hasTarget naturalis:print-134859 .
+instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:motivatedBy oa:tagging .
