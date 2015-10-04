@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 a oa:FragmentSelector .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:h "0.5897435897435898"^^xsd:float .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:w "0.28547008547008546"^^xsd:float .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:x "0.5324786324786325"^^xsd:float .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:y "0.14743589743589744"^^xsd:float .
+target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 rdf:value "#xywh=percent:53,15,29,59" .
+
+target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 a oa:SpecificResource .
+target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSelector target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 .
+target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135157/format/large> .
+
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> a oa:Annotation .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> terms:title "Ortolaan: Ortolan Bunting" .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> ui:typingTime 3308 .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:annotatedAt "2015-10-04T12:04:43+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:annotatedBy user:user29 .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:hasBody birds:species-emberiza_hortulana .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:hasTarget target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:hasTarget naturalis:print-135157 .
+<http://localhost/annotation/instances/id_57e8d0d23869d10237388d469413ca07a46afbfd> oa:motivatedBy oa:tagging .
