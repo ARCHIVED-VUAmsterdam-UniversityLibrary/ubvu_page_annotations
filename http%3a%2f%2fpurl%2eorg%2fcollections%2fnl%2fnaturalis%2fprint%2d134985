@@ -38,6 +38,18 @@ target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 a oa:SpecificResource .
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 oa:hasSelector target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 oa:hasSource format:large .
 
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 a oa:Annotation .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 terms:title "Sterna hirundo: Common Tern" .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 ui:reachedObjectWith "random, 2" .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 ui:typingTime 3183 .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:annotatedAt "2015-10-04T11:59:28+02:00"^^xsd:dateTime .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:annotatedBy user:Debby .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:hasBody birds:species-sterna_hirundo .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:hasTarget target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:hasTarget naturalis:print-134985 .
+instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 oa:motivatedBy oa:tagging .
+
 instances:id_596d46bcd93f1b52a6f73d28962678d5db6d58d5 a oa:Annotation .
 instances:id_596d46bcd93f1b52a6f73d28962678d5db6d58d5 terms:title "adult" .
 instances:id_596d46bcd93f1b52a6f73d28962678d5db6d58d5 ui:annotationField bird:StageOfLife .
