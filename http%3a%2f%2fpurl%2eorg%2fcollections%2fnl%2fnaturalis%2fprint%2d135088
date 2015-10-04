@@ -1,12 +1,24 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135088/format/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 a oa:FragmentSelector .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 ui:h "0.6615384615384615"^^xsd:float .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 ui:w "0.4717948717948718"^^xsd:float .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 ui:x "0.09145299145299145"^^xsd:float .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 ui:y "0.08974358974358974"^^xsd:float .
+target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 rdf:value "#xywh=percent:9,9,47,66" .
 
 target:selector_984622341512472d15e335efc15506906af8b970 a oa:FragmentSelector .
 target:selector_984622341512472d15e335efc15506906af8b970 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -16,18 +28,34 @@ target:selector_984622341512472d15e335efc15506906af8b970 ui:x "0.376923076923076
 target:selector_984622341512472d15e335efc15506906af8b970 ui:y "0.3974358974358974"^^xsd:float .
 target:selector_984622341512472d15e335efc15506906af8b970 rdf:value "#xywh=percent:38,40,2,4" .
 
+target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 a oa:SpecificResource .
+target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 oa:hasSelector target:selector_0e5918e773218e10dbbc99166cdb247ec82df4a3 .
+target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 oa:hasSource format:large .
+
 target:target_984622341512472d15e335efc15506906af8b970 a oa:SpecificResource .
 target:target_984622341512472d15e335efc15506906af8b970 oa:hasSelector target:selector_984622341512472d15e335efc15506906af8b970 .
-target:target_984622341512472d15e335efc15506906af8b970 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135088/format/large> .
+target:target_984622341512472d15e335efc15506906af8b970 oa:hasSource format:large .
 
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> a oa:Annotation .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> terms:title "Gele Kwikstaart: Western Yellow Wagtail" .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> ui:typingTime 26859 .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:annotatedAt "2015-10-04T11:55:56+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:annotatedBy user:Debby .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:hasBody birds:species-motacilla_flava .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:hasTarget target:target_984622341512472d15e335efc15506906af8b970 .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:hasTarget naturalis:print-135088 .
-<http://localhost/annotation/instances/id_6caadf78f01c92a80f2a1af256cacccd40812c07> oa:motivatedBy oa:tagging .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 a oa:Annotation .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 terms:title "Gele Kwikstaart: Western Yellow Wagtail" .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 ui:reachedObjectWith "random, 6" .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 ui:typingTime 30724 .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:annotatedAt "2015-10-04T11:56:36+02:00"^^xsd:dateTime .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:annotatedBy user:Debby .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:hasBody birds:species-motacilla_flava .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:hasTarget target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:hasTarget naturalis:print-135088 .
+instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 oa:motivatedBy oa:tagging .
+
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 a oa:Annotation .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 terms:title "Gele Kwikstaart: Western Yellow Wagtail" .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 ui:reachedObjectWith "random, 6" .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 ui:typingTime 26859 .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:annotatedAt "2015-10-04T11:55:56+02:00"^^xsd:dateTime .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:annotatedBy user:Debby .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasBody birds:species-motacilla_flava .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasTarget target:target_984622341512472d15e335efc15506906af8b970 .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasTarget naturalis:print-135088 .
+instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:motivatedBy oa:tagging .
