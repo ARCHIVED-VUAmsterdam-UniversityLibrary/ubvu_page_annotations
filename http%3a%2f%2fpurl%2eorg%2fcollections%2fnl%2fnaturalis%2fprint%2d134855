@@ -62,6 +62,18 @@ target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 a oa:SpecificResource .
 target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 oa:hasSelector target:selector_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 .
 target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 oa:hasSource format:large .
 
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 a oa:Annotation .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 terms:title "vrouw" .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 ui:annotationField bird:Gender .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 ui:reachedObjectWith "expertise, 3" .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 ui:typingTime 1507 .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:annotatedAt "2015-10-04T11:48:37+02:00"^^xsd:dateTime .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:annotatedBy user:user8 .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:hasTarget target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:hasTarget naturalis:print-134855 .
+instances:id_044d1c6a4eb09fc7e356a6e5bcf22c30bbde9cf6 oa:motivatedBy oa:tagging .
+
 instances:id_151fbc47eb89e2c27c58a2f6ba0da32faa122ede a oa:Annotation .
 instances:id_151fbc47eb89e2c27c58a2f6ba0da32faa122ede terms:title "Circus pygargus: Montagu's Harrier" .
 instances:id_151fbc47eb89e2c27c58a2f6ba0da32faa122ede ui:annotationField bird:IOCScientificNameAnnotation .
