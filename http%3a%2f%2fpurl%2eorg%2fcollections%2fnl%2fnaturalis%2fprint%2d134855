@@ -218,6 +218,18 @@ instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 oa:hasTarget target:target
 instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 oa:hasTarget naturalis:print-134855 .
 instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 oa:motivatedBy oa:tagging .
 
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 a oa:Annotation .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 terms:title "onbekend" .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 ui:annotationField bird:Gender .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 ui:reachedObjectWith "expertise, 5" .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 ui:typingTime 8033 .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:annotatedAt "2015-10-04T12:18:56+02:00"^^xsd:dateTime .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:annotatedBy user:user27 .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:hasTarget target:target_a6a809fadaf7b62c16574d4dcc4c483bcd28cecd .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:hasTarget naturalis:print-134855 .
+instances:id_3fbe8186c42853743d8f10d1ff6d233c4cc308d8 oa:motivatedBy oa:tagging .
+
 instances:id_449a3f8e345d64cebb27bf3f805226139eab43f5 a oa:Annotation .
 instances:id_449a3f8e345d64cebb27bf3f805226139eab43f5 terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_449a3f8e345d64cebb27bf3f805226139eab43f5 ui:annotationField bird:IOCCommonNameAnnotation .
