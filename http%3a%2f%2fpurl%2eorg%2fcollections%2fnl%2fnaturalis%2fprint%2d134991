@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134991/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 ui:x "0.541417591801878
 target:selector_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 ui:y "0.02435897435897436"^^xsd:float .
 target:selector_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 rdf:value "#xywh=percent:54,2,42,88" .
 
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 a oa:FragmentSelector .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 ui:h "0.85"^^xsd:float .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 ui:w "0.3040136635354398"^^xsd:float .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 ui:x "0.28010247651579845"^^xsd:float .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 ui:y "0.03461538461538462"^^xsd:float .
+target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 rdf:value "#xywh=percent:28,3,30,85" .
+
 target:target_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 a oa:SpecificResource .
 target:target_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 oa:hasSelector target:selector_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 .
-target:target_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134991/format/large> .
+target:target_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 oa:hasSource format:large .
+
+target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 a oa:SpecificResource .
+target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 oa:hasSelector target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 .
+target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 oa:hasSource format:large .
 
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db a oa:Annotation .
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db terms:title "Alk: Razorbill" .
@@ -47,6 +61,18 @@ instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be oa:hasBody birds:species-a
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be oa:hasTarget target:target_27678e29e9b5255e9f1a0e6a1b38fc544c01f4d9 .
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be oa:hasTarget naturalis:print-134991 .
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be oa:motivatedBy oa:tagging .
+
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc a oa:Annotation .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc terms:title "Alk: Razorbill" .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc ui:reachedObjectWith "expertise, 0" .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc ui:typingTime 3154 .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:annotatedAt "2015-10-04T11:56:14+02:00"^^xsd:dateTime .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:annotatedBy user:user34 .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:hasBody birds:species-alca_torda .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:hasTarget target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:hasTarget naturalis:print-134991 .
+instances:id_d4ed5197c29e0768b7dca0877dd5922d0e238fdc oa:motivatedBy oa:tagging .
 
 instances:id_edb85d3f02728b1a9b0ca896923dfd130ca22f06 a oa:Annotation .
 instances:id_edb85d3f02728b1a9b0ca896923dfd130ca22f06 terms:title "adult" .
