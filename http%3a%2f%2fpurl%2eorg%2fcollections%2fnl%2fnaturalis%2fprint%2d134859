@@ -313,6 +313,18 @@ instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:hasTarget target:target
 instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:hasTarget naturalis:print-134859 .
 instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:motivatedBy oa:tagging .
 
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d a oa:Annotation .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d terms:title "adult" .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d ui:annotationField bird:StageOfLife .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d ui:reachedObjectWith "expertise, 9" .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d ui:typingTime 1597 .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:annotatedAt "2015-10-04T12:31:20+02:00"^^xsd:dateTime .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:annotatedBy user:Kvliet .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:hasTarget target:target_5d975a321ab00b6ddab85c784950d72caf1ef4ac .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:hasTarget naturalis:print-134859 .
+instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:motivatedBy oa:tagging .
+
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f a oa:Annotation .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f terms:title "Accipiter nisus: Eurasian Sparrowhawk" .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:annotationField bird:IOCScientificNameAnnotation .
