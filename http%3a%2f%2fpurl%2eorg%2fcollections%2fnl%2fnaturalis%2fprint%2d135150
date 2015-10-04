@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:FragmentSelector .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:h "0.5794871794871794"^^xsd:float .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:w "0.27521367521367524"^^xsd:float .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:x "0.1811965811965812"^^xsd:float .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:y "0.14102564102564102"^^xsd:float .
+target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 rdf:value "#xywh=percent:18,14,28,58" .
+
+target:target_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:SpecificResource .
+target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSelector target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 .
+target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135150/format/large> .
+
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> a oa:Annotation .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> terms:title "Roodmus: Common Rosefinch" .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:reachedObjectWith "random, 2" .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:typingTime 15480 .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:annotatedAt "2015-10-04T12:51:11+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:annotatedBy user:user26 .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasBody birds:species-carpodacus_erythrinus .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasTarget target:target_bdb147587b38b16810dda310609fcc2bfab2c705 .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasTarget naturalis:print-135150 .
+<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:motivatedBy oa:tagging .
