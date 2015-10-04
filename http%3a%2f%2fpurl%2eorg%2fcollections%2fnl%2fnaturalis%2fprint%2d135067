@@ -48,6 +48,18 @@ target:target_89377dea35666c226f5981bbd8f8a63613df7ccc a oa:SpecificResource .
 target:target_89377dea35666c226f5981bbd8f8a63613df7ccc oa:hasSelector target:selector_89377dea35666c226f5981bbd8f8a63613df7ccc .
 target:target_89377dea35666c226f5981bbd8f8a63613df7ccc oa:hasSource format:large .
 
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 a oa:Annotation .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 terms:title "Phylloscopus humei: Hume's Leaf Warbler" .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 ui:reachedObjectWith "random, 9" .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 ui:typingTime 3836 .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:annotatedAt "2015-10-04T12:24:28+02:00"^^xsd:dateTime .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:annotatedBy user:user34 .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:hasBody birds:species-phylloscopus_humei .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:hasTarget target:target_29bf615059c8e312e34eabff971a2f3af5bbde58 .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:hasTarget naturalis:print-135067 .
+instances:id_03f59a3412ab6131d4ccef34f57dcc070e94c6a9 oa:motivatedBy oa:tagging .
+
 instances:id_32ae81262a989a65287be1d11673e12c971a1584 a oa:Annotation .
 instances:id_32ae81262a989a65287be1d11673e12c971a1584 terms:title "Phylloscopus inornatus: Yellow-browed Warbler" .
 instances:id_32ae81262a989a65287be1d11673e12c971a1584 ui:annotationField bird:IOCScientificNameAnnotation .
