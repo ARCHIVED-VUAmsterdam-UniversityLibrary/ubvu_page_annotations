@@ -60,3 +60,15 @@ instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasBody [ a content:Con
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget target:target_e4732c9bf549e1c96c457f6503d99d290cc330f7 .
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget naturalis:print-134859 .
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:motivatedBy oa:tagging .
+
+instances:id_741149b574bbdff84658f0e238f599a7156018fa a oa:Annotation .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa terms:title "adult" .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa ui:annotationField bird:StageOfLife .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa ui:reachedObjectWith "expertise, 7" .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa ui:typingTime 2358 .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:annotatedAt "2015-10-04T11:42:03+02:00"^^xsd:dateTime .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:annotatedBy user:Sir_Iain .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget target:target_e92e949e5414c29ad321a3a8980f45fb94df117b .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget naturalis:print-134859 .
+instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:motivatedBy oa:tagging .
