@@ -122,6 +122,18 @@ instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:hasTarget target:target
 instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:hasTarget naturalis:print-135088 .
 instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:motivatedBy oa:tagging .
 
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a a oa:Annotation .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a terms:title "adult" .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a ui:annotationField bird:StageOfLife .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a ui:reachedObjectWith "random, 6" .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a ui:typingTime 1296 .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:annotatedAt "2015-10-04T11:57:52+02:00"^^xsd:dateTime .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:annotatedBy user:Debby .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:hasTarget target:target_c6a271a31424a41947b82c067482c1a339c3e991 .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:hasTarget naturalis:print-135088 .
+instances:id_bcd1fbba8e3975425c7d8d12dcee0777d196193a oa:motivatedBy oa:tagging .
+
 instances:id_e5d83a0e6837562e0bd768f67ef27877529d6041 a oa:Annotation .
 instances:id_e5d83a0e6837562e0bd768f67ef27877529d6041 terms:title "Gele Kwikstaart: Western Yellow Wagtail" .
 instances:id_e5d83a0e6837562e0bd768f67ef27877529d6041 ui:annotationField bird:IOCCommonNameAnnotation .
