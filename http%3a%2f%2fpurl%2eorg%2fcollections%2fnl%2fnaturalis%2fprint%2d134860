@@ -374,6 +374,18 @@ instances:id_d7eaef788eb747d3bf6c7137760a350c78e9a575 oa:hasTarget target:target
 instances:id_d7eaef788eb747d3bf6c7137760a350c78e9a575 oa:hasTarget naturalis:print-134860 .
 instances:id_d7eaef788eb747d3bf6c7137760a350c78e9a575 oa:motivatedBy oa:tagging .
 
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb a oa:Annotation .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb terms:title "vrouw" .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb ui:annotationField bird:Gender .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb ui:reachedObjectWith "expertise, 10" .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb ui:typingTime 1360 .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:annotatedAt "2015-10-04T12:56:06+02:00"^^xsd:dateTime .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:annotatedBy user:user27 .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:hasTarget target:target_99dd0568bcd2cfc5c4f947fe808d658a2b43e991 .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:hasTarget naturalis:print-134860 .
+instances:id_d92d7b93f327304ffdc2a90ebcb5d882605806eb oa:motivatedBy oa:tagging .
+
 instances:id_dd7bfd062a5b2e43f279017f81d247353624761b a oa:Annotation .
 instances:id_dd7bfd062a5b2e43f279017f81d247353624761b terms:title "Havik: Northern Goshawk" .
 instances:id_dd7bfd062a5b2e43f279017f81d247353624761b ui:annotationField bird:IOCCommonNameAnnotation .
