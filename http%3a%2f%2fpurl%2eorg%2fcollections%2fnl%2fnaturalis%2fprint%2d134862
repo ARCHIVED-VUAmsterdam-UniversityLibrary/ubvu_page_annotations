@@ -146,6 +146,18 @@ instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget target:target
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget naturalis:print-134862 .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:motivatedBy oa:tagging .
 
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 a oa:Annotation .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 terms:title "adult" .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 ui:annotationField bird:StageOfLife .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 ui:reachedObjectWith "expertise, 0" .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 ui:typingTime 1863 .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:annotatedAt "2015-10-04T12:21:33+02:00"^^xsd:dateTime .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:annotatedBy user:user5 .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:hasTarget target:target_b7919efc0be124ef31530c8829530abb696a9df5 .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:hasTarget naturalis:print-134862 .
+instances:id_18a82e072282798e215ea8df84a24b75433a36c4 oa:motivatedBy oa:tagging .
+
 instances:id_20f9b1c8d0058010311725f635270d48c01d57d3 a oa:Annotation .
 instances:id_20f9b1c8d0058010311725f635270d48c01d57d3 terms:title "Rode Wouw: Red Kite" .
 instances:id_20f9b1c8d0058010311725f635270d48c01d57d3 ui:annotationField bird:IOCCommonNameAnnotation .
