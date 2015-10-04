@@ -73,6 +73,18 @@ instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:hasTarget target:target
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:hasTarget naturalis:print-134857 .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e oa:motivatedBy oa:tagging .
 
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 a oa:Annotation .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 terms:title "adult" .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 ui:annotationField bird:StageOfLife .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 ui:reachedObjectWith "expertise, 1" .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 ui:typingTime 2407 .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:annotatedAt "2015-10-04T12:01:56+02:00"^^xsd:dateTime .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:annotatedBy user:Sir_Iain .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:hasTarget target:target_3098241d5b319605a4006af5d2c3b44afe82c115 .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:hasTarget naturalis:print-134857 .
+instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:motivatedBy oa:tagging .
+
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 a oa:Annotation .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 terms:title "Steppekiekendief: Pallid Harrier" .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:annotationField bird:IOCCommonNameAnnotation .
