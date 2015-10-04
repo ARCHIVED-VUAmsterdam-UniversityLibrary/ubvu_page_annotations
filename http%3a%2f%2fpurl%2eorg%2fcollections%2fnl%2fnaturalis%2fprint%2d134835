@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134835/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:x "0.407692307692307
 target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:y "0.441025641025641"^^xsd:float .
 target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 rdf:value "#xywh=percent:41,44,41,36" .
 
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 a oa:FragmentSelector .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:h "0.15641025641025647"^^xsd:float .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:w "0.15299145299145303"^^xsd:float .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:x "0.21452991452991452"^^xsd:float .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:y "0.4551282051282051"^^xsd:float .
+target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 rdf:value "#xywh=percent:21,46,15,16" .
+
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:SpecificResource .
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSelector target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
-target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134835/format/large> .
+target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSource format:large .
+
+target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 a oa:SpecificResource .
+target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 oa:hasSelector target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 .
+target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 oa:hasSource format:large .
 
 instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 a oa:Annotation .
 instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 terms:title "Aythya collaris: Ring-necked Duck" .
@@ -59,6 +73,18 @@ instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasBody birds:species-a
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:hasTarget naturalis:print-134835 .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 oa:motivatedBy oa:tagging .
+
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c a oa:Annotation .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c terms:title "Kuifeend: Tufted Duck" .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c ui:reachedObjectWith "random, 0" .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c ui:typingTime 5640 .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:annotatedAt "2015-10-04T11:45:16+02:00"^^xsd:dateTime .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:annotatedBy user:user5 .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasBody birds:species-aythya_fuligula .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasTarget target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasTarget naturalis:print-134835 .
+instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:motivatedBy oa:tagging .
 
 instances:id_cb77d149ecbe2b8335dd80d82dea4aa45e9cead3 a oa:Annotation .
 instances:id_cb77d149ecbe2b8335dd80d82dea4aa45e9cead3 terms:title "man" .
