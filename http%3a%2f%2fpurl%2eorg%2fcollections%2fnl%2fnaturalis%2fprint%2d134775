@@ -62,6 +62,18 @@ instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:hasTarget target:target
 instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:hasTarget naturalis:print-134775 .
 instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:motivatedBy oa:tagging .
 
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 a oa:Annotation .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 terms:title "echt" .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 ui:reachedObjectWith "expertise, 11" .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 ui:typingTime 2202 .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:annotatedAt "2015-10-04T12:40:23+02:00"^^xsd:dateTime .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:annotatedBy user:user3 .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:hasTarget naturalis:print-134775 .
+instances:id_213a3f2eb3b82500832bb8684f82dace7f2086c9 oa:motivatedBy oa:tagging .
+
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 a oa:Annotation .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 terms:title "Parelduiker: Black-throated Loon" .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 ui:annotationField bird:IOCCommonNameAnnotation .
