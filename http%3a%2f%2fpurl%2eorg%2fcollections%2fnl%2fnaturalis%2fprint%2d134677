@@ -206,6 +206,18 @@ instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:hasTarget target:target
 instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:hasTarget naturalis:print-134677 .
 instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:motivatedBy oa:tagging .
 
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd a oa:Annotation .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd terms:title "juveniel" .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd ui:annotationField bird:StageOfLife .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd ui:reachedObjectWith "random, 1" .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd ui:typingTime 1962 .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:annotatedAt "2015-10-04T11:59:23+02:00"^^xsd:dateTime .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:annotatedBy user:user39 .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:hasTarget target:target_1464cbc0d2f7b05fdfad1303a756ede8d39934cb .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:hasTarget naturalis:print-134677 .
+instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:motivatedBy oa:tagging .
+
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 a oa:Annotation .
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 terms:title "Tyto alba guttata" .
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 ui:annotationField bird:IOCScientificNameAnnotation .
