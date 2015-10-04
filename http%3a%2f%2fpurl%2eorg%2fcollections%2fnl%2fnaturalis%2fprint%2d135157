@@ -62,6 +62,18 @@ target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 a oa:SpecificResource .
 target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 oa:hasSelector target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 .
 target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 oa:hasSource format:large .
 
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 a oa:Annotation .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 terms:title "Emberiza hortulana: Ortolan Bunting" .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 ui:reachedObjectWith "random, 0" .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 ui:typingTime 8034 .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:annotatedAt "2015-10-04T12:08:39+02:00"^^xsd:dateTime .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:annotatedBy user:user29 .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:hasBody birds:species-emberiza_hortulana .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:hasTarget target:target_2172a87df9b30e99c5acf657eddb641683040bb4 .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:hasTarget naturalis:print-135157 .
+instances:id_3062cfe760855ee5793489bb6242a57db6892343 oa:motivatedBy oa:tagging .
+
 instances:id_328c5e51483d51e66e297eb70046861ef2a7a20b a oa:Annotation .
 instances:id_328c5e51483d51e66e297eb70046861ef2a7a20b terms:title "Emberiza hortulana: Ortolan Bunting" .
 instances:id_328c5e51483d51e66e297eb70046861ef2a7a20b ui:annotationField bird:IOCScientificNameAnnotation .
