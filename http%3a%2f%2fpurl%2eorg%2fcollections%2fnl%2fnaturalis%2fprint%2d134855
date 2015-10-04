@@ -132,15 +132,3 @@ instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasBody [ a content:Con
 instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
 instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget naturalis:print-134855 .
 instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:motivatedBy oa:tagging .
-
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af a oa:Annotation .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af terms:title "Circus" .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af ui:annotationField bird:IOCScientificNameAnnotation .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af ui:reachedObjectWith "expertise, 3" .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af ui:typingTime 5892 .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:annotatedAt "2015-10-04T11:47:23+02:00"^^xsd:dateTime .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:annotatedBy user:user8 .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:hasBody birds:genus-circus .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:hasTarget target:target_4c051a33bbf87e96616f6f044f61b49c88196fd7 .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:hasTarget naturalis:print-134855 .
-instances:id_e4275fdc658699a5f55981922435c2282ad8b1af oa:motivatedBy oa:tagging .
