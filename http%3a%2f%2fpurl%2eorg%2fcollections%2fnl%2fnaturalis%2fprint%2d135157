@@ -74,6 +74,18 @@ instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:hasTarget target:target
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:hasTarget naturalis:print-135157 .
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:motivatedBy oa:tagging .
 
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 a oa:Annotation .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 terms:title "juveniel" .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 ui:annotationField bird:StageOfLife .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 ui:reachedObjectWith "random, 0" .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 ui:typingTime 71284 .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:annotatedAt "2015-10-04T12:08:16+02:00"^^xsd:dateTime .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:annotatedBy user:user29 .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:hasTarget target:target_acb635eaddbd517782d12ae8acc1eabc163b940f .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:hasTarget naturalis:print-135157 .
+instances:id_37e37b236ad3137e1ea10d2fe2feb8816256d688 oa:motivatedBy oa:tagging .
+
 instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 a oa:Annotation .
 instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 terms:title "adult" .
 instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 ui:annotationField bird:StageOfLife .
