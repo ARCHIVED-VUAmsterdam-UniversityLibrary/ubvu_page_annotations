@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca a oa:FragmentSelector .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca ui:h "0.4683760683760683"^^xsd:float .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca ui:w "0.9299145299145299"^^xsd:float .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca ui:x "0.05811965811965812"^^xsd:float .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca ui:y "0.0678062678062678"^^xsd:float .
+target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca rdf:value "#xywh=percent:6,7,93,47" .
+
+target:target_a3085ea6d982f4c30ff8d52e1738e1efebe18cca a oa:SpecificResource .
+target:target_a3085ea6d982f4c30ff8d52e1738e1efebe18cca oa:hasSelector target:selector_a3085ea6d982f4c30ff8d52e1738e1efebe18cca .
+target:target_a3085ea6d982f4c30ff8d52e1738e1efebe18cca oa:hasSource <http://medialib.naturalis.nl/file/id/image-134902/format/large> .
+
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> a oa:Annotation .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> terms:title "Grote Trap: Great Bustard" .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> ui:reachedObjectWith "random, 1" .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> ui:typingTime 4140 .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:annotatedAt "2015-10-04T13:02:51+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:annotatedBy user:user26 .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:hasBody birds:species-otis_tarda .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:hasTarget target:target_a3085ea6d982f4c30ff8d52e1738e1efebe18cca .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:hasTarget naturalis:print-134902 .
+<http://localhost/annotation/instances/id_122a3d48526c141f561c89a1bdb6573693a0bd8e> oa:motivatedBy oa:tagging .
