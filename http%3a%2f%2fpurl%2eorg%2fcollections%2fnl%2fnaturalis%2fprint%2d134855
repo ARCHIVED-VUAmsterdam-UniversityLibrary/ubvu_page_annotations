@@ -578,6 +578,18 @@ instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 oa:hasTarget target:target
 instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 oa:hasTarget naturalis:print-134855 .
 instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 oa:motivatedBy oa:tagging .
 
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea a oa:Annotation .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea terms:title "adult" .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea ui:annotationField bird:StageOfLife .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea ui:reachedObjectWith "expertise, 5" .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea ui:typingTime 1948 .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:annotatedAt "2015-10-04T12:59:12+02:00"^^xsd:dateTime .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:annotatedBy user:Kvliet .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:hasTarget target:target_33f6093d25c0501150de24d6112539e0c6f48ca6 .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:hasTarget naturalis:print-134855 .
+instances:id_cd81132e6919dd15d5363b37b4f265f72ec76dea oa:motivatedBy oa:tagging .
+
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb a oa:Annotation .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb terms:title "a" .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb ui:annotationField bird:IOCCommonNameAnnotation .
