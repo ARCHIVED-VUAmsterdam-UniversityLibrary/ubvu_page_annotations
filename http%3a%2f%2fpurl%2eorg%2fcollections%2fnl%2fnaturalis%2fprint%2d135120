@@ -134,6 +134,18 @@ instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:hasTarget target:target
 instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:hasTarget naturalis:print-135120 .
 instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:motivatedBy oa:tagging .
 
+instances:id_93f51523f445bdf887609a681acb72b089088b30 a oa:Annotation .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 terms:title "echt" .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 ui:reachedObjectWith "random, 2" .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 ui:typingTime 1509 .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:annotatedAt "2015-10-04T12:22:32+02:00"^^xsd:dateTime .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:annotatedBy user:user3 .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:hasTarget target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:hasTarget naturalis:print-135120 .
+instances:id_93f51523f445bdf887609a681acb72b089088b30 oa:motivatedBy oa:tagging .
+
 instances:id_d40df92285cba40380380bce99f748820c5431f4 a oa:Annotation .
 instances:id_d40df92285cba40380380bce99f748820c5431f4 terms:title "Roek: Rook" .
 instances:id_d40df92285cba40380380bce99f748820c5431f4 ui:annotationField bird:IOCCommonNameAnnotation .
