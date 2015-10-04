@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:FragmentSelector .
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:SpecificResource .
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSelector target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 .
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135150/format/large> .
 
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> a oa:Annotation .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> terms:title "Roodmus: Common Rosefinch" .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:reachedObjectWith "random, 2" .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> ui:typingTime 15480 .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:annotatedAt "2015-10-04T12:51:11+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:annotatedBy user:user26 .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasBody birds:species-carpodacus_erythrinus .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasTarget target:target_bdb147587b38b16810dda310609fcc2bfab2c705 .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:hasTarget naturalis:print-135150 .
-<http://localhost/annotation/instances/id_7bc58b14995de8331a5d7d3447a9529bd2d72223> oa:motivatedBy oa:tagging .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 a oa:Annotation .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 terms:title "Roodmus: Common Rosefinch" .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 ui:reachedObjectWith "random, 2" .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 ui:typingTime 15480 .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:annotatedAt "2015-10-04T12:51:11+02:00"^^xsd:dateTime .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:annotatedBy user:user26 .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:hasBody birds:species-carpodacus_erythrinus .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:hasTarget target:target_bdb147587b38b16810dda310609fcc2bfab2c705 .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:hasTarget naturalis:print-135150 .
+instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 oa:motivatedBy oa:tagging .
+
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 a oa:Annotation .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 terms:title "Carpodacus erythrinus: Common Rosefinch" .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 ui:reachedObjectWith "random, 2" .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 ui:typingTime 8816 .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:annotatedAt "2015-10-04T12:52:06+02:00"^^xsd:dateTime .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:annotatedBy user:user26 .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:hasBody birds:species-carpodacus_erythrinus .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:hasTarget target:target_bdb147587b38b16810dda310609fcc2bfab2c705 .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:hasTarget naturalis:print-135150 .
+instances:id_85e684e720115f3a604adeb13fa35eacc358b0b7 oa:motivatedBy oa:tagging .
