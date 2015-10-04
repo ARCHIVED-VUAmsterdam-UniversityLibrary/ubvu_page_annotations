@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c a oa:FragmentSelector .
 target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_57fca441384e1245b1bc1fe91000673b6f710e7c a oa:SpecificResource .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSelector target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134852/format/large> .
 
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> a oa:Annotation .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> terms:title "Bruine Kiekendief: Western Marsh Harrier" .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> ui:reachedObjectWith "expertise, 0" .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> ui:typingTime 5717 .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:annotatedAt "2015-10-04T11:50:49+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:annotatedBy user:user8 .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:hasBody birds:species-circus_aeruginosus .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:hasTarget naturalis:print-134852 .
-<http://localhost/annotation/instances/id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef> oa:motivatedBy oa:tagging .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef a oa:Annotation .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef terms:title "Bruine Kiekendief: Western Marsh Harrier" .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef ui:reachedObjectWith "expertise, 0" .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef ui:typingTime 5717 .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:annotatedAt "2015-10-04T11:50:49+02:00"^^xsd:dateTime .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:annotatedBy user:user8 .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:hasBody birds:species-circus_aeruginosus .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:hasTarget naturalis:print-134852 .
+instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:motivatedBy oa:tagging .
+
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 a oa:Annotation .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 terms:title "Circus aeruginosus: Western Marsh Harrier" .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 ui:reachedObjectWith "expertise, 0" .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 ui:typingTime 4661 .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:annotatedAt "2015-10-04T11:50:56+02:00"^^xsd:dateTime .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:annotatedBy user:user8 .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasBody birds:species-circus_aeruginosus .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasTarget naturalis:print-134852 .
+instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:motivatedBy oa:tagging .
