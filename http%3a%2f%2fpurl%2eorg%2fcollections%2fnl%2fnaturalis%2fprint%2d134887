@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c rdf:value "#xywh=percen
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c a oa:SpecificResource .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSelector target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134887/format/large> .
+
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f a oa:Annotation .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f terms:title "man" .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f ui:annotationField bird:Gender .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f ui:reachedObjectWith "random, 3" .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f ui:typingTime 2887 .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:annotatedAt "2015-10-04T11:58:32+02:00"^^xsd:dateTime .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:annotatedBy user:user5 .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:hasTarget target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:hasTarget naturalis:print-134887 .
+instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f oa:motivatedBy oa:tagging .
 
 instances:id_69966f429abc2cf883b53fc8777b0bf078d700db a oa:Annotation .
 instances:id_69966f429abc2cf883b53fc8777b0bf078d700db terms:title "Perdix perdix: Grey Partridge" .
