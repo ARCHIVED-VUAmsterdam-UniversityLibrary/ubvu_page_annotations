@@ -62,6 +62,18 @@ target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:SpecificResource .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSelector target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSource format:large .
 
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 a oa:Annotation .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 terms:title "Tyto alba: Western Barn Owl" .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 ui:reachedObjectWith "random, 1" .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 ui:typingTime 9887 .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:annotatedAt "2015-10-04T11:59:17+02:00"^^xsd:dateTime .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:annotatedBy user:user39 .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:hasBody birds:species-tyto_alba .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:hasTarget target:target_1464cbc0d2f7b05fdfad1303a756ede8d39934cb .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:hasTarget naturalis:print-134677 .
+instances:id_0321b8902500f955cba084b3b65c07bea438e6d9 oa:motivatedBy oa:tagging .
+
 instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f a oa:Annotation .
 instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f terms:title "adult" .
 instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f ui:annotationField bird:StageOfLife .
