@@ -74,6 +74,18 @@ instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db oa:hasTarget target:target
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db oa:hasTarget naturalis:print-134991 .
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db oa:motivatedBy oa:tagging .
 
+instances:id_570350f2196303a46758c2526c6106f3231014d5 a oa:Annotation .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 terms:title "Alca torda: Razorbill" .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 ui:reachedObjectWith "expertise, 0" .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 ui:typingTime 3492 .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:annotatedAt "2015-10-04T11:56:41+02:00"^^xsd:dateTime .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:annotatedBy user:user34 .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:hasBody birds:species-alca_torda .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:hasTarget target:target_69aea31a2c0265dd0cd0b4cb8aa315fd0d8d8b0a .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:hasTarget naturalis:print-134991 .
+instances:id_570350f2196303a46758c2526c6106f3231014d5 oa:motivatedBy oa:tagging .
+
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be a oa:Annotation .
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be terms:title "Alca torda: Razorbill" .
 instances:id_67b8a070d5c473f8d1856cfce238796f536cf6be ui:annotationField bird:IOCScientificNameAnnotation .
