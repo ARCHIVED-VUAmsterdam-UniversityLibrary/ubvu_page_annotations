@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 a oa:FragmentSelector .
 target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 a oa:SpecificResource .
 target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 oa:hasSelector target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
 target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134845/format/large> .
 
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> a oa:Annotation .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> terms:title "Common Eider" .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:reachedObjectWith "random, 0" .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:typingTime 34551 .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:annotatedAt "2015-10-04T11:48:25+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:annotatedBy user:Debby .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasBody birds:species-somateria_mollissima .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasTarget target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasTarget naturalis:print-134845 .
-<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:motivatedBy oa:tagging .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 a oa:Annotation .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 terms:title "Somateria mollissima: Common Eider" .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 ui:reachedObjectWith "random, 0" .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 ui:typingTime 4165 .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:annotatedAt "2015-10-04T11:48:57+02:00"^^xsd:dateTime .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:annotatedBy user:Debby .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:hasBody birds:species-somateria_mollissima .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:hasTarget target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:hasTarget naturalis:print-134845 .
+instances:id_bc3957c45a9a8d915c111a675e4809b60f00e310 oa:motivatedBy oa:tagging .
+
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 a oa:Annotation .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 terms:title "Common Eider" .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 ui:reachedObjectWith "random, 0" .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 ui:typingTime 34551 .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:annotatedAt "2015-10-04T11:48:25+02:00"^^xsd:dateTime .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:annotatedBy user:Debby .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:hasBody birds:species-somateria_mollissima .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:hasTarget target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:hasTarget naturalis:print-134845 .
+instances:id_f062e5af1684bfc3c7db59d1768c9c006760fda9 oa:motivatedBy oa:tagging .
