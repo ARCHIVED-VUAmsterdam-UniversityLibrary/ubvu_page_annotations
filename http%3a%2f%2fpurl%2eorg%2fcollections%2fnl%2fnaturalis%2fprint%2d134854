@@ -158,6 +158,18 @@ instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:hasTarget target:target
 instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:hasTarget naturalis:print-134854 .
 instances:id_1593069398fb20b8ceb79493e5f27bc9778ec830 oa:motivatedBy oa:tagging .
 
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 a oa:Annotation .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 terms:title "vrouw" .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 ui:annotationField bird:Gender .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 ui:reachedObjectWith "expertise, 6" .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 ui:typingTime 1782 .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:annotatedAt "2015-10-04T12:23:21+02:00"^^xsd:dateTime .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:annotatedBy user:Kvliet .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:hasTarget target:target_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:hasTarget naturalis:print-134854 .
+instances:id_15ae72bc2151f709232994ca464caf6a33ef5599 oa:motivatedBy oa:tagging .
+
 instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e a oa:Annotation .
 instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e terms:title "echt" .
 instances:id_174f07695a3ca3e306e80a1815b67aa279c4117e ui:annotationField bird:RealOrNotAnnotation .
