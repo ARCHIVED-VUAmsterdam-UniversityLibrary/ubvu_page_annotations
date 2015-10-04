@@ -493,6 +493,18 @@ instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget target:target
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget naturalis:print-134859 .
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:motivatedBy oa:tagging .
 
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 a oa:Annotation .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 terms:title "man" .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 ui:annotationField bird:Gender .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 ui:reachedObjectWith "expertise, 9" .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 ui:typingTime 1777 .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:annotatedAt "2015-10-04T12:49:11+02:00"^^xsd:dateTime .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:annotatedBy user:user27 .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:hasTarget target:target_5b4de049dc795c62abaf7c936ab6065b077c168a .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:hasTarget naturalis:print-134859 .
+instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 oa:motivatedBy oa:tagging .
+
 instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc a oa:Annotation .
 instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_d7d1f844f5639430105aa7544abfecfa407bbcfc ui:annotationField bird:IOCCommonNameAnnotation .
