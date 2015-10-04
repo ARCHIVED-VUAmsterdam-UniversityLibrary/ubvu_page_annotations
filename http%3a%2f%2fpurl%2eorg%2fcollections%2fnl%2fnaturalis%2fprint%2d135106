@@ -50,6 +50,18 @@ target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 a oa:SpecificResource .
 target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSelector target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
 target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSource format:large .
 
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f a oa:Annotation .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f terms:title "adult" .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f ui:annotationField bird:StageOfLife .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f ui:reachedObjectWith "random, 10" .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f ui:typingTime 2298 .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:annotatedAt "2015-10-04T12:28:21+02:00"^^xsd:dateTime .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:annotatedBy user:user39 .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:hasTarget target:target_80369186f52833ff2deed9afe64372e331a7e1aa .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:hasTarget naturalis:print-135106 .
+instances:id_051e4a06c4fe93fcf2b5bcb0415e5fa3882ecd5f oa:motivatedBy oa:tagging .
+
 instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 a oa:Annotation .
 instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 terms:title "Parus major: Great Tit" .
 instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 ui:annotationField bird:IOCScientificNameAnnotation .
