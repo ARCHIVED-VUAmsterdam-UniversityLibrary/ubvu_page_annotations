@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b rdf:value "#xywh=percen
 target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b a oa:SpecificResource .
 target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b oa:hasSelector target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b .
 target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b oa:hasSource <http://medialib.naturalis.nl/file/id/image-134799/format/large> .
+
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c a oa:Annotation .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c terms:title "onbekend" .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c ui:annotationField bird:Gender .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c ui:reachedObjectWith "random, 6" .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c ui:typingTime 2512 .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:annotatedAt "2015-10-04T12:24:11+02:00"^^xsd:dateTime .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:annotatedBy user:user3 .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget naturalis:print-134799 .
+instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:motivatedBy oa:tagging .
 
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f a oa:Annotation .
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f terms:title "Ooievaar: White Stork" .
