@@ -121,6 +121,18 @@ instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:hasTarget target:target
 instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:hasTarget naturalis:print-134857 .
 instances:id_4781cb9b9fc93d9af469b0291b105f51a08fbba4 oa:motivatedBy oa:tagging .
 
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 a oa:Annotation .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 terms:title "Circus macrourus: Pallid Harrier" .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 ui:reachedObjectWith "expertise, 1" .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 ui:typingTime 8068 .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:annotatedAt "2015-10-04T12:04:39+02:00"^^xsd:dateTime .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:annotatedBy user:Debby .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:hasBody birds:species-circus_macrourus .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:hasTarget target:target_54e00fba6a9dee820cc6560d0683006600092579 .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:hasTarget naturalis:print-134857 .
+instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:motivatedBy oa:tagging .
+
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 a oa:Annotation .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 terms:title "Steppekiekendief: Pallid Harrier" .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:annotationField bird:IOCCommonNameAnnotation .
