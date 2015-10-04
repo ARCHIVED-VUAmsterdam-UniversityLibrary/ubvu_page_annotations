@@ -74,6 +74,18 @@ instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget target:target
 instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget naturalis:print-134776 .
 instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:motivatedBy oa:tagging .
 
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 a oa:Annotation .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 terms:title "juveniel" .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 ui:annotationField bird:StageOfLife .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 ui:reachedObjectWith "expertise, 11" .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 ui:typingTime 3110 .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:annotatedAt "2015-10-04T12:42:41+02:00"^^xsd:dateTime .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:annotatedBy user:user3 .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:hasTarget target:target_fa776f91aef28a5b51585f8fd64cba598e52f277 .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:hasTarget naturalis:print-134776 .
+instances:id_248b00c556f681da9ef1d5e286508b52f4574179 oa:motivatedBy oa:tagging .
+
 instances:id_4855329329cc8e67899d855f12109fab419f3f97 a oa:Annotation .
 instances:id_4855329329cc8e67899d855f12109fab419f3f97 terms:title "Parelduiker: Black-throated Loon" .
 instances:id_4855329329cc8e67899d855f12109fab419f3f97 ui:annotationField bird:IOCCommonNameAnnotation .
