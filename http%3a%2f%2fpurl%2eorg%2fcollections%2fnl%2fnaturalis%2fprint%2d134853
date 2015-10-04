@@ -421,6 +421,18 @@ instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:hasTarget target:target
 instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:hasTarget naturalis:print-134853 .
 instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:motivatedBy oa:tagging .
 
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff a oa:Annotation .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff terms:title "adult" .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff ui:annotationField bird:StageOfLife .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff ui:reachedObjectWith "expertise, 4" .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff ui:typingTime 1586 .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:annotatedAt "2015-10-04T12:54:18+02:00"^^xsd:dateTime .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:annotatedBy user:Kvliet .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:hasTarget target:target_e45b74ebf10f0bd0688f3dd4d9331f3cb87a77e9 .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:hasTarget naturalis:print-134853 .
+instances:id_acef5e3df48ab16a079a8d5779cfa06f3db0e2ff oa:motivatedBy oa:tagging .
+
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 a oa:Annotation .
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 ui:annotationField bird:IOCCommonNameAnnotation .
