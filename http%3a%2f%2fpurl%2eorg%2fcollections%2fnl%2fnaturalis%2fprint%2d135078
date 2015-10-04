@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135078/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e ui:x "0.522222222222222
 target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e ui:y "0.3858974358974359"^^xsd:float .
 target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e rdf:value "#xywh=percent:52,39,39,30" .
 
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 a oa:FragmentSelector .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:h "0.5602564102564103"^^xsd:float .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:w "0.4564102564102564"^^xsd:float .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:x "0.4495726495726496"^^xsd:float .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 ui:y "0.29102564102564105"^^xsd:float .
+target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 rdf:value "#xywh=percent:45,29,46,56" .
+
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e a oa:SpecificResource .
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSelector target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
-target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSource <http://medialib.naturalis.nl/file/id/image-135078/format/large> .
+target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSource format:large .
+
+target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 a oa:SpecificResource .
+target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 oa:hasSelector target:selector_228b10d140a7a31dfebc9445dde876fb2290c4e5 .
+target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 oa:hasSource format:large .
 
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b a oa:Annotation .
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b terms:title "Waterspreeuw: White-throated Dipper" .
@@ -35,6 +49,18 @@ instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasBody birds:species-c
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasTarget naturalis:print-135078 .
 instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:motivatedBy oa:tagging .
+
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 a oa:Annotation .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 terms:title "Waterspreeuw: White-throated Dipper" .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 ui:reachedObjectWith "random, 6" .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 ui:typingTime 18327 .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:annotatedAt "2015-10-04T12:01:49+02:00"^^xsd:dateTime .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:annotatedBy user:user5 .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:hasBody birds:species-cinclus_cinclus .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:hasTarget target:target_228b10d140a7a31dfebc9445dde876fb2290c4e5 .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:hasTarget naturalis:print-135078 .
+instances:id_0d00e1244abb38e3e37fd72b32a6778ee86012a7 oa:motivatedBy oa:tagging .
 
 instances:id_10c811b51f2900c3563bc8277264486524270783 a oa:Annotation .
 instances:id_10c811b51f2900c3563bc8277264486524270783 terms:title "Cinclus cinclus: White-throated Dipper" .
