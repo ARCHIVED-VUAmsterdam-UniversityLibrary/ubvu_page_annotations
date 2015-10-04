@@ -50,6 +50,18 @@ instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:hasTarget target:target
 instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:hasTarget naturalis:print-134965 .
 instances:id_207394550298afcbed5086f230cf9688fcf314dc oa:motivatedBy oa:tagging .
 
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d a oa:Annotation .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d terms:title "Larus marinus: Great Black-backed Gull" .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d ui:reachedObjectWith "random, 11" .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d ui:typingTime 9415 .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:annotatedAt "2015-10-04T12:35:43+02:00"^^xsd:dateTime .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:annotatedBy user:user39 .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:hasBody birds:species-larus_marinus .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:hasTarget target:target_9a8758ccde48953d4719e014515f18ba99fe925a .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:hasTarget naturalis:print-134965 .
+instances:id_4e10d6163141c47627bc99337f29bd3f7a8b0d7d oa:motivatedBy oa:tagging .
+
 instances:id_5fad66e253879938506d38323c3a86dd55c98eed a oa:Annotation .
 instances:id_5fad66e253879938506d38323c3a86dd55c98eed terms:title "adult" .
 instances:id_5fad66e253879938506d38323c3a86dd55c98eed ui:annotationField bird:StageOfLife .
