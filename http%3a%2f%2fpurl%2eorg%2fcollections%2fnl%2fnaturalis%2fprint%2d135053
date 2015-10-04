@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,8 +7,12 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135053/format/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_127ba350b12308ffa77e444487321568bff2f10e a oa:FragmentSelector .
 target:selector_127ba350b12308ffa77e444487321568bff2f10e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -17,18 +22,42 @@ target:selector_127ba350b12308ffa77e444487321568bff2f10e ui:x "0.433333333333333
 target:selector_127ba350b12308ffa77e444487321568bff2f10e ui:y "0.11282051282051282"^^xsd:float .
 target:selector_127ba350b12308ffa77e444487321568bff2f10e rdf:value "#xywh=percent:43,11,5,6" .
 
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 a oa:FragmentSelector .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:h "0.5833333333333333"^^xsd:float .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:w "0.29035012809564475"^^xsd:float .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:x "0.5678906917164817"^^xsd:float .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:y "0.14358974358974358"^^xsd:float .
+target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 rdf:value "#xywh=percent:57,14,29,58" .
+
 target:target_127ba350b12308ffa77e444487321568bff2f10e a oa:SpecificResource .
 target:target_127ba350b12308ffa77e444487321568bff2f10e oa:hasSelector target:selector_127ba350b12308ffa77e444487321568bff2f10e .
-target:target_127ba350b12308ffa77e444487321568bff2f10e oa:hasSource <http://medialib.naturalis.nl/file/id/image-135053/format/large> .
+target:target_127ba350b12308ffa77e444487321568bff2f10e oa:hasSource format:large .
 
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> a oa:Annotation .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> terms:title "a" .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> ui:reachedObjectWith "random, 1" .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> ui:typingTime 1104 .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:annotatedAt "2015-10-04T00:03:32+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:annotatedBy user:n21 .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a" ] .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:hasTarget target:target_127ba350b12308ffa77e444487321568bff2f10e .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:hasTarget naturalis:print-135053 .
-<http://localhost/annotation/instances/id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4> oa:motivatedBy oa:tagging .
+target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 a oa:SpecificResource .
+target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSelector target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 .
+target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSource format:large .
+
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 a oa:Annotation .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 terms:title "a" .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 ui:reachedObjectWith "random, 1" .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 ui:typingTime 1104 .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:annotatedAt "2015-10-04T00:03:32+02:00"^^xsd:dateTime .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:annotatedBy user:n21 .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a" ] .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:hasTarget target:target_127ba350b12308ffa77e444487321568bff2f10e .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:hasTarget naturalis:print-135053 .
+instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:motivatedBy oa:tagging .
+
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 a oa:Annotation .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 terms:title "Roodborsttapuit: European Stonechat" .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 ui:reachedObjectWith "random, 0" .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 ui:typingTime 8622 .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:annotatedAt "2015-10-04T12:05:33+02:00"^^xsd:dateTime .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:annotatedBy user:user34 .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:hasBody birds:species-saxicola_rubicola .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:hasTarget target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:hasTarget naturalis:print-135053 .
+instances:id_f481548d591aa8810f6bddcfe90835b64b3a2156 oa:motivatedBy oa:tagging .
