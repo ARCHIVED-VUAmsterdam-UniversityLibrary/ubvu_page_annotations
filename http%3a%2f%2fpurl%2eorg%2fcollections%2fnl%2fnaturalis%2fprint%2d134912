@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d rdf:value "#xywh=percen
 target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d a oa:SpecificResource .
 target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSelector target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
 target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSource <http://medialib.naturalis.nl/file/id/image-134912/format/large> .
+
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 a oa:Annotation .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 terms:title "adult" .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 ui:annotationField bird:StageOfLife .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 ui:reachedObjectWith "expertise, 11" .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 ui:typingTime 1217 .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:annotatedAt "2015-10-04T12:03:09+02:00"^^xsd:dateTime .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:annotatedBy user:user34 .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget naturalis:print-134912 .
+instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:motivatedBy oa:tagging .
 
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 a oa:Annotation .
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 terms:title "Kievit: Northern Lapwing" .
