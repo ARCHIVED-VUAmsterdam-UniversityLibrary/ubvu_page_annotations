@@ -217,3 +217,15 @@ instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasBody [ a content:Con
 instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
 instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasTarget naturalis:print-134775 .
 instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:motivatedBy oa:tagging .
+
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d a oa:Annotation .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d terms:title "echt" .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d ui:annotationField bird:RealOrNotAnnotation .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d ui:reachedObjectWith "expertise, 11" .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d ui:typingTime 1782 .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:annotatedAt "2015-10-04T12:41:06+02:00"^^xsd:dateTime .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:annotatedBy user:user3 .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:hasTarget target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:hasTarget naturalis:print-134775 .
+instances:id_ede6f0ef78e542f9e6d7a82f71a11004332d480d oa:motivatedBy oa:tagging .
