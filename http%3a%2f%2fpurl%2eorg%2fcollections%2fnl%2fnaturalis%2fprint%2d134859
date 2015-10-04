@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac a oa:FragmentSelector .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac ui:h "0.641025614942241"^^xsd:float .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac ui:w "0.6068376068376068"^^xsd:float .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac ui:x "0.28376068376068375"^^xsd:float .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac ui:y "0.13002848828959668"^^xsd:float .
+target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac rdf:value "#xywh=percent:28,13,61,64" .
+
 target:selector_9073caa617980197c88cf03636775ff5a17558e9 a oa:FragmentSelector .
 target:selector_9073caa617980197c88cf03636775ff5a17558e9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:h "0.6837606837606838"^^xsd:float .
@@ -77,6 +85,10 @@ target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:w "0.208547008547008
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:x "0.08547008547008547"^^xsd:float .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:y "0.14415954415954416"^^xsd:float .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 rdf:value "#xywh=percent:9,14,21,21" .
+
+target:target_5d975a321ab00b6ddab85c784950d72caf1ef4ac a oa:SpecificResource .
+target:target_5d975a321ab00b6ddab85c784950d72caf1ef4ac oa:hasSelector target:selector_5d975a321ab00b6ddab85c784950d72caf1ef4ac .
+target:target_5d975a321ab00b6ddab85c784950d72caf1ef4ac oa:hasSource format:large .
 
 target:target_9073caa617980197c88cf03636775ff5a17558e9 a oa:SpecificResource .
 target:target_9073caa617980197c88cf03636775ff5a17558e9 oa:hasSelector target:selector_9073caa617980197c88cf03636775ff5a17558e9 .
@@ -408,3 +420,15 @@ instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasBody birds:species-a
 instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasTarget target:target_9073caa617980197c88cf03636775ff5a17558e9 .
 instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasTarget naturalis:print-134859 .
 instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:motivatedBy oa:tagging .
+
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f a oa:Annotation .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f terms:title "Havik: Northern Goshawk" .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f ui:reachedObjectWith "expertise, 9" .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f ui:typingTime 4383 .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:annotatedAt "2015-10-04T12:31:02+02:00"^^xsd:dateTime .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:annotatedBy user:Kvliet .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:hasBody birds:species-accipiter_gentilis .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:hasTarget target:target_5d975a321ab00b6ddab85c784950d72caf1ef4ac .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:hasTarget naturalis:print-134859 .
+instances:id_fc6b1c6bafb6cf631f7267bb14af6a3a8f8c022f oa:motivatedBy oa:tagging .
