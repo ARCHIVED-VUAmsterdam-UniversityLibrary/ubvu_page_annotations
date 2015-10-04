@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasBody birds:species-e
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasTarget naturalis:print-135098 .
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:motivatedBy oa:tagging .
+
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 a oa:Annotation .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 terms:title "man" .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 ui:annotationField bird:Gender .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 ui:reachedObjectWith "random, 4" .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 ui:typingTime 3319 .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:annotatedAt "2015-10-04T11:33:06+02:00"^^xsd:dateTime .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:annotatedBy user:user5 .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:hasTarget naturalis:print-135098 .
+instances:id_aa1edbe3a690599d580c6e408cfa6f156ac47828 oa:motivatedBy oa:tagging .
 
 instances:id_ee811485e1927bc8af4bdd542077b22a1656575f a oa:Annotation .
 instances:id_ee811485e1927bc8af4bdd542077b22a1656575f terms:title "Eremophila" .
