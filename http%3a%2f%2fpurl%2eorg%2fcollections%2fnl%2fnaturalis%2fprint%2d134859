@@ -325,6 +325,18 @@ instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget target:target
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget naturalis:print-134859 .
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:motivatedBy oa:tagging .
 
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b a oa:Annotation .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b terms:title "Accipiter nisus: Eurasian Sparrowhawk" .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b ui:reachedObjectWith "expertise, 7" .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b ui:typingTime 64028 .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:annotatedAt "2015-10-04T12:54:54+02:00"^^xsd:dateTime .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:annotatedBy user:user8 .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:hasBody birds:species-accipiter_nisus .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:hasTarget target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:hasTarget naturalis:print-134859 .
+instances:id_34df6092c948a7c8526cc104a005513bbe35e74b oa:motivatedBy oa:tagging .
+
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 a oa:Annotation .
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 terms:title "adult" .
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 ui:annotationField bird:StageOfLife .
