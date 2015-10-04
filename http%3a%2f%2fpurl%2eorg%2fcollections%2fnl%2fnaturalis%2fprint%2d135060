@@ -98,6 +98,18 @@ instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget target:target
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget naturalis:print-135060 .
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:motivatedBy oa:tagging .
 
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c a oa:Annotation .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c terms:title "adult" .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c ui:annotationField bird:StageOfLife .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c ui:reachedObjectWith "random, 6" .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c ui:typingTime 1328 .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:annotatedAt "2015-10-04T12:13:33+02:00"^^xsd:dateTime .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:annotatedBy user:user29 .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:hasTarget target:target_caded83c56ee334671844421d4c41ca6e3dd1784 .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:hasTarget naturalis:print-135060 .
+instances:id_8193c5679a3387fc45a29c337be6ba0b3eaa5c3c oa:motivatedBy oa:tagging .
+
 instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 a oa:Annotation .
 instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 terms:title "Braamsluiper: Lesser Whitethroat" .
 instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 ui:annotationField bird:IOCCommonNameAnnotation .
