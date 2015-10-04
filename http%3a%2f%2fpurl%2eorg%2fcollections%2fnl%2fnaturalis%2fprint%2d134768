@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134768/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:x "0.338461538461538
 target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 ui:y "0.26794871794871794"^^xsd:float .
 target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 rdf:value "#xywh=percent:34,27,63,56" .
 
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb a oa:FragmentSelector .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb ui:h "0.3653846153846154"^^xsd:float .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb ui:w "0.3769230769230769"^^xsd:float .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb ui:x "0.07094017094017094"^^xsd:float .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb ui:y "0.3769230769230769"^^xsd:float .
+target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb rdf:value "#xywh=percent:7,38,38,37" .
+
 target:target_af7797e41396e8e641b2a6c2ac09350557db0489 a oa:SpecificResource .
 target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSelector target:selector_af7797e41396e8e641b2a6c2ac09350557db0489 .
-target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134768/format/large> .
+target:target_af7797e41396e8e641b2a6c2ac09350557db0489 oa:hasSource format:large .
+
+target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb a oa:SpecificResource .
+target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb oa:hasSelector target:selector_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
+target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb oa:hasSource format:large .
+
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b a oa:Annotation .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b terms:title "Roodhalsfuut: Red-necked Grebe" .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b ui:reachedObjectWith "random, 6" .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b ui:typingTime 15473 .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:annotatedAt "2015-10-04T12:19:09+02:00"^^xsd:dateTime .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:annotatedBy user:user3 .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:hasBody birds:species-podiceps_grisegena .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:hasTarget target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:hasTarget naturalis:print-134768 .
+instances:id_2183a1e9068829a1d9823a8beafa0c02d1d16c8b oa:motivatedBy oa:tagging .
 
 instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 a oa:Annotation .
 instances:id_443f4675bfd1a4c07b6c29e38d83411a5a4711c8 terms:title "Podiceps grisegena: Red-necked Grebe" .
