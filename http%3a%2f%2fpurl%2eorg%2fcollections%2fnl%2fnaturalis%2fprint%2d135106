@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa a oa:FragmentSelector .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa ui:h "0.4371794871794872"^^xsd:float .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa ui:w "0.41452991452991456"^^xsd:float .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa ui:x "0.037606837606837605"^^xsd:float .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa ui:y "0.15512820512820513"^^xsd:float .
+target:selector_80369186f52833ff2deed9afe64372e331a7e1aa rdf:value "#xywh=percent:4,16,41,44" .
+
 target:selector_d9f19354719398e4a9932415972abbcfbb88d185 a oa:FragmentSelector .
 target:selector_d9f19354719398e4a9932415972abbcfbb88d185 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d9f19354719398e4a9932415972abbcfbb88d185 ui:h "0.34102564102564104"^^xsd:float .
@@ -29,6 +37,10 @@ target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:w "0.385470085470085
 target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:x "0.3854700854700855"^^xsd:float .
 target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:y "0.48333333333333334"^^xsd:float .
 target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 rdf:value "#xywh=percent:39,48,39,27" .
+
+target:target_80369186f52833ff2deed9afe64372e331a7e1aa a oa:SpecificResource .
+target:target_80369186f52833ff2deed9afe64372e331a7e1aa oa:hasSelector target:selector_80369186f52833ff2deed9afe64372e331a7e1aa .
+target:target_80369186f52833ff2deed9afe64372e331a7e1aa oa:hasSource format:large .
 
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 a oa:SpecificResource .
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSelector target:selector_d9f19354719398e4a9932415972abbcfbb88d185 .
@@ -121,6 +133,18 @@ instances:id_bb19beb34f6916ab954c574daa495d1c99b4849d oa:hasBody [ a content:Con
 instances:id_bb19beb34f6916ab954c574daa495d1c99b4849d oa:hasTarget target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
 instances:id_bb19beb34f6916ab954c574daa495d1c99b4849d oa:hasTarget naturalis:print-135106 .
 instances:id_bb19beb34f6916ab954c574daa495d1c99b4849d oa:motivatedBy oa:tagging .
+
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 a oa:Annotation .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 terms:title "Koolmees: Great Tit" .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 ui:reachedObjectWith "random, 10" .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 ui:typingTime 3528 .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:annotatedAt "2015-10-04T12:27:59+02:00"^^xsd:dateTime .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:annotatedBy user:user39 .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:hasBody birds:species-parus_major .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:hasTarget target:target_80369186f52833ff2deed9afe64372e331a7e1aa .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:hasTarget naturalis:print-135106 .
+instances:id_d57ec432c13bc06cf0eedcfb233cdcf6f16b3fc7 oa:motivatedBy oa:tagging .
 
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 a oa:Annotation .
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 terms:title "adult" .
