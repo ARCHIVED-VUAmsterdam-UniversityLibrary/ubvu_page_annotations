@@ -133,3 +133,15 @@ instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b oa:hasBody [ a content:Con
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b oa:hasTarget naturalis:print-134775 .
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b oa:motivatedBy oa:tagging .
+
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 a oa:Annotation .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 terms:title "juveniel" .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 ui:annotationField bird:StageOfLife .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 ui:reachedObjectWith "expertise, 11" .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 ui:typingTime 3752 .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:annotatedAt "2015-10-04T12:40:19+02:00"^^xsd:dateTime .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:annotatedBy user:user3 .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:hasTarget naturalis:print-134775 .
+instances:id_ebf9682c50d4c93fdc364202c25c404bee850387 oa:motivatedBy oa:tagging .
