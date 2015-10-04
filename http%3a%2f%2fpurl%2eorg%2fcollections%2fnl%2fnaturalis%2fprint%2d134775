@@ -50,6 +50,18 @@ instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 oa:hasTarget target:target
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 oa:hasTarget naturalis:print-134775 .
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 oa:motivatedBy oa:tagging .
 
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc a oa:Annotation .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc terms:title "onbekend" .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc ui:annotationField bird:Gender .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc ui:reachedObjectWith "expertise, 11" .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc ui:typingTime 2390 .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:annotatedAt "2015-10-04T12:40:14+02:00"^^xsd:dateTime .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:annotatedBy user:user3 .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:hasTarget naturalis:print-134775 .
+instances:id_15e8895f69717f71903d6db37b39c679ba05becc oa:motivatedBy oa:tagging .
+
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 a oa:Annotation .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 terms:title "Parelduiker: Black-throated Loon" .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 ui:annotationField bird:IOCCommonNameAnnotation .
