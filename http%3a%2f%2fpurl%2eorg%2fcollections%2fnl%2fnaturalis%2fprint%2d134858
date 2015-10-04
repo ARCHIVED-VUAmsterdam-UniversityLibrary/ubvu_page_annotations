@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134858/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 a oa:FragmentSelector .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 ui:h "0.1965811965811966"^^xsd:float .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 ui:w "0.22905982905982905"^^xsd:float .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 ui:x "0.05299145299145299"^^xsd:float .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 ui:y "0.13276353276353275"^^xsd:float .
+target:selector_275fa20d1207c657d69cfd45104caa524b774b58 rdf:value "#xywh=percent:5,13,23,20" .
 
 target:selector_c348ca53ebe7557467297a84213cdedb63f79818 a oa:FragmentSelector .
 target:selector_c348ca53ebe7557467297a84213cdedb63f79818 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:x "0.266666666666666
 target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:y "0.05584045584045584"^^xsd:float .
 target:selector_c348ca53ebe7557467297a84213cdedb63f79818 rdf:value "#xywh=percent:27,6,42,26" .
 
+target:target_275fa20d1207c657d69cfd45104caa524b774b58 a oa:SpecificResource .
+target:target_275fa20d1207c657d69cfd45104caa524b774b58 oa:hasSelector target:selector_275fa20d1207c657d69cfd45104caa524b774b58 .
+target:target_275fa20d1207c657d69cfd45104caa524b774b58 oa:hasSource format:large .
+
 target:target_c348ca53ebe7557467297a84213cdedb63f79818 a oa:SpecificResource .
 target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSelector target:selector_c348ca53ebe7557467297a84213cdedb63f79818 .
-target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134858/format/large> .
+target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSource format:large .
 
 instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a a oa:Annotation .
 instances:id_28d5f35c29381a2266c2075d7d4543c46fc06c8a terms:title "vrouw" .
@@ -83,3 +97,15 @@ instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:hasBody [ a content:Con
 instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:hasTarget target:target_c348ca53ebe7557467297a84213cdedb63f79818 .
 instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:hasTarget naturalis:print-134858 .
 instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:motivatedBy oa:tagging .
+
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 a oa:Annotation .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 terms:title "Havik: Northern Goshawk" .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 ui:reachedObjectWith "expertise, 6" .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 ui:typingTime 3357 .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:annotatedAt "2015-10-04T11:40:57+02:00"^^xsd:dateTime .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:annotatedBy user:user8 .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:hasBody birds:species-accipiter_gentilis .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:hasTarget target:target_275fa20d1207c657d69cfd45104caa524b774b58 .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:hasTarget naturalis:print-134858 .
+instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:motivatedBy oa:tagging .
