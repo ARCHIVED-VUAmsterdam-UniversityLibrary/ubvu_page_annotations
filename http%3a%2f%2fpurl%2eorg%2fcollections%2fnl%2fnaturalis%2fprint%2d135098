@@ -24,6 +24,18 @@ target:target_4d609c19788e8e890feac71598ac650d49758bf5 a oa:SpecificResource .
 target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSelector target:selector_4d609c19788e8e890feac71598ac650d49758bf5 .
 target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135098/format/large> .
 
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 a oa:Annotation .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 terms:title "adult" .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 ui:annotationField bird:StageOfLife .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 ui:reachedObjectWith "random, 4" .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 ui:typingTime 3617 .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:annotatedAt "2015-10-04T11:33:33+02:00"^^xsd:dateTime .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:annotatedBy user:user5 .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:hasTarget naturalis:print-135098 .
+instances:id_5c7b356cb3572fa663ace92ef941949553614035 oa:motivatedBy oa:tagging .
+
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 a oa:Annotation .
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 terms:title "Strandleeuwerik: Horned Lark" .
 instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 ui:annotationField bird:IOCCommonNameAnnotation .
