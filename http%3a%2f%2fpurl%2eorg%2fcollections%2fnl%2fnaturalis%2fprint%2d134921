@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:FragmentSelector .
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:SpecificResource .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSelector target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134921/format/large> .
 
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> a oa:Annotation .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> terms:title "Krombekstrandloper: Curlew Sandpiper" .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:reachedObjectWith "random, 0" .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> ui:typingTime 2264 .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:annotatedAt "2015-10-04T12:09:58+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:annotatedBy user:user29 .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasBody birds:species-calidris_ferruginea .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:hasTarget naturalis:print-134921 .
-<http://localhost/annotation/instances/id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2> oa:motivatedBy oa:tagging .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d a oa:Annotation .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d terms:title "Calidris ferruginea: Curlew Sandpiper" .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d ui:reachedObjectWith "random, 0" .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d ui:typingTime 21558 .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:annotatedAt "2015-10-04T12:10:21+02:00"^^xsd:dateTime .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:annotatedBy user:user29 .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasBody birds:species-calidris_ferruginea .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:hasTarget naturalis:print-134921 .
+instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d oa:motivatedBy oa:tagging .
+
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 a oa:Annotation .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 terms:title "Krombekstrandloper: Curlew Sandpiper" .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 ui:reachedObjectWith "random, 0" .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 ui:typingTime 2264 .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:annotatedAt "2015-10-04T12:09:58+02:00"^^xsd:dateTime .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:annotatedBy user:user29 .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:hasBody birds:species-calidris_ferruginea .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:hasTarget naturalis:print-134921 .
+instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:motivatedBy oa:tagging .
