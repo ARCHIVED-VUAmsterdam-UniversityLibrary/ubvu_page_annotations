@@ -30,6 +30,14 @@ target:selector_38da488b12ecfc0279cfd4b71e2e50f825876608 ui:x "0.287179487179487
 target:selector_38da488b12ecfc0279cfd4b71e2e50f825876608 ui:y "0.029487179487179487"^^xsd:float .
 target:selector_38da488b12ecfc0279cfd4b71e2e50f825876608 rdf:value "#xywh=percent:29,3,67,35" .
 
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 a oa:FragmentSelector .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 ui:h "0.6833333528958834"^^xsd:float .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 ui:w "0.8504273504273504"^^xsd:float .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 ui:x "0.04786324786324787"^^xsd:float .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 ui:y "0.25025640634390023"^^xsd:float .
+target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 rdf:value "#xywh=percent:5,25,85,68" .
+
 target:selector_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf a oa:FragmentSelector .
 target:selector_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf ui:h "0.7589743760915904"^^xsd:float .
@@ -85,6 +93,10 @@ target:target_332a71a579524917fcfeb0f2c93aa815ac352fe3 oa:hasSource format:large
 target:target_38da488b12ecfc0279cfd4b71e2e50f825876608 a oa:SpecificResource .
 target:target_38da488b12ecfc0279cfd4b71e2e50f825876608 oa:hasSelector target:selector_38da488b12ecfc0279cfd4b71e2e50f825876608 .
 target:target_38da488b12ecfc0279cfd4b71e2e50f825876608 oa:hasSource format:large .
+
+target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 a oa:SpecificResource .
+target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 oa:hasSelector target:selector_50f9b78f9c49c9998ef6a47b93eed1159d960781 .
+target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 oa:hasSource format:large .
 
 target:target_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf a oa:SpecificResource .
 target:target_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf oa:hasSelector target:selector_6dcbc184ffae47563dc7516ac0fc08ef1d2412cf .
@@ -205,6 +217,18 @@ instances:id_443990c7fab35a66ad9c2f045563f876cfe317e7 oa:hasBody birds:species-c
 instances:id_443990c7fab35a66ad9c2f045563f876cfe317e7 oa:hasTarget target:target_7fb4fe779834ee0fa43a762b8d21f8705ef13efa .
 instances:id_443990c7fab35a66ad9c2f045563f876cfe317e7 oa:hasTarget naturalis:print-134854 .
 instances:id_443990c7fab35a66ad9c2f045563f876cfe317e7 oa:motivatedBy oa:tagging .
+
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 a oa:Annotation .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 terms:title "Blauwe Kiekendief: Hen Harrier" .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 ui:reachedObjectWith "expertise, 3" .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 ui:typingTime 5655 .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:annotatedAt "2015-10-04T12:36:30+02:00"^^xsd:dateTime .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:annotatedBy user:user27 .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:hasBody birds:species-circus_cyaneus .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:hasTarget target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:hasTarget naturalis:print-134854 .
+instances:id_45296f09464f7907ac5334bea4877a4a73eb9614 oa:motivatedBy oa:tagging .
 
 instances:id_500aa83fbc260ca2d7370573df8313801c82bb40 a oa:Annotation .
 instances:id_500aa83fbc260ca2d7370573df8313801c82bb40 terms:title "vrouw" .
