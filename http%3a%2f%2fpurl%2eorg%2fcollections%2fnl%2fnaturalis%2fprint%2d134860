@@ -158,6 +158,18 @@ instances:id_64eed01b655ca67c78b0cda7d9264d36723a2a9e oa:hasTarget target:target
 instances:id_64eed01b655ca67c78b0cda7d9264d36723a2a9e oa:hasTarget naturalis:print-134860 .
 instances:id_64eed01b655ca67c78b0cda7d9264d36723a2a9e oa:motivatedBy oa:tagging .
 
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c a oa:Annotation .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c terms:title "adult" .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c ui:annotationField bird:StageOfLife .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c ui:reachedObjectWith "expertise, 8" .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c ui:typingTime 2503 .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:annotatedAt "2015-10-04T12:44:42+02:00"^^xsd:dateTime .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:annotatedBy user:user5 .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:hasTarget target:target_6ec40e29a0a3c3ef826b6e82e0aee81e1473a792 .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:hasTarget naturalis:print-134860 .
+instances:id_6a57b06b31464792e7117bfa6365c3ee7463a07c oa:motivatedBy oa:tagging .
+
 instances:id_7cf83b39f147d32b85e3e6c2e789c1e18ceec7dd a oa:Annotation .
 instances:id_7cf83b39f147d32b85e3e6c2e789c1e18ceec7dd terms:title "Havik: Northern Goshawk" .
 instances:id_7cf83b39f147d32b85e3e6c2e789c1e18ceec7dd ui:annotationField bird:IOCCommonNameAnnotation .
