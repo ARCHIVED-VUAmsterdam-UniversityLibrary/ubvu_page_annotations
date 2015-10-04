@@ -325,6 +325,18 @@ instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:hasTarget target:target
 instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:hasTarget naturalis:print-134857 .
 instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:motivatedBy oa:tagging .
 
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 a oa:Annotation .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 terms:title "vrouw" .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 ui:annotationField bird:Gender .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 ui:reachedObjectWith "expertise, 4" .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 ui:typingTime 1561 .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:annotatedAt "2015-10-04T12:35:41+02:00"^^xsd:dateTime .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:annotatedBy user:user27 .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:hasTarget target:target_c541aa09be1157929c4ae345cd8ff079d4daac71 .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:hasTarget naturalis:print-134857 .
+instances:id_73d01f34587cce7ee7709d12d1cd0a0f87212c72 oa:motivatedBy oa:tagging .
+
 instances:id_7c63fdcf80e607547e29bdc3e5c2518bafc1c2c9 a oa:Annotation .
 instances:id_7c63fdcf80e607547e29bdc3e5c2518bafc1c2c9 terms:title "steppenkiekendief" .
 instances:id_7c63fdcf80e607547e29bdc3e5c2518bafc1c2c9 ui:annotationField bird:IOCCommonNameAnnotation .
