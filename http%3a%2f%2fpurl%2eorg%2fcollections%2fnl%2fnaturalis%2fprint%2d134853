@@ -205,6 +205,18 @@ instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget target:target
 instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget naturalis:print-134853 .
 instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:motivatedBy oa:tagging .
 
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 a oa:Annotation .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 terms:title "juveniel" .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 ui:annotationField bird:StageOfLife .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 ui:reachedObjectWith "expertise, 6" .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 ui:typingTime 8014 .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:annotatedAt "2015-10-04T12:24:23+02:00"^^xsd:dateTime .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:annotatedBy user:user27 .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:hasTarget target:target_849b1d3e5af3d0d4966cbf82eb2142bfe3c76982 .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:hasTarget naturalis:print-134853 .
+instances:id_840499b200505bbe465c7c6e74cf42731a582695 oa:motivatedBy oa:tagging .
+
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 a oa:Annotation .
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 ui:annotationField bird:IOCCommonNameAnnotation .
