@@ -121,6 +121,18 @@ instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:hasTarget target:target
 instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:hasTarget naturalis:print-134856 .
 instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:motivatedBy oa:tagging .
 
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 a oa:Annotation .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 terms:title "Circus maurus: Black Harrier" .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 ui:reachedObjectWith "expertise, 7" .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 ui:typingTime 4827 .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:annotatedAt "2015-10-04T12:17:23+02:00"^^xsd:dateTime .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:annotatedBy user:user29 .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:hasBody birds:species-circus_maurus .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:hasTarget target:target_ccd8e389f24636a456a01544c2c83b07776ca5bd .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:hasTarget naturalis:print-134856 .
+instances:id_9d11ef491fae76a7dade1746dea5da85e22dc9d3 oa:motivatedBy oa:tagging .
+
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 a oa:Annotation .
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 terms:title "Circus maurus: Black Harrier" .
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 ui:annotationField bird:IOCScientificNameAnnotation .
