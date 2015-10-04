@@ -181,6 +181,18 @@ instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d oa:hasTarget target:target
 instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d oa:hasTarget naturalis:print-134862 .
 instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d oa:motivatedBy oa:tagging .
 
+instances:id_e042a47263c020880a44953e253df9a17090f856 a oa:Annotation .
+instances:id_e042a47263c020880a44953e253df9a17090f856 terms:title "Milvus milvus: Red Kite" .
+instances:id_e042a47263c020880a44953e253df9a17090f856 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_e042a47263c020880a44953e253df9a17090f856 ui:reachedObjectWith "expertise, 0" .
+instances:id_e042a47263c020880a44953e253df9a17090f856 ui:typingTime 1443952070543 .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:annotatedAt "2015-10-04T11:48:43+02:00"^^xsd:dateTime .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:annotatedBy user:Sir_Iain .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:hasBody birds:species-milvus_milvus .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:hasTarget target:target_958678ee54d284d43e7da4066120182c38194b88 .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:hasTarget naturalis:print-134862 .
+instances:id_e042a47263c020880a44953e253df9a17090f856 oa:motivatedBy oa:tagging .
+
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 a oa:Annotation .
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 terms:title "Milvus milvus: Red Kite" .
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 ui:annotationField bird:IOCScientificNameAnnotation .
