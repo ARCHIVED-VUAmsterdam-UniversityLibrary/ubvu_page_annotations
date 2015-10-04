@@ -24,6 +24,18 @@ target:target_10502ee42590ca02b14edd311b99a28aac431f5f a oa:SpecificResource .
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSelector target:selector_10502ee42590ca02b14edd311b99a28aac431f5f .
 target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSource <http://medialib.naturalis.nl/file/id/image-134903/format/large> .
 
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 a oa:Annotation .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 terms:title "adult" .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 ui:annotationField bird:StageOfLife .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 ui:reachedObjectWith "random, 2" .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 ui:typingTime 2327 .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:annotatedAt "2015-10-04T11:51:36+02:00"^^xsd:dateTime .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:annotatedBy user:user5 .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:hasTarget target:target_10502ee42590ca02b14edd311b99a28aac431f5f .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:hasTarget naturalis:print-134903 .
+instances:id_34023eee37a6a22bd14f2560c604736632b6ffc9 oa:motivatedBy oa:tagging .
+
 instances:id_49a5603b7225663bdb173d17c482687863ecb78d a oa:Annotation .
 instances:id_49a5603b7225663bdb173d17c482687863ecb78d terms:title "Tetrax tetrax: Little Bustard" .
 instances:id_49a5603b7225663bdb173d17c482687863ecb78d ui:annotationField bird:IOCScientificNameAnnotation .
