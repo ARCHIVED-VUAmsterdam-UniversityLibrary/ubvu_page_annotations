@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e a oa:FragmentSelector .
 target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e a oa:SpecificResource .
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSelector target:selector_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
 target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e oa:hasSource <http://medialib.naturalis.nl/file/id/image-135078/format/large> .
 
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> a oa:Annotation .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> terms:title "Waterspreeuw: White-throated Dipper" .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> ui:reachedObjectWith "random, 0" .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> ui:typingTime 5988 .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:annotatedAt "2015-10-04T11:59:49+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:annotatedBy user:user4 .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:hasBody birds:species-cinclus_cinclus .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:hasTarget naturalis:print-135078 .
-<http://localhost/annotation/instances/id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b> oa:motivatedBy oa:tagging .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b a oa:Annotation .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b terms:title "Waterspreeuw: White-throated Dipper" .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b ui:reachedObjectWith "random, 0" .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b ui:typingTime 5988 .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:annotatedAt "2015-10-04T11:59:49+02:00"^^xsd:dateTime .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:annotatedBy user:user4 .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasBody birds:species-cinclus_cinclus .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:hasTarget naturalis:print-135078 .
+instances:id_0694c8bc7d1bfefad0e3b88cc21b5c4ac91ce23b oa:motivatedBy oa:tagging .
+
+instances:id_10c811b51f2900c3563bc8277264486524270783 a oa:Annotation .
+instances:id_10c811b51f2900c3563bc8277264486524270783 terms:title "Cinclus cinclus: White-throated Dipper" .
+instances:id_10c811b51f2900c3563bc8277264486524270783 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_10c811b51f2900c3563bc8277264486524270783 ui:reachedObjectWith "random, 0" .
+instances:id_10c811b51f2900c3563bc8277264486524270783 ui:typingTime 8282 .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:annotatedAt "2015-10-04T12:00:01+02:00"^^xsd:dateTime .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:annotatedBy user:user4 .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:hasBody birds:species-cinclus_cinclus .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:hasTarget target:target_0cd6b4cc10a85b18d39f526b4a8cc0a1fda9963e .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:hasTarget naturalis:print-135078 .
+instances:id_10c811b51f2900c3563bc8277264486524270783 oa:motivatedBy oa:tagging .
