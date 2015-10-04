@@ -85,3 +85,15 @@ instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasBody birds:species-m
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasTarget target:target_c90953913dc304577156564d5b566bfd1fb6b935 .
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasTarget naturalis:print-135016 .
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:motivatedBy oa:tagging .
+
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 a oa:Annotation .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 terms:title "Megaceryle alcyon: Belted Kingfisher" .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 ui:reachedObjectWith "expertise, 0" .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 ui:typingTime 3988 .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:annotatedAt "2015-10-04T11:52:32+02:00"^^xsd:dateTime .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:annotatedBy user:user34 .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:hasBody birds:species-megaceryle_alcyon .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:hasTarget target:target_c90953913dc304577156564d5b566bfd1fb6b935 .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:hasTarget naturalis:print-135016 .
+instances:id_fd0bdf070d86689acc6eba4abf9743054ff0d360 oa:motivatedBy oa:tagging .
