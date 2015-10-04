@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135060/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 a oa:FragmentSelector .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:h "0.30128205128205127"^^xsd:float .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:w "0.2675213675213675"^^xsd:float .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:x "0.41965811965811967"^^xsd:float .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 ui:y "0.48205128205128206"^^xsd:float .
+target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 rdf:value "#xywh=percent:42,48,27,30" .
 
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:FragmentSelector .
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 ui:x "0.487179487179487
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 ui:y "0.18974358974358974"^^xsd:float .
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 rdf:value "#xywh=percent:49,19,37,36" .
 
+target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 a oa:SpecificResource .
+target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 oa:hasSelector target:selector_70ac6c4224d70c7e196b799fd07f11805d9e7d14 .
+target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 oa:hasSource format:large .
+
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:SpecificResource .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSelector target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
-target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135060/format/large> .
+target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSource format:large .
 
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 a oa:Annotation .
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 terms:title "Sylvia curruca: Lesser Whitethroat" .
@@ -47,6 +61,18 @@ instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasBody birds:species-s
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget naturalis:print-135060 .
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:motivatedBy oa:tagging .
+
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 a oa:Annotation .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 terms:title "Braamsluiper: Lesser Whitethroat" .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 ui:reachedObjectWith "random, 6" .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 ui:typingTime 3186 .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:annotatedAt "2015-10-04T12:12:53+02:00"^^xsd:dateTime .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:annotatedBy user:user29 .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:hasBody birds:species-sylvia_curruca .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:hasTarget target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:hasTarget naturalis:print-135060 .
+instances:id_9985163d2f6266fbdaf7dbc84ad1239af5794b84 oa:motivatedBy oa:tagging .
 
 instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e a oa:Annotation .
 instances:id_a53ee83cc3c4fc82bf837044e49f203859123e8e terms:title "adult" .
