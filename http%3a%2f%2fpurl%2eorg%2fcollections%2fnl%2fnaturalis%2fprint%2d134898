@@ -97,3 +97,15 @@ instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasBody [ a content:Con
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:hasTarget naturalis:print-134898 .
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 oa:motivatedBy oa:tagging .
+
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c a oa:Annotation .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c terms:title "Kleinst Waterhoen: Baillon's Crake" .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c ui:reachedObjectWith "random, 7" .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c ui:typingTime 4968 .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:annotatedAt "2015-10-04T12:17:03+02:00"^^xsd:dateTime .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:annotatedBy user:user34 .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasBody birds:species-porzana_pusilla .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasTarget naturalis:print-134898 .
+instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:motivatedBy oa:tagging .
