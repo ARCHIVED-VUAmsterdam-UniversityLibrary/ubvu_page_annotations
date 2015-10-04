@@ -482,6 +482,18 @@ instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 oa:hasTarget target:target
 instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 oa:hasTarget naturalis:print-134854 .
 instances:id_b66b62a3663c37d3d20a49a4d0f66ee4157aad25 oa:motivatedBy oa:tagging .
 
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 a oa:Annotation .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 terms:title "adult" .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 ui:annotationField bird:StageOfLife .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 ui:reachedObjectWith "expertise, 3" .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 ui:typingTime 2536 .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:annotatedAt "2015-10-04T12:37:51+02:00"^^xsd:dateTime .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:annotatedBy user:user27 .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:hasTarget target:target_8e23489d9b9f8ece8ea86440b28dc843ea203d48 .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:hasTarget naturalis:print-134854 .
+instances:id_bc1cb84dd92bb70bf10e875bd1be04763134a8e0 oa:motivatedBy oa:tagging .
+
 instances:id_c983c4b5a340e71b3e094584d30e70e4636f1a1c a oa:Annotation .
 instances:id_c983c4b5a340e71b3e094584d30e70e4636f1a1c terms:title "Circus cyaneus: Hen Harrier" .
 instances:id_c983c4b5a340e71b3e094584d30e70e4636f1a1c ui:annotationField bird:IOCScientificNameAnnotation .
