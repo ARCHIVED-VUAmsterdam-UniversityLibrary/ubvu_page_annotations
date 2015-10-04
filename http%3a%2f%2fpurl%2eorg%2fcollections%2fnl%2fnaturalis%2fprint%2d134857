@@ -505,6 +505,18 @@ instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:hasTarget target:target
 instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:hasTarget naturalis:print-134857 .
 instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:motivatedBy oa:tagging .
 
+instances:id_c526558e7198283650a1632e70cfb208006daa2f a oa:Annotation .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f terms:title "man" .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f ui:annotationField bird:Gender .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f ui:reachedObjectWith "expertise, 2" .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f ui:typingTime 1415 .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:annotatedAt "2015-10-04T12:46:06+02:00"^^xsd:dateTime .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:annotatedBy user:Kvliet .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:hasTarget target:target_770ce82002ca69df0e6797efbb84dd314c8c7d00 .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:hasTarget naturalis:print-134857 .
+instances:id_c526558e7198283650a1632e70cfb208006daa2f oa:motivatedBy oa:tagging .
+
 instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 a oa:Annotation .
 instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 terms:title "Circus cyaneus: Hen Harrier" .
 instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 ui:annotationField bird:IOCScientificNameAnnotation .
