@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 a oa:FragmentSelector .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:h "0.6837606837606838"^^xsd:float .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:w "0.6658119658119659"^^xsd:float .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:x "0.25726495726495724"^^xsd:float .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:y "0.08831908831908832"^^xsd:float .
+target:selector_9073caa617980197c88cf03636775ff5a17558e9 rdf:value "#xywh=percent:26,9,67,68" .
+
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 a oa:FragmentSelector .
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 ui:h "0.03133903133903134"^^xsd:float .
@@ -45,6 +53,10 @@ target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:w "0.208547008547008
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:x "0.08547008547008547"^^xsd:float .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 ui:y "0.14415954415954416"^^xsd:float .
 target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 rdf:value "#xywh=percent:9,14,21,21" .
+
+target:target_9073caa617980197c88cf03636775ff5a17558e9 a oa:SpecificResource .
+target:target_9073caa617980197c88cf03636775ff5a17558e9 oa:hasSelector target:selector_9073caa617980197c88cf03636775ff5a17558e9 .
+target:target_9073caa617980197c88cf03636775ff5a17558e9 oa:hasSource format:large .
 
 target:target_e4732c9bf549e1c96c457f6503d99d290cc330f7 a oa:SpecificResource .
 target:target_e4732c9bf549e1c96c457f6503d99d290cc330f7 oa:hasSelector target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 .
@@ -180,3 +192,15 @@ instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasBody birds:species-a
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget target:target_e626e75df7e8c28dcf55cc16af4d0fef32b7a0a9 .
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:hasTarget naturalis:print-134859 .
 instances:id_c39cf9a7960f3bb9dbb7eeab80db0acb4de64876 oa:motivatedBy oa:tagging .
+
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 a oa:Annotation .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 terms:title "Sperwer: Eurasian Sparrowhawk" .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 ui:reachedObjectWith "expertise, 5" .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 ui:typingTime 3219 .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:annotatedAt "2015-10-04T12:08:43+02:00"^^xsd:dateTime .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:annotatedBy user:Debby .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasBody birds:species-accipiter_nisus .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasTarget target:target_9073caa617980197c88cf03636775ff5a17558e9 .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:hasTarget naturalis:print-134859 .
+instances:id_eacfedcd1f954589786ded3b09bfd67970da1797 oa:motivatedBy oa:tagging .
