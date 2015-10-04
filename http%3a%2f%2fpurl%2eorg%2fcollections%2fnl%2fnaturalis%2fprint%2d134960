@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde rdf:value "#xywh=percen
 target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde a oa:SpecificResource .
 target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde oa:hasSelector target:selector_b5ec605817bb02602628cccbad82d4fa63ca5fde .
 target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde oa:hasSource <http://medialib.naturalis.nl/file/id/image-134960/format/large> .
+
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 a oa:Annotation .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 terms:title "man" .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 ui:annotationField bird:Gender .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 ui:reachedObjectWith "random, 7" .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 ui:typingTime 2029 .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:annotatedAt "2015-10-04T12:01:28+02:00"^^xsd:dateTime .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:annotatedBy user:user4 .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:hasTarget target:target_b5ec605817bb02602628cccbad82d4fa63ca5fde .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:hasTarget naturalis:print-134960 .
+instances:id_470aeebafb1855e0a20ae28b49e14e8aded19769 oa:motivatedBy oa:tagging .
 
 instances:id_645e56984b7670706c7e80ce2b88360a59f69bc4 a oa:Annotation .
 instances:id_645e56984b7670706c7e80ce2b88360a59f69bc4 terms:title "Stercorarius longicaudus: Long-tailed Jaeger" .
