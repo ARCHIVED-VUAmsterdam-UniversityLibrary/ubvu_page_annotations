@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a a oa:FragmentSelector .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a ui:h "0.6450142450142451"^^xsd:float .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a ui:w "0.6974358974358975"^^xsd:float .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a ui:x "0.13504273504273503"^^xsd:float .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a ui:y "0.2564102564102564"^^xsd:float .
+target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a rdf:value "#xywh=percent:14,26,70,65" .
+
+target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a a oa:SpecificResource .
+target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a oa:hasSelector target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
+target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134865/format/large> .
+
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> a oa:Annotation .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> terms:title "Wespendief: European Honey Buzzard" .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:reachedObjectWith "expertise, 11" .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:typingTime 11600 .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:annotatedAt "2015-10-04T12:32:13+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:annotatedBy user:user5 .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasBody birds:species-pernis_apivorus .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasTarget target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasTarget naturalis:print-134865 .
+<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:motivatedBy oa:tagging .
