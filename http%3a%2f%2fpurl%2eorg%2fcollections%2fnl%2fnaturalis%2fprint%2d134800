@@ -50,6 +50,18 @@ target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 a oa:SpecificResource .
 target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 oa:hasSelector target:selector_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 .
 target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 oa:hasSource format:large .
 
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 a oa:Annotation .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 terms:title "Ciconia nigra: Black Stork" .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 ui:reachedObjectWith "random, 0" .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 ui:typingTime 5807 .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:annotatedAt "2015-10-04T11:53:34+02:00"^^xsd:dateTime .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:annotatedBy user:Debby .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:hasBody birds:species-ciconia_nigra .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:hasTarget target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:hasTarget naturalis:print-134800 .
+instances:id_017ca6f7629183dbff38dad019d70fff8aeec949 oa:motivatedBy oa:tagging .
+
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 a oa:Annotation .
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 terms:title "man" .
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 ui:annotationField bird:Gender .
