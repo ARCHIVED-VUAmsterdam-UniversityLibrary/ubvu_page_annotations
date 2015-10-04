@@ -1,12 +1,16 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 a oa:FragmentSelector .
 target:selector_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +24,26 @@ target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 a oa:SpecificResource .
 target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 oa:hasSelector target:selector_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 .
 target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135050/format/large> .
 
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> a oa:Annotation .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> terms:title "Blauwborst: Bluethroat" .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> ui:reachedObjectWith "random, 10" .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> ui:typingTime 9897 .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:annotatedAt "2015-10-04T11:59:09+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:annotatedBy user:user29 .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:hasBody birds:species-luscinia_svecica .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:hasTarget target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:hasTarget naturalis:print-135050 .
-<http://localhost/annotation/instances/id_1e6b5e96e867a29181e23fe1b8b0f9517864825e> oa:motivatedBy oa:tagging .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e a oa:Annotation .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e terms:title "Blauwborst: Bluethroat" .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e ui:reachedObjectWith "random, 10" .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e ui:typingTime 9897 .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:annotatedAt "2015-10-04T11:59:09+02:00"^^xsd:dateTime .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:annotatedBy user:user29 .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:hasBody birds:species-luscinia_svecica .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:hasTarget target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:hasTarget naturalis:print-135050 .
+instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:motivatedBy oa:tagging .
+
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 a oa:Annotation .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 terms:title "man" .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 ui:annotationField bird:Gender .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 ui:reachedObjectWith "random, 10" .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 ui:typingTime 1909 .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:annotatedAt "2015-10-04T11:59:24+02:00"^^xsd:dateTime .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:annotatedBy user:user29 .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:hasTarget target:target_e0bb64e167f9404b7781aa4a9c8ef5a8d07aec07 .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:hasTarget naturalis:print-135050 .
+instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 oa:motivatedBy oa:tagging .
