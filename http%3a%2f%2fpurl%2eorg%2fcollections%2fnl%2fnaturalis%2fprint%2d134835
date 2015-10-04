@@ -22,6 +22,18 @@ target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:SpecificResource .
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSelector target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134835/format/large> .
 
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 a oa:Annotation .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 terms:title "Aythya collaris: Ring-necked Duck" .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 ui:reachedObjectWith "random, 0" .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 ui:typingTime 61279 .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:annotatedAt "2015-10-04T11:40:25+02:00"^^xsd:dateTime .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:annotatedBy user:user5 .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:hasBody birds:species-aythya_collaris .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:hasTarget naturalis:print-134835 .
+instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:motivatedBy oa:tagging .
+
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 a oa:Annotation .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 terms:title "Kuifeend: Tufted Duck" .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 ui:annotationField bird:IOCCommonNameAnnotation .
