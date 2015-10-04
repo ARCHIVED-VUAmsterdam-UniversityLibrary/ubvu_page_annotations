@@ -97,3 +97,15 @@ instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:hasBody birds:species-s
 instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:hasTarget target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
 instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:hasTarget naturalis:print-134985 .
 instances:id_ce9243e439fad0bb4e2f0afd896afdb7ecbd90b9 oa:motivatedBy oa:tagging .
+
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df a oa:Annotation .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df terms:title "winter kleed" .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df ui:annotationField bird:StageOfLife .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df ui:reachedObjectWith "random, 2" .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df ui:typingTime 3449 .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:annotatedAt "2015-10-04T11:59:33+02:00"^^xsd:dateTime .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:annotatedBy user:Debby .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "winter kleed" ] .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasTarget target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:hasTarget naturalis:print-134985 .
+instances:id_d5343ab6d88f6d3d0ed8d1c717348e0f6b3396df oa:motivatedBy oa:tagging .
