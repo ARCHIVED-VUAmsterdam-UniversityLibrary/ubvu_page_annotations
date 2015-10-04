@@ -134,6 +134,18 @@ instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:hasTarget target:target
 instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:hasTarget naturalis:print-134855 .
 instances:id_79d67a4acb6b8d02274d2883ca6191c3b200a252 oa:motivatedBy oa:tagging .
 
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b a oa:Annotation .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b terms:title "echt" .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b ui:annotationField bird:RealOrNotAnnotation .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b ui:reachedObjectWith "expertise, 3" .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b ui:typingTime 1318 .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:annotatedAt "2015-10-04T11:47:56+02:00"^^xsd:dateTime .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:annotatedBy user:user8 .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:hasTarget target:target_4c051a33bbf87e96616f6f044f61b49c88196fd7 .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:hasTarget naturalis:print-134855 .
+instances:id_c81f0288c2e8be067088ae49cd204ac8483d032b oa:motivatedBy oa:tagging .
+
 instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 a oa:Annotation .
 instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_cd464c72c2dfcc65eed6e34c2a32d8e0a117f5a1 ui:annotationField bird:IOCCommonNameAnnotation .
