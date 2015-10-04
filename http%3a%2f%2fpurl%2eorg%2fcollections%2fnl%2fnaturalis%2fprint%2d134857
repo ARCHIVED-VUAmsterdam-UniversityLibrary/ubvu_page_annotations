@@ -60,3 +60,15 @@ instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasBody birds:species-c
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasTarget target:target_4e910bead62463b0098d179e92a0cfddd0af579a .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:hasTarget naturalis:print-134857 .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 oa:motivatedBy oa:tagging .
+
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb a oa:Annotation .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb terms:title "man" .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb ui:annotationField bird:Gender .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb ui:reachedObjectWith "expertise, 5" .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb ui:typingTime 3689 .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:annotatedAt "2015-10-04T11:48:23+02:00"^^xsd:dateTime .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:annotatedBy user:user4 .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:hasTarget target:target_4e910bead62463b0098d179e92a0cfddd0af579a .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:hasTarget naturalis:print-134857 .
+instances:id_aa2ce040617595c016a0b14b36bba399194df6bb oa:motivatedBy oa:tagging .
