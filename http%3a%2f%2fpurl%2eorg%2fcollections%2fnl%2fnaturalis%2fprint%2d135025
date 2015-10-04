@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 a oa:FragmentSelector .
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 a oa:SpecificResource .
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSelector target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135025/format/large> .
 
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> a oa:Annotation .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> terms:title "Draaihals: Eurasian Wryneck" .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> ui:typingTime 3479 .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:annotatedAt "2015-10-04T12:54:53+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:annotatedBy user:user26 .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:hasBody birds:species-jynx_torquilla .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:hasTarget target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:hasTarget naturalis:print-135025 .
-<http://localhost/annotation/instances/id_97792124e002958cb35b00a8ba9905bcd79e45d3> oa:motivatedBy oa:tagging .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c a oa:Annotation .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c terms:title "Jynx torquilla: Eurasian Wryneck" .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c ui:reachedObjectWith "random, 6" .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c ui:typingTime 3554 .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:annotatedAt "2015-10-04T12:55:00+02:00"^^xsd:dateTime .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:annotatedBy user:user26 .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasBody birds:species-jynx_torquilla .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasTarget target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasTarget naturalis:print-135025 .
+instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:motivatedBy oa:tagging .
+
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 a oa:Annotation .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 terms:title "Draaihals: Eurasian Wryneck" .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 ui:reachedObjectWith "random, 6" .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 ui:typingTime 3479 .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:annotatedAt "2015-10-04T12:54:53+02:00"^^xsd:dateTime .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:annotatedBy user:user26 .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:hasBody birds:species-jynx_torquilla .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:hasTarget target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:hasTarget naturalis:print-135025 .
+instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:motivatedBy oa:tagging .
