@@ -50,6 +50,18 @@ target:target_4e910bead62463b0098d179e92a0cfddd0af579a a oa:SpecificResource .
 target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSelector target:selector_4e910bead62463b0098d179e92a0cfddd0af579a .
 target:target_4e910bead62463b0098d179e92a0cfddd0af579a oa:hasSource format:large .
 
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da a oa:Annotation .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da terms:title "man" .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da ui:annotationField bird:Gender .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da ui:reachedObjectWith "expertise, 1" .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da ui:typingTime 2354 .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:annotatedAt "2015-10-04T12:01:52+02:00"^^xsd:dateTime .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:annotatedBy user:Sir_Iain .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget target:target_3098241d5b319605a4006af5d2c3b44afe82c115 .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget naturalis:print-134857 .
+instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:motivatedBy oa:tagging .
+
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e a oa:Annotation .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e terms:title "a" .
 instances:id_37caf04fc6dd11bbf16cf0bdfa676829d7393b5e ui:annotationField bird:IOCCommonNameAnnotation .
