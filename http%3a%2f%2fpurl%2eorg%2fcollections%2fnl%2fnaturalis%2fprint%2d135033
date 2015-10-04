@@ -146,6 +146,18 @@ instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f oa:hasTarget target:target
 instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f oa:hasTarget naturalis:print-135033 .
 instances:id_c0fd0e7ddacb4e518b5e4a400c44189b50d5ed6f oa:motivatedBy oa:tagging .
 
+instances:id_caa2305001059e5167da894744afde4f3d993c56 a oa:Annotation .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 terms:title "Turdus merula: Common Blackbird" .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 ui:reachedObjectWith "random, 9" .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 ui:typingTime 6378 .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:annotatedAt "2015-10-04T12:42:57+02:00"^^xsd:dateTime .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:annotatedBy user:user39 .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:hasBody birds:species-turdus_merula .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:hasTarget target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:hasTarget naturalis:print-135033 .
+instances:id_caa2305001059e5167da894744afde4f3d993c56 oa:motivatedBy oa:tagging .
+
 instances:id_d8a6f31fb4d3376ea07016974627665c97e69012 a oa:Annotation .
 instances:id_d8a6f31fb4d3376ea07016974627665c97e69012 terms:title "vrouw" .
 instances:id_d8a6f31fb4d3376ea07016974627665c97e69012 ui:annotationField bird:Gender .
