@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 a oa:FragmentSelector .
 target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 a oa:SpecificResource .
 target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSelector target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 .
 target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134881/format/large> .
 
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> a oa:Annotation .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> terms:title "Slechtvalk: Peregrine Falcon" .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:reachedObjectWith "random, 5" .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:typingTime 6639 .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:annotatedAt "2015-10-04T11:45:08+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:annotatedBy user:user39 .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasBody birds:species-falco_peregrinus .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasTarget target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasTarget naturalis:print-134881 .
-<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:motivatedBy oa:tagging .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 a oa:Annotation .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 terms:title "Falco peregrinus: Peregrine Falcon" .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 ui:reachedObjectWith "random, 5" .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 ui:typingTime 18030 .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:annotatedAt "2015-10-04T11:45:32+02:00"^^xsd:dateTime .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:annotatedBy user:user39 .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:hasBody birds:species-falco_peregrinus .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:hasTarget target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:hasTarget naturalis:print-134881 .
+instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:motivatedBy oa:tagging .
+
+instances:id_a73432b298936867257c41df742bc3694bb4bddf a oa:Annotation .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf terms:title "Slechtvalk: Peregrine Falcon" .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf ui:reachedObjectWith "random, 5" .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf ui:typingTime 6639 .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:annotatedAt "2015-10-04T11:45:08+02:00"^^xsd:dateTime .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:annotatedBy user:user39 .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:hasBody birds:species-falco_peregrinus .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:hasTarget target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:hasTarget naturalis:print-134881 .
+instances:id_a73432b298936867257c41df742bc3694bb4bddf oa:motivatedBy oa:tagging .
