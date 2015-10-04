@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -45,3 +47,15 @@ instances:id_c8c8708056983334493871e3de79ea54b42dfffc oa:hasBody birds:species-t
 instances:id_c8c8708056983334493871e3de79ea54b42dfffc oa:hasTarget target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 .
 instances:id_c8c8708056983334493871e3de79ea54b42dfffc oa:hasTarget naturalis:print-135036 .
 instances:id_c8c8708056983334493871e3de79ea54b42dfffc oa:motivatedBy oa:tagging .
+
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e a oa:Annotation .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e terms:title "vrouw" .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e ui:annotationField bird:Gender .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e ui:reachedObjectWith "random, 1" .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e ui:typingTime 4362 .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:annotatedAt "2015-10-04T13:09:01+02:00"^^xsd:dateTime .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:annotatedBy user:user26 .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:hasTarget target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:hasTarget naturalis:print-135036 .
+instances:id_e073e49cd165a1aba6fab7095ad266a720e9540e oa:motivatedBy oa:tagging .
