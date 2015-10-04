@@ -74,6 +74,18 @@ instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:hasTarget target:target
 instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:hasTarget naturalis:print-135016 .
 instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:motivatedBy oa:tagging .
 
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 a oa:Annotation .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 terms:title "man" .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 ui:annotationField bird:Gender .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 ui:reachedObjectWith "expertise, 0" .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 ui:typingTime 919 .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:annotatedAt "2015-10-04T11:52:36+02:00"^^xsd:dateTime .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:annotatedBy user:user34 .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:hasTarget target:target_c90953913dc304577156564d5b566bfd1fb6b935 .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:hasTarget naturalis:print-135016 .
+instances:id_aedd1b1200b42bf1a1bb43828c552f001253e8c0 oa:motivatedBy oa:tagging .
+
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 a oa:Annotation .
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 terms:title "Bandijsvogel: Belted Kingfisher" .
 instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 ui:annotationField bird:IOCCommonNameAnnotation .
