@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:FragmentSelector .
 target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a a oa:SpecificResource .
 target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSelector target:selector_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
 target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134958/format/large> .
 
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> a oa:Annotation .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> terms:title "Kleine Jager: Parasitic Jaeger" .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> ui:typingTime 3762 .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:annotatedAt "2015-10-04T11:53:56+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:annotatedBy user:Debby .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasBody birds:species-stercorarius_parasiticus .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasTarget target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:hasTarget naturalis:print-134958 .
-<http://localhost/annotation/instances/id_d93c32e72f3572b8e677761db355922649e4a626> oa:motivatedBy oa:tagging .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 a oa:Annotation .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 terms:title "Kleine Jager: Parasitic Jaeger" .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 ui:reachedObjectWith "random, 6" .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 ui:typingTime 3762 .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:annotatedAt "2015-10-04T11:53:56+02:00"^^xsd:dateTime .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:annotatedBy user:Debby .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:hasBody birds:species-stercorarius_parasiticus .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:hasTarget target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:hasTarget naturalis:print-134958 .
+instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:motivatedBy oa:tagging .
+
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb a oa:Annotation .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb terms:title "Stercorarius parasiticus: Parasitic Jaeger" .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb ui:reachedObjectWith "random, 6" .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb ui:typingTime 5541 .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:annotatedAt "2015-10-04T11:54:03+02:00"^^xsd:dateTime .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:annotatedBy user:Debby .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:hasBody birds:species-stercorarius_parasiticus .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:hasTarget target:target_c8b2cfcbd407deeb6aa0722de56f8e0bc899872a .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:hasTarget naturalis:print-134958 .
+instances:id_fe652818310186f36066f2ee66749e6c06b311fb oa:motivatedBy oa:tagging .
