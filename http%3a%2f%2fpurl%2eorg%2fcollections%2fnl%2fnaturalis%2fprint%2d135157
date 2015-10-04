@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135157/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:x "0.532478632478632
 target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:y "0.14743589743589744"^^xsd:float .
 target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 rdf:value "#xywh=percent:53,15,29,59" .
 
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 a oa:FragmentSelector .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:h "0.45128205128205123"^^xsd:float .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:w "0.3401709401709402"^^xsd:float .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:x "0.11025641025641025"^^xsd:float .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:y "0.1858974358974359"^^xsd:float .
+target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 rdf:value "#xywh=percent:11,19,34,45" .
+
 target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 a oa:SpecificResource .
 target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSelector target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 .
-target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135157/format/large> .
+target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSource format:large .
+
+target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 a oa:SpecificResource .
+target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 oa:hasSelector target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 .
+target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 oa:hasSource format:large .
 
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 a oa:Annotation .
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 terms:title "Emberiza hortulana: Ortolan Bunting" .
@@ -47,6 +61,18 @@ instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasBody birds:species-e
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasTarget target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:hasTarget naturalis:print-135157 .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd oa:motivatedBy oa:tagging .
+
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a a oa:Annotation .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a terms:title "Ortolaan: Ortolan Bunting" .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a ui:reachedObjectWith "random, 0" .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a ui:typingTime 2297 .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:annotatedAt "2015-10-04T12:05:54+02:00"^^xsd:dateTime .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:annotatedBy user:user29 .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasBody birds:species-emberiza_hortulana .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasTarget target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasTarget naturalis:print-135157 .
+instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:motivatedBy oa:tagging .
 
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c a oa:Annotation .
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c terms:title "adult" .
