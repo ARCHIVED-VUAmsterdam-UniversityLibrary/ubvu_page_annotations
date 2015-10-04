@@ -62,6 +62,18 @@ instances:id_2ae6537bca3a49beb27eac10791815fc319559ab oa:hasTarget target:target
 instances:id_2ae6537bca3a49beb27eac10791815fc319559ab oa:hasTarget naturalis:print-134881 .
 instances:id_2ae6537bca3a49beb27eac10791815fc319559ab oa:motivatedBy oa:tagging .
 
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 a oa:Annotation .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 terms:title "echt" .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 ui:reachedObjectWith "random, 5" .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 ui:typingTime 1686 .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:annotatedAt "2015-10-04T11:46:51+02:00"^^xsd:dateTime .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:annotatedBy user:user39 .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:hasTarget target:target_c4980905476a31ae06f6a3ea3307b2633c2eeb19 .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:hasTarget naturalis:print-134881 .
+instances:id_3b4e86170993294163635f2c26e47925a4e062d0 oa:motivatedBy oa:tagging .
+
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 a oa:Annotation .
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 terms:title "Falco peregrinus: Peregrine Falcon" .
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 ui:annotationField bird:IOCScientificNameAnnotation .
