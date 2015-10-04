@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135120/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,33 @@ target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 ui:x "0.419658119658119
 target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 ui:y "0.011538461538461539"^^xsd:float .
 target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 rdf:value "#xywh=percent:42,1,54,77" .
 
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 a oa:FragmentSelector .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 ui:h "0.7974358974358975"^^xsd:float .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 ui:w "0.4444444444444444"^^xsd:float .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 ui:x "0.08461538461538462"^^xsd:float .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 ui:y "0.1064102564102564"^^xsd:float .
+target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 rdf:value "#xywh=percent:8,11,44,80" .
+
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 a oa:SpecificResource .
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSelector target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
-target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135120/format/large> .
+target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSource format:large .
+
+target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 a oa:SpecificResource .
+target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 oa:hasSelector target:selector_50aa8dad3b5b597b83594a23fe0bae350167fe51 .
+target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 oa:hasSource format:large .
+
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 a oa:Annotation .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 terms:title "Roek: Rook" .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 ui:reachedObjectWith "random, 2" .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 ui:typingTime 2830 .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:annotatedAt "2015-10-04T12:22:05+02:00"^^xsd:dateTime .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:annotatedBy user:user3 .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:hasBody birds:species-corvus_frugilegus .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:hasTarget target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:hasTarget naturalis:print-135120 .
+instances:id_38a2aadd7ee4a7e85289dd0ddb0f68e98ae7d674 oa:motivatedBy oa:tagging .
 
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 a oa:Annotation .
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 terms:title "echt" .
