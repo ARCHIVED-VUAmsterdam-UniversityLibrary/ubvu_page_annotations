@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 a oa:FragmentSelector .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:h "0.25641025641025644"^^xsd:float .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:w "0.4170940170940171"^^xsd:float .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:x "0.26666666666666666"^^xsd:float .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 ui:y "0.05584045584045584"^^xsd:float .
+target:selector_c348ca53ebe7557467297a84213cdedb63f79818 rdf:value "#xywh=percent:27,6,42,26" .
+
+target:target_c348ca53ebe7557467297a84213cdedb63f79818 a oa:SpecificResource .
+target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSelector target:selector_c348ca53ebe7557467297a84213cdedb63f79818 .
+target:target_c348ca53ebe7557467297a84213cdedb63f79818 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134858/format/large> .
+
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> a oa:Annotation .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> terms:title "Havik: Northern Goshawk" .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> ui:reachedObjectWith "expertise, 6" .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> ui:typingTime 3960 .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:annotatedAt "2015-10-04T11:39:37+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:annotatedBy user:user8 .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:hasBody birds:species-accipiter_gentilis .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:hasTarget target:target_c348ca53ebe7557467297a84213cdedb63f79818 .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:hasTarget naturalis:print-134858 .
+<http://localhost/annotation/instances/id_5d87b01806d6ff079c628f6e5b2daf8dba8ff5c3> oa:motivatedBy oa:tagging .
