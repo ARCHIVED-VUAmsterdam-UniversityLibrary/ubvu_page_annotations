@@ -36,6 +36,18 @@ instances:id_346adb9933c1cc7687382507b6f97826efa360ab oa:hasTarget target:target
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab oa:hasTarget naturalis:print-135150 .
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab oa:motivatedBy oa:tagging .
 
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f a oa:Annotation .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f terms:title "adult" .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f ui:annotationField bird:StageOfLife .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f ui:reachedObjectWith "random, 2" .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f ui:typingTime 3827 .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:annotatedAt "2015-10-04T12:52:21+02:00"^^xsd:dateTime .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:annotatedBy user:user26 .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:hasTarget target:target_bdb147587b38b16810dda310609fcc2bfab2c705 .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:hasTarget naturalis:print-135150 .
+instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:motivatedBy oa:tagging .
+
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 a oa:Annotation .
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 terms:title "Roodmus: Common Rosefinch" .
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 ui:annotationField bird:IOCCommonNameAnnotation .
