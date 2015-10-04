@@ -24,6 +24,18 @@ target:target_57fca441384e1245b1bc1fe91000673b6f710e7c a oa:SpecificResource .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSelector target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134852/format/large> .
 
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc a oa:Annotation .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc terms:title "adult" .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc ui:annotationField bird:StageOfLife .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc ui:reachedObjectWith "expertise, 0" .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc ui:typingTime 1148 .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:annotatedAt "2015-10-04T11:51:06+02:00"^^xsd:dateTime .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:annotatedBy user:user8 .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:hasTarget naturalis:print-134852 .
+instances:id_36641dd352f3c8ec10c7b8308e33bf82105d0efc oa:motivatedBy oa:tagging .
+
 instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef a oa:Annotation .
 instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef ui:annotationField bird:IOCCommonNameAnnotation .
