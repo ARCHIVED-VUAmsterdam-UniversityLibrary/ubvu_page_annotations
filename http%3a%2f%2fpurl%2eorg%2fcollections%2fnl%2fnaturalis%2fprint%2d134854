@@ -230,6 +230,18 @@ instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget target:target
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:hasTarget naturalis:print-134854 .
 instances:id_6e598563d85e64e7e5ca6d98e0e9b6069a6a256b oa:motivatedBy oa:tagging .
 
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 a oa:Annotation .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 terms:title "vrouw" .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 ui:annotationField bird:Gender .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 ui:reachedObjectWith "expertise, 6" .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 ui:typingTime 2452 .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:annotatedAt "2015-10-04T12:19:25+02:00"^^xsd:dateTime .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:annotatedBy user:user26 .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:hasTarget target:target_332a71a579524917fcfeb0f2c93aa815ac352fe3 .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:hasTarget naturalis:print-134854 .
+instances:id_85cb9b1347cea0544ec090b4d19b6028ef507981 oa:motivatedBy oa:tagging .
+
 instances:id_966d1ebead733cb11be4082e1bb9e2a7c5211923 a oa:Annotation .
 instances:id_966d1ebead733cb11be4082e1bb9e2a7c5211923 terms:title "Circus macrourus: Pallid Harrier" .
 instances:id_966d1ebead733cb11be4082e1bb9e2a7c5211923 ui:annotationField bird:IOCScientificNameAnnotation .
