@@ -206,6 +206,18 @@ instances:id_41fce002ea5b18b1b76b06d43ac27693d210cc79 oa:hasTarget target:target
 instances:id_41fce002ea5b18b1b76b06d43ac27693d210cc79 oa:hasTarget naturalis:print-134860 .
 instances:id_41fce002ea5b18b1b76b06d43ac27693d210cc79 oa:motivatedBy oa:tagging .
 
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 a oa:Annotation .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 terms:title "man" .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 ui:annotationField bird:Gender .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 ui:reachedObjectWith "expertise, 10" .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 ui:typingTime 1106 .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:annotatedAt "2015-10-04T12:55:40+02:00"^^xsd:dateTime .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:annotatedBy user:user27 .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:hasTarget target:target_5da56136d1f082e23e1482d7e990070f51ca2d59 .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:hasTarget naturalis:print-134860 .
+instances:id_4e451032f5636e4c40ffe0cd57e39184f93c26a8 oa:motivatedBy oa:tagging .
+
 instances:id_5f2fb631ef41289fccb02c214ddc97ddaa31e9e3 a oa:Annotation .
 instances:id_5f2fb631ef41289fccb02c214ddc97ddaa31e9e3 terms:title "juveniel" .
 instances:id_5f2fb631ef41289fccb02c214ddc97ddaa31e9e3 ui:annotationField bird:StageOfLife .
