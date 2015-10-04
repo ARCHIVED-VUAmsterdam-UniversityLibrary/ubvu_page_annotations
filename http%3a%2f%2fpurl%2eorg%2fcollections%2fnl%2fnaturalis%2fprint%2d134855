@@ -350,6 +350,18 @@ instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:hasTarget target:target
 instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:hasTarget naturalis:print-134855 .
 instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:motivatedBy oa:tagging .
 
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 a oa:Annotation .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 terms:title "juveniel" .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 ui:annotationField bird:StageOfLife .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 ui:reachedObjectWith "expertise, 5" .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 ui:typingTime 2518 .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:annotatedAt "2015-10-04T13:00:29+02:00"^^xsd:dateTime .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:annotatedBy user:Kvliet .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:hasTarget target:target_8a5f820acb8b9cb230406d787f86a8069202617f .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:hasTarget naturalis:print-134855 .
+instances:id_56f0301b9bf8903b4f88b3becbc9466f1a55d6f2 oa:motivatedBy oa:tagging .
+
 instances:id_5dd77f3201ec1d00ebe356d6cd4ec8b02ffb054c a oa:Annotation .
 instances:id_5dd77f3201ec1d00ebe356d6cd4ec8b02ffb054c terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_5dd77f3201ec1d00ebe356d6cd4ec8b02ffb054c ui:annotationField bird:IOCCommonNameAnnotation .
