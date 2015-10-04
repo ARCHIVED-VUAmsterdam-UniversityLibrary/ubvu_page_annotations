@@ -50,6 +50,18 @@ instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:hasTarget target:target
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:hasTarget naturalis:print-135060 .
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:motivatedBy oa:tagging .
 
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 a oa:Annotation .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 terms:title "juveniel" .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 ui:annotationField bird:StageOfLife .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 ui:reachedObjectWith "random, 6" .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 ui:typingTime 1808 .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:annotatedAt "2015-10-04T12:13:09+02:00"^^xsd:dateTime .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:annotatedBy user:user29 .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:hasTarget target:target_70ac6c4224d70c7e196b799fd07f11805d9e7d14 .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:hasTarget naturalis:print-135060 .
+instances:id_6722a592fe5d38f972ce2662e6e6fefb24445b22 oa:motivatedBy oa:tagging .
+
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f a oa:Annotation .
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f terms:title "Braamsluiper: Lesser Whitethroat" .
 instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f ui:annotationField bird:IOCCommonNameAnnotation .
