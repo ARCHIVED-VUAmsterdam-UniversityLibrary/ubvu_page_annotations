@@ -122,6 +122,18 @@ instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:hasTarget target:target
 instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:hasTarget naturalis:print-135025 .
 instances:id_97792124e002958cb35b00a8ba9905bcd79e45d3 oa:motivatedBy oa:tagging .
 
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d a oa:Annotation .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d terms:title "Jynx torquilla: Eurasian Wryneck" .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d ui:reachedObjectWith "random, 6" .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d ui:typingTime 5076 .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:annotatedAt "2015-10-04T12:57:24+02:00"^^xsd:dateTime .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:annotatedBy user:user26 .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:hasBody birds:species-jynx_torquilla .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:hasTarget target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:hasTarget naturalis:print-135025 .
+instances:id_9ca0ea5d1a71c8a62a8266538a93d7192bbeef6d oa:motivatedBy oa:tagging .
+
 instances:id_beb976c795e88d0afdfd77f0706fdbbf06fbcd48 a oa:Annotation .
 instances:id_beb976c795e88d0afdfd77f0706fdbbf06fbcd48 terms:title "adult" .
 instances:id_beb976c795e88d0afdfd77f0706fdbbf06fbcd48 ui:annotationField bird:StageOfLife .
