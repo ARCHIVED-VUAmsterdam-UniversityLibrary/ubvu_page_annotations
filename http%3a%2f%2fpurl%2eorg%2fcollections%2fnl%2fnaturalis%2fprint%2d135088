@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix format: <http://medialib.naturalis.nl/file/id/image-135088/format/> .
@@ -35,6 +37,18 @@ target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 oa:hasSource format:large
 target:target_984622341512472d15e335efc15506906af8b970 a oa:SpecificResource .
 target:target_984622341512472d15e335efc15506906af8b970 oa:hasSelector target:selector_984622341512472d15e335efc15506906af8b970 .
 target:target_984622341512472d15e335efc15506906af8b970 oa:hasSource format:large .
+
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 a oa:Annotation .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 terms:title "man" .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 ui:annotationField bird:Gender .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 ui:reachedObjectWith "random, 6" .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 ui:typingTime 915 .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:annotatedAt "2015-10-04T11:56:52+02:00"^^xsd:dateTime .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:annotatedBy user:Debby .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:hasTarget target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:hasTarget naturalis:print-135088 .
+instances:id_416519da3159bac9a2ad62822c6b28b5fcc9b2a0 oa:motivatedBy oa:tagging .
 
 instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 a oa:Annotation .
 instances:id_6aaa5addeebfbb6d2b090e50e0fd2617bcd0aff9 terms:title "Gele Kwikstaart: Western Yellow Wagtail" .
