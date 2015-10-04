@@ -30,6 +30,14 @@ target:selector_091b6f513e3396f236f3fd750a8ca0ce6d248f01 ui:x "0.640170940170940
 target:selector_091b6f513e3396f236f3fd750a8ca0ce6d248f01 ui:y "0.22564102564102564"^^xsd:float .
 target:selector_091b6f513e3396f236f3fd750a8ca0ce6d248f01 rdf:value "#xywh=percent:64,23,20,27" .
 
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 a oa:FragmentSelector .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 ui:h "0.41794871794871796"^^xsd:float .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 ui:w "0.6658119658119658"^^xsd:float .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 ui:x "0.04786324786324787"^^xsd:float .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 ui:y "0.03205128205128205"^^xsd:float .
+target:selector_2f27e8784d948117656fab7ce57e907ec9430039 rdf:value "#xywh=percent:5,3,67,42" .
+
 target:selector_4c051a33bbf87e96616f6f044f61b49c88196fd7 a oa:FragmentSelector .
 target:selector_4c051a33bbf87e96616f6f044f61b49c88196fd7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4c051a33bbf87e96616f6f044f61b49c88196fd7 ui:h "0.2935897435897436"^^xsd:float .
@@ -93,6 +101,10 @@ target:target_012541652a4bc98bb6879dcf6f473ca6b949fe03 oa:hasSource format:large
 target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 a oa:SpecificResource .
 target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 oa:hasSelector target:selector_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
 target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 oa:hasSource format:large .
+
+target:target_2f27e8784d948117656fab7ce57e907ec9430039 a oa:SpecificResource .
+target:target_2f27e8784d948117656fab7ce57e907ec9430039 oa:hasSelector target:selector_2f27e8784d948117656fab7ce57e907ec9430039 .
+target:target_2f27e8784d948117656fab7ce57e907ec9430039 oa:hasSource format:large .
 
 target:target_4c051a33bbf87e96616f6f044f61b49c88196fd7 a oa:SpecificResource .
 target:target_4c051a33bbf87e96616f6f044f61b49c88196fd7 oa:hasSelector target:selector_4c051a33bbf87e96616f6f044f61b49c88196fd7 .
@@ -277,6 +289,18 @@ instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasBody [ a content:Con
 instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget target:target_d0f923cf8e3acc2d9e65e2b045473d5060c7ff39 .
 instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:hasTarget naturalis:print-134855 .
 instances:id_50648adde59b47c95b412d80f74088475d5bc434 oa:motivatedBy oa:tagging .
+
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d a oa:Annotation .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d terms:title "Grauwe Kiekendief: Montagu's Harrier" .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d ui:reachedObjectWith "expertise, 4" .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d ui:typingTime 10215 .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:annotatedAt "2015-10-04T12:29:49+02:00"^^xsd:dateTime .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:annotatedBy user:user26 .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:hasBody birds:species-circus_pygargus .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:hasTarget target:target_2f27e8784d948117656fab7ce57e907ec9430039 .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:hasTarget naturalis:print-134855 .
+instances:id_5117c4077672d0da419d4eb6efe253a17577bb7d oa:motivatedBy oa:tagging .
 
 instances:id_61654258f878413da36ff816664186ea11e32822 a oa:Annotation .
 instances:id_61654258f878413da36ff816664186ea11e32822 terms:title "man" .
