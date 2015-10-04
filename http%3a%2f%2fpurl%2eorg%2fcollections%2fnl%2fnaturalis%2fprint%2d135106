@@ -74,6 +74,18 @@ instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:hasTarget target:target
 instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:hasTarget naturalis:print-135106 .
 instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:motivatedBy oa:tagging .
 
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 a oa:Annotation .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 terms:title "echt" .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 ui:reachedObjectWith "random, 10" .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 ui:typingTime 1794 .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:annotatedAt "2015-10-04T12:27:34+02:00"^^xsd:dateTime .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:annotatedBy user:user39 .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:hasTarget target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:hasTarget naturalis:print-135106 .
+instances:id_397f9eeec6c88b4e0687c052a6c9d28d40223163 oa:motivatedBy oa:tagging .
+
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b a oa:Annotation .
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b terms:title "Koolmees: Great Tit" .
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b ui:annotationField bird:IOCCommonNameAnnotation .
