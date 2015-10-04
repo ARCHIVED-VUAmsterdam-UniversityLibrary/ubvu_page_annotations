@@ -145,6 +145,18 @@ instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:hasTarget target:target
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:hasTarget naturalis:print-134859 .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f oa:motivatedBy oa:tagging .
 
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d a oa:Annotation .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d terms:title "adult" .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d ui:annotationField bird:StageOfLife .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d ui:reachedObjectWith "expertise, 5" .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d ui:typingTime 996 .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:annotatedAt "2015-10-04T12:08:29+02:00"^^xsd:dateTime .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:annotatedBy user:Debby .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:hasTarget target:target_e626e75df7e8c28dcf55cc16af4d0fef32b7a0a9 .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:hasTarget naturalis:print-134859 .
+instances:id_b8e7d253d25f321a9715af5c40d274418514f33d oa:motivatedBy oa:tagging .
+
 instances:id_c028e09001e3fa4db3d5be2ef1a4877b684946a2 a oa:Annotation .
 instances:id_c028e09001e3fa4db3d5be2ef1a4877b684946a2 terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_c028e09001e3fa4db3d5be2ef1a4877b684946a2 ui:annotationField bird:IOCCommonNameAnnotation .
