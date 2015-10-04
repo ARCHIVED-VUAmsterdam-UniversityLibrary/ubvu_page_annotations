@@ -22,6 +22,14 @@ target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:x "0.064102564102564
 target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 ui:y "0.1282051282051282"^^xsd:float .
 target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 rdf:value "#xywh=percent:6,13,19,34" .
 
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 a oa:FragmentSelector .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 ui:h "0.35256410256410253"^^xsd:float .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 ui:w "0.23675213675213674"^^xsd:float .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 ui:x "0.25811965811965815"^^xsd:float .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 ui:y "0.1"^^xsd:float .
+target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 rdf:value "#xywh=percent:26,10,24,35" .
+
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:FragmentSelector .
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 ui:h "0.717948717948718"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 rdf:value "#xywh=percen
 target:target_01537757d778079a9b16c5b1e729c4700ba3e850 a oa:SpecificResource .
 target:target_01537757d778079a9b16c5b1e729c4700ba3e850 oa:hasSelector target:selector_01537757d778079a9b16c5b1e729c4700ba3e850 .
 target:target_01537757d778079a9b16c5b1e729c4700ba3e850 oa:hasSource format:large .
+
+target:target_11a8da5bb3863899e27e964505eb20e112a5ce84 a oa:SpecificResource .
+target:target_11a8da5bb3863899e27e964505eb20e112a5ce84 oa:hasSelector target:selector_11a8da5bb3863899e27e964505eb20e112a5ce84 .
+target:target_11a8da5bb3863899e27e964505eb20e112a5ce84 oa:hasSource format:large .
 
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:SpecificResource .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSelector target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
@@ -133,3 +145,15 @@ instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:hasBody [ a content:Con
 instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:hasTarget target:target_01537757d778079a9b16c5b1e729c4700ba3e850 .
 instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:hasTarget naturalis:print-134677 .
 instances:id_b971953b2d7edabba590aa5b6fed25eece77e6fb oa:motivatedBy oa:tagging .
+
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 a oa:Annotation .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 terms:title "Tyto alba guttata" .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 ui:reachedObjectWith "random, 1" .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 ui:typingTime 150547 .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:annotatedAt "2015-10-04T11:57:41+02:00"^^xsd:dateTime .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:annotatedBy user:user39 .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:hasBody birds:subspecies-tyto_alba_guttata .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:hasTarget target:target_11a8da5bb3863899e27e964505eb20e112a5ce84 .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:hasTarget naturalis:print-134677 .
+instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 oa:motivatedBy oa:tagging .
