@@ -62,6 +62,18 @@ instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:hasTarget target:target
 instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:hasTarget naturalis:print-135033 .
 instances:id_3875c78cac219747800c8cec7dcbf626f9611c6c oa:motivatedBy oa:tagging .
 
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 a oa:Annotation .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 terms:title "echt" .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 ui:reachedObjectWith "random, 9" .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 ui:typingTime 1990 .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:annotatedAt "2015-10-04T12:43:15+02:00"^^xsd:dateTime .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:annotatedBy user:user39 .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:hasTarget target:target_2e246f4fbcf357a048420392f39cfe257d1e9b4d .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:hasTarget naturalis:print-135033 .
+instances:id_3a4eaa6e7b37ab6d6489ab82f75fcaa382f08d29 oa:motivatedBy oa:tagging .
+
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 a oa:Annotation .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 terms:title "Turdus merula: Common Blackbird" .
 instances:id_414790ea2f773651f0f2b6f932ae605340081c28 ui:annotationField bird:IOCScientificNameAnnotation .
