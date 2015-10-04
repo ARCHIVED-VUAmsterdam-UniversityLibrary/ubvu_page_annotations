@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:FragmentSelector .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:h "0.2897435897435898"^^xsd:float .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:w "0.47094017094017093"^^xsd:float .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:x "0.46153846153846156"^^xsd:float .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 ui:y "0.5384615384615384"^^xsd:float .
+target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 rdf:value "#xywh=percent:46,54,47,29" .
+
+target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 a oa:SpecificResource .
+target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSelector target:selector_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
+target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135033/format/large> .
+
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> a oa:Annotation .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> terms:title "Merel: Common Blackbird" .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:reachedObjectWith "random, 9" .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> ui:typingTime 4191 .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:annotatedAt "2015-10-04T12:40:26+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:annotatedBy user:user39 .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasBody birds:species-turdus_merula .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasTarget target:target_460786ff61aad42cff71d09ca2e0cd3093fcadf4 .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:hasTarget naturalis:print-135033 .
+<http://localhost/annotation/instances/id_5069c01e12e3ed90bee8a09e5832f76fe924daf6> oa:motivatedBy oa:tagging .
