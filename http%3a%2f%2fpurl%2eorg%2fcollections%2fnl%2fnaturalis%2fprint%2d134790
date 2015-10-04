@@ -109,3 +109,15 @@ instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasBody birds:species-a
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:hasTarget naturalis:print-134790 .
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 oa:motivatedBy oa:tagging .
+
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 a oa:Annotation .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 terms:title "Ardea purpurea: Purple Heron" .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 ui:reachedObjectWith "expertise, 2" .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 ui:typingTime 4178 .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:annotatedAt "2015-10-04T12:27:34+02:00"^^xsd:dateTime .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:annotatedBy user:user3 .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:hasBody birds:species-ardea_purpurea .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:hasTarget target:target_1207e9269562563bb19d4673ada1f691ddb6ba48 .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:hasTarget naturalis:print-134790 .
+instances:id_fd5c7ee638a88fe619d677f95a296354754c8563 oa:motivatedBy oa:tagging .
