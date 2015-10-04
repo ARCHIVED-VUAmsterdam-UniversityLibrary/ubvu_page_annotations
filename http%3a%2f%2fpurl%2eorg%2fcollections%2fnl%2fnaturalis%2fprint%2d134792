@@ -74,6 +74,18 @@ instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget target:target
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget naturalis:print-134792 .
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:motivatedBy oa:tagging .
 
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 a oa:Annotation .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 terms:title "onbekend" .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 ui:annotationField bird:Gender .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 ui:reachedObjectWith "expertise, 3" .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 ui:typingTime 2205 .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:annotatedAt "2015-10-04T12:33:11+02:00"^^xsd:dateTime .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:annotatedBy user:user3 .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:hasTarget target:target_95299b0ee402ff008733b2b42bf4ef321baba36a .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:hasTarget naturalis:print-134792 .
+instances:id_4e2598dc497c11d6e7c8e4df7fe2abdb7f453cc2 oa:motivatedBy oa:tagging .
+
 instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed a oa:Annotation .
 instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed terms:title "echt" .
 instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed ui:annotationField bird:RealOrNotAnnotation .
