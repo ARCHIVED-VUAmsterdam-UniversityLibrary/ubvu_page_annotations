@@ -86,6 +86,18 @@ instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:hasTarget target:target
 instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:hasTarget naturalis:print-134958 .
 instances:id_d93c32e72f3572b8e677761db355922649e4a626 oa:motivatedBy oa:tagging .
 
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 a oa:Annotation .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 terms:title "adult" .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 ui:annotationField bird:StageOfLife .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 ui:reachedObjectWith "random, 0" .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 ui:typingTime 2085 .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:annotatedAt "2015-10-04T12:50:37+02:00"^^xsd:dateTime .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:annotatedBy user:user39 .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:hasTarget target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:hasTarget naturalis:print-134958 .
+instances:id_d99c5166970c2b80e3a6e22e71b909799ebb00c9 oa:motivatedBy oa:tagging .
+
 instances:id_fe652818310186f36066f2ee66749e6c06b311fb a oa:Annotation .
 instances:id_fe652818310186f36066f2ee66749e6c06b311fb terms:title "Stercorarius parasiticus: Parasitic Jaeger" .
 instances:id_fe652818310186f36066f2ee66749e6c06b311fb ui:annotationField bird:IOCScientificNameAnnotation .
