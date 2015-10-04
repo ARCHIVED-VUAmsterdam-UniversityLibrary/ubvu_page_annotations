@@ -59,6 +59,18 @@ instances:id_882aa5c34abd638faf1465c49aabc068642c496e oa:hasTarget target:target
 instances:id_882aa5c34abd638faf1465c49aabc068642c496e oa:hasTarget naturalis:print-135005 .
 instances:id_882aa5c34abd638faf1465c49aabc068642c496e oa:motivatedBy oa:tagging .
 
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef a oa:Annotation .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef terms:title "Afwijking: tenen kloppen niet. Uilen zitten met twee tenen naar voren en twee naar achteren" .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef ui:annotationField bird:RealOrNotAnnotation .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef ui:reachedObjectWith "random, 5" .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef ui:typingTime 174879 .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:annotatedAt "2015-10-04T11:57:13+02:00"^^xsd:dateTime .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:annotatedBy user:user37 .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Afwijking: tenen kloppen niet. Uilen zitten met twee tenen naar voren en twee naar achteren" ] .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:hasTarget target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:hasTarget naturalis:print-135005 .
+instances:id_c40956c9bdb4f5e73609d33cf3990e96707f6cef oa:motivatedBy oa:tagging .
+
 instances:id_ed25eb7db035497ff81d8611dc21a3ae178b919c a oa:Annotation .
 instances:id_ed25eb7db035497ff81d8611dc21a3ae178b919c terms:title "Bubo bubo" .
 instances:id_ed25eb7db035497ff81d8611dc21a3ae178b919c ui:annotationField bird:IOCScientificNameAnnotation .
