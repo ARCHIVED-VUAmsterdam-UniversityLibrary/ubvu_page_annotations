@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135016/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_c5dd04f07971bb8085a2016710116f44663bd500 ui:x "0.027327070879590
 target:selector_c5dd04f07971bb8085a2016710116f44663bd500 ui:y "0.04487179487179487"^^xsd:float .
 target:selector_c5dd04f07971bb8085a2016710116f44663bd500 rdf:value "#xywh=percent:3,4,56,77" .
 
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 a oa:FragmentSelector .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 ui:h "0.7653846153846153"^^xsd:float .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 ui:w "0.35439795046968403"^^xsd:float .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 ui:x "0.591801878736123"^^xsd:float .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 ui:y "0.020512820512820513"^^xsd:float .
+target:selector_c90953913dc304577156564d5b566bfd1fb6b935 rdf:value "#xywh=percent:59,2,35,77" .
+
 target:target_c5dd04f07971bb8085a2016710116f44663bd500 a oa:SpecificResource .
 target:target_c5dd04f07971bb8085a2016710116f44663bd500 oa:hasSelector target:selector_c5dd04f07971bb8085a2016710116f44663bd500 .
-target:target_c5dd04f07971bb8085a2016710116f44663bd500 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135016/format/large> .
+target:target_c5dd04f07971bb8085a2016710116f44663bd500 oa:hasSource format:large .
+
+target:target_c90953913dc304577156564d5b566bfd1fb6b935 a oa:SpecificResource .
+target:target_c90953913dc304577156564d5b566bfd1fb6b935 oa:hasSelector target:selector_c90953913dc304577156564d5b566bfd1fb6b935 .
+target:target_c90953913dc304577156564d5b566bfd1fb6b935 oa:hasSource format:large .
 
 instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 a oa:Annotation .
 instances:id_353207e55a79d6eab8f3f4c09e6f9011672abad1 terms:title "Megaceryle alcyon: Belted Kingfisher" .
@@ -59,3 +73,15 @@ instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:hasBody [ a content:Con
 instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:hasTarget target:target_c5dd04f07971bb8085a2016710116f44663bd500 .
 instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:hasTarget naturalis:print-135016 .
 instances:id_9654b7ad06fc9f7aa59f20dedf311b4cee996646 oa:motivatedBy oa:tagging .
+
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 a oa:Annotation .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 terms:title "Bandijsvogel: Belted Kingfisher" .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 ui:reachedObjectWith "expertise, 0" .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 ui:typingTime 2000 .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:annotatedAt "2015-10-04T11:52:26+02:00"^^xsd:dateTime .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:annotatedBy user:user34 .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasBody birds:species-megaceryle_alcyon .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasTarget target:target_c90953913dc304577156564d5b566bfd1fb6b935 .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:hasTarget naturalis:print-135016 .
+instances:id_d969d26ce5191c5a098830c7b2c8826e4991a5c3 oa:motivatedBy oa:tagging .
