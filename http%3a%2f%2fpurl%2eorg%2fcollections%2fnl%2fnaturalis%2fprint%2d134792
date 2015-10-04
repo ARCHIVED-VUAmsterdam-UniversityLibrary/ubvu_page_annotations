@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c a oa:FragmentSelector .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:h "0.36980056980056975"^^xsd:float .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:w "0.5153846153846154"^^xsd:float .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:x "0.441025641025641"^^xsd:float .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c ui:y "0.2968660968660969"^^xsd:float .
+target:selector_e673877028dcf5aab45a0571434699ce4e46853c rdf:value "#xywh=percent:44,30,52,37" .
+
+target:target_e673877028dcf5aab45a0571434699ce4e46853c a oa:SpecificResource .
+target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSelector target:selector_e673877028dcf5aab45a0571434699ce4e46853c .
+target:target_e673877028dcf5aab45a0571434699ce4e46853c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134792/format/large> .
+
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> a oa:Annotation .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> terms:title "Kleine Zilverreiger: Little Egret" .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:reachedObjectWith "expertise, 3" .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> ui:typingTime 6435 .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:annotatedAt "2015-10-04T12:31:12+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:annotatedBy user:user3 .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasBody birds:species-egretta_garzetta .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:hasTarget naturalis:print-134792 .
+<http://localhost/annotation/instances/id_fc60ffc1547eaed5d8ce103d072ecdd8238983ae> oa:motivatedBy oa:tagging .
