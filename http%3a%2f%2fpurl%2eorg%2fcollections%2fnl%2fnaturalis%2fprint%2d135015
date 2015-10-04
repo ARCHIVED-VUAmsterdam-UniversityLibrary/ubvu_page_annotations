@@ -6,8 +6,11 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_bc22baaa48a924c644b543381854415950aa9dac a oa:FragmentSelector .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -21,14 +24,26 @@ target:target_bc22baaa48a924c644b543381854415950aa9dac a oa:SpecificResource .
 target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSelector target:selector_bc22baaa48a924c644b543381854415950aa9dac .
 target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSource <http://medialib.naturalis.nl/file/id/image-135015/format/large> .
 
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> a oa:Annotation .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> terms:title "IJsvogel" .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> ui:reachedObjectWith "expertise, 0" .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> ui:typingTime 1213 .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:annotatedAt "2015-10-04T11:46:01+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:annotatedBy user:user34 .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "IJsvogel" ] .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:hasTarget target:target_bc22baaa48a924c644b543381854415950aa9dac .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:hasTarget naturalis:print-135015 .
-<http://localhost/annotation/instances/id_7447aa9df4e5c5140e199f2ec3aa4982947fa123> oa:motivatedBy oa:tagging .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af a oa:Annotation .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af terms:title "IJsvogel: Common Kingfisher" .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af ui:reachedObjectWith "expertise, 0" .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af ui:typingTime 3304 .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:annotatedAt "2015-10-04T11:46:11+02:00"^^xsd:dateTime .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:annotatedBy user:user34 .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasBody birds:species-alcedo_atthis .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget target:target_bc22baaa48a924c644b543381854415950aa9dac .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget naturalis:print-135015 .
+instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:motivatedBy oa:tagging .
+
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 a oa:Annotation .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 terms:title "IJsvogel" .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 ui:reachedObjectWith "expertise, 0" .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 ui:typingTime 1213 .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:annotatedAt "2015-10-04T11:46:01+02:00"^^xsd:dateTime .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:annotatedBy user:user34 .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "IJsvogel" ] .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasTarget target:target_bc22baaa48a924c644b543381854415950aa9dac .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasTarget naturalis:print-135015 .
+instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:motivatedBy oa:tagging .
