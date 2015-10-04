@@ -62,6 +62,18 @@ instances:id_291b242849183bc1d5f03625ad5a3270d35f16f5 oa:hasTarget target:target
 instances:id_291b242849183bc1d5f03625ad5a3270d35f16f5 oa:hasTarget naturalis:print-134902 .
 instances:id_291b242849183bc1d5f03625ad5a3270d35f16f5 oa:motivatedBy oa:tagging .
 
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 a oa:Annotation .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 terms:title "otis tardis" .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 ui:reachedObjectWith "random, 1" .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 ui:typingTime 57919 .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:annotatedAt "2015-10-04T13:04:36+02:00"^^xsd:dateTime .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:annotatedBy user:user26 .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "otis tardis" ] .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:hasTarget target:target_ed9b69d9f9b0e5c4d6667995350e43570e24f738 .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:hasTarget naturalis:print-134902 .
+instances:id_34f39ef13b790d1e849bc197f651b8587853fa42 oa:motivatedBy oa:tagging .
+
 instances:id_7c335970807f8aa3ac8e36adb049f00dcb64968b a oa:Annotation .
 instances:id_7c335970807f8aa3ac8e36adb049f00dcb64968b terms:title "Grote Trap: Great Bustard" .
 instances:id_7c335970807f8aa3ac8e36adb049f00dcb64968b ui:annotationField bird:IOCCommonNameAnnotation .
