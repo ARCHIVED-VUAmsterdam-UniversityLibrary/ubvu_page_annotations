@@ -121,3 +121,15 @@ instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasBody birds:species-p
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasTarget target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:hasTarget naturalis:print-134897 .
 instances:id_bc79321e0717f82f030ea2e79dd12080607385a4 oa:motivatedBy oa:tagging .
+
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb a oa:Annotation .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb terms:title "vrouw" .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb ui:annotationField bird:Gender .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb ui:reachedObjectWith "random, 8" .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb ui:typingTime 1766 .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:annotatedAt "2015-10-04T12:15:37+02:00"^^xsd:dateTime .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:annotatedBy user:user3 .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasTarget target:target_918ff5f6e8a1ab7c1e0f57459d342096ac00fcc9 .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:hasTarget naturalis:print-134897 .
+instances:id_cc8dbc1fc59f6a26e80b6e8ff313ec2fd25cc5cb oa:motivatedBy oa:tagging .
