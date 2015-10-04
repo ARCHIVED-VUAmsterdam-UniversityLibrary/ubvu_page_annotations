@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 a oa:FragmentSelector .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 ui:h "0.07179487179487182"^^xsd:float .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 ui:w "0.06837606837606837"^^xsd:float .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 ui:x "0.09829059829059829"^^xsd:float .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 ui:y "0.3628205128205128"^^xsd:float .
+target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 rdf:value "#xywh=percent:10,36,7,7" .
+
+target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 a oa:SpecificResource .
+target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 oa:hasSelector target:selector_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
+target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134845/format/large> .
+
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> a oa:Annotation .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> terms:title "Common Eider" .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> ui:typingTime 34551 .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:annotatedAt "2015-10-04T11:48:25+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:annotatedBy user:Debby .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasBody birds:species-somateria_mollissima .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasTarget target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:hasTarget naturalis:print-134845 .
+<http://localhost/annotation/instances/id_f062e5af1684bfc3c7db59d1768c9c006760fda9> oa:motivatedBy oa:tagging .
