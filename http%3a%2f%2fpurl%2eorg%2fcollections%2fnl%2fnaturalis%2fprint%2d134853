@@ -409,6 +409,18 @@ instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget target:target
 instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget naturalis:print-134853 .
 instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:motivatedBy oa:tagging .
 
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 a oa:Annotation .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 terms:title "Circus aeruginosus: Western Marsh Harrier" .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 ui:reachedObjectWith "expertise, 4" .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 ui:typingTime 4311 .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:annotatedAt "2015-10-04T12:54:09+02:00"^^xsd:dateTime .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:annotatedBy user:Kvliet .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:hasBody birds:species-circus_aeruginosus .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:hasTarget target:target_e45b74ebf10f0bd0688f3dd4d9331f3cb87a77e9 .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:hasTarget naturalis:print-134853 .
+instances:id_ac25a25fcf8662a10feae8d0bf51a52b8da86762 oa:motivatedBy oa:tagging .
+
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 a oa:Annotation .
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 ui:annotationField bird:IOCCommonNameAnnotation .
