@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 a oa:FragmentSelector .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:h "0.5628205128205128"^^xsd:float .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:w "0.6427350427350427"^^xsd:float .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:x "0.27521367521367524"^^xsd:float .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 ui:y "0.046153846153846156"^^xsd:float .
+target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 rdf:value "#xywh=percent:28,5,64,56" .
+
+target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 a oa:SpecificResource .
+target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 oa:hasSelector target:selector_71b9abc0537026d500ab7f583927664e62e9a2c8 .
+target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135036/format/large> .
+
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> a oa:Annotation .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> terms:title "Beflijster: Ring Ouzel" .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> ui:reachedObjectWith "random, 1" .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> ui:typingTime 4946 .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:annotatedAt "2015-10-04T13:07:04+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:annotatedBy user:user26 .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:hasBody birds:species-turdus_torquatus .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:hasTarget target:target_71b9abc0537026d500ab7f583927664e62e9a2c8 .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:hasTarget naturalis:print-135036 .
+<http://localhost/annotation/instances/id_c8c8708056983334493871e3de79ea54b42dfffc> oa:motivatedBy oa:tagging .
