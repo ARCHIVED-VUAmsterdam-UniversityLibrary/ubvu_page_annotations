@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:FragmentSelector .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:h "0.2945868945868946"^^xsd:float .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:w "0.5555555555555556"^^xsd:float .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:x "0.06068376068376068"^^xsd:float .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:y "0.24216524216524216"^^xsd:float .
+target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf rdf:value "#xywh=percent:6,24,56,29" .
+
+target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:SpecificResource .
+target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSelector target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
+target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSource <http://medialib.naturalis.nl/file/id/image-134861/format/large> .
+
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> a oa:Annotation .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> terms:title "Slangenarend: Short-toed Snake Eagle" .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:reachedObjectWith "expertise, 6" .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:typingTime 11944 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:annotatedAt "2015-10-04T11:55:55+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:annotatedBy user:user4 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasBody birds:species-circaetus_gallicus .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasTarget target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasTarget naturalis:print-134861 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:motivatedBy oa:tagging .
