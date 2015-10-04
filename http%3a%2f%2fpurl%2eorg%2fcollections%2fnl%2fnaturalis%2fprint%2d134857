@@ -122,6 +122,18 @@ instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget target:target
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:hasTarget naturalis:print-134857 .
 instances:id_17b6068befdf6a4163d2c0a3d7ab4656ba4377da oa:motivatedBy oa:tagging .
 
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 a oa:Annotation .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 terms:title "Circus cyaneus: Hen Harrier" .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 ui:reachedObjectWith "expertise, 2" .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 ui:typingTime 8152 .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:annotatedAt "2015-10-04T12:15:21+02:00"^^xsd:dateTime .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:annotatedBy user:user5 .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:hasBody birds:species-circus_cyaneus .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:hasTarget target:target_be46700c88426793b658477f05101a54df68d45f .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:hasTarget naturalis:print-134857 .
+instances:id_195e3c6f824c4cace3440891ab53e7720985e544 oa:motivatedBy oa:tagging .
+
 instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 a oa:Annotation .
 instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 terms:title "Circus macrourus: Pallid Harrier" .
 instances:id_1f9aa9d5cfbc78a7d09dc764e0e0cc2a262bc206 ui:annotationField bird:IOCScientificNameAnnotation .
