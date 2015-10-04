@@ -170,6 +170,18 @@ instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 oa:hasTarget target:target
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 oa:hasTarget naturalis:print-134862 .
 instances:id_5560bb4805b44cab5487cd6fe436edf1cb524b29 oa:motivatedBy oa:tagging .
 
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 a oa:Annotation .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 terms:title "Milvus milvus: Red Kite" .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 ui:reachedObjectWith "expertise, 0" .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 ui:typingTime 7552 .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:annotatedAt "2015-10-04T12:20:12+02:00"^^xsd:dateTime .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:annotatedBy user:user5 .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:hasBody birds:species-milvus_milvus .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:hasTarget target:target_5dbfc00c348b6ae90dfe1a6ec74ea44c0e544714 .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:hasTarget naturalis:print-134862 .
+instances:id_64ddf9c115e656f6faf169c0d2576e3b2aa0e8d0 oa:motivatedBy oa:tagging .
+
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 a oa:Annotation .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 terms:title "Rode Wouw: Red Kite" .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 ui:annotationField bird:IOCCommonNameAnnotation .
