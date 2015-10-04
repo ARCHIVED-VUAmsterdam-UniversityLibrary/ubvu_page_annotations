@@ -205,6 +205,18 @@ instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:hasTarget target:target
 instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:hasTarget naturalis:print-134857 .
 instances:id_625dfe6cf5132e37c69984b5ebfa7da210fdeda1 oa:motivatedBy oa:tagging .
 
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 a oa:Annotation .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 terms:title "man" .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 ui:annotationField bird:Gender .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 ui:reachedObjectWith "expertise, 2" .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 ui:typingTime 1760 .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:annotatedAt "2015-10-04T12:15:27+02:00"^^xsd:dateTime .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:annotatedBy user:user5 .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:hasTarget target:target_be46700c88426793b658477f05101a54df68d45f .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:hasTarget naturalis:print-134857 .
+instances:id_6bb5b153ba22621dd2ffafe308972bc95d610a14 oa:motivatedBy oa:tagging .
+
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 a oa:Annotation .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 terms:title "Steppekiekendief: Pallid Harrier" .
 instances:id_7e6d6377985a48a813f87f5d2a3e2356e7c11b40 ui:annotationField bird:IOCCommonNameAnnotation .
