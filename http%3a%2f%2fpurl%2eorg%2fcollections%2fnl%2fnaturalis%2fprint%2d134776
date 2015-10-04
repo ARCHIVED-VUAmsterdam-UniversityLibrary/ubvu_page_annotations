@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -45,3 +47,15 @@ instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasBody birds:species-g
 instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
 instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:hasTarget naturalis:print-134776 .
 instances:id_21dc4f1506fb49adec808eb32f1154f0b1532f1c oa:motivatedBy oa:tagging .
+
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 a oa:Annotation .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 terms:title "onbekend" .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 ui:annotationField bird:Gender .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 ui:reachedObjectWith "expertise, 11" .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 ui:typingTime 1814 .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:annotatedAt "2015-10-04T12:41:53+02:00"^^xsd:dateTime .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:annotatedBy user:user3 .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:hasTarget target:target_b798a599d5165e7b3049239f3c7d9a1d1a825dd5 .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:hasTarget naturalis:print-134776 .
+instances:id_67a55f6f4bc76af519b3bb547ec84df864e5fd50 oa:motivatedBy oa:tagging .
