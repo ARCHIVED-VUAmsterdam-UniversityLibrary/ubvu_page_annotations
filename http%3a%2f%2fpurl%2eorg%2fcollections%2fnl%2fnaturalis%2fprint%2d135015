@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 a oa:FragmentSelector .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 ui:h "0.44743589743589746"^^xsd:float .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 ui:w "0.39914529914529917"^^xsd:float .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 ui:x "0.07094017094017094"^^xsd:float .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 ui:y "0.41794871794871796"^^xsd:float .
+target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 rdf:value "#xywh=percent:7,42,40,45" .
+
 target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d a oa:FragmentSelector .
 target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:h "0.2205128205128205"^^xsd:float .
@@ -37,6 +45,10 @@ target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:w "0.459829059829059
 target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:x "0.1111111111111111"^^xsd:float .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:y "0.04487179487179487"^^xsd:float .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac rdf:value "#xywh=percent:11,4,46,34" .
+
+target:target_09e5a1c9752366212fb8817e15b25c11d8b25984 a oa:SpecificResource .
+target:target_09e5a1c9752366212fb8817e15b25c11d8b25984 oa:hasSelector target:selector_09e5a1c9752366212fb8817e15b25c11d8b25984 .
+target:target_09e5a1c9752366212fb8817e15b25c11d8b25984 oa:hasSource format:large .
 
 target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d a oa:SpecificResource .
 target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d oa:hasSelector target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d .
@@ -109,6 +121,18 @@ instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasBody [ a content:Con
 instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasTarget target:target_bc22baaa48a924c644b543381854415950aa9dac .
 instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:hasTarget naturalis:print-135015 .
 instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 oa:motivatedBy oa:tagging .
+
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb a oa:Annotation .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb terms:title "IJsvogel: Common Kingfisher" .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb ui:reachedObjectWith "expertise, 0" .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb ui:typingTime 2236 .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:annotatedAt "2015-10-04T11:47:34+02:00"^^xsd:dateTime .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:annotatedBy user:user34 .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:hasBody birds:species-alcedo_atthis .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:hasTarget target:target_09e5a1c9752366212fb8817e15b25c11d8b25984 .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:hasTarget naturalis:print-135015 .
+instances:id_787c07487317f0650e7de55e56b3957f7be9b3bb oa:motivatedBy oa:tagging .
 
 instances:id_9f04e21f23eb851a7647a80377b4f49b2a9b21ae a oa:Annotation .
 instances:id_9f04e21f23eb851a7647a80377b4f49b2a9b21ae terms:title "Alcedo atthis: Common Kingfisher" .
