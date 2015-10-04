@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c a oa:FragmentSelector .
 target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c a oa:SpecificResource .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSelector target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134887/format/large> .
 
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> a oa:Annotation .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> terms:title "Patrijs: Grey Partridge" .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> ui:reachedObjectWith "random, 3" .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> ui:typingTime 16417 .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:annotatedAt "2015-10-04T11:57:49+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:annotatedBy user:user5 .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:hasBody birds:species-perdix_perdix .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:hasTarget target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:hasTarget naturalis:print-134887 .
-<http://localhost/annotation/instances/id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da> oa:motivatedBy oa:tagging .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db a oa:Annotation .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db terms:title "Perdix perdix: Grey Partridge" .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db ui:reachedObjectWith "random, 3" .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db ui:typingTime 21604 .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:annotatedAt "2015-10-04T11:58:23+02:00"^^xsd:dateTime .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:annotatedBy user:user5 .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:hasBody birds:species-perdix_perdix .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:hasTarget target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:hasTarget naturalis:print-134887 .
+instances:id_69966f429abc2cf883b53fc8777b0bf078d700db oa:motivatedBy oa:tagging .
+
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da a oa:Annotation .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da terms:title "Patrijs: Grey Partridge" .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da ui:reachedObjectWith "random, 3" .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da ui:typingTime 16417 .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:annotatedAt "2015-10-04T11:57:49+02:00"^^xsd:dateTime .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:annotatedBy user:user5 .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:hasBody birds:species-perdix_perdix .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:hasTarget target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:hasTarget naturalis:print-134887 .
+instances:id_cdcd7d887ed941a0bb3e6c10e1bdf5d6459b96da oa:motivatedBy oa:tagging .
