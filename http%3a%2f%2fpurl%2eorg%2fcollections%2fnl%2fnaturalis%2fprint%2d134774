@@ -38,6 +38,14 @@ target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 ui:x "0.443589743589743
 target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 ui:y "0.3217948717948718"^^xsd:float .
 target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 rdf:value "#xywh=percent:44,32,15,12" .
 
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 a oa:FragmentSelector .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 ui:h "0.3884615384615384"^^xsd:float .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 ui:w "0.5316239316239315"^^xsd:float .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 ui:x "0.35384615384615387"^^xsd:float .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 ui:y "0.14487179487179488"^^xsd:float .
+target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 rdf:value "#xywh=percent:35,14,53,39" .
+
 target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 a oa:SpecificResource .
 target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 oa:hasSelector target:selector_23d057aeb61b5935a40ae71d092351dc47a42c84 .
 target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 oa:hasSource format:large .
@@ -49,6 +57,10 @@ target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e oa:hasSource format:large
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 a oa:SpecificResource .
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 oa:hasSelector target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 .
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 oa:hasSource format:large .
+
+target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 a oa:SpecificResource .
+target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 oa:hasSelector target:selector_dacd658bac459590e8b4e82d9fdcefc6540638b7 .
+target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 oa:hasSource format:large .
 
 instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f a oa:Annotation .
 instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f terms:title "IJsduiker: Great Northern Loon" .
@@ -84,6 +96,18 @@ instances:id_638b20a5149e98961212beb4470feffe9acbd6ab oa:hasBody [ a content:Con
 instances:id_638b20a5149e98961212beb4470feffe9acbd6ab oa:hasTarget target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 .
 instances:id_638b20a5149e98961212beb4470feffe9acbd6ab oa:hasTarget naturalis:print-134774 .
 instances:id_638b20a5149e98961212beb4470feffe9acbd6ab oa:motivatedBy oa:tagging .
+
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 a oa:Annotation .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 terms:title "IJsduiker: Great Northern Loon" .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 ui:reachedObjectWith "expertise, 11" .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 ui:typingTime 7659 .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:annotatedAt "2015-10-04T12:36:55+02:00"^^xsd:dateTime .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:annotatedBy user:user3 .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:hasBody birds:species-gavia_immer .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:hasTarget target:target_dacd658bac459590e8b4e82d9fdcefc6540638b7 .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:hasTarget naturalis:print-134774 .
+instances:id_73d4d126284cd94633a9136ecbb6aea2f5cc3345 oa:motivatedBy oa:tagging .
 
 instances:id_758bb496d82fdda83d6ccd8be47f83e6682af549 a oa:Annotation .
 instances:id_758bb496d82fdda83d6ccd8be47f83e6682af549 terms:title "onbekend" .
