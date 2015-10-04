@@ -98,6 +98,18 @@ instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:hasTarget target:target
 instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:hasTarget naturalis:print-134799 .
 instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:motivatedBy oa:tagging .
 
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 a oa:Annotation .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 terms:title "onbekend" .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 ui:annotationField bird:Gender .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 ui:reachedObjectWith "random, 6" .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 ui:typingTime 2006 .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:annotatedAt "2015-10-04T12:25:36+02:00"^^xsd:dateTime .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:annotatedBy user:user3 .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:hasTarget target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:hasTarget naturalis:print-134799 .
+instances:id_9be4f8f574bb2751abe7fe503418a78771c37221 oa:motivatedBy oa:tagging .
+
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f a oa:Annotation .
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f terms:title "Ooievaar: White Stork" .
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f ui:annotationField bird:IOCCommonNameAnnotation .
