@@ -38,6 +38,18 @@ target:target_b073f1c8c22269ad00e5a8826e0ad8c0c0880d80 a oa:SpecificResource .
 target:target_b073f1c8c22269ad00e5a8826e0ad8c0c0880d80 oa:hasSelector target:selector_b073f1c8c22269ad00e5a8826e0ad8c0c0880d80 .
 target:target_b073f1c8c22269ad00e5a8826e0ad8c0c0880d80 oa:hasSource format:large .
 
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 a oa:Annotation .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 terms:title "man" .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 ui:annotationField bird:Gender .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 ui:reachedObjectWith "expertise, 3" .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 ui:typingTime 1690 .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:annotatedAt "2015-10-04T11:35:53+02:00"^^xsd:dateTime .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:annotatedBy user:Sir_Iain .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:hasTarget target:target_951d7905d4e314e3d86202b8ca6aa3f1bd86cdb1 .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:hasTarget naturalis:print-134854 .
+instances:id_6d6065466775439c12afb280c2a332e5a23c56b6 oa:motivatedBy oa:tagging .
+
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf a oa:Annotation .
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf terms:title "Blauwe Kiekendief: Hen Harrier" .
 instances:id_a4cf5da7bb8756644e970e1b2b6d072185254ebf ui:annotationField bird:IOCCommonNameAnnotation .
