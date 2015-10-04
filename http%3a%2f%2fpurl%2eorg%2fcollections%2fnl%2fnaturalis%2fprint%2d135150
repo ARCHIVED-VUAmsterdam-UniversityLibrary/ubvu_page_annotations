@@ -30,6 +30,14 @@ target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:x "0.181196581196581
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 ui:y "0.14102564102564102"^^xsd:float .
 target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 rdf:value "#xywh=percent:18,14,28,58" .
 
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 a oa:FragmentSelector .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 ui:h "0.5474359169984475"^^xsd:float .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 ui:w "0.3803418803418804"^^xsd:float .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 ui:x "0.09914529914529914"^^xsd:float .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 ui:y "0.11307691916441306"^^xsd:float .
+target:selector_df41680ba141f3642841e1dad2d56bbce1996008 rdf:value "#xywh=percent:10,11,38,55" .
+
 target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b a oa:SpecificResource .
 target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b oa:hasSelector target:selector_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b .
 target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b oa:hasSource format:large .
@@ -37,6 +45,22 @@ target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b oa:hasSource format:large
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 a oa:SpecificResource .
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSelector target:selector_bdb147587b38b16810dda310609fcc2bfab2c705 .
 target:target_bdb147587b38b16810dda310609fcc2bfab2c705 oa:hasSource format:large .
+
+target:target_df41680ba141f3642841e1dad2d56bbce1996008 a oa:SpecificResource .
+target:target_df41680ba141f3642841e1dad2d56bbce1996008 oa:hasSelector target:selector_df41680ba141f3642841e1dad2d56bbce1996008 .
+target:target_df41680ba141f3642841e1dad2d56bbce1996008 oa:hasSource format:large .
+
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff a oa:Annotation .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff terms:title "Roodmus" .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff ui:reachedObjectWith "random, 0" .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff ui:typingTime 4312 .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:annotatedAt "2015-10-04T12:59:35+02:00"^^xsd:dateTime .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:annotatedBy user:user37 .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Roodmus" ] .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:hasTarget target:target_df41680ba141f3642841e1dad2d56bbce1996008 .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:hasTarget naturalis:print-135150 .
+instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:motivatedBy oa:tagging .
 
 instances:id_0f4e30168f705357202b378589409362fa6f7211 a oa:Annotation .
 instances:id_0f4e30168f705357202b378589409362fa6f7211 terms:title "Carpodacus erythrinus: Common Rosefinch" .
