@@ -7,6 +7,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
 @prefix format: <http://medialib.naturalis.nl/file/id/image-134774/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
@@ -21,6 +22,14 @@ target:selector_23d057aeb61b5935a40ae71d092351dc47a42c84 ui:x "0.469230769230769
 target:selector_23d057aeb61b5935a40ae71d092351dc47a42c84 ui:y "0.11282051282051282"^^xsd:float .
 target:selector_23d057aeb61b5935a40ae71d092351dc47a42c84 rdf:value "#xywh=percent:47,11,9,9" .
 
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e a oa:FragmentSelector .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e ui:h "0.641025641025641"^^xsd:float .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e ui:w "0.7854700854700856"^^xsd:float .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e ui:x "0.07435897435897436"^^xsd:float .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e ui:y "0.1794871794871795"^^xsd:float .
+target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e rdf:value "#xywh=percent:7,18,79,64" .
+
 target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 a oa:FragmentSelector .
 target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 ui:h "0.1192307692307692"^^xsd:float .
@@ -33,9 +42,25 @@ target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 a oa:SpecificResource .
 target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 oa:hasSelector target:selector_23d057aeb61b5935a40ae71d092351dc47a42c84 .
 target:target_23d057aeb61b5935a40ae71d092351dc47a42c84 oa:hasSource format:large .
 
+target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e a oa:SpecificResource .
+target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e oa:hasSelector target:selector_6cc0909a865ce98399f5a7db155f05edbc8ebe9e .
+target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e oa:hasSource format:large .
+
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 a oa:SpecificResource .
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 oa:hasSelector target:selector_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 .
 target:target_d1cc4ddf72e54b631a18b5fc32b5e751a6c6fa38 oa:hasSource format:large .
+
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f a oa:Annotation .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f terms:title "IJsduiker: Great Northern Loon" .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f ui:reachedObjectWith "expertise, 11" .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f ui:typingTime 3744 .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:annotatedAt "2015-10-04T12:35:31+02:00"^^xsd:dateTime .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:annotatedBy user:user3 .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:hasBody birds:species-gavia_immer .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:hasTarget target:target_6cc0909a865ce98399f5a7db155f05edbc8ebe9e .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:hasTarget naturalis:print-134774 .
+instances:id_1e225757bc2976aa90f9ee54c05cef4908e1d27f oa:motivatedBy oa:tagging .
 
 instances:id_638b20a5149e98961212beb4470feffe9acbd6ab a oa:Annotation .
 instances:id_638b20a5149e98961212beb4470feffe9acbd6ab terms:title "a" .
