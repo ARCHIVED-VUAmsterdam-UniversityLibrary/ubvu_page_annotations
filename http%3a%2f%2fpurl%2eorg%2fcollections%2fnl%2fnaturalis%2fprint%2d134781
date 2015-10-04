@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd a oa:FragmentSelector .
 target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd a oa:SpecificResource .
 target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd oa:hasSelector target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
 target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd oa:hasSource <http://medialib.naturalis.nl/file/id/image-134781/format/large> .
 
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> a oa:Annotation .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> terms:title "Grote Pijlstormvogel: Great Shearwater" .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:reachedObjectWith "random, 0" .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:typingTime 4711 .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:annotatedAt "2015-10-04T11:52:26+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:annotatedBy user:Debby .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasBody birds:species-puffinus_gravis .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasTarget naturalis:print-134781 .
-<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:motivatedBy oa:tagging .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e a oa:Annotation .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e terms:title "Grote Pijlstormvogel: Great Shearwater" .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e ui:reachedObjectWith "random, 0" .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e ui:typingTime 4711 .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:annotatedAt "2015-10-04T11:52:26+02:00"^^xsd:dateTime .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:annotatedBy user:Debby .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasBody birds:species-puffinus_gravis .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:hasTarget naturalis:print-134781 .
+instances:id_056db1eea6553f6450b3bbebfee35eaa937aef2e oa:motivatedBy oa:tagging .
+
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 a oa:Annotation .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 terms:title "Puffinus gravis: Great Shearwater" .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 ui:reachedObjectWith "random, 0" .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 ui:typingTime 6672 .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:annotatedAt "2015-10-04T11:52:35+02:00"^^xsd:dateTime .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:annotatedBy user:Debby .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:hasBody birds:species-puffinus_gravis .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:hasTarget naturalis:print-134781 .
+instances:id_7fe057d2d9c1570f7585c9c47325da15d3070f31 oa:motivatedBy oa:tagging .
