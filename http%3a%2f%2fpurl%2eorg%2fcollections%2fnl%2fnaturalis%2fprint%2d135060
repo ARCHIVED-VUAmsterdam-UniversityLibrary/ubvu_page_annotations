@@ -50,6 +50,18 @@ target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:SpecificResource .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSelector target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSource format:large .
 
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 a oa:Annotation .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 terms:title "Sylvia curruca: Lesser Whitethroat" .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 ui:reachedObjectWith "random, 6" .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 ui:typingTime 2542 .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:annotatedAt "2015-10-04T12:13:29+02:00"^^xsd:dateTime .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:annotatedBy user:user29 .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:hasBody birds:species-sylvia_curruca .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:hasTarget target:target_caded83c56ee334671844421d4c41ca6e3dd1784 .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:hasTarget naturalis:print-135060 .
+instances:id_29149843fac955fa39ad115b4d71b6f0a17ff8a7 oa:motivatedBy oa:tagging .
+
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 a oa:Annotation .
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 terms:title "Sylvia curruca: Lesser Whitethroat" .
 instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 ui:annotationField bird:IOCScientificNameAnnotation .
