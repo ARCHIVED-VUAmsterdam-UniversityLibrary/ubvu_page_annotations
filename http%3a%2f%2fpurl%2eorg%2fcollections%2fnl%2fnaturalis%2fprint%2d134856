@@ -109,6 +109,18 @@ instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:hasTarget target:target
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:hasTarget naturalis:print-134856 .
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:motivatedBy oa:tagging .
 
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 a oa:Annotation .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 terms:title "vrouw" .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 ui:annotationField bird:Gender .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 ui:reachedObjectWith "expertise, 7" .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 ui:typingTime 1566 .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:annotatedAt "2015-10-04T12:17:26+02:00"^^xsd:dateTime .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:annotatedBy user:user29 .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:hasTarget target:target_ccd8e389f24636a456a01544c2c83b07776ca5bd .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:hasTarget naturalis:print-134856 .
+instances:id_7e9e7eafba6a84b7bb3ae26538b602a2d8e76442 oa:motivatedBy oa:tagging .
+
 instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 a oa:Annotation .
 instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 terms:title "adult" .
 instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 ui:annotationField bird:StageOfLife .
