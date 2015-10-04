@@ -62,6 +62,18 @@ instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget target:target
 instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget naturalis:print-135106 .
 instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:motivatedBy oa:tagging .
 
+instances:id_37e689f1726de4c134859133188618af4cc0da7e a oa:Annotation .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e terms:title "Parus major: Great Tit" .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e ui:reachedObjectWith "random, 10" .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e ui:typingTime 22784 .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:annotatedAt "2015-10-04T12:27:12+02:00"^^xsd:dateTime .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:annotatedBy user:user39 .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:hasBody birds:species-parus_major .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:hasTarget target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:hasTarget naturalis:print-135106 .
+instances:id_37e689f1726de4c134859133188618af4cc0da7e oa:motivatedBy oa:tagging .
+
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b a oa:Annotation .
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b terms:title "Koolmees: Great Tit" .
 instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b ui:annotationField bird:IOCCommonNameAnnotation .
