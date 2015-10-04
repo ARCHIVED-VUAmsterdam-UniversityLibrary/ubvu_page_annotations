@@ -23,6 +23,18 @@ target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 a oa:SpecificResource .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSelector target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135005/format/large> .
 
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 a oa:Annotation .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 terms:title " " .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 ui:annotationField bird:SymbolicField .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 ui:reachedObjectWith "random, 5" .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 ui:typingTime 16258 .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:annotatedAt "2015-10-04T12:25:30+02:00"^^xsd:dateTime .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:annotatedBy user:user37 .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars " " ] .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:hasTarget target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:hasTarget naturalis:print-135005 .
+instances:id_001352f0cb7a9d85b6544b5add3187f8c3b7dcc5 oa:motivatedBy oa:tagging .
+
 instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 a oa:Annotation .
 instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 terms:title "adult" .
 instances:id_39b7976c46c6a67fe92670184926e445f2dedd53 ui:annotationField bird:StageOfLife .
