@@ -86,6 +86,18 @@ instances:id_52850ed0c3df02345852714d6e57f48900893efa oa:hasTarget target:target
 instances:id_52850ed0c3df02345852714d6e57f48900893efa oa:hasTarget naturalis:print-134992 .
 instances:id_52850ed0c3df02345852714d6e57f48900893efa oa:motivatedBy oa:tagging .
 
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 a oa:Annotation .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 terms:title "Uria aalge: Common Murre" .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 ui:reachedObjectWith "expertise, 0" .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 ui:typingTime 6032 .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:annotatedAt "2015-10-04T12:00:21+02:00"^^xsd:dateTime .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:annotatedBy user:user34 .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:hasBody birds:species-uria_aalge .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:hasTarget target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:hasTarget naturalis:print-134992 .
+instances:id_673c2488388f66bde9e6f5cc6c5b440fddab8e61 oa:motivatedBy oa:tagging .
+
 instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f a oa:Annotation .
 instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f terms:title "Zeekoet: Common Murre" .
 instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f ui:annotationField bird:IOCCommonNameAnnotation .
