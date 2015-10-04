@@ -98,6 +98,18 @@ instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c oa:hasTarget target:target
 instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c oa:hasTarget naturalis:print-135150 .
 instances:id_20c1f584e9657efe2eeff2d99abacc9c6d8de26c oa:motivatedBy oa:tagging .
 
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 a oa:Annotation .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 terms:title "man" .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 ui:annotationField bird:Gender .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 ui:reachedObjectWith "random, 0" .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 ui:typingTime 2299 .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:annotatedAt "2015-10-04T13:00:16+02:00"^^xsd:dateTime .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:annotatedBy user:user37 .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:hasTarget target:target_df41680ba141f3642841e1dad2d56bbce1996008 .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:hasTarget naturalis:print-135150 .
+instances:id_254f7ab7ad56b65d688629f00bb2296bdc5fb714 oa:motivatedBy oa:tagging .
+
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab a oa:Annotation .
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab terms:title "man" .
 instances:id_346adb9933c1cc7687382507b6f97826efa360ab ui:annotationField bird:Gender .
