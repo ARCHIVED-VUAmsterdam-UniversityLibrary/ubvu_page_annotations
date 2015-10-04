@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 a oa:FragmentSelector .
 target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 a oa:SpecificResource .
 target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 oa:hasSelector target:selector_6bd855c9a84bff7fc7cadcc3a706080e4736c655 .
 target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134965/format/large> .
 
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> a oa:Annotation .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> terms:title "Grote Mantelmeeuw: Great Black-backed Gull" .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> ui:reachedObjectWith "random, 11" .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> ui:typingTime 10253 .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:annotatedAt "2015-10-04T12:34:01+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:annotatedBy user:user39 .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:hasBody birds:species-larus_marinus .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:hasTarget target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:hasTarget naturalis:print-134965 .
-<http://localhost/annotation/instances/id_95a2221ed6915817cdc923097d66e3d5eeca4243> oa:motivatedBy oa:tagging .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 a oa:Annotation .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 terms:title "Grote Mantelmeeuw: Great Black-backed Gull" .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 ui:reachedObjectWith "random, 11" .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 ui:typingTime 10253 .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:annotatedAt "2015-10-04T12:34:01+02:00"^^xsd:dateTime .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:annotatedBy user:user39 .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:hasBody birds:species-larus_marinus .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:hasTarget target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:hasTarget naturalis:print-134965 .
+instances:id_95a2221ed6915817cdc923097d66e3d5eeca4243 oa:motivatedBy oa:tagging .
+
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 a oa:Annotation .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 terms:title "Larus marinus: Great Black-backed Gull" .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 ui:reachedObjectWith "random, 11" .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 ui:typingTime 8973 .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:annotatedAt "2015-10-04T12:34:31+02:00"^^xsd:dateTime .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:annotatedBy user:user39 .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:hasBody birds:species-larus_marinus .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:hasTarget target:target_6bd855c9a84bff7fc7cadcc3a706080e4736c655 .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:hasTarget naturalis:print-134965 .
+instances:id_b7d55d5d286e5227ba00fb2554bb99d3723a3e17 oa:motivatedBy oa:tagging .
