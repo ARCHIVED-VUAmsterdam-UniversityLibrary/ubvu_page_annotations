@@ -30,6 +30,14 @@ target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:x "0.464102564102564
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 ui:y "0.24487179487179486"^^xsd:float .
 target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 rdf:value "#xywh=percent:46,24,48,63" .
 
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 a oa:FragmentSelector .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 ui:h "0.5525641025641025"^^xsd:float .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 ui:w "0.5341880341880342"^^xsd:float .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 ui:x "0.2076923076923077"^^xsd:float .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 ui:y "0.2076923076923077"^^xsd:float .
+target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 rdf:value "#xywh=percent:21,21,53,55" .
+
 target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 a oa:SpecificResource .
 target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 oa:hasSelector target:selector_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 .
 target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 oa:hasSource format:large .
@@ -37,6 +45,10 @@ target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 oa:hasSource format:large
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 a oa:SpecificResource .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSelector target:selector_151bc8618376daa203e2b83306eb80cfc0a12713 .
 target:target_151bc8618376daa203e2b83306eb80cfc0a12713 oa:hasSource format:large .
+
+target:target_d9fdaad092585a84eed570187f9631da6cbb8a52 a oa:SpecificResource .
+target:target_d9fdaad092585a84eed570187f9631da6cbb8a52 oa:hasSelector target:selector_d9fdaad092585a84eed570187f9631da6cbb8a52 .
+target:target_d9fdaad092585a84eed570187f9631da6cbb8a52 oa:hasSource format:large .
 
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 a oa:Annotation .
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 terms:title "man" .
@@ -49,6 +61,18 @@ instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasBody [ a content:Con
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasTarget target:target_151bc8618376daa203e2b83306eb80cfc0a12713 .
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:hasTarget naturalis:print-134921 .
 instances:id_0dc5fc88214837bb7d62d9194341b4a771506504 oa:motivatedBy oa:tagging .
+
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 a oa:Annotation .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 terms:title "Krombekstrandloper: Curlew Sandpiper" .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 ui:reachedObjectWith "random, 0" .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 ui:typingTime 2261 .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:annotatedAt "2015-10-04T12:11:19+02:00"^^xsd:dateTime .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:annotatedBy user:user29 .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:hasBody birds:species-calidris_ferruginea .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:hasTarget target:target_d9fdaad092585a84eed570187f9631da6cbb8a52 .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:hasTarget naturalis:print-134921 .
+instances:id_1faf532a837e8faffed6972855a5ffd7d3b196d9 oa:motivatedBy oa:tagging .
 
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d a oa:Annotation .
 instances:id_4e37939526cd3392b86876fd0fdd401a1253d82d terms:title "Calidris ferruginea: Curlew Sandpiper" .
