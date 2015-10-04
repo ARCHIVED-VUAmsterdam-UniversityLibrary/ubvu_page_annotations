@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 a oa:FragmentSelector .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 ui:h "0.4115384615384616"^^xsd:float .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 ui:w "0.5550811272416738"^^xsd:float .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 ui:x "0.16567036720751493"^^xsd:float .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 ui:y "0.4846153846153846"^^xsd:float .
+target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 rdf:value "#xywh=percent:17,48,56,41" .
+
 target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 a oa:FragmentSelector .
 target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 ui:h "0.591025641025641"^^xsd:float .
@@ -29,6 +37,10 @@ target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:w "0.432963279248505
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:x "0.5345858240819812"^^xsd:float .
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:y "0.014102564102564103"^^xsd:float .
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 rdf:value "#xywh=percent:53,1,43,82" .
+
+target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 a oa:SpecificResource .
+target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 oa:hasSelector target:selector_b53958610bc4a4d6b5ff3adb05083e75a8667c78 .
+target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 oa:hasSource format:large .
 
 target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 a oa:SpecificResource .
 target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 oa:hasSelector target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 .
@@ -109,3 +121,15 @@ instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:hasBody [ a content:Con
 instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:hasTarget target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 .
 instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:hasTarget naturalis:print-134992 .
 instances:id_a5017c8c105055d09a39c279c43f0b01b442418f oa:motivatedBy oa:tagging .
+
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 a oa:Annotation .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 terms:title "Zeekoet: Common Murre" .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 ui:reachedObjectWith "expertise, 0" .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 ui:typingTime 2815 .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:annotatedAt "2015-10-04T12:00:14+02:00"^^xsd:dateTime .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:annotatedBy user:user34 .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:hasBody birds:species-uria_aalge .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:hasTarget target:target_b53958610bc4a4d6b5ff3adb05083e75a8667c78 .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:hasTarget naturalis:print-134992 .
+instances:id_d759cf51a7b1dfba3b04fae1e1e95db9c282b0c0 oa:motivatedBy oa:tagging .
