@@ -62,6 +62,18 @@ instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget target:target
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget naturalis:print-135120 .
 instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:motivatedBy oa:tagging .
 
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e a oa:Annotation .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e terms:title "Corvus frugilegus: Rook" .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e ui:reachedObjectWith "random, 2" .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e ui:typingTime 6679 .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:annotatedAt "2015-10-04T12:22:14+02:00"^^xsd:dateTime .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:annotatedBy user:user3 .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:hasBody birds:species-corvus_frugilegus .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:hasTarget target:target_50aa8dad3b5b597b83594a23fe0bae350167fe51 .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:hasTarget naturalis:print-135120 .
+instances:id_7da0b983d114ee16f3d8deba8a44e1d635d62c9e oa:motivatedBy oa:tagging .
+
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d a oa:Annotation .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d terms:title "Corvus frugilegus: Rook" .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d ui:annotationField bird:IOCScientificNameAnnotation .
