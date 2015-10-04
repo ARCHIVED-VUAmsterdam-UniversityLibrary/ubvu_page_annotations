@@ -50,6 +50,18 @@ target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e a oa:SpecificResource .
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSelector target:selector_bdfb9e44de87e02b26c08b3a42bb811633b9183e .
 target:target_bdfb9e44de87e02b26c08b3a42bb811633b9183e oa:hasSource format:large .
 
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db a oa:Annotation .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db terms:title "Milvus migrans: Black Kite" .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db ui:reachedObjectWith "expertise, 11" .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db ui:typingTime 5812 .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:annotatedAt "2015-10-04T13:08:27+02:00"^^xsd:dateTime .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:annotatedBy user:Kvliet .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:hasBody birds:species-milvus_migrans .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:hasTarget target:target_6b0f76ca1feb30388eb3c55bbd559b5ee4df20a3 .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:hasTarget naturalis:print-134863 .
+instances:id_1a7e9308b713895e36b387c369fbca0615b251db oa:motivatedBy oa:tagging .
+
 instances:id_3950e03ab6390475404e19bcc7fcc53918e0b6da a oa:Annotation .
 instances:id_3950e03ab6390475404e19bcc7fcc53918e0b6da terms:title "Zwarte Wouw: Black Kite" .
 instances:id_3950e03ab6390475404e19bcc7fcc53918e0b6da ui:annotationField bird:IOCCommonNameAnnotation .
