@@ -205,6 +205,18 @@ instances:id_ca1c4c0da31324318241f05084276f53801299ca oa:hasTarget target:target
 instances:id_ca1c4c0da31324318241f05084276f53801299ca oa:hasTarget naturalis:print-134862 .
 instances:id_ca1c4c0da31324318241f05084276f53801299ca oa:motivatedBy oa:tagging .
 
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 a oa:Annotation .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 terms:title "vrouw" .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 ui:annotationField bird:Gender .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 ui:reachedObjectWith "expertise, 0" .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 ui:typingTime 2681 .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:annotatedAt "2015-10-04T11:49:12+02:00"^^xsd:dateTime .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:annotatedBy user:Sir_Iain .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:hasTarget target:target_d207e70f00a86e9e58d1c8b9233c7c42eda19d78 .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:hasTarget naturalis:print-134862 .
+instances:id_cc0c5d6eb7285ac03e41bb69d439fa82c5dffe78 oa:motivatedBy oa:tagging .
+
 instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d a oa:Annotation .
 instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d terms:title "Rode Wouw: Red Kite" .
 instances:id_cffcf9ca49e13a4d835a87dae5e40f6ed18c9e4d ui:annotationField bird:IOCCommonNameAnnotation .
