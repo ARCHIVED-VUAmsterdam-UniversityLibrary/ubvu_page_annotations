@@ -86,6 +86,18 @@ instances:id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc oa:hasTarget target:target
 instances:id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc oa:hasTarget naturalis:print-134677 .
 instances:id_1fc159bd6eaa0175d91d30e64f8f469908bf0ecc oa:motivatedBy oa:tagging .
 
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 a oa:Annotation .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 terms:title "echt" .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 ui:reachedObjectWith "random, 1" .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 ui:typingTime 1926 .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:annotatedAt "2015-10-04T11:57:58+02:00"^^xsd:dateTime .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:annotatedBy user:user39 .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:hasTarget target:target_11a8da5bb3863899e27e964505eb20e112a5ce84 .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:hasTarget naturalis:print-134677 .
+instances:id_40c63265d96724f0547ff5b8e2c3bcfe463e0b44 oa:motivatedBy oa:tagging .
+
 instances:id_54dff4640300f8998b19be064c8e6cbb7b77206d a oa:Annotation .
 instances:id_54dff4640300f8998b19be064c8e6cbb7b77206d terms:title "Tyto alba: Western Barn Owl" .
 instances:id_54dff4640300f8998b19be064c8e6cbb7b77206d ui:annotationField bird:IOCScientificNameAnnotation .
