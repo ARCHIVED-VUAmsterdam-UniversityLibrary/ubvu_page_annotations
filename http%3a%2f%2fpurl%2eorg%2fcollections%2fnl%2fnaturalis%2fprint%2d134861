@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134861/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 a oa:FragmentSelector .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:h "0.34415954415954414"^^xsd:float .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:w "0.8854700854700854"^^xsd:float .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:x "0.04786324786324787"^^xsd:float .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:y "0.2341880341880342"^^xsd:float .
+target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 rdf:value "#xywh=percent:5,23,89,34" .
 
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:FragmentSelector .
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:x "0.060683760683760
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf ui:y "0.24216524216524216"^^xsd:float .
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf rdf:value "#xywh=percent:6,24,56,29" .
 
+target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 a oa:SpecificResource .
+target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 oa:hasSelector target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 .
+target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 oa:hasSource format:large .
+
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:SpecificResource .
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSelector target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
-target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSource <http://medialib.naturalis.nl/file/id/image-134861/format/large> .
+target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSource format:large .
 
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 a oa:Annotation .
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 terms:title "Slangenarend: Short-toed Snake Eagle" .
@@ -47,6 +61,18 @@ instances:id_63f041e2e13b21be2e7bb834bcd67e68c266b1fd oa:hasBody [ a content:Con
 instances:id_63f041e2e13b21be2e7bb834bcd67e68c266b1fd oa:hasTarget target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
 instances:id_63f041e2e13b21be2e7bb834bcd67e68c266b1fd oa:hasTarget naturalis:print-134861 .
 instances:id_63f041e2e13b21be2e7bb834bcd67e68c266b1fd oa:motivatedBy oa:tagging .
+
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c a oa:Annotation .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c terms:title "Slangenarend" .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c ui:reachedObjectWith "expertise, 1" .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c ui:typingTime 9610 .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:annotatedAt "2015-10-04T12:00:43+02:00"^^xsd:dateTime .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:annotatedBy user:Debby .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Slangenarend" ] .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:hasTarget target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:hasTarget naturalis:print-134861 .
+instances:id_c633ac3401493ff527aebc86d7c69755fe3ac90c oa:motivatedBy oa:tagging .
 
 instances:id_ebd00645d4405df635da51e18ca31f14007b3766 a oa:Annotation .
 instances:id_ebd00645d4405df635da51e18ca31f14007b3766 terms:title "Circaetus gallicus: Short-toed Snake Eagle" .
