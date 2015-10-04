@@ -36,6 +36,18 @@ instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget target:target
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget naturalis:print-134799 .
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:motivatedBy oa:tagging .
 
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd a oa:Annotation .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd terms:title "adult" .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd ui:annotationField bird:StageOfLife .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd ui:reachedObjectWith "random, 6" .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd ui:typingTime 4601 .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:annotatedAt "2015-10-04T12:24:17+02:00"^^xsd:dateTime .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:annotatedBy user:user3 .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:hasTarget target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:hasTarget naturalis:print-134799 .
+instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd oa:motivatedBy oa:tagging .
+
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f a oa:Annotation .
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f terms:title "Ooievaar: White Stork" .
 instances:id_e0495386d95c6ed7ca9c8e73648d51e7e99c5d8f ui:annotationField bird:IOCCommonNameAnnotation .
