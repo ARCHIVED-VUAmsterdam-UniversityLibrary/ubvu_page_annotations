@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:FragmentSelector .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:h "0.5293447293447293"^^xsd:float .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:w "0.6495726495726496"^^xsd:float .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:x "0.0452991452991453"^^xsd:float .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 ui:y "0.26894586894586897"^^xsd:float .
+target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 rdf:value "#xywh=percent:5,27,65,53" .
+
+target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 a oa:SpecificResource .
+target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSelector target:selector_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134790/format/large> .
+
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> a oa:Annotation .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> terms:title "Purperreiger: Purple Heron" .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:reachedObjectWith "expertise, 2" .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> ui:typingTime 5625 .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:annotatedAt "2015-10-04T12:26:39+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:annotatedBy user:user3 .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasBody birds:species-ardea_purpurea .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:hasTarget naturalis:print-134790 .
+<http://localhost/annotation/instances/id_f682fbf3dacc72ba8eade36c9adbc78047926a46> oa:motivatedBy oa:tagging .
