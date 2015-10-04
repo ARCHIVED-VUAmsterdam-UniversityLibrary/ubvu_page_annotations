@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 a oa:FragmentSelector .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:h "0.1321937321937322"^^xsd:float .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:w "0.5726495726495726"^^xsd:float .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:x "0.4025641025641026"^^xsd:float .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 ui:y "0.07521367521367521"^^xsd:float .
+target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 rdf:value "#xywh=percent:40,8,57,13" .
+
+target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 a oa:SpecificResource .
+target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSelector target:selector_8cd8271e14d684186cb9813e7804568478e9d0a0 .
+target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134881/format/large> .
+
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> a oa:Annotation .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> terms:title "Slechtvalk: Peregrine Falcon" .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:reachedObjectWith "random, 5" .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> ui:typingTime 6639 .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:annotatedAt "2015-10-04T11:45:08+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:annotatedBy user:user39 .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasBody birds:species-falco_peregrinus .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasTarget target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:hasTarget naturalis:print-134881 .
+<http://localhost/annotation/instances/id_a73432b298936867257c41df742bc3694bb4bddf> oa:motivatedBy oa:tagging .
