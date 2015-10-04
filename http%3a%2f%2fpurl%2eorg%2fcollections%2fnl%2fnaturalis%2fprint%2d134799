@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134799/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b ui:x "0.103418803418803
 target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b ui:y "0.038461538461538464"^^xsd:float .
 target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b rdf:value "#xywh=percent:10,4,43,77" .
 
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 a oa:FragmentSelector .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 ui:h "0.5628205128205128"^^xsd:float .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 ui:w "0.352991452991453"^^xsd:float .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 ui:x "0.4863247863247863"^^xsd:float .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 ui:y "0.2128205128205128"^^xsd:float .
+target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 rdf:value "#xywh=percent:49,21,35,56" .
+
 target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b a oa:SpecificResource .
 target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b oa:hasSelector target:selector_080cbdb0f14b031dc610d6a222ffb3d038f6740b .
-target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b oa:hasSource <http://medialib.naturalis.nl/file/id/image-134799/format/large> .
+target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b oa:hasSource format:large .
+
+target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 a oa:SpecificResource .
+target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 oa:hasSelector target:selector_7c8101e4acf3067ec3469dfbe74d8278edc09b58 .
+target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 oa:hasSource format:large .
 
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c a oa:Annotation .
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c terms:title "onbekend" .
@@ -47,6 +61,18 @@ instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 oa:hasBody [ a content:Con
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 oa:hasTarget target:target_080cbdb0f14b031dc610d6a222ffb3d038f6740b .
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 oa:hasTarget naturalis:print-134799 .
 instances:id_57375d97747dcc9ed0e1ae453d1eb1a6bc5ff961 oa:motivatedBy oa:tagging .
+
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d a oa:Annotation .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d terms:title "Ooievaar: White Stork" .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d ui:reachedObjectWith "random, 6" .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d ui:typingTime 6800 .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:annotatedAt "2015-10-04T12:25:25+02:00"^^xsd:dateTime .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:annotatedBy user:user3 .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:hasBody birds:species-ciconia_ciconia .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:hasTarget target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:hasTarget naturalis:print-134799 .
+instances:id_63c22c11a671ed6955240801a3544b216cee2a1d oa:motivatedBy oa:tagging .
 
 instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd a oa:Annotation .
 instances:id_80fd4f661e266fe62378df9770b45d3c63adb5dd terms:title "adult" .
