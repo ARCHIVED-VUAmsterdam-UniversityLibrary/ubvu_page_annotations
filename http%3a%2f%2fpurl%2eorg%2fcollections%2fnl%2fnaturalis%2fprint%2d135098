@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_4d609c19788e8e890feac71598ac650d49758bf5 a oa:FragmentSelector .
 target:selector_4d609c19788e8e890feac71598ac650d49758bf5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_4d609c19788e8e890feac71598ac650d49758bf5 a oa:SpecificResource .
 target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSelector target:selector_4d609c19788e8e890feac71598ac650d49758bf5 .
 target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135098/format/large> .
 
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> a oa:Annotation .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> terms:title "Strandleeuwerik: Horned Lark" .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:reachedObjectWith "random, 4" .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:typingTime 21033 .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:annotatedAt "2015-10-04T11:31:51+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:annotatedBy user:user5 .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasBody birds:species-eremophila_alpestris .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasTarget naturalis:print-135098 .
-<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:motivatedBy oa:tagging .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 a oa:Annotation .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 terms:title "Strandleeuwerik: Horned Lark" .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 ui:reachedObjectWith "random, 4" .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 ui:typingTime 21033 .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:annotatedAt "2015-10-04T11:31:51+02:00"^^xsd:dateTime .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:annotatedBy user:user5 .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasBody birds:species-eremophila_alpestris .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:hasTarget naturalis:print-135098 .
+instances:id_6ca7409814b5fa20c700dfc24032ad88a1bb3578 oa:motivatedBy oa:tagging .
+
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f a oa:Annotation .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f terms:title "Eremophila" .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f ui:reachedObjectWith "random, 4" .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f ui:typingTime 8631 .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:annotatedAt "2015-10-04T11:32:24+02:00"^^xsd:dateTime .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:annotatedBy user:user5 .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:hasBody birds:genus-eremophila .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:hasTarget naturalis:print-135098 .
+instances:id_ee811485e1927bc8af4bdd542077b22a1656575f oa:motivatedBy oa:tagging .
