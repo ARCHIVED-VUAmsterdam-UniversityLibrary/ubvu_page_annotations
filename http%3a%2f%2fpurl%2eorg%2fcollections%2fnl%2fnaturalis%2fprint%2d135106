@@ -50,6 +50,18 @@ target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 a oa:SpecificResource .
 target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSelector target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
 target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSource format:large .
 
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 a oa:Annotation .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 terms:title "Parus major: Great Tit" .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 ui:reachedObjectWith "random, 10" .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 ui:typingTime 4932 .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:annotatedAt "2015-10-04T12:28:07+02:00"^^xsd:dateTime .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:annotatedBy user:user39 .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:hasBody birds:species-parus_major .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:hasTarget target:target_80369186f52833ff2deed9afe64372e331a7e1aa .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:hasTarget naturalis:print-135106 .
+instances:id_123bb38624fffa6f30198368a76c12ec9e0cb555 oa:motivatedBy oa:tagging .
+
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 a oa:Annotation .
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 terms:title "man" .
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 ui:annotationField bird:Gender .
