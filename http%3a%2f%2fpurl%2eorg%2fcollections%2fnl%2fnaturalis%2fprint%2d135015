@@ -22,6 +22,14 @@ target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:x "0.672649572649572
 target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:y "0.04487179487179487"^^xsd:float .
 target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d rdf:value "#xywh=percent:67,4,25,22" .
 
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 a oa:FragmentSelector .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 ui:h "0.43974358974358974"^^xsd:float .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 ui:w "0.3683760683760684"^^xsd:float .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 ui:x "0.5034188034188034"^^xsd:float .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 ui:y "0.34615384615384615"^^xsd:float .
+target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 rdf:value "#xywh=percent:50,35,37,44" .
+
 target:selector_bc22baaa48a924c644b543381854415950aa9dac a oa:FragmentSelector .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:h "0.34102564102564104"^^xsd:float .
@@ -34,9 +42,25 @@ target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d a oa:SpecificResource .
 target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d oa:hasSelector target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d .
 target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d oa:hasSource format:large .
 
+target:target_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 a oa:SpecificResource .
+target:target_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 oa:hasSelector target:selector_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 .
+target:target_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 oa:hasSource format:large .
+
 target:target_bc22baaa48a924c644b543381854415950aa9dac a oa:SpecificResource .
 target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSelector target:selector_bc22baaa48a924c644b543381854415950aa9dac .
 target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSource format:large .
+
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe a oa:Annotation .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe terms:title "IJsvogel: Common Kingfisher" .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe ui:reachedObjectWith "expertise, 0" .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe ui:typingTime 2242 .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:annotatedAt "2015-10-04T11:47:18+02:00"^^xsd:dateTime .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:annotatedBy user:user34 .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:hasBody birds:species-alcedo_atthis .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:hasTarget target:target_83c346f0bb5dc5f1445d2ec74cfeb10b8ade5244 .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:hasTarget naturalis:print-135015 .
+instances:id_0cf0c5e991bf69edcd802e0df1d0374ed5e6bdfe oa:motivatedBy oa:tagging .
 
 instances:id_170617159ec184d061a60aa20330e07043dc7c57 a oa:Annotation .
 instances:id_170617159ec184d061a60aa20330e07043dc7c57 terms:title "Alcedo atthis: Common Kingfisher" .
