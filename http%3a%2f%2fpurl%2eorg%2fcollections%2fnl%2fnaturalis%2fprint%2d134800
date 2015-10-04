@@ -74,6 +74,18 @@ instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 oa:hasTarget target:target
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 oa:hasTarget naturalis:print-134800 .
 instances:id_0728bc61b673830a04c7dfd4fe1442a7d900d256 oa:motivatedBy oa:tagging .
 
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a a oa:Annotation .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a terms:title "juveniel" .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a ui:annotationField bird:StageOfLife .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a ui:reachedObjectWith "random, 0" .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a ui:typingTime 1590 .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:annotatedAt "2015-10-04T11:53:38+02:00"^^xsd:dateTime .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:annotatedBy user:Debby .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:hasTarget target:target_f6ede3c2fa6b18d9f7e73483c24473c058b77bc7 .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:hasTarget naturalis:print-134800 .
+instances:id_2bfdbc106662324b62f45217a279339d25eca62a oa:motivatedBy oa:tagging .
+
 instances:id_318448775b672aa1d100529c86f7c8e8ae163380 a oa:Annotation .
 instances:id_318448775b672aa1d100529c86f7c8e8ae163380 terms:title "adult" .
 instances:id_318448775b672aa1d100529c86f7c8e8ae163380 ui:annotationField bird:StageOfLife .
