@@ -182,6 +182,18 @@ instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:hasTarget target:target
 instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:hasTarget naturalis:print-134858 .
 instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 oa:motivatedBy oa:tagging .
 
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 a oa:Annotation .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 terms:title "vrouw" .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 ui:annotationField bird:Gender .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 ui:reachedObjectWith "expertise, 4" .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 ui:typingTime 3867 .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:annotatedAt "2015-10-04T11:54:26+02:00"^^xsd:dateTime .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:annotatedBy user:user4 .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:hasTarget target:target_382a19a80cd8924f9690dfdd4e433e037ae0a03b .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:hasTarget naturalis:print-134858 .
+instances:id_cd68db567baa3a68bceda12a652164781876d2f9 oa:motivatedBy oa:tagging .
+
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e a oa:Annotation .
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e terms:title "Accipiter gentilis: Northern Goshawk" .
 instances:id_fef3e7e9ad1995f531665b773156e280fc13c25e ui:annotationField bird:IOCScientificNameAnnotation .
