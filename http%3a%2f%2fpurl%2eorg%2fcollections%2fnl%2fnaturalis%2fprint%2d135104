@@ -36,6 +36,18 @@ instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget target:target
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget naturalis:print-135104 .
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:motivatedBy oa:tagging .
 
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 a oa:Annotation .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 terms:title "adult" .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 ui:annotationField bird:StageOfLife .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 ui:reachedObjectWith "random, 1" .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 ui:typingTime 4346 .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:annotatedAt "2015-10-04T12:03:48+02:00"^^xsd:dateTime .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:annotatedBy user:user29 .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:hasTarget target:target_f528eab421856553436f9be8dff67227e82fdbf0 .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:hasTarget naturalis:print-135104 .
+instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 oa:motivatedBy oa:tagging .
+
 instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd a oa:Annotation .
 instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd terms:title "Bruinkopgors: Red-headed Bunting" .
 instances:id_6bdf7d69d826b26925f7ec9836cbdea387bca1dd ui:annotationField bird:IOCCommonNameAnnotation .
