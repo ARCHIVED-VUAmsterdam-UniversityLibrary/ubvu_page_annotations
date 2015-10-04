@@ -373,6 +373,18 @@ instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:hasTarget target:target
 instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:hasTarget naturalis:print-134857 .
 instances:id_c06e126ffc590d29e8f31bd445abd77c8b5a7954 oa:motivatedBy oa:tagging .
 
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 a oa:Annotation .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 terms:title "Circus cyaneus: Hen Harrier" .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 ui:reachedObjectWith "expertise, 2" .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 ui:typingTime 12000 .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:annotatedAt "2015-10-04T12:16:46+02:00"^^xsd:dateTime .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:annotatedBy user:user5 .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:hasBody birds:species-circus_cyaneus .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:hasTarget target:target_4ba0a365c702d8cfbe328c5d73714728d33f7fa7 .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:hasTarget naturalis:print-134857 .
+instances:id_cd7b0b513aec712ca933253e95c04dc41b218da3 oa:motivatedBy oa:tagging .
+
 instances:id_df6b3a1c51f5f1387cc9e24b74bc905890b6b174 a oa:Annotation .
 instances:id_df6b3a1c51f5f1387cc9e24b74bc905890b6b174 terms:title "Steppekiekendief: Pallid Harrier" .
 instances:id_df6b3a1c51f5f1387cc9e24b74bc905890b6b174 ui:annotationField bird:IOCCommonNameAnnotation .
