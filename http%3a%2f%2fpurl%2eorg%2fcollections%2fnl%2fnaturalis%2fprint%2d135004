@@ -6,8 +6,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_7aca46e2f229da219ffaf518fc56cff3614dbe8a a oa:FragmentSelector .
 target:selector_7aca46e2f229da219ffaf518fc56cff3614dbe8a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -21,14 +23,26 @@ target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a a oa:SpecificResource .
 target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a oa:hasSelector target:selector_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
 target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a oa:hasSource <http://medialib.naturalis.nl/file/id/image-135004/format/large> .
 
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> a oa:Annotation .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> terms:title "Velduil" .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> ui:reachedObjectWith "random, 11" .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> ui:typingTime 4170 .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:annotatedAt "2015-10-04T13:21:30+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:annotatedBy user:user37 .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Velduil" ] .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:hasTarget naturalis:print-135004 .
-<http://localhost/annotation/instances/id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e> oa:motivatedBy oa:tagging .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 a oa:Annotation .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 terms:title "Asio flammeus" .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 ui:reachedObjectWith "random, 11" .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 ui:typingTime 6028 .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:annotatedAt "2015-10-04T13:21:38+02:00"^^xsd:dateTime .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:annotatedBy user:user37 .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Asio flammeus" ] .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:hasTarget naturalis:print-135004 .
+instances:id_50224fdd27d5fe500f494157b544f8107bc7c8e7 oa:motivatedBy oa:tagging .
+
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e a oa:Annotation .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e terms:title "Velduil" .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e ui:reachedObjectWith "random, 11" .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e ui:typingTime 4170 .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:annotatedAt "2015-10-04T13:21:30+02:00"^^xsd:dateTime .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:annotatedBy user:user37 .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Velduil" ] .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasTarget target:target_7aca46e2f229da219ffaf518fc56cff3614dbe8a .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:hasTarget naturalis:print-135004 .
+instances:id_6a0c8fcc5e00568fd14ddbafe05dda62904dba8e oa:motivatedBy oa:tagging .
