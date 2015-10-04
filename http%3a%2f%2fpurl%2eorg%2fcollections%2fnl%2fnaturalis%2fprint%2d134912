@@ -50,6 +50,18 @@ instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget target:target
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:hasTarget naturalis:print-134912 .
 instances:id_0fa81755af38ce63cb6f86538682dbe23249c605 oa:motivatedBy oa:tagging .
 
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 a oa:Annotation .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 terms:title "juveniel" .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 ui:annotationField bird:StageOfLife .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 ui:reachedObjectWith "expertise, 11" .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 ui:typingTime 1235 .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:annotatedAt "2015-10-04T12:03:45+02:00"^^xsd:dateTime .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:annotatedBy user:user34 .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:hasTarget target:target_b40ab6dc573f231f62d42b1bfe9250afe452194c .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:hasTarget naturalis:print-134912 .
+instances:id_6e35f4fc7e623a8931084c8d9b0fcdf22f9af119 oa:motivatedBy oa:tagging .
+
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 a oa:Annotation .
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 terms:title "Kievit: Northern Lapwing" .
 instances:id_90173368e38632f14b5f8cf74a041f391c795166 ui:annotationField bird:IOCCommonNameAnnotation .
