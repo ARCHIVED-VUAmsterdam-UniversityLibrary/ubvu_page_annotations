@@ -62,6 +62,18 @@ instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:hasTarget target:target
 instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:hasTarget naturalis:print-134835 .
 instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:motivatedBy oa:tagging .
 
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c a oa:Annotation .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c terms:title "Aythya collaris: Ring-necked Duck" .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c ui:reachedObjectWith "random, 0" .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c ui:typingTime 11880 .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:annotatedAt "2015-10-04T11:46:22+02:00"^^xsd:dateTime .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:annotatedBy user:user5 .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:hasBody birds:species-aythya_collaris .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:hasTarget target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:hasTarget naturalis:print-134835 .
+instances:id_235bafcff2399ef186d48ec9de623d466766fb1c oa:motivatedBy oa:tagging .
+
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 a oa:Annotation .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 terms:title "Kuifeend: Tufted Duck" .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 ui:annotationField bird:IOCCommonNameAnnotation .
