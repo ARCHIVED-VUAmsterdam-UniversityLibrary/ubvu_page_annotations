@@ -98,6 +98,18 @@ instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:hasTarget target:target
 instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:hasTarget naturalis:print-134800 .
 instances:id_7a3eaf0cd2eed06089c3a91fa2cf2cd8490fe0c4 oa:motivatedBy oa:tagging .
 
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c a oa:Annotation .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c terms:title "Ciconia nigra: Black Stork" .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c ui:reachedObjectWith "random, 4" .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c ui:typingTime 11704 .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:annotatedAt "2015-10-04T11:51:28+02:00"^^xsd:dateTime .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:annotatedBy user:user3 .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:hasBody birds:species-ciconia_nigra .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:hasTarget target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:hasTarget naturalis:print-134800 .
+instances:id_ae0d154f8b7f05d11268f941b6aa2d6e5765cf1c oa:motivatedBy oa:tagging .
+
 instances:id_f75bba5007570365c42651df25fed489413433cc a oa:Annotation .
 instances:id_f75bba5007570365c42651df25fed489413433cc terms:title "Zwarte Ooievaar: Black Stork" .
 instances:id_f75bba5007570365c42651df25fed489413433cc ui:annotationField bird:IOCCommonNameAnnotation .
