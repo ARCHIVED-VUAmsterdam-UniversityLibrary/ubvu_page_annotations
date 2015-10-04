@@ -110,6 +110,18 @@ instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:hasTarget target:target
 instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:hasTarget naturalis:print-134858 .
 instances:id_99d1b8659ea7b863d53a5ae965bd43d9187ef71d oa:motivatedBy oa:tagging .
 
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 a oa:Annotation .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 terms:title "juveniel" .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 ui:annotationField bird:StageOfLife .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 ui:reachedObjectWith "expertise, 6" .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 ui:typingTime 1768 .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:annotatedAt "2015-10-04T11:41:26+02:00"^^xsd:dateTime .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:annotatedBy user:user8 .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:hasTarget target:target_275fa20d1207c657d69cfd45104caa524b774b58 .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:hasTarget naturalis:print-134858 .
+instances:id_b89250f6af2ca605efc2f37c6f9988d9edb65ac1 oa:motivatedBy oa:tagging .
+
 instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 a oa:Annotation .
 instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 terms:title "Havik: Northern Goshawk" .
 instances:id_c17f7486cfc975b1f4b13da6ae40bc25234023b9 ui:annotationField bird:IOCCommonNameAnnotation .
