@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 a oa:FragmentSelector .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 ui:h "0.24871794871794872"^^xsd:float .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 ui:w "0.1846153846153846"^^xsd:float .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 ui:x "0.2264957264957265"^^xsd:float .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 ui:y "0.5987179487179487"^^xsd:float .
+target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 rdf:value "#xywh=percent:23,60,18,25" .
+
 target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 a oa:FragmentSelector .
 target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 ui:h "0.5897435897435898"^^xsd:float .
@@ -37,6 +45,10 @@ target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:w "0.340170940170940
 target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:x "0.11025641025641025"^^xsd:float .
 target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 ui:y "0.1858974358974359"^^xsd:float .
 target:selector_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 rdf:value "#xywh=percent:11,19,34,45" .
+
+target:target_2172a87df9b30e99c5acf657eddb641683040bb4 a oa:SpecificResource .
+target:target_2172a87df9b30e99c5acf657eddb641683040bb4 oa:hasSelector target:selector_2172a87df9b30e99c5acf657eddb641683040bb4 .
+target:target_2172a87df9b30e99c5acf657eddb641683040bb4 oa:hasSource format:large .
 
 target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 a oa:SpecificResource .
 target:target_3a3a369e4a4e2609994906fe353dba753f3b0576 oa:hasSelector target:selector_3a3a369e4a4e2609994906fe353dba753f3b0576 .
@@ -121,6 +133,18 @@ instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasBody birds:species-e
 instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasTarget target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 .
 instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:hasTarget naturalis:print-135157 .
 instances:id_6136fb8919b14fcd132e8f309d3232db1510783a oa:motivatedBy oa:tagging .
+
+instances:id_7576305947a1722062412444c3655121709c68ea a oa:Annotation .
+instances:id_7576305947a1722062412444c3655121709c68ea terms:title "Ortolaan: Ortolan Bunting" .
+instances:id_7576305947a1722062412444c3655121709c68ea ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_7576305947a1722062412444c3655121709c68ea ui:reachedObjectWith "random, 0" .
+instances:id_7576305947a1722062412444c3655121709c68ea ui:typingTime 2378 .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:annotatedAt "2015-10-04T12:08:29+02:00"^^xsd:dateTime .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:annotatedBy user:user29 .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:hasBody birds:species-emberiza_hortulana .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:hasTarget target:target_2172a87df9b30e99c5acf657eddb641683040bb4 .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:hasTarget naturalis:print-135157 .
+instances:id_7576305947a1722062412444c3655121709c68ea oa:motivatedBy oa:tagging .
 
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c a oa:Annotation .
 instances:id_937d5459cd132f1d2e66c636f29dde364e7f5f9c terms:title "adult" .
