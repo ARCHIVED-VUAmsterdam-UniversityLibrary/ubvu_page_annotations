@@ -98,6 +98,18 @@ instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:hasTarget target:target
 instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:hasTarget naturalis:print-134775 .
 instances:id_69ed4fa826b0abab1a50b343725544dcf96fd8b7 oa:motivatedBy oa:tagging .
 
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb a oa:Annotation .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb terms:title "Gavia arctica: Black-throated Loon" .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb ui:reachedObjectWith "expertise, 11" .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb ui:typingTime 6091 .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:annotatedAt "2015-10-04T12:40:07+02:00"^^xsd:dateTime .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:annotatedBy user:user3 .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:hasBody birds:species-gavia_arctica .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:hasTarget target:target_4eacf102dab57f26cf85208d645acbce894f19ee .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:hasTarget naturalis:print-134775 .
+instances:id_6debf7f0d50d25881cba3abca51121bcf8f8ebdb oa:motivatedBy oa:tagging .
+
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b a oa:Annotation .
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b terms:title "adult" .
 instances:id_b2fae085c9bf4b67201112fa3504b7831a031b9b ui:annotationField bird:StageOfLife .
