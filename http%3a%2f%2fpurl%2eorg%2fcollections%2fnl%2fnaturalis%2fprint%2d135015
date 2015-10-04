@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135015/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d a oa:FragmentSelector .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:h "0.2205128205128205"^^xsd:float .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:w "0.2487179487179486"^^xsd:float .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:x "0.6726495726495727"^^xsd:float .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d ui:y "0.04487179487179487"^^xsd:float .
+target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d rdf:value "#xywh=percent:67,4,25,22" .
 
 target:selector_bc22baaa48a924c644b543381854415950aa9dac a oa:FragmentSelector .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:x "0.111111111111111
 target:selector_bc22baaa48a924c644b543381854415950aa9dac ui:y "0.04487179487179487"^^xsd:float .
 target:selector_bc22baaa48a924c644b543381854415950aa9dac rdf:value "#xywh=percent:11,4,46,34" .
 
+target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d a oa:SpecificResource .
+target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d oa:hasSelector target:selector_4b9b4f1592365861fa54c4d3e17369fea59f644d .
+target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d oa:hasSource format:large .
+
 target:target_bc22baaa48a924c644b543381854415950aa9dac a oa:SpecificResource .
 target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSelector target:selector_bc22baaa48a924c644b543381854415950aa9dac .
-target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSource <http://medialib.naturalis.nl/file/id/image-135015/format/large> .
+target:target_bc22baaa48a924c644b543381854415950aa9dac oa:hasSource format:large .
 
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af a oa:Annotation .
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af terms:title "IJsvogel: Common Kingfisher" .
@@ -35,6 +49,18 @@ instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasBody birds:species-a
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget target:target_bc22baaa48a924c644b543381854415950aa9dac .
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:hasTarget naturalis:print-135015 .
 instances:id_360cdf7390e421f23f7436487a0650a82495a9af oa:motivatedBy oa:tagging .
+
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 a oa:Annotation .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 terms:title "IJsvogel: Common Kingfisher" .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 ui:reachedObjectWith "expertise, 0" .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 ui:typingTime 7110 .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:annotatedAt "2015-10-04T11:46:56+02:00"^^xsd:dateTime .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:annotatedBy user:user34 .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:hasBody birds:species-alcedo_atthis .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:hasTarget target:target_4b9b4f1592365861fa54c4d3e17369fea59f644d .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:hasTarget naturalis:print-135015 .
+instances:id_58b7bffe0d8c953ffc50e698d2f282f6e2f94480 oa:motivatedBy oa:tagging .
 
 instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 a oa:Annotation .
 instances:id_7447aa9df4e5c5140e199f2ec3aa4982947fa123 terms:title "IJsvogel" .
