@@ -36,6 +36,18 @@ instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:hasTarget target:target
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:hasTarget naturalis:print-134881 .
 instances:id_3dd23ebdc4d09d02ab29253ffe5a228e51d9d1d7 oa:motivatedBy oa:tagging .
 
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 a oa:Annotation .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 terms:title "echt" .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 ui:reachedObjectWith "random, 5" .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 ui:typingTime 2316 .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:annotatedAt "2015-10-04T11:45:52+02:00"^^xsd:dateTime .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:annotatedBy user:user39 .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:hasTarget target:target_8cd8271e14d684186cb9813e7804568478e9d0a0 .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:hasTarget naturalis:print-134881 .
+instances:id_4f57f1a7beda5c06a24ba0e038f5f5639d4af967 oa:motivatedBy oa:tagging .
+
 instances:id_a73432b298936867257c41df742bc3694bb4bddf a oa:Annotation .
 instances:id_a73432b298936867257c41df742bc3694bb4bddf terms:title "Slechtvalk: Peregrine Falcon" .
 instances:id_a73432b298936867257c41df742bc3694bb4bddf ui:annotationField bird:IOCCommonNameAnnotation .
