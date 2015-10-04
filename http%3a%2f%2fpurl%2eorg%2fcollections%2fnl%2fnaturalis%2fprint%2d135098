@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 a oa:FragmentSelector .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 ui:h "0.4987179487179487"^^xsd:float .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 ui:w "0.44957264957264953"^^xsd:float .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 ui:x "0.3094017094017094"^^xsd:float .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 ui:y "0.12051282051282051"^^xsd:float .
+target:selector_4d609c19788e8e890feac71598ac650d49758bf5 rdf:value "#xywh=percent:31,12,45,50" .
+
+target:target_4d609c19788e8e890feac71598ac650d49758bf5 a oa:SpecificResource .
+target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSelector target:selector_4d609c19788e8e890feac71598ac650d49758bf5 .
+target:target_4d609c19788e8e890feac71598ac650d49758bf5 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135098/format/large> .
+
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> a oa:Annotation .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> terms:title "Strandleeuwerik: Horned Lark" .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:reachedObjectWith "random, 4" .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> ui:typingTime 21033 .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:annotatedAt "2015-10-04T11:31:51+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:annotatedBy user:user5 .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasBody birds:species-eremophila_alpestris .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasTarget target:target_4d609c19788e8e890feac71598ac650d49758bf5 .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:hasTarget naturalis:print-135098 .
+<http://localhost/annotation/instances/id_6ca7409814b5fa20c700dfc24032ad88a1bb3578> oa:motivatedBy oa:tagging .
