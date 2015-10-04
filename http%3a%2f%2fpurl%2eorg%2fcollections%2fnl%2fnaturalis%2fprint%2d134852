@@ -71,3 +71,15 @@ instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasBody birds:species-c
 instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
 instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:hasTarget naturalis:print-134852 .
 instances:id_e8b80e777c1225166ba8fad228d3ca8a6f0a5bb1 oa:motivatedBy oa:tagging .
+
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 a oa:Annotation .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 terms:title "echt" .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 ui:reachedObjectWith "expertise, 0" .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 ui:typingTime 1404 .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:annotatedAt "2015-10-04T11:51:10+02:00"^^xsd:dateTime .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:annotatedBy user:user8 .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget naturalis:print-134852 .
+instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:motivatedBy oa:tagging .
