@@ -50,6 +50,18 @@ target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 a oa:SpecificResource .
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 oa:hasSelector target:selector_73edccbdcfd13280214cee70c0603ce08c3a1c02 .
 target:target_73edccbdcfd13280214cee70c0603ce08c3a1c02 oa:hasSource format:large .
 
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 a oa:Annotation .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 terms:title "juveniel" .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 ui:annotationField bird:StageOfLife .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 ui:reachedObjectWith "random, 2" .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 ui:typingTime 1482 .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:annotatedAt "2015-10-04T11:59:59+02:00"^^xsd:dateTime .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:annotatedBy user:Debby .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:hasTarget target:target_1e1bc189257bfacc47c464c2d209036dc1931ed5 .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:hasTarget naturalis:print-134985 .
+instances:id_13a977696baebb8f9b21b1747bd451b8990dcc75 oa:motivatedBy oa:tagging .
+
 instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 a oa:Annotation .
 instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 terms:title "Sterna hirundo: Common Tern" .
 instances:id_2d7622f2b5643f7e62c341dff2c65e84f4fcc4e3 ui:annotationField bird:IOCScientificNameAnnotation .
