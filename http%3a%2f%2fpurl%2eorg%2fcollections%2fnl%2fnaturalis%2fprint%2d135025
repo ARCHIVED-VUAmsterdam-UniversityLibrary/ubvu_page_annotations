@@ -22,6 +22,14 @@ target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 ui:x "0.039316239316239
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 ui:y "0.2227920227920228"^^xsd:float .
 target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 rdf:value "#xywh=percent:4,22,35,38" .
 
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 a oa:FragmentSelector .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 ui:h "0.2632478632478632"^^xsd:float .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 ui:w "0.39145299145299145"^^xsd:float .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 ui:x "0.49145299145299143"^^xsd:float .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 ui:y "0.10541310541310542"^^xsd:float .
+target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 rdf:value "#xywh=percent:49,11,39,26" .
+
 target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad a oa:FragmentSelector .
 target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad ui:h "0.24786324786324787"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad rdf:value "#xywh=percen
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 a oa:SpecificResource .
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSelector target:selector_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
 target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 oa:hasSource format:large .
+
+target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 a oa:SpecificResource .
+target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 oa:hasSelector target:selector_bc0a377fc09dbdc6d05cd921d865ae6122b78802 .
+target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 oa:hasSource format:large .
 
 target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad a oa:SpecificResource .
 target:target_bddb049096fcd4a087a1cc16bed215c9375e06ad oa:hasSelector target:selector_bddb049096fcd4a087a1cc16bed215c9375e06ad .
@@ -61,6 +73,18 @@ instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasBody birds:species-j
 instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasTarget target:target_913b1fe77c8bb4843be5f6977460a4606a3ea304 .
 instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:hasTarget naturalis:print-135025 .
 instances:id_239107b4cf4295bab3fc1afa03b55acab26e222c oa:motivatedBy oa:tagging .
+
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 a oa:Annotation .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 terms:title "Draaihals: Eurasian Wryneck" .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 ui:reachedObjectWith "random, 6" .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 ui:typingTime 7076 .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:annotatedAt "2015-10-04T12:57:14+02:00"^^xsd:dateTime .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:annotatedBy user:user26 .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:hasBody birds:species-jynx_torquilla .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:hasTarget target:target_bc0a377fc09dbdc6d05cd921d865ae6122b78802 .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:hasTarget naturalis:print-135025 .
+instances:id_330d2101a513e6777c2053a317fd924b87d6f884 oa:motivatedBy oa:tagging .
 
 instances:id_4325c4773206a924c29afd993927f763de06e0f5 a oa:Annotation .
 instances:id_4325c4773206a924c29afd993927f763de06e0f5 terms:title "adult" .
