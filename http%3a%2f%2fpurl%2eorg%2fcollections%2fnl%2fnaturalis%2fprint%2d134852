@@ -74,6 +74,18 @@ instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:hasTarget target:target
 instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:hasTarget naturalis:print-134852 .
 instances:id_b385dd784380f3c86ce5d3434a1a0224ccc2f9ef oa:motivatedBy oa:tagging .
 
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 a oa:Annotation .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 terms:title "Circus aeruginosus: Western Marsh Harrier" .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 ui:reachedObjectWith "expertise, 0" .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 ui:typingTime 4485 .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:annotatedAt "2015-10-04T11:51:41+02:00"^^xsd:dateTime .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:annotatedBy user:user8 .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:hasBody birds:species-circus_aeruginosus .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:hasTarget target:target_8847921550e845fa4f1fbf8ac4228da3c66ca91c .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:hasTarget naturalis:print-134852 .
+instances:id_b44825e25add13a786ed19174c7c4070a6319077 oa:motivatedBy oa:tagging .
+
 instances:id_d6285679b37e69add521dfa4177b8399ad1b1ebb a oa:Annotation .
 instances:id_d6285679b37e69add521dfa4177b8399ad1b1ebb terms:title "man" .
 instances:id_d6285679b37e69add521dfa4177b8399ad1b1ebb ui:annotationField bird:Gender .
