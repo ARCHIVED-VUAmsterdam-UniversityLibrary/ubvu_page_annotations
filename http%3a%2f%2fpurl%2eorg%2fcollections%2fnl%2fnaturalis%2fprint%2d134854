@@ -194,6 +194,18 @@ instances:id_500aa83fbc260ca2d7370573df8313801c82bb40 oa:hasTarget target:target
 instances:id_500aa83fbc260ca2d7370573df8313801c82bb40 oa:hasTarget naturalis:print-134854 .
 instances:id_500aa83fbc260ca2d7370573df8313801c82bb40 oa:motivatedBy oa:tagging .
 
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a a oa:Annotation .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a terms:title "man" .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a ui:annotationField bird:Gender .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a ui:reachedObjectWith "expertise, 6" .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a ui:typingTime 5800 .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:annotatedAt "2015-10-04T12:20:46+02:00"^^xsd:dateTime .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:annotatedBy user:Kvliet .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:hasTarget target:target_e2be9a60e38e10e08b44a95820375aff36b8eefb .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:hasTarget naturalis:print-134854 .
+instances:id_5f4f835c4db28045c545acdf1d8c9ff54bfd363a oa:motivatedBy oa:tagging .
+
 instances:id_61b8ab9d619f638a5007d96bd7d7d32b43fc362d a oa:Annotation .
 instances:id_61b8ab9d619f638a5007d96bd7d7d32b43fc362d terms:title "echt" .
 instances:id_61b8ab9d619f638a5007d96bd7d7d32b43fc362d ui:annotationField bird:RealOrNotAnnotation .
