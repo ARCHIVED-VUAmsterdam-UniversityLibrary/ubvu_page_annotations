@@ -50,6 +50,18 @@ instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget target:target
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:hasTarget naturalis:print-135104 .
 instances:id_1b813b7437b26c070a5a3252eab61b9b91a0e5b6 oa:motivatedBy oa:tagging .
 
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d a oa:Annotation .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d terms:title "Emberiza bruniceps: Red-headed Bunting" .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d ui:reachedObjectWith "random, 1" .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d ui:typingTime 8045 .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:annotatedAt "2015-10-04T12:04:13+02:00"^^xsd:dateTime .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:annotatedBy user:user29 .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:hasBody birds:species-emberiza_bruniceps .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:hasTarget target:target_d744337147c1b6c81316752c988cb80a0ed0c2d2 .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:hasTarget naturalis:print-135104 .
+instances:id_31ba5ba4ac9ccc4547dfbd40bd844004f58bcd1d oa:motivatedBy oa:tagging .
+
 instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 a oa:Annotation .
 instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 terms:title "adult" .
 instances:id_5d08e77672b5c03c293b6d87fa23b50fe1f30199 ui:annotationField bird:StageOfLife .
