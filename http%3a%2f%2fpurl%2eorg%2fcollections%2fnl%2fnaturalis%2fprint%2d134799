@@ -62,6 +62,18 @@ instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget target:target
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:hasTarget naturalis:print-134799 .
 instances:id_067444864298cf1d8e048548b7ac83f2c9e3634c oa:motivatedBy oa:tagging .
 
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 a oa:Annotation .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 terms:title "echt" .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 ui:reachedObjectWith "random, 6" .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 ui:typingTime 5479 .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:annotatedAt "2015-10-04T12:26:09+02:00"^^xsd:dateTime .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:annotatedBy user:user3 .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:hasTarget target:target_7c8101e4acf3067ec3469dfbe74d8278edc09b58 .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:hasTarget naturalis:print-134799 .
+instances:id_08868299da450fb5f02031d6b43c03e084d45068 oa:motivatedBy oa:tagging .
+
 instances:id_11772239a073d6daa712617dd00ca1016743f22b a oa:Annotation .
 instances:id_11772239a073d6daa712617dd00ca1016743f22b terms:title "Ciconia ciconia: White Stork" .
 instances:id_11772239a073d6daa712617dd00ca1016743f22b ui:annotationField bird:IOCScientificNameAnnotation .
