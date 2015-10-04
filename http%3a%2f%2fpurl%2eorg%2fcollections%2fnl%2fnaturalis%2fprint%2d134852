@@ -22,6 +22,14 @@ target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c ui:x "0.053846153846153
 target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c ui:y "0.029487179487179487"^^xsd:float .
 target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c rdf:value "#xywh=percent:5,3,32,30" .
 
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 a oa:FragmentSelector .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 ui:h "0.2435897435897436"^^xsd:float .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 ui:w "0.1675213675213676"^^xsd:float .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 ui:x "0.7649572649572649"^^xsd:float .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 ui:y "0.691025641025641"^^xsd:float .
+target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 rdf:value "#xywh=percent:76,69,17,24" .
+
 target:selector_8847921550e845fa4f1fbf8ac4228da3c66ca91c a oa:FragmentSelector .
 target:selector_8847921550e845fa4f1fbf8ac4228da3c66ca91c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8847921550e845fa4f1fbf8ac4228da3c66ca91c ui:h "0.41538461538461535"^^xsd:float .
@@ -33,6 +41,10 @@ target:selector_8847921550e845fa4f1fbf8ac4228da3c66ca91c rdf:value "#xywh=percen
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c a oa:SpecificResource .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSelector target:selector_57fca441384e1245b1bc1fe91000673b6f710e7c .
 target:target_57fca441384e1245b1bc1fe91000673b6f710e7c oa:hasSource format:large .
+
+target:target_62ef2b3c0668551647e1b844ab096b507cfa2d28 a oa:SpecificResource .
+target:target_62ef2b3c0668551647e1b844ab096b507cfa2d28 oa:hasSelector target:selector_62ef2b3c0668551647e1b844ab096b507cfa2d28 .
+target:target_62ef2b3c0668551647e1b844ab096b507cfa2d28 oa:hasSource format:large .
 
 target:target_8847921550e845fa4f1fbf8ac4228da3c66ca91c a oa:SpecificResource .
 target:target_8847921550e845fa4f1fbf8ac4228da3c66ca91c oa:hasSelector target:selector_8847921550e845fa4f1fbf8ac4228da3c66ca91c .
@@ -145,6 +157,18 @@ instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasBody [ a content:Con
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget target:target_57fca441384e1245b1bc1fe91000673b6f710e7c .
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:hasTarget naturalis:print-134852 .
 instances:id_ec52761b389ad6038b7ee21c1f3cde224dfd5988 oa:motivatedBy oa:tagging .
+
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 a oa:Annotation .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 terms:title "Anas platyrhynchos: Mallard" .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 ui:reachedObjectWith "expertise, 0" .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 ui:typingTime 6151 .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:annotatedAt "2015-10-04T11:53:38+02:00"^^xsd:dateTime .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:annotatedBy user:user8 .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:hasBody birds:species-anas_platyrhynchos .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:hasTarget target:target_62ef2b3c0668551647e1b844ab096b507cfa2d28 .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:hasTarget naturalis:print-134852 .
+instances:id_efec0198393d1dc21fe407ce1e145584596334f2 oa:motivatedBy oa:tagging .
 
 instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 a oa:Annotation .
 instances:id_f9e32abc1cb96262fe7adb28b81b6cba90e419f8 terms:title "echt" .
