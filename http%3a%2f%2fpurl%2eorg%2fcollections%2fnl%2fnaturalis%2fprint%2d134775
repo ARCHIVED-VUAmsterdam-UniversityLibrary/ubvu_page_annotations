@@ -30,6 +30,14 @@ target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:x "0.049572649572649
 target:selector_4eacf102dab57f26cf85208d645acbce894f19ee ui:y "0.42948717948717946"^^xsd:float .
 target:selector_4eacf102dab57f26cf85208d645acbce894f19ee rdf:value "#xywh=percent:5,43,41,45" .
 
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f a oa:FragmentSelector .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f ui:h "0.34615384615384615"^^xsd:float .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f ui:w "0.5094017094017094"^^xsd:float .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f ui:x "0.32222222222222224"^^xsd:float .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f ui:y "0.30641025641025643"^^xsd:float .
+target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f rdf:value "#xywh=percent:32,31,51,35" .
+
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 a oa:SpecificResource .
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSelector target:selector_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
 target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSource format:large .
@@ -37,6 +45,10 @@ target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 oa:hasSource format:large
 target:target_4eacf102dab57f26cf85208d645acbce894f19ee a oa:SpecificResource .
 target:target_4eacf102dab57f26cf85208d645acbce894f19ee oa:hasSelector target:selector_4eacf102dab57f26cf85208d645acbce894f19ee .
 target:target_4eacf102dab57f26cf85208d645acbce894f19ee oa:hasSource format:large .
+
+target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f a oa:SpecificResource .
+target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f oa:hasSelector target:selector_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f .
+target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f oa:hasSource format:large .
 
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 a oa:Annotation .
 instances:id_0110b80251e1d1a73bd80cfeb7fdf95903cdc044 terms:title "onbekend" .
@@ -85,6 +97,18 @@ instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasBody birds:species-g
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget target:target_45c8b9e1a8b7143c9d7d6a9433e34c2e0a420272 .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:hasTarget naturalis:print-134775 .
 instances:id_3960fed4f48b66a35c5fe80d8f2c2ad0220e20d3 oa:motivatedBy oa:tagging .
+
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d a oa:Annotation .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d terms:title "Parelduiker: Black-throated Loon" .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d ui:reachedObjectWith "expertise, 11" .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d ui:typingTime 8090 .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:annotatedAt "2015-10-04T12:40:47+02:00"^^xsd:dateTime .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:annotatedBy user:user3 .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:hasBody birds:species-gavia_arctica .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:hasTarget target:target_a4e137c6c2aaf2dded292517c8b06c68cb0d0a8f .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:hasTarget naturalis:print-134775 .
+instances:id_5636fe3ef925ef7e6661f13e2854e2c8a400e16d oa:motivatedBy oa:tagging .
 
 instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 a oa:Annotation .
 instances:id_61610ed6354aef8eca01c997a0f750caf2f9f599 terms:title "Gavia arctica: Black-throated Loon" .
