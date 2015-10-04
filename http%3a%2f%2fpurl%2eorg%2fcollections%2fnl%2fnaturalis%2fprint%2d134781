@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd a oa:FragmentSelector .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd ui:h "0.12692307692307692"^^xsd:float .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd ui:w "0.12991452991452995"^^xsd:float .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd ui:x "0.4905982905982906"^^xsd:float .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd ui:y "0.3525641025641026"^^xsd:float .
+target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd rdf:value "#xywh=percent:49,35,13,13" .
+
+target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd a oa:SpecificResource .
+target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd oa:hasSelector target:selector_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
+target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd oa:hasSource <http://medialib.naturalis.nl/file/id/image-134781/format/large> .
+
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> a oa:Annotation .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> terms:title "Grote Pijlstormvogel: Great Shearwater" .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> ui:typingTime 4711 .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:annotatedAt "2015-10-04T11:52:26+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:annotatedBy user:Debby .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasBody birds:species-puffinus_gravis .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasTarget target:target_47a09f4a53ba31b64fb27c162bfa11a99b7f94bd .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:hasTarget naturalis:print-134781 .
+<http://localhost/annotation/instances/id_056db1eea6553f6450b3bbebfee35eaa937aef2e> oa:motivatedBy oa:tagging .
