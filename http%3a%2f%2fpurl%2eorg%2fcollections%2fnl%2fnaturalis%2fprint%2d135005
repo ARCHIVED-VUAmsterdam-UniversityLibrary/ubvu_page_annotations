@@ -1,0 +1,34 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 a oa:FragmentSelector .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 ui:h "0.9048432787599047"^^xsd:float .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 ui:w "0.8051282051282052"^^xsd:float .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 ui:x "0.08888888888888889"^^xsd:float .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 ui:y "0.054814813075921474"^^xsd:float .
+target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 rdf:value "#xywh=percent:9,5,81,90" .
+
+target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 a oa:SpecificResource .
+target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSelector target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135005/format/large> .
+
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> a oa:Annotation .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> terms:title "Oehoe" .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> ui:reachedObjectWith "random, 5" .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> ui:typingTime 206811 .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:annotatedAt "2015-10-04T11:53:49+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:annotatedBy user:user37 .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Oehoe" ] .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:hasTarget target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:hasTarget naturalis:print-135005 .
+<http://localhost/annotation/instances/id_882aa5c34abd638faf1465c49aabc068642c496e> oa:motivatedBy oa:tagging .
