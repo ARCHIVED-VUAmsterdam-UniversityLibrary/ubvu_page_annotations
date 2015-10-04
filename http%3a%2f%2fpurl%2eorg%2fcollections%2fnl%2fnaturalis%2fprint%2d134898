@@ -62,6 +62,18 @@ instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:hasTarget target:target
 instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:hasTarget naturalis:print-134898 .
 instances:id_76d4651a6399d30c3b7d09db79de1c80f1dce30b oa:motivatedBy oa:tagging .
 
+instances:id_8aec878694885317dea234f493809c333c2aa04d a oa:Annotation .
+instances:id_8aec878694885317dea234f493809c333c2aa04d terms:title "Porzana pusilla: Baillon's Crake" .
+instances:id_8aec878694885317dea234f493809c333c2aa04d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_8aec878694885317dea234f493809c333c2aa04d ui:reachedObjectWith "random, 7" .
+instances:id_8aec878694885317dea234f493809c333c2aa04d ui:typingTime 8987 .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:annotatedAt "2015-10-04T12:17:20+02:00"^^xsd:dateTime .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:annotatedBy user:user34 .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:hasBody birds:species-porzana_pusilla .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:hasTarget naturalis:print-134898 .
+instances:id_8aec878694885317dea234f493809c333c2aa04d oa:motivatedBy oa:tagging .
+
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 a oa:Annotation .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 terms:title "Kleinst Waterhoen: Baillon's Crake" .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 ui:annotationField bird:IOCCommonNameAnnotation .
