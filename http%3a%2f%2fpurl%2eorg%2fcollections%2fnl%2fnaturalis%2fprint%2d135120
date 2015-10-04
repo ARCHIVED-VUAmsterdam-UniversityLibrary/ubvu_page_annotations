@@ -24,6 +24,18 @@ target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 a oa:SpecificResource .
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSelector target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135120/format/large> .
 
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 a oa:Annotation .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 terms:title "echt" .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 ui:reachedObjectWith "random, 2" .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 ui:typingTime 1190 .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:annotatedAt "2015-10-04T12:21:36+02:00"^^xsd:dateTime .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:annotatedBy user:user3 .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:hasTarget naturalis:print-135120 .
+instances:id_640ae1461f8d0603ab3e074707daa61bbf524774 oa:motivatedBy oa:tagging .
+
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d a oa:Annotation .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d terms:title "Corvus frugilegus: Rook" .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d ui:annotationField bird:IOCScientificNameAnnotation .
