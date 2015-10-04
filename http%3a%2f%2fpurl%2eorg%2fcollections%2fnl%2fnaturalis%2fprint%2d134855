@@ -84,3 +84,15 @@ instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb oa:hasBody [ a content:Con
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb oa:hasTarget target:target_52fa9cbd366fb667085d3afdced44c1158f05c5e .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb oa:hasTarget naturalis:print-134855 .
 instances:id_cf68aa5ea02017d1bbf08eb0edcbf182d7fccedb oa:motivatedBy oa:tagging .
+
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f a oa:Annotation .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f terms:title "adult" .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f ui:annotationField bird:StageOfLife .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f ui:reachedObjectWith "expertise, 3" .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f ui:typingTime 1167 .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:annotatedAt "2015-10-04T11:45:04+02:00"^^xsd:dateTime .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:annotatedBy user:user8 .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:hasTarget naturalis:print-134855 .
+instances:id_de172b51d4184984d61a8ad3eea13ea10a4c3a7f oa:motivatedBy oa:tagging .
