@@ -1,0 +1,34 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 a oa:FragmentSelector .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 ui:h "0.5294871990497296"^^xsd:float .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 ui:w "0.3461538461538462"^^xsd:float .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 ui:x "0.1700854700854701"^^xsd:float .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 ui:y "0.26820512429261817"^^xsd:float .
+target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 rdf:value "#xywh=percent:17,27,35,53" .
+
+target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 a oa:SpecificResource .
+target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSelector target:selector_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134825/format/large> .
+
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> a oa:Annotation .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> terms:title "Blauwvleugeltaling" .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:reachedObjectWith "random, 6" .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> ui:typingTime 9700 .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:annotatedAt "2015-10-04T13:13:45+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:annotatedBy user:user37 .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Blauwvleugeltaling" ] .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasTarget target:target_b8890169e2ccff19b1a13f1575deeb270b2b7b41 .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:hasTarget naturalis:print-134825 .
+<http://localhost/annotation/instances/id_893e17baa2f4dd4be05b04e2f3f5af45e9a0fdb9> oa:motivatedBy oa:tagging .
