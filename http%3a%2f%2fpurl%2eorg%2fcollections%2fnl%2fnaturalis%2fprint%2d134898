@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc a oa:FragmentSelector .
 target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc a oa:SpecificResource .
 target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSelector target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
 target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSource <http://medialib.naturalis.nl/file/id/image-134898/format/large> .
 
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> a oa:Annotation .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> terms:title "Kleinst Waterhoen: Baillon's Crake" .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:reachedObjectWith "random, 7" .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:typingTime 4483 .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:annotatedAt "2015-10-04T12:16:20+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:annotatedBy user:user34 .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasBody birds:species-porzana_pusilla .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasTarget naturalis:print-134898 .
-<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:motivatedBy oa:tagging .
+instances:id_709932043fb857621c6134045c807e916001ca0e a oa:Annotation .
+instances:id_709932043fb857621c6134045c807e916001ca0e terms:title "Porzana pusilla: Baillon's Crake" .
+instances:id_709932043fb857621c6134045c807e916001ca0e ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_709932043fb857621c6134045c807e916001ca0e ui:reachedObjectWith "random, 7" .
+instances:id_709932043fb857621c6134045c807e916001ca0e ui:typingTime 7706 .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:annotatedAt "2015-10-04T12:16:34+02:00"^^xsd:dateTime .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:annotatedBy user:user34 .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasBody birds:species-porzana_pusilla .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:hasTarget naturalis:print-134898 .
+instances:id_709932043fb857621c6134045c807e916001ca0e oa:motivatedBy oa:tagging .
+
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 a oa:Annotation .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 terms:title "Kleinst Waterhoen: Baillon's Crake" .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 ui:reachedObjectWith "random, 7" .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 ui:typingTime 4483 .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:annotatedAt "2015-10-04T12:16:20+02:00"^^xsd:dateTime .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:annotatedBy user:user34 .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasBody birds:species-porzana_pusilla .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget naturalis:print-134898 .
+instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:motivatedBy oa:tagging .
