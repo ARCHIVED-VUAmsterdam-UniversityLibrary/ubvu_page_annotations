@@ -62,6 +62,18 @@ instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:hasTarget target:target
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:hasTarget naturalis:print-135157 .
 instances:id_34f878abb8618a5cb95d2f856bd923e2a2fbfd81 oa:motivatedBy oa:tagging .
 
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 a oa:Annotation .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 terms:title "adult" .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 ui:annotationField bird:StageOfLife .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 ui:reachedObjectWith "random, 0" .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 ui:typingTime 1843 .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:annotatedAt "2015-10-04T12:06:08+02:00"^^xsd:dateTime .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:annotatedBy user:user29 .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:hasTarget target:target_b4d1428bc9ea5ce8d29e2a3ca767f172eb80b392 .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:hasTarget naturalis:print-135157 .
+instances:id_3bc5954be52acd6a0d173924380ebcdd3a64f1e2 oa:motivatedBy oa:tagging .
+
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd a oa:Annotation .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd terms:title "Ortolaan: Ortolan Bunting" .
 instances:id_57e8d0d23869d10237388d469413ca07a46afbfd ui:annotationField bird:IOCCommonNameAnnotation .
