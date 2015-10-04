@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 a oa:FragmentSelector .
 target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 a oa:SpecificResource .
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSelector target:selector_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
 target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135120/format/large> .
 
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> a oa:Annotation .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> terms:title "Roek: Rook" .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> ui:reachedObjectWith "random, 2" .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> ui:typingTime 3601 .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:annotatedAt "2015-10-04T12:20:53+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:hasBody birds:species-corvus_frugilegus .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:hasTarget naturalis:print-135120 .
-<http://localhost/annotation/instances/id_d40df92285cba40380380bce99f748820c5431f4> oa:motivatedBy oa:tagging .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d a oa:Annotation .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d terms:title "Corvus frugilegus: Rook" .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d ui:reachedObjectWith "random, 2" .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d ui:typingTime 9264 .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:annotatedAt "2015-10-04T12:21:19+02:00"^^xsd:dateTime .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:annotatedBy user:user3 .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasBody birds:species-corvus_frugilegus .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasTarget naturalis:print-135120 .
+instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:motivatedBy oa:tagging .
+
+instances:id_d40df92285cba40380380bce99f748820c5431f4 a oa:Annotation .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 terms:title "Roek: Rook" .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 ui:reachedObjectWith "random, 2" .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 ui:typingTime 3601 .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:annotatedAt "2015-10-04T12:20:53+02:00"^^xsd:dateTime .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:annotatedBy user:user3 .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:hasBody birds:species-corvus_frugilegus .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:hasTarget naturalis:print-135120 .
+instances:id_d40df92285cba40380380bce99f748820c5431f4 oa:motivatedBy oa:tagging .
