@@ -86,6 +86,18 @@ instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:hasTarget target:target
 instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:hasTarget naturalis:print-134921 .
 instances:id_774995cbf3f44b927cb87bc6f8bfba5e07706cf2 oa:motivatedBy oa:tagging .
 
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 a oa:Annotation .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 terms:title "Calidris ferruginea: Curlew Sandpiper" .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 ui:reachedObjectWith "random, 0" .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 ui:typingTime 2940 .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:annotatedAt "2015-10-04T12:10:50+02:00"^^xsd:dateTime .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:annotatedBy user:user29 .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:hasBody birds:species-calidris_ferruginea .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:hasTarget target:target_0d61806165d5f33e75f9a4ae3cac6d326e9cab01 .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:hasTarget naturalis:print-134921 .
+instances:id_a372fee0643981ae05f1b276cb5865811c12fa52 oa:motivatedBy oa:tagging .
+
 instances:id_fda901eeaf571afc7ba0588bab219ab5a164f818 a oa:Annotation .
 instances:id_fda901eeaf571afc7ba0588bab219ab5a164f818 terms:title "adult" .
 instances:id_fda901eeaf571afc7ba0588bab219ab5a164f818 ui:annotationField bird:StageOfLife .
