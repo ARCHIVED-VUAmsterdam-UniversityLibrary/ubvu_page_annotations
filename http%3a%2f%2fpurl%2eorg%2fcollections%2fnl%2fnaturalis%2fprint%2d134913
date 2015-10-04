@@ -86,18 +86,6 @@ instances:id_5a331eed368f54147bd1f96978b96b10f335d6ea oa:hasTarget target:target
 instances:id_5a331eed368f54147bd1f96978b96b10f335d6ea oa:hasTarget naturalis:print-134913 .
 instances:id_5a331eed368f54147bd1f96978b96b10f335d6ea oa:motivatedBy oa:tagging .
 
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 a oa:Annotation .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 terms:title "man" .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 ui:annotationField bird:Gender .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 ui:reachedObjectWith "random, 10" .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 ui:typingTime 8803 .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:annotatedAt "2015-10-04T13:00:28+02:00"^^xsd:dateTime .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:annotatedBy user:user26 .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:hasTarget target:target_f028e238eea24e261f03166fe253d2c73833e0d6 .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:hasTarget naturalis:print-134913 .
-instances:id_a34bc5bca38f2727503a064c639a623733c35e71 oa:motivatedBy oa:tagging .
-
 instances:id_cc9c3b804abb328e8138fb08c7827f3db1acb3d0 a oa:Annotation .
 instances:id_cc9c3b804abb328e8138fb08c7827f3db1acb3d0 terms:title "Vanellus gregarius: Sociable Lapwing" .
 instances:id_cc9c3b804abb328e8138fb08c7827f3db1acb3d0 ui:annotationField bird:IOCScientificNameAnnotation .
