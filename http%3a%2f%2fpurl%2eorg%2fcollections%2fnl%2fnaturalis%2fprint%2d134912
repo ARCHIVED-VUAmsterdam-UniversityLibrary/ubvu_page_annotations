@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d a oa:FragmentSelector .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:h "0.8794871794871795"^^xsd:float .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:w "0.5593509820666097"^^xsd:float .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:x "0.3663535439795047"^^xsd:float .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d ui:y "0.029487179487179487"^^xsd:float .
+target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d rdf:value "#xywh=percent:37,3,56,88" .
+
+target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d a oa:SpecificResource .
+target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSelector target:selector_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
+target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d oa:hasSource <http://medialib.naturalis.nl/file/id/image-134912/format/large> .
+
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> a oa:Annotation .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> terms:title "Kievit: Northern Lapwing" .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> ui:reachedObjectWith "expertise, 11" .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> ui:typingTime 3806 .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:annotatedAt "2015-10-04T12:02:47+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:annotatedBy user:user34 .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:hasBody birds:species-vanellus_vanellus .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:hasTarget target:target_fac63e107ad1f6b5fef7197e08773d4f2a70496d .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:hasTarget naturalis:print-134912 .
+<http://localhost/annotation/instances/id_90173368e38632f14b5f8cf74a041f391c795166> oa:motivatedBy oa:tagging .
