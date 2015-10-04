@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -33,6 +35,18 @@ instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasBody birds:species-c
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:hasTarget naturalis:print-135120 .
 instances:id_8270f904104cc24e20ed20fdd7b3164268de7c1d oa:motivatedBy oa:tagging .
+
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 a oa:Annotation .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 terms:title "onbekend" .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 ui:annotationField bird:Gender .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 ui:reachedObjectWith "random, 2" .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 ui:typingTime 2606 .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:annotatedAt "2015-10-04T12:21:27+02:00"^^xsd:dateTime .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:annotatedBy user:user3 .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:hasTarget target:target_3d7b4aecf04ca36b148c94ca098ee37b0f181941 .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:hasTarget naturalis:print-135120 .
+instances:id_8f45db45edcdf0c075606bec732bfe9779b8a858 oa:motivatedBy oa:tagging .
 
 instances:id_d40df92285cba40380380bce99f748820c5431f4 a oa:Annotation .
 instances:id_d40df92285cba40380380bce99f748820c5431f4 terms:title "Roek: Rook" .
