@@ -14,6 +14,14 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 a oa:FragmentSelector .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 ui:h "0.4243589743589743"^^xsd:float .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 ui:w "0.3273504273504273"^^xsd:float .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 ui:x "0.5487179487179488"^^xsd:float .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 ui:y "0.18205128205128204"^^xsd:float .
+target:selector_939ba67d56e828593a3b8976de12e07c9a765886 rdf:value "#xywh=percent:55,18,33,42" .
+
 target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:FragmentSelector .
 target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 ui:h "0.3615384615384616"^^xsd:float .
@@ -29,6 +37,10 @@ target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:w "0.152991452991453
 target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:x "0.21452991452991452"^^xsd:float .
 target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 ui:y "0.4551282051282051"^^xsd:float .
 target:selector_c53143ecc8001c5fa470d77a190ec13853d80aa1 rdf:value "#xywh=percent:21,46,15,16" .
+
+target:target_939ba67d56e828593a3b8976de12e07c9a765886 a oa:SpecificResource .
+target:target_939ba67d56e828593a3b8976de12e07c9a765886 oa:hasSelector target:selector_939ba67d56e828593a3b8976de12e07c9a765886 .
+target:target_939ba67d56e828593a3b8976de12e07c9a765886 oa:hasSource format:large .
 
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 a oa:SpecificResource .
 target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 oa:hasSelector target:selector_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
@@ -97,6 +109,18 @@ instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasBody birds:species-a
 instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasTarget target:target_c53143ecc8001c5fa470d77a190ec13853d80aa1 .
 instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:hasTarget naturalis:print-134835 .
 instances:id_6c45636cc8df57ba1c6d5f5516269ccee2cfb50c oa:motivatedBy oa:tagging .
+
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 a oa:Annotation .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 terms:title "Kuifeend: Tufted Duck" .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 ui:reachedObjectWith "random, 0" .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 ui:typingTime 6543 .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:annotatedAt "2015-10-04T11:47:35+02:00"^^xsd:dateTime .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:annotatedBy user:user5 .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:hasBody birds:species-aythya_fuligula .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:hasTarget target:target_939ba67d56e828593a3b8976de12e07c9a765886 .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:hasTarget naturalis:print-134835 .
+instances:id_989213a0e46f41d198aa8b90f633012f98faf6b5 oa:motivatedBy oa:tagging .
 
 instances:id_a4bd7a04ffa5ae14a5007c7a299ec97117154a14 a oa:Annotation .
 instances:id_a4bd7a04ffa5ae14a5007c7a299ec97117154a14 terms:title "pul" .
