@@ -30,6 +30,14 @@ target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:x "0.047863247863247
 target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 ui:y "0.2341880341880342"^^xsd:float .
 target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 rdf:value "#xywh=percent:5,23,89,34" .
 
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 a oa:FragmentSelector .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 ui:h "0.5008547008547009"^^xsd:float .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 ui:w "0.9102564102564102"^^xsd:float .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 ui:x "0.05213675213675214"^^xsd:float .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 ui:y "0.25242165242165243"^^xsd:float .
+target:selector_93b268980432a11202ea8fdab57187423c6b0be9 rdf:value "#xywh=percent:5,25,91,50" .
+
 target:selector_a1f752d570c3244cc092c87f152570999fb5e8c2 a oa:FragmentSelector .
 target:selector_a1f752d570c3244cc092c87f152570999fb5e8c2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a1f752d570c3244cc092c87f152570999fb5e8c2 ui:h "0.3071225071225071"^^xsd:float .
@@ -53,6 +61,10 @@ target:target_16a8ce49be0e887332638f1d5b5a6bdedaaaa96c oa:hasSource format:large
 target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 a oa:SpecificResource .
 target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 oa:hasSelector target:selector_7924854c5620cdedf5482a3c57b1f9265b8d1614 .
 target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 oa:hasSource format:large .
+
+target:target_93b268980432a11202ea8fdab57187423c6b0be9 a oa:SpecificResource .
+target:target_93b268980432a11202ea8fdab57187423c6b0be9 oa:hasSelector target:selector_93b268980432a11202ea8fdab57187423c6b0be9 .
+target:target_93b268980432a11202ea8fdab57187423c6b0be9 oa:hasSource format:large .
 
 target:target_a1f752d570c3244cc092c87f152570999fb5e8c2 a oa:SpecificResource .
 target:target_a1f752d570c3244cc092c87f152570999fb5e8c2 oa:hasSelector target:selector_a1f752d570c3244cc092c87f152570999fb5e8c2 .
@@ -145,6 +157,18 @@ instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:hasBody [ a content:Con
 instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:hasTarget target:target_7924854c5620cdedf5482a3c57b1f9265b8d1614 .
 instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:hasTarget naturalis:print-134861 .
 instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:motivatedBy oa:tagging .
+
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 a oa:Annotation .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 terms:title "Slangenarend: Short-toed Snake Eagle" .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 ui:reachedObjectWith "expertise, 1" .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 ui:typingTime 4668 .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:annotatedAt "2015-10-04T12:19:48+02:00"^^xsd:dateTime .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:annotatedBy user:user29 .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:hasBody birds:species-circaetus_gallicus .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:hasTarget target:target_93b268980432a11202ea8fdab57187423c6b0be9 .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:hasTarget naturalis:print-134861 .
+instances:id_a7712109836219e53a149d2a283b87abd6896d83 oa:motivatedBy oa:tagging .
 
 instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 a oa:Annotation .
 instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 terms:title "juveniel" .
