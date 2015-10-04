@@ -62,6 +62,18 @@ target:target_565d670be9c963e108c07b6a013848f65910b99f a oa:SpecificResource .
 target:target_565d670be9c963e108c07b6a013848f65910b99f oa:hasSelector target:selector_565d670be9c963e108c07b6a013848f65910b99f .
 target:target_565d670be9c963e108c07b6a013848f65910b99f oa:hasSource format:large .
 
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 a oa:Annotation .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 terms:title "echt" .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 ui:reachedObjectWith "expertise, 1" .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 ui:typingTime 1538 .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:annotatedAt "2015-10-04T12:23:00+02:00"^^xsd:dateTime .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:annotatedBy user:user8 .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:hasTarget target:target_565d670be9c963e108c07b6a013848f65910b99f .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:hasTarget naturalis:print-134853 .
+instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:motivatedBy oa:tagging .
+
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d a oa:Annotation .
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d terms:title "Circus aeruginosus: Western Marsh Harrier" .
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d ui:annotationField bird:IOCScientificNameAnnotation .
