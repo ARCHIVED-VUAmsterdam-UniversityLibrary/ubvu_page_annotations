@@ -78,6 +78,14 @@ target:selector_c960fd22064ba165bc8aa16486977c4b642ca1d6 ui:x "0.083760683760683
 target:selector_c960fd22064ba165bc8aa16486977c4b642ca1d6 ui:y "0.15783475783475784"^^xsd:float .
 target:selector_c960fd22064ba165bc8aa16486977c4b642ca1d6 rdf:value "#xywh=percent:8,16,34,51" .
 
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 a oa:FragmentSelector .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 ui:h "0.37891737891737887"^^xsd:float .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 ui:w "0.23162393162393163"^^xsd:float .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 ui:x "0.07948717948717948"^^xsd:float .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 ui:y "0.1361823361823362"^^xsd:float .
+target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 rdf:value "#xywh=percent:8,14,23,38" .
+
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 a oa:FragmentSelector .
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 ui:h "0.03133903133903134"^^xsd:float .
@@ -149,6 +157,10 @@ target:target_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 oa:hasSource format:large
 target:target_c960fd22064ba165bc8aa16486977c4b642ca1d6 a oa:SpecificResource .
 target:target_c960fd22064ba165bc8aa16486977c4b642ca1d6 oa:hasSelector target:selector_c960fd22064ba165bc8aa16486977c4b642ca1d6 .
 target:target_c960fd22064ba165bc8aa16486977c4b642ca1d6 oa:hasSource format:large .
+
+target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 a oa:SpecificResource .
+target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 oa:hasSelector target:selector_df9e0e82ff8174ce3636bf3d00411e13fe884171 .
+target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 oa:hasSource format:large .
 
 target:target_e4732c9bf549e1c96c457f6503d99d290cc330f7 a oa:SpecificResource .
 target:target_e4732c9bf549e1c96c457f6503d99d290cc330f7 oa:hasSelector target:selector_e4732c9bf549e1c96c457f6503d99d290cc330f7 .
@@ -324,6 +336,18 @@ instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 oa:hasBody [ a content:Con
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 oa:hasTarget target:target_878d799fa22b75e9811b68baf269a58a60ddb270 .
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 oa:hasTarget naturalis:print-134859 .
 instances:id_364f4e99b887c988f1c050f4fae456d84a64f8d2 oa:motivatedBy oa:tagging .
+
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 a oa:Annotation .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 terms:title "sperwer" .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 ui:reachedObjectWith "expertise, 7" .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 ui:typingTime 9160 .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:annotatedAt "2015-10-04T12:53:41+02:00"^^xsd:dateTime .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:annotatedBy user:user8 .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "sperwer" ] .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:hasTarget target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:hasTarget naturalis:print-134859 .
+instances:id_40f8e3316a8429f79b08622f829b02f9448183c3 oa:motivatedBy oa:tagging .
 
 instances:id_4853117db86cd33a8fc6851c92d683ef06f93031 a oa:Annotation .
 instances:id_4853117db86cd33a8fc6851c92d683ef06f93031 terms:title "Havik: Northern Goshawk" .
