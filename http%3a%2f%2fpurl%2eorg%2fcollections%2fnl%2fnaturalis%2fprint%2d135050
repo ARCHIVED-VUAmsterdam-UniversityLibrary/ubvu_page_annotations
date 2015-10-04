@@ -62,6 +62,18 @@ instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:hasTarget target:target
 instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:hasTarget naturalis:print-135050 .
 instances:id_1e6b5e96e867a29181e23fe1b8b0f9517864825e oa:motivatedBy oa:tagging .
 
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca a oa:Annotation .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca terms:title "vrouw" .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca ui:annotationField bird:Gender .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca ui:reachedObjectWith "random, 10" .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca ui:typingTime 2105 .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:annotatedAt "2015-10-04T11:59:57+02:00"^^xsd:dateTime .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:annotatedBy user:user29 .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:hasTarget target:target_ae0acd8b2e51a5a311ddc9f462e7af78741e18f0 .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:hasTarget naturalis:print-135050 .
+instances:id_84f82766f78e370f03584cb78f1150b821f8cdca oa:motivatedBy oa:tagging .
+
 instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 a oa:Annotation .
 instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 terms:title "man" .
 instances:id_c602bf583e9d7da5c2294564697e1e685ec29c88 ui:annotationField bird:Gender .
