@@ -24,6 +24,18 @@ target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c a oa:SpecificResource .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSelector target:selector_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
 target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c oa:hasSource <http://medialib.naturalis.nl/file/id/image-134887/format/large> .
 
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df a oa:Annotation .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df terms:title "adult" .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df ui:annotationField bird:StageOfLife .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df ui:reachedObjectWith "random, 3" .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df ui:typingTime 2263 .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:annotatedAt "2015-10-04T11:58:40+02:00"^^xsd:dateTime .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:annotatedBy user:user5 .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:hasTarget target:target_b0411b1912f311bd9b73e684c408446bd9ad2f4c .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:hasTarget naturalis:print-134887 .
+instances:id_1c1ed4860edd1f2a22b225fc1f96ff688086c8df oa:motivatedBy oa:tagging .
+
 instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f a oa:Annotation .
 instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f terms:title "man" .
 instances:id_62e06f3336b1af709902d4d3cb563153889a9b8f ui:annotationField bird:Gender .
