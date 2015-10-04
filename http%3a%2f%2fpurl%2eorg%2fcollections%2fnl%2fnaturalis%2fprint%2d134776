@@ -134,6 +134,18 @@ instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:hasTarget target:target
 instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:hasTarget naturalis:print-134776 .
 instances:id_be339e2dab50d57a46fca0a861365f9c8846ab38 oa:motivatedBy oa:tagging .
 
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 a oa:Annotation .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 terms:title "echt" .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 ui:reachedObjectWith "expertise, 11" .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 ui:typingTime 1388 .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:annotatedAt "2015-10-04T12:42:45+02:00"^^xsd:dateTime .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:annotatedBy user:user3 .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:hasTarget target:target_fa776f91aef28a5b51585f8fd64cba598e52f277 .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:hasTarget naturalis:print-134776 .
+instances:id_c0902f70157df69fc50fc166e21d6e179eceb9c1 oa:motivatedBy oa:tagging .
+
 instances:id_c14b468670b8f9e9105d6021311918bcc0ae33ca a oa:Annotation .
 instances:id_c14b468670b8f9e9105d6021311918bcc0ae33ca terms:title "onbekend" .
 instances:id_c14b468670b8f9e9105d6021311918bcc0ae33ca ui:annotationField bird:Gender .
