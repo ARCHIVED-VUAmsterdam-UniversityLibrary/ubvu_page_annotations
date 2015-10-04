@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a a oa:FragmentSelector .
 target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a a oa:SpecificResource .
 target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a oa:hasSelector target:selector_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
 target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a oa:hasSource <http://medialib.naturalis.nl/file/id/image-134865/format/large> .
 
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> a oa:Annotation .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> terms:title "Wespendief: European Honey Buzzard" .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:reachedObjectWith "expertise, 11" .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> ui:typingTime 11600 .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:annotatedAt "2015-10-04T12:32:13+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:annotatedBy user:user5 .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasBody birds:species-pernis_apivorus .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasTarget target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:hasTarget naturalis:print-134865 .
-<http://localhost/annotation/instances/id_1cf3769dcf2dacf4fa757eba9599b7258c003771> oa:motivatedBy oa:tagging .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 a oa:Annotation .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 terms:title "Wespendief: European Honey Buzzard" .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 ui:reachedObjectWith "expertise, 11" .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 ui:typingTime 11600 .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:annotatedAt "2015-10-04T12:32:13+02:00"^^xsd:dateTime .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:annotatedBy user:user5 .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:hasBody birds:species-pernis_apivorus .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:hasTarget target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:hasTarget naturalis:print-134865 .
+instances:id_1cf3769dcf2dacf4fa757eba9599b7258c003771 oa:motivatedBy oa:tagging .
+
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 a oa:Annotation .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 terms:title "Pernis apivorus: European Honey Buzzard" .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 ui:reachedObjectWith "expertise, 11" .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 ui:typingTime 6847 .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:annotatedAt "2015-10-04T12:32:28+02:00"^^xsd:dateTime .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:annotatedBy user:user5 .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:hasBody birds:species-pernis_apivorus .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:hasTarget target:target_f5ee0e156fabc0391f04d9c6e8e45e943548fe8a .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:hasTarget naturalis:print-134865 .
+instances:id_51f7bbe32955d591af12973fd33b92365b42ff87 oa:motivatedBy oa:tagging .
