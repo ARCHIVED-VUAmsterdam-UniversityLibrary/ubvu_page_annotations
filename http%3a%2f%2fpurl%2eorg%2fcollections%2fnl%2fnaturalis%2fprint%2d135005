@@ -23,6 +23,18 @@ target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 a oa:SpecificResource .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSelector target:selector_24e07b4d36b5cc55518b767026ae3470f8bea751 .
 target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135005/format/large> .
 
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 a oa:Annotation .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 terms:title "onbekend" .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 ui:annotationField bird:Gender .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 ui:reachedObjectWith "random, 5" .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 ui:typingTime 116942 .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:annotatedAt "2015-10-04T11:53:58+02:00"^^xsd:dateTime .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:annotatedBy user:user37 .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:hasTarget target:target_24e07b4d36b5cc55518b767026ae3470f8bea751 .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:hasTarget naturalis:print-135005 .
+instances:id_76d45a51a4c0b88821362f91fceea8e660e62bc0 oa:motivatedBy oa:tagging .
+
 instances:id_882aa5c34abd638faf1465c49aabc068642c496e a oa:Annotation .
 instances:id_882aa5c34abd638faf1465c49aabc068642c496e terms:title "Oehoe" .
 instances:id_882aa5c34abd638faf1465c49aabc068642c496e ui:annotationField bird:IOCCommonNameAnnotation .
