@@ -109,3 +109,15 @@ instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasBody birds:species-p
 instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
 instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:hasTarget naturalis:print-134898 .
 instances:id_d48c9d6d453ab3915b0313134666b62d15cbad3c oa:motivatedBy oa:tagging .
+
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 a oa:Annotation .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 terms:title "juveniel" .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 ui:annotationField bird:StageOfLife .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 ui:reachedObjectWith "random, 7" .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 ui:typingTime 1168 .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:annotatedAt "2015-10-04T12:18:25+02:00"^^xsd:dateTime .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:annotatedBy user:user34 .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:hasTarget naturalis:print-134898 .
+instances:id_d588a892358ebfa201d420e5b1bd2ad9dfcecb36 oa:motivatedBy oa:tagging .
