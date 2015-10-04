@@ -110,6 +110,18 @@ instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:hasTarget target:target
 instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:hasTarget naturalis:print-134861 .
 instances:id_6ad71ebf528f3da1ca3374fe562e5bf1e4639f5a oa:motivatedBy oa:tagging .
 
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 a oa:Annotation .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 terms:title "juveniel" .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 ui:annotationField bird:StageOfLife .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 ui:reachedObjectWith "expertise, 1" .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 ui:typingTime 1672 .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:annotatedAt "2015-10-04T12:02:57+02:00"^^xsd:dateTime .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:annotatedBy user:Debby .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:hasTarget target:target_16a8ce49be0e887332638f1d5b5a6bdedaaaa96c .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:hasTarget naturalis:print-134861 .
+instances:id_d5101570d0f18f426efde39f7f4e0b451b7fe786 oa:motivatedBy oa:tagging .
+
 instances:id_dde9f919778dde87fe0c948f9d45c68da87d811f a oa:Annotation .
 instances:id_dde9f919778dde87fe0c948f9d45c68da87d811f terms:title "Slangenarend: Short-toed Snake Eagle" .
 instances:id_dde9f919778dde87fe0c948f9d45c68da87d811f ui:annotationField bird:IOCCommonNameAnnotation .
