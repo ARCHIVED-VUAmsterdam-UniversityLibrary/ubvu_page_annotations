@@ -205,6 +205,18 @@ instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget target:target
 instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget naturalis:print-134853 .
 instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:motivatedBy oa:tagging .
 
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b a oa:Annotation .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b terms:title "Circus aeruginosus: Western Marsh Harrier" .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b ui:reachedObjectWith "expertise, 1" .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b ui:typingTime 52861 .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:annotatedAt "2015-10-04T12:24:39+02:00"^^xsd:dateTime .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:annotatedBy user:user8 .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:hasBody birds:species-circus_aeruginosus .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:hasTarget target:target_6dabc73443c2810c448b35049c758a615ad2f35f .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:hasTarget naturalis:print-134853 .
+instances:id_7f0686a6912df1a738f4ac89197bdb21bc09268b oa:motivatedBy oa:tagging .
+
 instances:id_840499b200505bbe465c7c6e74cf42731a582695 a oa:Annotation .
 instances:id_840499b200505bbe465c7c6e74cf42731a582695 terms:title "juveniel" .
 instances:id_840499b200505bbe465c7c6e74cf42731a582695 ui:annotationField bird:StageOfLife .
