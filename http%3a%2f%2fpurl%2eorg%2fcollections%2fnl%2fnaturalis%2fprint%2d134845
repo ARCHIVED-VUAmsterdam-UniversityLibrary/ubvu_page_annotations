@@ -36,6 +36,18 @@ instances:id_3a6b914f04cc56204c3aef9b61d3775856230ae6 oa:hasTarget target:target
 instances:id_3a6b914f04cc56204c3aef9b61d3775856230ae6 oa:hasTarget naturalis:print-134845 .
 instances:id_3a6b914f04cc56204c3aef9b61d3775856230ae6 oa:motivatedBy oa:tagging .
 
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b a oa:Annotation .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b terms:title "2" .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b ui:annotationField bird:StageOfLife .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b ui:reachedObjectWith "random, 0" .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b ui:typingTime 2600 .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:annotatedAt "2015-10-04T11:51:21+02:00"^^xsd:dateTime .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:annotatedBy user:Debby .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "2" ] .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:hasTarget target:target_1f4bf108d951339cc0b4cbe2881095e9a4677ce4 .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:hasTarget naturalis:print-134845 .
+instances:id_40c3be143d293bd69749665b55c98cea9df2a13b oa:motivatedBy oa:tagging .
+
 instances:id_44f20d82be06e89eb61be06eb0cdc5e9417c7f66 a oa:Annotation .
 instances:id_44f20d82be06e89eb61be06eb0cdc5e9417c7f66 terms:title "juveniel" .
 instances:id_44f20d82be06e89eb61be06eb0cdc5e9417c7f66 ui:annotationField bird:StageOfLife .
