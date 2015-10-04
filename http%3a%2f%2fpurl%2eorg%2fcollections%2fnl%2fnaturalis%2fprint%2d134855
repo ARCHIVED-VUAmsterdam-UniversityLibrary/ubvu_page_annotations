@@ -158,6 +158,18 @@ instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:hasTarget target:target
 instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:hasTarget naturalis:print-134855 .
 instances:id_30729ae8dac5f77866afb74db36b880ba9b420ac oa:motivatedBy oa:tagging .
 
+instances:id_31288100b4d21217368563fc45ca153d2577e746 a oa:Annotation .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 terms:title "adult" .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 ui:annotationField bird:StageOfLife .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 ui:reachedObjectWith "expertise, 4" .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 ui:typingTime 1000 .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:annotatedAt "2015-10-04T12:03:53+02:00"^^xsd:dateTime .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:annotatedBy user:Debby .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:hasTarget target:target_012541652a4bc98bb6879dcf6f473ca6b949fe03 .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:hasTarget naturalis:print-134855 .
+instances:id_31288100b4d21217368563fc45ca153d2577e746 oa:motivatedBy oa:tagging .
+
 instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 a oa:Annotation .
 instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 terms:title "juveniel" .
 instances:id_37d5ce497e8ac77b0e513e24b486eea909c4fb17 ui:annotationField bird:StageOfLife .
