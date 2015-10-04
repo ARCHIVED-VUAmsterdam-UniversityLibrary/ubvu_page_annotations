@@ -86,6 +86,18 @@ instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget target:target
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget naturalis:print-134862 .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:motivatedBy oa:tagging .
 
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 a oa:Annotation .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 terms:title "man" .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 ui:annotationField bird:Gender .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 ui:reachedObjectWith "expertise, 0" .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 ui:typingTime 1671 .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:annotatedAt "2015-10-04T11:48:15+02:00"^^xsd:dateTime .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:annotatedBy user:Sir_Iain .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:hasTarget target:target_958678ee54d284d43e7da4066120182c38194b88 .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:hasTarget naturalis:print-134862 .
+instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 oa:motivatedBy oa:tagging .
+
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 a oa:Annotation .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 terms:title "Rode Wouw: Red Kite" .
 instances:id_6a31c6f66df6b48dc754812f8c220348f4120618 ui:annotationField bird:IOCCommonNameAnnotation .
