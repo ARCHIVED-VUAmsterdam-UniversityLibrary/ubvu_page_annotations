@@ -74,6 +74,18 @@ instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:hasTarget target:target
 instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:hasTarget naturalis:print-134800 .
 instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:motivatedBy oa:tagging .
 
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 a oa:Annotation .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 terms:title "vrouw" .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 ui:annotationField bird:Gender .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 ui:reachedObjectWith "random, 4" .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 ui:typingTime 4887 .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:annotatedAt "2015-10-04T11:51:36+02:00"^^xsd:dateTime .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:annotatedBy user:user3 .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:hasTarget target:target_c3cbd099db6a63c90c8cf64a6cb6d03f4e36cc8c .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:hasTarget naturalis:print-134800 .
+instances:id_637f39300dbdba6d1c4edc27995178b061c03d94 oa:motivatedBy oa:tagging .
+
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 a oa:Annotation .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 terms:title "Zwarte Ooievaar: Black Stork" .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 ui:annotationField bird:IOCCommonNameAnnotation .
