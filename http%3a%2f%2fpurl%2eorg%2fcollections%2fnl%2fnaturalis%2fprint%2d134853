@@ -193,6 +193,18 @@ instances:id_697c7ff80ca62ee68eefcc8697fec78a373c9b03 oa:hasTarget target:target
 instances:id_697c7ff80ca62ee68eefcc8697fec78a373c9b03 oa:hasTarget naturalis:print-134853 .
 instances:id_697c7ff80ca62ee68eefcc8697fec78a373c9b03 oa:motivatedBy oa:tagging .
 
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 a oa:Annotation .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 terms:title "onbekend" .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 ui:annotationField bird:Gender .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 ui:reachedObjectWith "expertise, 6" .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 ui:typingTime 3434 .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:annotatedAt "2015-10-04T12:24:11+02:00"^^xsd:dateTime .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:annotatedBy user:user27 .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "onbekend" ] .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget target:target_849b1d3e5af3d0d4966cbf82eb2142bfe3c76982 .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:hasTarget naturalis:print-134853 .
+instances:id_77cd4937f5d74637b98751a2caafdbcccac7e667 oa:motivatedBy oa:tagging .
+
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 a oa:Annotation .
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_8d710e92f60414e90bc250ea140b2e9c76f1eeb1 ui:annotationField bird:IOCCommonNameAnnotation .
