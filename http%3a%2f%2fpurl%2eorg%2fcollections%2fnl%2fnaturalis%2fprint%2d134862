@@ -86,6 +86,18 @@ instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget target:target
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:hasTarget naturalis:print-134862 .
 instances:id_03ba7ba613df7ab55e3d9bbe6885903c7541aec2 oa:motivatedBy oa:tagging .
 
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 a oa:Annotation .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 terms:title "adult" .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 ui:annotationField bird:StageOfLife .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 ui:reachedObjectWith "expertise, 0" .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 ui:typingTime 2016 .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:annotatedAt "2015-10-04T11:48:48+02:00"^^xsd:dateTime .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:annotatedBy user:Sir_Iain .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:hasTarget target:target_958678ee54d284d43e7da4066120182c38194b88 .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:hasTarget naturalis:print-134862 .
+instances:id_2a31469f4bef6772915149af02d12bab6ab541a1 oa:motivatedBy oa:tagging .
+
 instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 a oa:Annotation .
 instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 terms:title "man" .
 instances:id_3ea44bbae9506374c1be2c2b0b27f4a34a117988 ui:annotationField bird:Gender .
