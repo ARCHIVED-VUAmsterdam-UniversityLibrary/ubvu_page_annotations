@@ -38,6 +38,18 @@ target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 a oa:SpecificResource .
 target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 oa:hasSelector target:selector_ae447d45fa88e24abebda92ea224040e62a8f4b9 .
 target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 oa:hasSource format:large .
 
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 a oa:Annotation .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 terms:title "adult" .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 ui:annotationField bird:StageOfLife .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 ui:reachedObjectWith "expertise, 0" .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 ui:typingTime 2177 .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:annotatedAt "2015-10-04T11:56:24+02:00"^^xsd:dateTime .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:annotatedBy user:user34 .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:hasTarget target:target_ae447d45fa88e24abebda92ea224040e62a8f4b9 .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:hasTarget naturalis:print-134991 .
+instances:id_316a09ed90fa21b76ba4e6e0b6c44b026209ff78 oa:motivatedBy oa:tagging .
+
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db a oa:Annotation .
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db terms:title "Alk: Razorbill" .
 instances:id_380123b5e32865b0ae2d435ab1dc2cc7785494db ui:annotationField bird:IOCCommonNameAnnotation .
