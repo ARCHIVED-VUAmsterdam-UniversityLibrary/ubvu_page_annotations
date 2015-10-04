@@ -50,6 +50,18 @@ target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 a oa:SpecificResource .
 target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 oa:hasSelector target:selector_73128fc7ece12d921df48a0322dcbe23bd960e98 .
 target:target_73128fc7ece12d921df48a0322dcbe23bd960e98 oa:hasSource format:large .
 
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d a oa:Annotation .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d terms:title "juveniel" .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d ui:annotationField bird:StageOfLife .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d ui:reachedObjectWith "random, 9" .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d ui:typingTime 1833 .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:annotatedAt "2015-10-04T12:01:21+02:00"^^xsd:dateTime .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:annotatedBy user:user29 .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:hasTarget target:target_28c6367267e5253e468a20ac861a34612b2375c8 .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:hasTarget naturalis:print-134789 .
+instances:id_29d274574198da5f120bb09768b57ddb6d327e7d oa:motivatedBy oa:tagging .
+
 instances:id_2d01977f9b61ca56fcf26e4b94c1764ed80a58aa a oa:Annotation .
 instances:id_2d01977f9b61ca56fcf26e4b94c1764ed80a58aa terms:title "Blauwe Reiger: Grey Heron" .
 instances:id_2d01977f9b61ca56fcf26e4b94c1764ed80a58aa ui:annotationField bird:IOCCommonNameAnnotation .
