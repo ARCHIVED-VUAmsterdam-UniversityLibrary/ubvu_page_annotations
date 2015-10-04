@@ -38,6 +38,18 @@ target:target_52fa9cbd366fb667085d3afdced44c1158f05c5e a oa:SpecificResource .
 target:target_52fa9cbd366fb667085d3afdced44c1158f05c5e oa:hasSelector target:selector_52fa9cbd366fb667085d3afdced44c1158f05c5e .
 target:target_52fa9cbd366fb667085d3afdced44c1158f05c5e oa:hasSource format:large .
 
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed a oa:Annotation .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed terms:title "Circus pygargus: Montagu's Harrier" .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed ui:reachedObjectWith "expertise, 3" .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed ui:typingTime 70043 .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:annotatedAt "2015-10-04T11:44:55+02:00"^^xsd:dateTime .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:annotatedBy user:user8 .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:hasBody birds:species-circus_pygargus .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:hasTarget target:target_091b6f513e3396f236f3fd750a8ca0ce6d248f01 .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:hasTarget naturalis:print-134855 .
+instances:id_250b8d281a45bbf8e6be684d0073ca030b2081ed oa:motivatedBy oa:tagging .
+
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c a oa:Annotation .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c terms:title "Grauwe Kiekendief: Montagu's Harrier" .
 instances:id_44ca5a9b6df02e7051927a4ac98e582e7983270c ui:annotationField bird:IOCCommonNameAnnotation .
