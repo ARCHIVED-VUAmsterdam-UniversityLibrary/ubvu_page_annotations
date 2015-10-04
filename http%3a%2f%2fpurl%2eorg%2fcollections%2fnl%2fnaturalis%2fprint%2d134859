@@ -265,6 +265,18 @@ instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget target:target
 instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:hasTarget naturalis:print-134859 .
 instances:id_741149b574bbdff84658f0e238f599a7156018fa oa:motivatedBy oa:tagging .
 
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec a oa:Annotation .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec terms:title "man" .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec ui:annotationField bird:Gender .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec ui:reachedObjectWith "expertise, 9" .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec ui:typingTime 1407 .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:annotatedAt "2015-10-04T12:30:19+02:00"^^xsd:dateTime .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:annotatedBy user:Kvliet .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:hasTarget target:target_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:hasTarget naturalis:print-134859 .
+instances:id_890c3d076f9cdcfaec2361ac47b45a46271f3bec oa:motivatedBy oa:tagging .
+
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f a oa:Annotation .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f terms:title "Accipiter nisus: Eurasian Sparrowhawk" .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:annotationField bird:IOCScientificNameAnnotation .
