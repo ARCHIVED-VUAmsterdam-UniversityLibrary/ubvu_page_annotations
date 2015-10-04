@@ -98,6 +98,18 @@ instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget target:target
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:hasTarget naturalis:print-134789 .
 instances:id_2fa1765e8bafb280ac1aa22988d29f93f9f42065 oa:motivatedBy oa:tagging .
 
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 a oa:Annotation .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 terms:title "juveniel" .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 ui:annotationField bird:StageOfLife .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 ui:reachedObjectWith "random, 9" .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 ui:typingTime 1807 .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:annotatedAt "2015-10-04T12:01:44+02:00"^^xsd:dateTime .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:annotatedBy user:user29 .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:hasTarget target:target_9adf0a6e0c4727a2d80b7be63e89e62b718bbe29 .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:hasTarget naturalis:print-134789 .
+instances:id_712388570f12a46c67929f44a7e4bd644be744c7 oa:motivatedBy oa:tagging .
+
 instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 a oa:Annotation .
 instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 terms:title "Blauwe Reiger: Grey Heron" .
 instances:id_9fae7b5e41786dc0a143c8f6fd94c04ba6414bc5 ui:annotationField bird:IOCCommonNameAnnotation .
