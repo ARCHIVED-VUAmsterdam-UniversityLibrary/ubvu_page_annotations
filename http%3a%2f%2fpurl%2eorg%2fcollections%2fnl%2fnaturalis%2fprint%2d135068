@@ -62,6 +62,18 @@ instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:hasTarget target:target
 instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:hasTarget naturalis:print-135068 .
 instances:id_503cefb2a0b1faf351604f567e4c6ea9ceaddbe2 oa:motivatedBy oa:tagging .
 
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f a oa:Annotation .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f terms:title "adult" .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f ui:annotationField bird:StageOfLife .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f ui:reachedObjectWith "random, 5" .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f ui:typingTime 1547 .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:annotatedAt "2015-10-04T12:03:44+02:00"^^xsd:dateTime .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:annotatedBy user:user4 .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:hasTarget target:target_1fe7adf2f84b11bb341c2f51c0c91c936a5d478e .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:hasTarget naturalis:print-135068 .
+instances:id_91fa1dcc8e4a62cb7921f9c66ec77182cd43138f oa:motivatedBy oa:tagging .
+
 instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 a oa:Annotation .
 instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 terms:title "Hippolais icterina: Icterine Warbler" .
 instances:id_edd5300d4c860e8c7cc3e3aae42f092469d576b4 ui:annotationField bird:IOCScientificNameAnnotation .
