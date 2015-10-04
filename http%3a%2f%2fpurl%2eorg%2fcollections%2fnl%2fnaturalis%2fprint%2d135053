@@ -46,6 +46,14 @@ target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:x "0.567890691716481
 target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 ui:y "0.14358974358974358"^^xsd:float .
 target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 rdf:value "#xywh=percent:57,14,29,58" .
 
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 a oa:FragmentSelector .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 ui:h "0.3307692307692308"^^xsd:float .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 ui:w "0.3492741246797609"^^xsd:float .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 ui:x "0.12809564474807855"^^xsd:float .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 ui:y "0.3782051282051282"^^xsd:float .
+target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 rdf:value "#xywh=percent:13,38,35,33" .
+
 target:target_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 a oa:SpecificResource .
 target:target_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 oa:hasSelector target:selector_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 .
 target:target_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 oa:hasSource format:large .
@@ -61,6 +69,10 @@ target:target_9f76aa80b0aee3486c00fb137a2c6f11fb8c9547 oa:hasSource format:large
 target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 a oa:SpecificResource .
 target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSelector target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 .
 target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSource format:large .
+
+target:target_a8f8586ab94924624a13a756420136fb3cd884e1 a oa:SpecificResource .
+target:target_a8f8586ab94924624a13a756420136fb3cd884e1 oa:hasSelector target:selector_a8f8586ab94924624a13a756420136fb3cd884e1 .
+target:target_a8f8586ab94924624a13a756420136fb3cd884e1 oa:hasSource format:large .
 
 instances:id_02aad889d45afdc9ea6e83c5ea264aabc873b559 a oa:Annotation .
 instances:id_02aad889d45afdc9ea6e83c5ea264aabc873b559 terms:title "Roodborsttapuit: European Stonechat" .
@@ -85,6 +97,18 @@ instances:id_18fdac47197319e82820a0013400f3d795cd4220 oa:hasBody birds:species-s
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 oa:hasTarget target:target_088170bbeb2336cc9d6f59dd0ce70e8c30ed22b1 .
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 oa:hasTarget naturalis:print-135053 .
 instances:id_18fdac47197319e82820a0013400f3d795cd4220 oa:motivatedBy oa:tagging .
+
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 a oa:Annotation .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 terms:title "Roodborsttapuit: European Stonechat" .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 ui:reachedObjectWith "random, 0" .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 ui:typingTime 4758 .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:annotatedAt "2015-10-04T12:10:00+02:00"^^xsd:dateTime .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:annotatedBy user:user34 .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:hasBody birds:species-saxicola_rubicola .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:hasTarget target:target_a8f8586ab94924624a13a756420136fb3cd884e1 .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:hasTarget naturalis:print-135053 .
+instances:id_3976e8ef435affdedadb44f7ddc698977e20c537 oa:motivatedBy oa:tagging .
 
 instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 a oa:Annotation .
 instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 terms:title "Saxicola rubicola: European Stonechat" .
