@@ -46,6 +46,14 @@ target:selector_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e ui:x "0.125641025641025
 target:selector_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e ui:y "0.2307051242926182"^^xsd:float .
 target:selector_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e rdf:value "#xywh=percent:13,23,78,70" .
 
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e a oa:FragmentSelector .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e ui:h "0.7"^^xsd:float .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e ui:w "0.7683760683760684"^^xsd:float .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e ui:x "0.10427350427350428"^^xsd:float .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e ui:y "0.23308974045973557"^^xsd:float .
+target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e rdf:value "#xywh=percent:10,23,77,70" .
+
 target:selector_565d670be9c963e108c07b6a013848f65910b99f a oa:FragmentSelector .
 target:selector_565d670be9c963e108c07b6a013848f65910b99f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_565d670be9c963e108c07b6a013848f65910b99f ui:h "0.20512820512820515"^^xsd:float .
@@ -93,6 +101,10 @@ target:target_12a3e07a61add5ad908387cf3623a367978e3a63 oa:hasSource format:large
 target:target_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e a oa:SpecificResource .
 target:target_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e oa:hasSelector target:selector_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e .
 target:target_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e oa:hasSource format:large .
+
+target:target_29d99f19c3f101f6e777f3d8a859cacd0673182e a oa:SpecificResource .
+target:target_29d99f19c3f101f6e777f3d8a859cacd0673182e oa:hasSelector target:selector_29d99f19c3f101f6e777f3d8a859cacd0673182e .
+target:target_29d99f19c3f101f6e777f3d8a859cacd0673182e oa:hasSource format:large .
 
 target:target_565d670be9c963e108c07b6a013848f65910b99f a oa:SpecificResource .
 target:target_565d670be9c963e108c07b6a013848f65910b99f oa:hasSelector target:selector_565d670be9c963e108c07b6a013848f65910b99f .
@@ -348,6 +360,18 @@ instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasBody [ a content:Con
 instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget target:target_12a3e07a61add5ad908387cf3623a367978e3a63 .
 instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget naturalis:print-134853 .
 instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:motivatedBy oa:tagging .
+
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 a oa:Annotation .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 ui:reachedObjectWith "expertise, 4" .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 ui:typingTime 15934 .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:annotatedAt "2015-10-04T12:51:11+02:00"^^xsd:dateTime .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:annotatedBy user:Kvliet .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:hasBody birds:species-circus_aeruginosus .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:hasTarget target:target_29d99f19c3f101f6e777f3d8a859cacd0673182e .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:hasTarget naturalis:print-134853 .
+instances:id_b14d8a116c9a99ca2b1939ca29298e8c14c93ee1 oa:motivatedBy oa:tagging .
 
 instances:id_b555a70b53169af85d93f89a7d2d366b6b10e759 a oa:Annotation .
 instances:id_b555a70b53169af85d93f89a7d2d366b6b10e759 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
