@@ -85,6 +85,18 @@ instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:hasTarget target:target
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:hasTarget naturalis:print-134856 .
 instances:id_5839e01a97bf390a21138bc1189d7d5aaeb7cd8a oa:motivatedBy oa:tagging .
 
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 a oa:Annotation .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 terms:title "adult" .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 ui:annotationField bird:StageOfLife .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 ui:reachedObjectWith "expertise, 7" .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 ui:typingTime 2688 .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:annotatedAt "2015-10-04T12:16:58+02:00"^^xsd:dateTime .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:annotatedBy user:user29 .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:hasTarget target:target_d98c53e3b5ca408eed735e03844a4a788fddfcb4 .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:hasTarget naturalis:print-134856 .
+instances:id_818ac75d7f014a0b730b3b1473f3ac8de9743002 oa:motivatedBy oa:tagging .
+
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 a oa:Annotation .
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 terms:title "Circus maurus: Black Harrier" .
 instances:id_a9891766f0652e8f81e665a5dd47373d6d1493a6 ui:annotationField bird:IOCScientificNameAnnotation .
