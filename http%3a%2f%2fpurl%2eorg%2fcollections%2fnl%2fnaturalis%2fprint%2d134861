@@ -5,10 +5,8 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
-@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:FragmentSelector .
 target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -22,26 +20,14 @@ target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf a oa:SpecificResource .
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSelector target:selector_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
 target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf oa:hasSource <http://medialib.naturalis.nl/file/id/image-134861/format/large> .
 
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 a oa:Annotation .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 terms:title "Slangenarend: Short-toed Snake Eagle" .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 ui:annotationField bird:IOCCommonNameAnnotation .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 ui:reachedObjectWith "expertise, 6" .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 ui:typingTime 11944 .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:annotatedAt "2015-10-04T11:55:55+02:00"^^xsd:dateTime .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:annotatedBy user:user4 .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:hasBody birds:species-circaetus_gallicus .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:hasTarget target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:hasTarget naturalis:print-134861 .
-instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:motivatedBy oa:tagging .
-
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 a oa:Annotation .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 terms:title "Circaetus" .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 ui:annotationField bird:IOCScientificNameAnnotation .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 ui:reachedObjectWith "expertise, 6" .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 ui:typingTime 22505 .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:annotatedAt "2015-10-04T11:56:51+02:00"^^xsd:dateTime .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:annotatedBy user:user4 .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:hasBody birds:genus-circaetus .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:hasTarget target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:hasTarget naturalis:print-134861 .
-instances:id_c7c1c73b9cdb2861599a293bc5b4b6bc8e23ea31 oa:motivatedBy oa:tagging .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> a oa:Annotation .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> terms:title "Slangenarend: Short-toed Snake Eagle" .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:reachedObjectWith "expertise, 6" .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> ui:typingTime 11944 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:annotatedAt "2015-10-04T11:55:55+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:annotatedBy user:user4 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasBody birds:species-circaetus_gallicus .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasTarget target:target_c76608043a49e7c34ab2bd2b62273390a4faf3bf .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:hasTarget naturalis:print-134861 .
+<http://localhost/annotation/instances/id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64> oa:motivatedBy oa:tagging .
