@@ -301,6 +301,18 @@ instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 oa:hasTarget target:target
 instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 oa:hasTarget naturalis:print-134853 .
 instances:id_a93ae899c7bafd1c2bd67e4f297cbb84f18d4e64 oa:motivatedBy oa:tagging .
 
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 a oa:Annotation .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 terms:title "vrouw" .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 ui:annotationField bird:Gender .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 ui:reachedObjectWith "expertise, 3" .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 ui:typingTime 3643 .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:annotatedAt "2015-10-04T12:25:31+02:00"^^xsd:dateTime .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:annotatedBy user:user26 .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget target:target_12a3e07a61add5ad908387cf3623a367978e3a63 .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:hasTarget naturalis:print-134853 .
+instances:id_ab60b43048b1352857bc693b1bcec1c10189a667 oa:motivatedBy oa:tagging .
+
 instances:id_b555a70b53169af85d93f89a7d2d366b6b10e759 a oa:Annotation .
 instances:id_b555a70b53169af85d93f89a7d2d366b6b10e759 terms:title "Bruine Kiekendief: Western Marsh Harrier" .
 instances:id_b555a70b53169af85d93f89a7d2d366b6b10e759 ui:annotationField bird:IOCCommonNameAnnotation .
