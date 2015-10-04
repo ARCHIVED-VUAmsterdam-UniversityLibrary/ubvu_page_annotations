@@ -86,6 +86,18 @@ instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:hasTarget target:target
 instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:hasTarget naturalis:print-135150 .
 instances:id_454cddcf7219a118408ebeee391dc8dcb2bc2d3f oa:motivatedBy oa:tagging .
 
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 a oa:Annotation .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 terms:title "vrouw" .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 ui:annotationField bird:Gender .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 ui:reachedObjectWith "random, 2" .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 ui:typingTime 5634 .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:annotatedAt "2015-10-04T12:53:04+02:00"^^xsd:dateTime .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:annotatedBy user:user26 .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:hasTarget target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:hasTarget naturalis:print-135150 .
+instances:id_501d9816fd4960a0acc5b47a82397573da9ff030 oa:motivatedBy oa:tagging .
+
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 a oa:Annotation .
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 terms:title "Roodmus: Common Rosefinch" .
 instances:id_7bc58b14995de8331a5d7d3447a9529bd2d72223 ui:annotationField bird:IOCCommonNameAnnotation .
