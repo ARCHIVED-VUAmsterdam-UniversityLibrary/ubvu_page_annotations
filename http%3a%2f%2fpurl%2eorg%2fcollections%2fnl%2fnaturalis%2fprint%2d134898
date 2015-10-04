@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc a oa:FragmentSelector .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:h "0.6230769230769231"^^xsd:float .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:w "0.41246797608881297"^^xsd:float .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:x "0.43552519214346713"^^xsd:float .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc ui:y "0.16282051282051282"^^xsd:float .
+target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc rdf:value "#xywh=percent:44,16,41,62" .
+
+target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc a oa:SpecificResource .
+target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSelector target:selector_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc oa:hasSource <http://medialib.naturalis.nl/file/id/image-134898/format/large> .
+
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> a oa:Annotation .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> terms:title "Kleinst Waterhoen: Baillon's Crake" .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:reachedObjectWith "random, 7" .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> ui:typingTime 4483 .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:annotatedAt "2015-10-04T12:16:20+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:annotatedBy user:user34 .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasBody birds:species-porzana_pusilla .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasTarget target:target_cf03a94ec6eaaaf74518730dd1daae3c59df85fc .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:hasTarget naturalis:print-134898 .
+<http://localhost/annotation/instances/id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9> oa:motivatedBy oa:tagging .
