@@ -517,6 +517,18 @@ instances:id_f8413e33b226d1295bb84308fbed888b13d8bf09 oa:hasTarget target:target
 instances:id_f8413e33b226d1295bb84308fbed888b13d8bf09 oa:hasTarget naturalis:print-134854 .
 instances:id_f8413e33b226d1295bb84308fbed888b13d8bf09 oa:motivatedBy oa:tagging .
 
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d a oa:Annotation .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d terms:title "adult" .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d ui:annotationField bird:StageOfLife .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d ui:reachedObjectWith "expertise, 3" .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d ui:typingTime 2839 .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:annotatedAt "2015-10-04T12:37:04+02:00"^^xsd:dateTime .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:annotatedBy user:user27 .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:hasTarget target:target_50f9b78f9c49c9998ef6a47b93eed1159d960781 .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:hasTarget naturalis:print-134854 .
+instances:id_f9f4a746b9629b51c772fb0d2abc9cce38897e2d oa:motivatedBy oa:tagging .
+
 instances:id_ffe0dc5abd3ed7df0959985bb446d1971fe19b75 a oa:Annotation .
 instances:id_ffe0dc5abd3ed7df0959985bb446d1971fe19b75 terms:title "Blauwe Kiekendief: Hen Harrier" .
 instances:id_ffe0dc5abd3ed7df0959985bb446d1971fe19b75 ui:annotationField bird:IOCCommonNameAnnotation .
