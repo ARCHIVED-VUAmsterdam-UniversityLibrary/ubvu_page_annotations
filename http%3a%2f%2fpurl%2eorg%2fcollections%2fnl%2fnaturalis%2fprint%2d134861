@@ -98,6 +98,18 @@ instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:hasTarget target:target
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:hasTarget naturalis:print-134861 .
 instances:id_1c2f33b391339d0d13f21cfe1ff4a5fb3e61bc64 oa:motivatedBy oa:tagging .
 
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 a oa:Annotation .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 terms:title "adult" .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 ui:annotationField bird:StageOfLife .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 ui:reachedObjectWith "expertise, 1" .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 ui:typingTime 1261 .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:annotatedAt "2015-10-04T12:19:53+02:00"^^xsd:dateTime .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:annotatedBy user:user29 .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:hasTarget target:target_93b268980432a11202ea8fdab57187423c6b0be9 .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:hasTarget naturalis:print-134861 .
+instances:id_2c2b736e418f55c140cf0016e6e411552bc931f7 oa:motivatedBy oa:tagging .
+
 instances:id_305b813f3a11026eda732b8e39536215d5803180 a oa:Annotation .
 instances:id_305b813f3a11026eda732b8e39536215d5803180 terms:title "Slangenarend: Short-toed Snake Eagle" .
 instances:id_305b813f3a11026eda732b8e39536215d5803180 ui:annotationField bird:IOCCommonNameAnnotation .
