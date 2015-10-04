@@ -206,6 +206,18 @@ instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:hasTarget target:target
 instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:hasTarget naturalis:print-135053 .
 instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 oa:motivatedBy oa:tagging .
 
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 a oa:Annotation .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 terms:title "Saxicola rubicola: European Stonechat" .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 ui:reachedObjectWith "random, 0" .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 ui:typingTime 4977 .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:annotatedAt "2015-10-04T12:10:07+02:00"^^xsd:dateTime .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:annotatedBy user:user34 .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:hasBody birds:species-saxicola_rubicola .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:hasTarget target:target_a8f8586ab94924624a13a756420136fb3cd884e1 .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:hasTarget naturalis:print-135053 .
+instances:id_bff50da8b760f9f057cc9b7f3609fadd7337bfb9 oa:motivatedBy oa:tagging .
+
 instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb a oa:Annotation .
 instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb terms:title "man" .
 instances:id_c1cd6750449ecefcac2e4ba9f20d2bb891516fbb ui:annotationField bird:Gender .
