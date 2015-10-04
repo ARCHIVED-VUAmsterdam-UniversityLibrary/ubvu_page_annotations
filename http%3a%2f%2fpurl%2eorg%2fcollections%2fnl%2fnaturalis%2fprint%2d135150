@@ -62,6 +62,18 @@ instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:hasTarget target:target
 instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:hasTarget naturalis:print-135150 .
 instances:id_08ce0ecf258d18c9c1396e9dc71b830c7a1ae6ff oa:motivatedBy oa:tagging .
 
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 a oa:Annotation .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 terms:title "adult" .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 ui:annotationField bird:StageOfLife .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 ui:reachedObjectWith "random, 0" .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 ui:typingTime 3847 .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:annotatedAt "2015-10-04T13:00:24+02:00"^^xsd:dateTime .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:annotatedBy user:user37 .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:hasTarget target:target_df41680ba141f3642841e1dad2d56bbce1996008 .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:hasTarget naturalis:print-135150 .
+instances:id_0e0c9bfa7012ea3623adc2f79bf45c9c0d330c50 oa:motivatedBy oa:tagging .
+
 instances:id_0f4e30168f705357202b378589409362fa6f7211 a oa:Annotation .
 instances:id_0f4e30168f705357202b378589409362fa6f7211 terms:title "Carpodacus erythrinus: Common Rosefinch" .
 instances:id_0f4e30168f705357202b378589409362fa6f7211 ui:annotationField bird:IOCScientificNameAnnotation .
