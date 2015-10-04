@@ -98,6 +98,18 @@ instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:hasTarget target:target
 instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:hasTarget naturalis:print-135053 .
 instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:motivatedBy oa:tagging .
 
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 a oa:Annotation .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 terms:title "Saxicola rubicola: European Stonechat" .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 ui:reachedObjectWith "random, 0" .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 ui:typingTime 6321 .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:annotatedAt "2015-10-04T12:09:43+02:00"^^xsd:dateTime .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:annotatedBy user:user34 .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:hasBody birds:species-saxicola_rubicola .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:hasTarget target:target_9f76aa80b0aee3486c00fb137a2c6f11fb8c9547 .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:hasTarget naturalis:print-135053 .
+instances:id_4df94dc4e337e14b58ca487d8017b3ea4f33a400 oa:motivatedBy oa:tagging .
+
 instances:id_52dcec79ebfb65fe1b8713b6215ea547de45ad23 a oa:Annotation .
 instances:id_52dcec79ebfb65fe1b8713b6215ea547de45ad23 terms:title "adult" .
 instances:id_52dcec79ebfb65fe1b8713b6215ea547de45ad23 ui:annotationField bird:StageOfLife .
