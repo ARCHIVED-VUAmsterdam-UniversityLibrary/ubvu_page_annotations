@@ -74,6 +74,18 @@ instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:hasTarget target:target
 instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:hasTarget naturalis:print-134853 .
 instances:id_00b7e57f34bd8abfe8c7218214e0bb37d0c323c2 oa:motivatedBy oa:tagging .
 
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d a oa:Annotation .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d terms:title "vrouw" .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d ui:annotationField bird:Gender .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d ui:reachedObjectWith "expertise, 6" .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d ui:typingTime 1897 .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:annotatedAt "2015-10-04T12:23:09+02:00"^^xsd:dateTime .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:annotatedBy user:user27 .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:hasTarget target:target_1f20e4dfc9bddc7d63ab2f240a6d78b772bb5c4e .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:hasTarget naturalis:print-134853 .
+instances:id_35a01581c1e802f119ffcaa65cd60fb8ce84376d oa:motivatedBy oa:tagging .
+
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d a oa:Annotation .
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d terms:title "Circus aeruginosus: Western Marsh Harrier" .
 instances:id_44ee6ed94ac4a2c93916a8aff79aedc488a8233d ui:annotationField bird:IOCScientificNameAnnotation .
