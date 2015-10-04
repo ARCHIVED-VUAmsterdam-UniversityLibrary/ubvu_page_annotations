@@ -121,6 +121,18 @@ instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget target:target
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:hasTarget naturalis:print-134859 .
 instances:id_303c220ee0cf6bfd082231f62452fb4a5a3c3532 oa:motivatedBy oa:tagging .
 
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 a oa:Annotation .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 terms:title "vrouw" .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 ui:annotationField bird:Gender .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 ui:reachedObjectWith "expertise, 5" .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 ui:typingTime 1103 .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:annotatedAt "2015-10-04T12:08:59+02:00"^^xsd:dateTime .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:annotatedBy user:Debby .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:hasTarget target:target_9073caa617980197c88cf03636775ff5a17558e9 .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:hasTarget naturalis:print-134859 .
+instances:id_5610197219e6438fb052a43d5bc871965e8434c3 oa:motivatedBy oa:tagging .
+
 instances:id_5a4845a4143db3a87b1ba9d1e3d315269074fc9d a oa:Annotation .
 instances:id_5a4845a4143db3a87b1ba9d1e3d315269074fc9d terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_5a4845a4143db3a87b1ba9d1e3d315269074fc9d ui:annotationField bird:IOCCommonNameAnnotation .
