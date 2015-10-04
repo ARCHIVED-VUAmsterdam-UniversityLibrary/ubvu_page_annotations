@@ -432,3 +432,15 @@ instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:hasBody birds:species-m
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:hasTarget target:target_f4e3dd7e35e13420fb3dfb13964cfffe26b7878c .
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:hasTarget naturalis:print-134862 .
 instances:id_e9f5ff8ef45ff2515da63a7ffc3e38bced7a3100 oa:motivatedBy oa:tagging .
+
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 a oa:Annotation .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 terms:title "Milvus milvus: Red Kite" .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 ui:reachedObjectWith "expertise, 0" .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 ui:typingTime 6871 .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:annotatedAt "2015-10-04T12:21:19+02:00"^^xsd:dateTime .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:annotatedBy user:user5 .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:hasBody birds:species-milvus_milvus .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:hasTarget target:target_b7919efc0be124ef31530c8829530abb696a9df5 .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:hasTarget naturalis:print-134862 .
+instances:id_f5072f042317bcbc68db1168e2ffbdfcab0eb9f7 oa:motivatedBy oa:tagging .
