@@ -97,6 +97,18 @@ instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:hasTarget target:target
 instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:hasTarget naturalis:print-134863 .
 instances:id_92191144c4d52febad6e2bdc9078c3879602e5d5 oa:motivatedBy oa:tagging .
 
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 a oa:Annotation .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 terms:title "adult" .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 ui:annotationField bird:StageOfLife .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 ui:reachedObjectWith "expertise, 11" .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 ui:typingTime 1670 .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:annotatedAt "2015-10-04T13:08:31+02:00"^^xsd:dateTime .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:annotatedBy user:Kvliet .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:hasTarget target:target_6b0f76ca1feb30388eb3c55bbd559b5ee4df20a3 .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:hasTarget naturalis:print-134863 .
+instances:id_a51757735c66de13ec848c235dba22d537c2cb34 oa:motivatedBy oa:tagging .
+
 instances:id_eb6f4b24f1e127399ed0d8d9b42ac0369b330885 a oa:Annotation .
 instances:id_eb6f4b24f1e127399ed0d8d9b42ac0369b330885 terms:title "adult" .
 instances:id_eb6f4b24f1e127399ed0d8d9b42ac0369b330885 ui:annotationField bird:StageOfLife .
