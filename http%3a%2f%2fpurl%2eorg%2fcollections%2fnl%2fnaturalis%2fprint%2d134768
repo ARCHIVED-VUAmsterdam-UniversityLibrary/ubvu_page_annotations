@@ -86,6 +86,18 @@ instances:id_4cfef3203a8af835f3b7215fe0f023085bf275ac oa:hasTarget target:target
 instances:id_4cfef3203a8af835f3b7215fe0f023085bf275ac oa:hasTarget naturalis:print-134768 .
 instances:id_4cfef3203a8af835f3b7215fe0f023085bf275ac oa:motivatedBy oa:tagging .
 
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f a oa:Annotation .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f terms:title "juveniel" .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f ui:annotationField bird:StageOfLife .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f ui:reachedObjectWith "random, 6" .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f ui:typingTime 4095 .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:annotatedAt "2015-10-04T12:19:29+02:00"^^xsd:dateTime .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:annotatedBy user:user3 .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "juveniel" ] .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:hasTarget target:target_ebd9a1073c3aff5aaddf550b91d9ccd0704624cb .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:hasTarget naturalis:print-134768 .
+instances:id_5ed2239e6d8cfae5ea9901f49d7ee51dfa3a5e8f oa:motivatedBy oa:tagging .
+
 instances:id_5f063a60293682965103246e72ac7d02676f8f81 a oa:Annotation .
 instances:id_5f063a60293682965103246e72ac7d02676f8f81 terms:title "adult" .
 instances:id_5f063a60293682965103246e72ac7d02676f8f81 ui:annotationField bird:StageOfLife .
