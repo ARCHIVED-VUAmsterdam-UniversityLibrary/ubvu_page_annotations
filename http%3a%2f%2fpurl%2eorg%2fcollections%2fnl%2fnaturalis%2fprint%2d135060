@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:FragmentSelector .
 target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 a oa:SpecificResource .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSelector target:selector_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
 target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135060/format/large> .
 
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> a oa:Annotation .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> terms:title "Braamsluiper: Lesser Whitethroat" .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> ui:reachedObjectWith "random, 6" .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> ui:typingTime 3155 .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:annotatedAt "2015-10-04T12:11:56+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:annotatedBy user:user29 .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:hasBody birds:species-sylvia_curruca .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:hasTarget naturalis:print-135060 .
-<http://localhost/annotation/instances/id_76ee407f8d025db9a5544ce97b43ba0e9d15334f> oa:motivatedBy oa:tagging .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 a oa:Annotation .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 terms:title "Sylvia curruca: Lesser Whitethroat" .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 ui:reachedObjectWith "random, 6" .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 ui:typingTime 11741 .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:annotatedAt "2015-10-04T12:12:15+02:00"^^xsd:dateTime .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:annotatedBy user:user29 .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:hasBody birds:species-sylvia_curruca .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:hasTarget naturalis:print-135060 .
+instances:id_60e46cb4bfaa3149df92b039e2114782fed788d1 oa:motivatedBy oa:tagging .
+
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f a oa:Annotation .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f terms:title "Braamsluiper: Lesser Whitethroat" .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f ui:reachedObjectWith "random, 6" .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f ui:typingTime 3155 .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:annotatedAt "2015-10-04T12:11:56+02:00"^^xsd:dateTime .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:annotatedBy user:user29 .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasBody birds:species-sylvia_curruca .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget target:target_d68d1de75c92cd4ac97d80c74bf8f158d8b2a0b7 .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:hasTarget naturalis:print-135060 .
+instances:id_76ee407f8d025db9a5544ce97b43ba0e9d15334f oa:motivatedBy oa:tagging .
