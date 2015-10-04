@@ -194,6 +194,18 @@ instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:hasTarget target:target
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:hasTarget naturalis:print-135106 .
 instances:id_dcefbc9b3253e43169c0ecb262f1f3fcfb860ca2 oa:motivatedBy oa:tagging .
 
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 a oa:Annotation .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 terms:title "echt" .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 ui:reachedObjectWith "random, 10" .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 ui:typingTime 2156 .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:annotatedAt "2015-10-04T12:28:27+02:00"^^xsd:dateTime .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:annotatedBy user:user39 .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:hasTarget target:target_80369186f52833ff2deed9afe64372e331a7e1aa .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:hasTarget naturalis:print-135106 .
+instances:id_e49020d2a171b52b44cef05bc3f961ca912bf1c9 oa:motivatedBy oa:tagging .
+
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b a oa:Annotation .
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b terms:title "Koolmees: Great Tit" .
 instances:id_f63a4c0e5e6a6319fee35ae1068de816b53b653b ui:annotationField bird:IOCCommonNameAnnotation .
