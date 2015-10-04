@@ -193,3 +193,15 @@ instances:id_97178e5400c150eb67b32c83cfd0d0c65e26aceb oa:hasBody [ a content:Con
 instances:id_97178e5400c150eb67b32c83cfd0d0c65e26aceb oa:hasTarget target:target_a4f19a73ee11bfcd2dfc38c78e64fb5f436cab2b .
 instances:id_97178e5400c150eb67b32c83cfd0d0c65e26aceb oa:hasTarget naturalis:print-135150 .
 instances:id_97178e5400c150eb67b32c83cfd0d0c65e26aceb oa:motivatedBy oa:tagging .
+
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 a oa:Annotation .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 terms:title "Vraag: de naar achter uitstekende achterteen valt op. In de vogelgids van Svensson staat een vrouwtje met de achterteen in min of meer dezelfde houding." .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 ui:reachedObjectWith "random, 0" .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 ui:typingTime 115769 .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:annotatedAt "2015-10-04T13:05:50+02:00"^^xsd:dateTime .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:annotatedBy user:user37 .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vraag: de naar achter uitstekende achterteen valt op. In de vogelgids van Svensson staat een vrouwtje met de achterteen in min of meer dezelfde houding." ] .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:hasTarget target:target_df41680ba141f3642841e1dad2d56bbce1996008 .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:hasTarget naturalis:print-135150 .
+instances:id_f845acc1f7845c1f042c0eb0e9702f1ac8d8e677 oa:motivatedBy oa:tagging .
