@@ -146,6 +146,18 @@ instances:id_b20ef8dd1f52305208870319977a45b9655ded89 oa:hasTarget target:target
 instances:id_b20ef8dd1f52305208870319977a45b9655ded89 oa:hasTarget naturalis:print-134881 .
 instances:id_b20ef8dd1f52305208870319977a45b9655ded89 oa:motivatedBy oa:tagging .
 
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 a oa:Annotation .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 terms:title "Falco peregrinus: Peregrine Falcon" .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 ui:reachedObjectWith "random, 5" .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 ui:typingTime 12251 .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:annotatedAt "2015-10-04T11:47:30+02:00"^^xsd:dateTime .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:annotatedBy user:user39 .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:hasBody birds:species-falco_peregrinus .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:hasTarget target:target_6b28fecb698e1e4db96abeff16b01b6126e8c96e .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:hasTarget naturalis:print-134881 .
+instances:id_c6e2a3b550cfcaf5a24ab4eece3479a61824bfd6 oa:motivatedBy oa:tagging .
+
 instances:id_fd8970abdbedbc04c1bcb76959e73144980660fa a oa:Annotation .
 instances:id_fd8970abdbedbc04c1bcb76959e73144980660fa terms:title "juveniel" .
 instances:id_fd8970abdbedbc04c1bcb76959e73144980660fa ui:annotationField bird:StageOfLife .
