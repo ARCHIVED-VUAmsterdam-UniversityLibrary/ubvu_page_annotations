@@ -74,18 +74,6 @@ instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget target:target
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:hasTarget naturalis:print-134898 .
 instances:id_9feb73e2489a5ee23940c82316cdc87b82b5c9a9 oa:motivatedBy oa:tagging .
 
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 a oa:Annotation .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 terms:title "Baillon's Crake" .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:annotationField bird:IOCCommonNameAnnotation .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:reachedObjectWith "random, 7" .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 ui:typingTime 3126 .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:annotatedAt "2015-10-04T12:16:57+02:00"^^xsd:dateTime .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:annotatedBy user:user34 .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasBody birds:species-porzana_pusilla .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasTarget target:target_db9efe7b908c166a977ffb045a53b76a37d69b0a .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:hasTarget naturalis:print-134898 .
-instances:id_aa49644a2341926a50a0380968abcfc0685489f1 oa:motivatedBy oa:tagging .
-
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 a oa:Annotation .
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 terms:title "adult" .
 instances:id_ce2d061b3546cf96df906b30bfe3e8ab7d8862f8 ui:annotationField bird:StageOfLife .
