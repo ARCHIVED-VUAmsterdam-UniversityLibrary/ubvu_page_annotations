@@ -62,6 +62,18 @@ target:target_f33b970565bd1c35e17995711203e6468c0f0fb7 a oa:SpecificResource .
 target:target_f33b970565bd1c35e17995711203e6468c0f0fb7 oa:hasSelector target:selector_f33b970565bd1c35e17995711203e6468c0f0fb7 .
 target:target_f33b970565bd1c35e17995711203e6468c0f0fb7 oa:hasSource format:large .
 
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e a oa:Annotation .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e terms:title "man" .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e ui:annotationField bird:Gender .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e ui:reachedObjectWith "expertise, 5" .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e ui:typingTime 1309 .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:annotatedAt "2015-10-04T12:08:26+02:00"^^xsd:dateTime .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:annotatedBy user:Debby .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "man" ] .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:hasTarget target:target_e626e75df7e8c28dcf55cc16af4d0fef32b7a0a9 .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:hasTarget naturalis:print-134859 .
+instances:id_17336475d73b7b2fc6778fcf5b0b6d715962740e oa:motivatedBy oa:tagging .
+
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 a oa:Annotation .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 terms:title "Sperwer: Eurasian Sparrowhawk" .
 instances:id_2b0307dab43fe341a5f962ff5b2ed7e5820a1e37 ui:annotationField bird:IOCCommonNameAnnotation .
