@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-135106/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
@@ -20,9 +22,21 @@ target:selector_d9f19354719398e4a9932415972abbcfbb88d185 ui:x "0.466666666666666
 target:selector_d9f19354719398e4a9932415972abbcfbb88d185 ui:y "0.12307692307692308"^^xsd:float .
 target:selector_d9f19354719398e4a9932415972abbcfbb88d185 rdf:value "#xywh=percent:47,12,40,34" .
 
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 a oa:FragmentSelector .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:h "0.2705128205128205"^^xsd:float .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:w "0.3854700854700855"^^xsd:float .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:x "0.3854700854700855"^^xsd:float .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 ui:y "0.48333333333333334"^^xsd:float .
+target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 rdf:value "#xywh=percent:39,48,39,27" .
+
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 a oa:SpecificResource .
 target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSelector target:selector_d9f19354719398e4a9932415972abbcfbb88d185 .
-target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSource <http://medialib.naturalis.nl/file/id/image-135106/format/large> .
+target:target_d9f19354719398e4a9932415972abbcfbb88d185 oa:hasSource format:large .
+
+target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 a oa:SpecificResource .
+target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSelector target:selector_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
+target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 oa:hasSource format:large .
 
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 a oa:Annotation .
 instances:id_2541d7283b1bf034cf6be406ee375cd4b123d799 terms:title "man" .
@@ -47,6 +61,18 @@ instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasBody [ a content:Con
 instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget target:target_d9f19354719398e4a9932415972abbcfbb88d185 .
 instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:hasTarget naturalis:print-135106 .
 instances:id_2ff2f822d07142f1de867aa3d40737a96a5a60dd oa:motivatedBy oa:tagging .
+
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b a oa:Annotation .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b terms:title "Koolmees: Great Tit" .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b ui:reachedObjectWith "random, 10" .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b ui:typingTime 6978 .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:annotatedAt "2015-10-04T12:26:46+02:00"^^xsd:dateTime .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:annotatedBy user:user39 .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:hasBody birds:species-parus_major .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:hasTarget target:target_e10cc19a556a806b9ac0378a7d7636db91d315f6 .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:hasTarget naturalis:print-135106 .
+instances:id_90747791cd4865c76f34147f36a5bbc3e29dea7b oa:motivatedBy oa:tagging .
 
 instances:id_98c4d27e85cd25230171578175214732909948fb a oa:Annotation .
 instances:id_98c4d27e85cd25230171578175214732909948fb terms:title "Parus major: Great Tit" .
