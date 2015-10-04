@@ -38,6 +38,18 @@ target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 a oa:SpecificResource .
 target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSelector target:selector_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 .
 target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 oa:hasSource format:large .
 
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 a oa:Annotation .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 terms:title "Saxicola rubicola: European Stonechat" .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 ui:reachedObjectWith "random, 0" .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 ui:typingTime 6762 .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:annotatedAt "2015-10-04T12:05:47+02:00"^^xsd:dateTime .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:annotatedBy user:user34 .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:hasBody birds:species-saxicola_rubicola .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:hasTarget target:target_9f9f4e59e15fc680b106c3bb61ceac4aba4f0329 .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:hasTarget naturalis:print-135053 .
+instances:id_39e64bf80032dd36ee913a46efa97c213bd22522 oa:motivatedBy oa:tagging .
+
 instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 a oa:Annotation .
 instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 terms:title "a" .
 instances:id_b13add96122a5a1e3ff80883ea1ea5da3d52e9f4 ui:annotationField bird:IOCCommonNameAnnotation .
