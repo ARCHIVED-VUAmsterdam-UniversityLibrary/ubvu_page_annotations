@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f a oa:FragmentSelector .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:h "0.5122507122507123"^^xsd:float .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:w "0.688034188034188"^^xsd:float .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:x "0.3034188034188034"^^xsd:float .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f ui:y "0.30313390313390315"^^xsd:float .
+target:selector_10502ee42590ca02b14edd311b99a28aac431f5f rdf:value "#xywh=percent:30,30,69,51" .
+
+target:target_10502ee42590ca02b14edd311b99a28aac431f5f a oa:SpecificResource .
+target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSelector target:selector_10502ee42590ca02b14edd311b99a28aac431f5f .
+target:target_10502ee42590ca02b14edd311b99a28aac431f5f oa:hasSource <http://medialib.naturalis.nl/file/id/image-134903/format/large> .
+
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> a oa:Annotation .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> terms:title "Kleine Trap: Little Bustard" .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:reachedObjectWith "random, 2" .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> ui:typingTime 15944 .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:annotatedAt "2015-10-04T11:50:28+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:annotatedBy user:user5 .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasBody birds:species-tetrax_tetrax .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasTarget target:target_10502ee42590ca02b14edd311b99a28aac431f5f .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:hasTarget naturalis:print-134903 .
+<http://localhost/annotation/instances/id_cedda6190ff1e6275b0b987e65681a23c91351c2> oa:motivatedBy oa:tagging .
