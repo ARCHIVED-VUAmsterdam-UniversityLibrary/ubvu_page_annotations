@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 a oa:FragmentSelector .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:h "0.8192307692307693"^^xsd:float .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:w "0.43296327924850553"^^xsd:float .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:x "0.5345858240819812"^^xsd:float .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:y "0.014102564102564103"^^xsd:float .
+target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 rdf:value "#xywh=percent:53,1,43,82" .
+
+target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 a oa:SpecificResource .
+target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 oa:hasSelector target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 .
+target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134992/format/large> .
+
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> a oa:Annotation .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> terms:title "Zeekoet: Common Murre" .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> ui:reachedObjectWith "expertise, 0" .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> ui:typingTime 2649 .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:annotatedAt "2015-10-04T11:57:33+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:annotatedBy user:user34 .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:hasBody birds:species-uria_aalge .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:hasTarget target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:hasTarget naturalis:print-134992 .
+<http://localhost/annotation/instances/id_a076645a82e78b615b061079073d1a26240e8fbe> oa:motivatedBy oa:tagging .
