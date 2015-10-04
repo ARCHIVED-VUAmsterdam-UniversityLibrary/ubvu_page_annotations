@@ -349,6 +349,18 @@ instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:hasTarget target:target
 instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:hasTarget naturalis:print-134859 .
 instances:id_8fdba63261766e11b2362fc2f2c23e10d08c083d oa:motivatedBy oa:tagging .
 
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 a oa:Annotation .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 terms:title "vrouw" .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 ui:annotationField bird:Gender .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 ui:reachedObjectWith "expertise, 6" .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 ui:typingTime 2412 .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:annotatedAt "2015-10-04T12:47:16+02:00"^^xsd:dateTime .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:annotatedBy user:user26 .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw" ] .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:hasTarget target:target_1bcd4f19202cd7e477453dc282314637e7293ac3 .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:hasTarget naturalis:print-134859 .
+instances:id_ab4497fa2358f5e4e8f8878cdd5b7b1487a585f6 oa:motivatedBy oa:tagging .
+
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f a oa:Annotation .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f terms:title "Accipiter nisus: Eurasian Sparrowhawk" .
 instances:id_aef07b801ae490eaf23927fd9bff1c837c73c67f ui:annotationField bird:IOCScientificNameAnnotation .
