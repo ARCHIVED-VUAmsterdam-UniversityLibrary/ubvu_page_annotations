@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,10 +8,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix format: <http://medialib.naturalis.nl/file/id/image-134992/format/> .
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bird: <http://accurator.nl/ui/annotation/bird#> .
+
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 a oa:FragmentSelector .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 ui:h "0.591025641025641"^^xsd:float .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 ui:w "0.30401366353543974"^^xsd:float .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 ui:x "0.2971818958155423"^^xsd:float .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 ui:y "0.035897435897435895"^^xsd:float .
+target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 rdf:value "#xywh=percent:30,4,30,59" .
 
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 a oa:FragmentSelector .
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,9 +30,13 @@ target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:x "0.534585824081981
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 ui:y "0.014102564102564103"^^xsd:float .
 target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 rdf:value "#xywh=percent:53,1,43,82" .
 
+target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 a oa:SpecificResource .
+target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 oa:hasSelector target:selector_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 .
+target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 oa:hasSource format:large .
+
 target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 a oa:SpecificResource .
 target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 oa:hasSelector target:selector_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 .
-target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134992/format/large> .
+target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 oa:hasSource format:large .
 
 instances:id_072e6d5f931d0716e49e91fa814775956782c703 a oa:Annotation .
 instances:id_072e6d5f931d0716e49e91fa814775956782c703 terms:title "Uria aalge: Common Murre" .
@@ -35,6 +49,18 @@ instances:id_072e6d5f931d0716e49e91fa814775956782c703 oa:hasBody birds:species-u
 instances:id_072e6d5f931d0716e49e91fa814775956782c703 oa:hasTarget target:target_d062d0a5efc324e3e3d76e41495c8fcd62b2acd2 .
 instances:id_072e6d5f931d0716e49e91fa814775956782c703 oa:hasTarget naturalis:print-134992 .
 instances:id_072e6d5f931d0716e49e91fa814775956782c703 oa:motivatedBy oa:tagging .
+
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f a oa:Annotation .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f terms:title "Zeekoet: Common Murre" .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f ui:reachedObjectWith "expertise, 0" .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f ui:typingTime 1915 .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:annotatedAt "2015-10-04T11:59:49+02:00"^^xsd:dateTime .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:annotatedBy user:user34 .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:hasBody birds:species-uria_aalge .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:hasTarget target:target_bc6e6b66175b1ebb1891fe99191bcc03aac2fbc1 .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:hasTarget naturalis:print-134992 .
+instances:id_6a8b50950f4b457bac7df4b856cd3c9a557e5a9f oa:motivatedBy oa:tagging .
 
 instances:id_a076645a82e78b615b061079073d1a26240e8fbe a oa:Annotation .
 instances:id_a076645a82e78b615b061079073d1a26240e8fbe terms:title "Zeekoet: Common Murre" .
