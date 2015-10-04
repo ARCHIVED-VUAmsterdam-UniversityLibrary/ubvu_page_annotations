@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
+@prefix birds: <http://purl.org/collections/birds/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:FragmentSelector .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:h "0.7961538461538462"^^xsd:float .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:w "0.5897435897435898"^^xsd:float .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:x "0.3683760683760684"^^xsd:float .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c ui:y "0.035897435897435895"^^xsd:float .
+target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c rdf:value "#xywh=percent:37,4,59,80" .
+
+target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:SpecificResource .
+target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSelector target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
+target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSource <http://medialib.naturalis.nl/file/id/image-135017/format/large> .
+
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> a oa:Annotation .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> terms:title "Bijeneter: European Bee-eater" .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:reachedObjectWith "random, 0" .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:typingTime 2756 .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:annotatedAt "2015-10-04T11:55:33+02:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:annotatedBy user:user3 .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasBody birds:species-merops_apiaster .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasTarget naturalis:print-135017 .
+<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:motivatedBy oa:tagging .
