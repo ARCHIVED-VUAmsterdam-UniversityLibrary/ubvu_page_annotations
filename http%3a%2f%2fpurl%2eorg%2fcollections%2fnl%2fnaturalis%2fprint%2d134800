@@ -48,6 +48,18 @@ instances:id_318448775b672aa1d100529c86f7c8e8ae163380 oa:hasTarget target:target
 instances:id_318448775b672aa1d100529c86f7c8e8ae163380 oa:hasTarget naturalis:print-134800 .
 instances:id_318448775b672aa1d100529c86f7c8e8ae163380 oa:motivatedBy oa:tagging .
 
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 a oa:Annotation .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 terms:title "echt" .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 ui:annotationField bird:RealOrNotAnnotation .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 ui:reachedObjectWith "random, 4" .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 ui:typingTime 252215 .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:annotatedAt "2015-10-04T11:49:35+02:00"^^xsd:dateTime .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:annotatedBy user:user3 .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:hasTarget target:target_40cf165f34e17e6a6aa5ff0946a9f10069a11b65 .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:hasTarget naturalis:print-134800 .
+instances:id_47fd6acfddf067c950ee4560f3c7832d10babaf1 oa:motivatedBy oa:tagging .
+
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 a oa:Annotation .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 terms:title "Zwarte Ooievaar: Black Stork" .
 instances:id_69b850a62fa689be91be4dac591daedc11bba565 ui:annotationField bird:IOCCommonNameAnnotation .
