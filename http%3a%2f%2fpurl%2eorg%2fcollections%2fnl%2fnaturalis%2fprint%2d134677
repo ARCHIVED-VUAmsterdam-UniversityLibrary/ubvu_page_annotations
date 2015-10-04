@@ -218,6 +218,18 @@ instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:hasTarget target:target
 instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:hasTarget naturalis:print-134677 .
 instances:id_e20205cfc4037f44689d9525f6f6b372606078cd oa:motivatedBy oa:tagging .
 
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb a oa:Annotation .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb terms:title "echt" .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb ui:annotationField bird:RealOrNotAnnotation .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb ui:reachedObjectWith "random, 1" .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb ui:typingTime 1972 .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:annotatedAt "2015-10-04T11:59:29+02:00"^^xsd:dateTime .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:annotatedBy user:user39 .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:hasTarget target:target_1464cbc0d2f7b05fdfad1303a756ede8d39934cb .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:hasTarget naturalis:print-134677 .
+instances:id_f16947a8cf042bca4b66799d087b5d1d26af72eb oa:motivatedBy oa:tagging .
+
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 a oa:Annotation .
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 terms:title "Tyto alba guttata" .
 instances:id_fd10bfb2936e3e838c5c37a4ca4108b82aa52390 ui:annotationField bird:IOCScientificNameAnnotation .
