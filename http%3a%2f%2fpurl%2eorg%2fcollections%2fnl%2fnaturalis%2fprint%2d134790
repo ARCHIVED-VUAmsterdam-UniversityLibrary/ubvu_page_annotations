@@ -48,6 +48,18 @@ instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget target:target
 instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:hasTarget naturalis:print-134790 .
 instances:id_7ae8f2e94e49a291ae42da51a96790d217740e2b oa:motivatedBy oa:tagging .
 
+instances:id_bad250f84d110e0501fe65af045199e15947f48d a oa:Annotation .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d terms:title "adult" .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d ui:annotationField bird:StageOfLife .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d ui:reachedObjectWith "expertise, 2" .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d ui:typingTime 2161 .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:annotatedAt "2015-10-04T12:26:59+02:00"^^xsd:dateTime .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:annotatedBy user:user3 .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget target:target_3c76fc7c701c3a1810bd36a8146814730f6c62c6 .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:hasTarget naturalis:print-134790 .
+instances:id_bad250f84d110e0501fe65af045199e15947f48d oa:motivatedBy oa:tagging .
+
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 a oa:Annotation .
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 terms:title "Purperreiger: Purple Heron" .
 instances:id_f682fbf3dacc72ba8eade36c9adbc78047926a46 ui:annotationField bird:IOCCommonNameAnnotation .
