@@ -5,8 +5,10 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bird: <http://accurator.nl/ui/annotation/bird#> .
 
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:FragmentSelector .
 target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -20,14 +22,26 @@ target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c a oa:SpecificResource .
 target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSelector target:selector_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
 target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c oa:hasSource <http://medialib.naturalis.nl/file/id/image-135017/format/large> .
 
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> a oa:Annotation .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> terms:title "Bijeneter: European Bee-eater" .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:annotationField <http://accurator.nl/ui/annotation/bird#IOCCommonNameAnnotation> .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:reachedObjectWith "random, 0" .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> ui:typingTime 2756 .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:annotatedAt "2015-10-04T11:55:33+02:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:annotatedBy user:user3 .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasBody birds:species-merops_apiaster .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:hasTarget naturalis:print-135017 .
-<http://localhost/annotation/instances/id_ac92aa0f42833e366244c97e597fa670628ab788> oa:motivatedBy oa:tagging .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 a oa:Annotation .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 terms:title "Merops apiaster: European Bee-eater" .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 ui:reachedObjectWith "random, 0" .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 ui:typingTime 8296 .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:annotatedAt "2015-10-04T11:55:46+02:00"^^xsd:dateTime .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:annotatedBy user:user3 .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:hasBody birds:species-merops_apiaster .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:hasTarget naturalis:print-135017 .
+instances:id_6189b2545ac444970aa617efdd62a838cc7d0f39 oa:motivatedBy oa:tagging .
+
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 a oa:Annotation .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 terms:title "Bijeneter: European Bee-eater" .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 ui:reachedObjectWith "random, 0" .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 ui:typingTime 2756 .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:annotatedAt "2015-10-04T11:55:33+02:00"^^xsd:dateTime .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:annotatedBy user:user3 .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasBody birds:species-merops_apiaster .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasTarget target:target_d76811e8c4825b23c532533ba06d2ef29b5a9d7c .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:hasTarget naturalis:print-135017 .
+instances:id_ac92aa0f42833e366244c97e597fa670628ab788 oa:motivatedBy oa:tagging .
