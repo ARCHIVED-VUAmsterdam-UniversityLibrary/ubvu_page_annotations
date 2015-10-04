@@ -59,3 +59,15 @@ instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasBody birds:species-m
 instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasTarget target:target_984622341512472d15e335efc15506906af8b970 .
 instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:hasTarget naturalis:print-135088 .
 instances:id_6caadf78f01c92a80f2a1af256cacccd40812c07 oa:motivatedBy oa:tagging .
+
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f a oa:Annotation .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f terms:title "Motacilla flava flavissima" .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f ui:reachedObjectWith "random, 6" .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f ui:typingTime 9467 .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:annotatedAt "2015-10-04T11:56:50+02:00"^^xsd:dateTime .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:annotatedBy user:Debby .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:hasBody birds:subspecies-motacilla_flava_flavissima .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:hasTarget target:target_0e5918e773218e10dbbc99166cdb247ec82df4a3 .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:hasTarget naturalis:print-135088 .
+instances:id_9eeb8510bb498505c84115564f700f5376fa339f oa:motivatedBy oa:tagging .
