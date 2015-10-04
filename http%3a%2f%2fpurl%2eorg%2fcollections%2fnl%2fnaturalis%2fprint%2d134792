@@ -48,6 +48,18 @@ instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget target:target
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:hasTarget naturalis:print-134792 .
 instances:id_4e0b5921b6abfd8c418cd1d33d9633ac804bcbb6 oa:motivatedBy oa:tagging .
 
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed a oa:Annotation .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed terms:title "echt" .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed ui:annotationField bird:RealOrNotAnnotation .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed ui:reachedObjectWith "expertise, 3" .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed ui:typingTime 3911 .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:annotatedAt "2015-10-04T12:32:06+02:00"^^xsd:dateTime .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:annotatedBy user:user3 .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "echt" ] .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:hasTarget target:target_e673877028dcf5aab45a0571434699ce4e46853c .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:hasTarget naturalis:print-134792 .
+instances:id_5c81a9009c24e50a69e852f1f01940eab2a818ed oa:motivatedBy oa:tagging .
+
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 a oa:Annotation .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 terms:title "Egretta garzetta: Little Egret" .
 instances:id_cbe6bdc02a123b2f8ba7868d97642227b1f5c180 ui:annotationField bird:IOCScientificNameAnnotation .
