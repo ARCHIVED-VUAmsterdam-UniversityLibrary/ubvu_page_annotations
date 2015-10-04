@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix naturalis: <http://purl.org/collections/nl/naturalis/> .
 @prefix birds: <http://purl.org/collections/birds/> .
 @prefix instances: <http://localhost/annotation/instances/> .
@@ -21,6 +23,18 @@ target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 rdf:value "#xywh=percen
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 a oa:SpecificResource .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSelector target:selector_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
 target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 oa:hasSource <http://medialib.naturalis.nl/file/id/image-134677/format/large> .
+
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f a oa:Annotation .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f terms:title "adult" .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f ui:annotationField bird:StageOfLife .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f ui:reachedObjectWith "random, 1" .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f ui:typingTime 1539 .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:annotatedAt "2015-10-04T11:52:58+02:00"^^xsd:dateTime .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:annotatedBy user:user39 .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:hasTarget target:target_5bc46d686de8e4adc95c6e8ca135c9ed6967ae38 .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:hasTarget naturalis:print-134677 .
+instances:id_0fc9f6a7acb9ab889fe0254c3e28506d2ac75d9f oa:motivatedBy oa:tagging .
 
 instances:id_1a5d7b5ee2954af2f5964e703f002ab9cac4028e a oa:Annotation .
 instances:id_1a5d7b5ee2954af2f5964e703f002ab9cac4028e terms:title "Tyto alba: Western Barn Owl" .
