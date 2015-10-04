@@ -36,6 +36,18 @@ instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:hasTarget target:target
 instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:hasTarget naturalis:print-134835 .
 instances:id_00999f8954c8d8234b257e44420dda8677abf5e1 oa:motivatedBy oa:tagging .
 
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 a oa:Annotation .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 terms:title "adult" .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 ui:annotationField bird:StageOfLife .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 ui:reachedObjectWith "random, 0" .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 ui:typingTime 7758 .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:annotatedAt "2015-10-04T11:42:51+02:00"^^xsd:dateTime .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:annotatedBy user:user5 .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adult" ] .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:hasTarget target:target_97df97fd223e15b8ca0ea09dfca5003dff2591f2 .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:hasTarget naturalis:print-134835 .
+instances:id_03821ea7779875ef38c3124111f52bdc66f545c9 oa:motivatedBy oa:tagging .
+
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 a oa:Annotation .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 terms:title "Kuifeend: Tufted Duck" .
 instances:id_4fc7306df4b81939d6495ce1d24750985214d8b1 ui:annotationField bird:IOCCommonNameAnnotation .
