@@ -50,6 +50,18 @@ instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:hasTarget target:target
 instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:hasTarget naturalis:print-134958 .
 instances:id_01af7af299bdc85912601dd82fc1fafa5806438d oa:motivatedBy oa:tagging .
 
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 a oa:Annotation .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 terms:title "Stercorarius parasiticus: Parasitic Jaeger" .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 ui:annotationField bird:IOCScientificNameAnnotation .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 ui:reachedObjectWith "random, 0" .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 ui:typingTime 22398 .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:annotatedAt "2015-10-04T12:50:26+02:00"^^xsd:dateTime .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:annotatedBy user:user39 .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:hasBody birds:species-stercorarius_parasiticus .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:hasTarget target:target_7b91b38e70048f11c8c4ba7bb0424ef44c4ab3b3 .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:hasTarget naturalis:print-134958 .
+instances:id_285db7f6e762070dce5ebb207d2125914e8729a5 oa:motivatedBy oa:tagging .
+
 instances:id_b44be80a9fbcdbe5ecdd8e945eecff30a6aab4fc a oa:Annotation .
 instances:id_b44be80a9fbcdbe5ecdd8e945eecff30a6aab4fc terms:title "adult" .
 instances:id_b44be80a9fbcdbe5ecdd8e945eecff30a6aab4fc ui:annotationField bird:StageOfLife .
