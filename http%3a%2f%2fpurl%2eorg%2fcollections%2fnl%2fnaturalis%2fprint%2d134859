@@ -70,6 +70,14 @@ target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:x "0.257264957264957
 target:selector_9073caa617980197c88cf03636775ff5a17558e9 ui:y "0.08831908831908832"^^xsd:float .
 target:selector_9073caa617980197c88cf03636775ff5a17558e9 rdf:value "#xywh=percent:26,9,67,68" .
 
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b a oa:FragmentSelector .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b ui:h "0.1413105413105413"^^xsd:float .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b ui:w "0.6128205128205128"^^xsd:float .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b ui:x "0.05726495726495726"^^xsd:float .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b ui:y "0.12706552706552707"^^xsd:float .
+target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b rdf:value "#xywh=percent:6,13,61,14" .
+
 target:selector_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 a oa:FragmentSelector .
 target:selector_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 ui:h "0.5128205302094463"^^xsd:float .
@@ -161,6 +169,10 @@ target:target_878d799fa22b75e9811b68baf269a58a60ddb270 oa:hasSource format:large
 target:target_9073caa617980197c88cf03636775ff5a17558e9 a oa:SpecificResource .
 target:target_9073caa617980197c88cf03636775ff5a17558e9 oa:hasSelector target:selector_9073caa617980197c88cf03636775ff5a17558e9 .
 target:target_9073caa617980197c88cf03636775ff5a17558e9 oa:hasSource format:large .
+
+target:target_9b1d87a5d11e0c64de5da390a5598da3d92e658b a oa:SpecificResource .
+target:target_9b1d87a5d11e0c64de5da390a5598da3d92e658b oa:hasSelector target:selector_9b1d87a5d11e0c64de5da390a5598da3d92e658b .
+target:target_9b1d87a5d11e0c64de5da390a5598da3d92e658b oa:hasSource format:large .
 
 target:target_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 a oa:SpecificResource .
 target:target_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 oa:hasSelector target:selector_c16db85d2e2e86ff1fd4c6c25ea5276939c32327 .
@@ -696,6 +708,18 @@ instances:id_c61d5f98ff51f3c6ce29ed8c58fa00c8715a674d oa:hasBody [ a content:Con
 instances:id_c61d5f98ff51f3c6ce29ed8c58fa00c8715a674d oa:hasTarget target:target_df9e0e82ff8174ce3636bf3d00411e13fe884171 .
 instances:id_c61d5f98ff51f3c6ce29ed8c58fa00c8715a674d oa:hasTarget naturalis:print-134859 .
 instances:id_c61d5f98ff51f3c6ce29ed8c58fa00c8715a674d oa:motivatedBy oa:tagging .
+
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e a oa:Annotation .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e terms:title "Kites, Hawks and Eagles" .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e ui:annotationField bird:IOCCommonNameAnnotation .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e ui:reachedObjectWith "expertise, 11" .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e ui:typingTime 23436 .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:annotatedAt "2015-10-12T14:10:19+02:00"^^xsd:dateTime .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:annotatedBy user:Cristina .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:hasBody birds:family-accipitridae .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:hasTarget target:target_9b1d87a5d11e0c64de5da390a5598da3d92e658b .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:hasTarget naturalis:print-134859 .
+instances:id_d06900addc4cb6988d825a119c5a7f07b1c5bc7e oa:motivatedBy oa:tagging .
 
 instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 a oa:Annotation .
 instances:id_d716795efcac30f117a3ab38b1bf4d9315fe9b87 terms:title "man" .
