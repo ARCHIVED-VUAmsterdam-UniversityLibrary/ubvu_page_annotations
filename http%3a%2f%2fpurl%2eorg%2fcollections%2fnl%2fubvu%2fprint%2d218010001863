@@ -2,17 +2,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix ubvu-nl-vocab: <http://purl.org/vocab/nl/ubvu/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix ubvu-nl-collections: <http://purl.org/collections/nl/ubvu/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> a oa:Annotation .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> terms:title "Illuminated capitals and text on page" .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> ui:annotationField <page type> .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> ui:reachedObjectWith "unknown" .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> ui:typingTime 0 .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> oa:annotatedAt "2015-11-13T12:49:04+01:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> oa:annotatedBy user:rasvaan .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> oa:hasBody <http://purl.org/vocab/nl/ubvu/IlluminatedCapitalsAndTextPage> .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> oa:hasTarget ubvu:print-218010001863 .
-<http://localhost/annotation/instances/id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871> oa:motivatedBy oa:tagging .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 a oa:Annotation .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 terms:title "Illuminated capitals and text on page" .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 ui:annotationField <page type> .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 ui:reachedObjectWith "unknown" .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 ui:typingTime 0 .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 oa:annotatedAt "2015-11-13T13:20:57+01:00"^^xsd:dateTime .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 oa:annotatedBy user:rasvaan .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 oa:hasBody ubvu-nl-vocab:IlluminatedCapitalsAndTextPage .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 oa:hasTarget ubvu-nl-collections:print-218010001863 .
+instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58 oa:motivatedBy oa:tagging .
+
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 a oa:Annotation .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 terms:title "Illuminated capitals and text on page" .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 ui:annotationField <page type> .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 ui:reachedObjectWith "unknown" .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 ui:typingTime 0 .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 oa:annotatedAt "2015-11-13T12:49:04+01:00"^^xsd:dateTime .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 oa:annotatedBy user:rasvaan .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 oa:hasBody ubvu-nl-vocab:IlluminatedCapitalsAndTextPage .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 oa:hasTarget ubvu-nl-collections:print-218010001863 .
+instances:id_77bee38ab1ee8e29a10bbd17e8d32adc8bb60871 oa:motivatedBy oa:tagging .
