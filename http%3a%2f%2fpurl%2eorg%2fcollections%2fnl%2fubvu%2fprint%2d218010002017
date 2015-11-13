@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> a oa:Annotation .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> terms:title "Multiple illustrations on page" .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> oa:annotatedAt "2015-11-13T12:42:39+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> oa:annotatedBy user:rasvaan .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> oa:hasBody <http://purl.org/vocab/nl/ubvu/MultipleIllustrationsPage> .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> oa:hasTarget ubvu:print-218010002017 .
+<http://localhost/annotation/instances/id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4> oa:motivatedBy oa:tagging .
