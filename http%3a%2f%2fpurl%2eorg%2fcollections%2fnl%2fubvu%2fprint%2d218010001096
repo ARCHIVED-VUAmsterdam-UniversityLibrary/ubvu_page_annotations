@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> a oa:Annotation .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> terms:title "Blank page" .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> oa:annotatedAt "2015-11-13T13:00:55+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> oa:annotatedBy user:lcw89 .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> oa:hasBody <http://purl.org/vocab/nl/ubvu/EmptyPage> .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> oa:hasTarget ubvu:print-218010001096 .
+<http://localhost/annotation/instances/id_d7c0705a019971ef5a189fec021c00623fd7ad7b> oa:motivatedBy oa:tagging .
