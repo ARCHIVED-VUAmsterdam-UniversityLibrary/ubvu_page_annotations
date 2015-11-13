@@ -2,17 +2,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix ubvu-nl-vocab: <http://purl.org/vocab/nl/ubvu/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix ubvu-nl-collections: <http://purl.org/collections/nl/ubvu/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> a oa:Annotation .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> terms:title "Full page illustration" .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> ui:annotationField <page type> .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> ui:reachedObjectWith "unknown" .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> ui:typingTime 0 .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> oa:annotatedAt "2015-11-13T12:34:46+01:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> oa:annotatedBy user:rasvaan .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> oa:hasBody <http://purl.org/vocab/nl/ubvu/FullPageIllustration> .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> oa:hasTarget ubvu:print-218010001347 .
-<http://localhost/annotation/instances/id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a> oa:motivatedBy oa:tagging .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 a oa:Annotation .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 terms:title "Full page illustration" .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 ui:annotationField <page type> .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 ui:reachedObjectWith "unknown" .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 ui:typingTime 0 .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 oa:annotatedAt "2015-11-13T13:10:51+01:00"^^xsd:dateTime .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 oa:annotatedBy user:rasvaan .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 oa:hasBody ubvu-nl-vocab:FullPageIllustration .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 oa:hasTarget ubvu-nl-collections:print-218010001347 .
+instances:id_06234b47deecec1142c2dbebb54044da3ed09332 oa:motivatedBy oa:tagging .
+
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a a oa:Annotation .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a terms:title "Full page illustration" .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a ui:annotationField <page type> .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a ui:reachedObjectWith "unknown" .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a ui:typingTime 0 .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a oa:annotatedAt "2015-11-13T12:34:46+01:00"^^xsd:dateTime .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a oa:annotatedBy user:rasvaan .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a oa:hasBody ubvu-nl-vocab:FullPageIllustration .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a oa:hasTarget ubvu-nl-collections:print-218010001347 .
+instances:id_b6c76d2a76b87c647d7a6a5229fa4e7799dd295a oa:motivatedBy oa:tagging .
