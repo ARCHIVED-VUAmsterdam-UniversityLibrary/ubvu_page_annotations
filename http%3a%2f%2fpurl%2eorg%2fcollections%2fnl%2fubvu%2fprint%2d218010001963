@@ -2,17 +2,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix ubvu-nl-vocab: <http://purl.org/vocab/nl/ubvu/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix ubvu-nl-collections: <http://purl.org/collections/nl/ubvu/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> a oa:Annotation .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> terms:title "Page" .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> ui:annotationField <page type> .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> ui:reachedObjectWith "unknown" .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> ui:typingTime 0 .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> oa:annotatedAt "2015-11-13T12:48:19+01:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> oa:annotatedBy user:rasvaan .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> oa:hasBody <http://purl.org/vocab/nl/ubvu/Page> .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> oa:hasTarget ubvu:print-218010001963 .
-<http://localhost/annotation/instances/id_f24fe101f101a01aa993d28c50658da866713071> oa:motivatedBy oa:tagging .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d a oa:Annotation .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d terms:title "Page" .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d ui:annotationField <page type> .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d ui:reachedObjectWith "unknown" .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d ui:typingTime 0 .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d oa:annotatedAt "2015-11-13T13:18:43+01:00"^^xsd:dateTime .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d oa:annotatedBy user:rasvaan .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d oa:hasBody ubvu-nl-vocab:Page .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d oa:hasTarget ubvu-nl-collections:print-218010001963 .
+instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d oa:motivatedBy oa:tagging .
+
+instances:id_f24fe101f101a01aa993d28c50658da866713071 a oa:Annotation .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 terms:title "Page" .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 ui:annotationField <page type> .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 ui:reachedObjectWith "unknown" .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 ui:typingTime 0 .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 oa:annotatedAt "2015-11-13T12:48:19+01:00"^^xsd:dateTime .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 oa:annotatedBy user:rasvaan .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 oa:hasBody ubvu-nl-vocab:Page .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 oa:hasTarget ubvu-nl-collections:print-218010001963 .
+instances:id_f24fe101f101a01aa993d28c50658da866713071 oa:motivatedBy oa:tagging .
