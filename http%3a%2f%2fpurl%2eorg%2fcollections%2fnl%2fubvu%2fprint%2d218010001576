@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> a oa:Annotation .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> terms:title "Only text on page" .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> oa:annotatedAt "2015-11-13T13:12:18+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> oa:annotatedBy user:svalkenberg .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> oa:hasBody <http://purl.org/vocab/nl/ubvu/OnlyTextPage> .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> oa:hasTarget ubvu:print-218010001576 .
+<http://localhost/annotation/instances/id_f4ddd51756bbc5cbd427a1c56d899d194616de91> oa:motivatedBy oa:tagging .
