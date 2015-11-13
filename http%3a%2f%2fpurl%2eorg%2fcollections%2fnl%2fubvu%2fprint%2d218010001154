@@ -2,17 +2,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix ubvu-nl-vocab: <http://purl.org/vocab/nl/ubvu/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix ubvu-nl-collections: <http://purl.org/collections/nl/ubvu/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> a oa:Annotation .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> terms:title "Small illustrations and text on page" .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> ui:annotationField <page type> .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> ui:reachedObjectWith "unknown" .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> ui:typingTime 0 .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> oa:annotatedAt "2015-11-13T12:47:54+01:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> oa:annotatedBy user:lcw89 .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> oa:hasBody <http://purl.org/vocab/nl/ubvu/TextAndIllustrationPage> .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> oa:hasTarget ubvu:print-218010001154 .
-<http://localhost/annotation/instances/id_834489dd81018c469c86b1b48d6c4c44da560df5> oa:motivatedBy oa:tagging .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 a oa:Annotation .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 terms:title "Small illustrations and text on page" .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 ui:annotationField <page type> .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 ui:reachedObjectWith "unknown" .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 ui:typingTime 0 .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 oa:annotatedAt "2015-11-13T13:14:06+01:00"^^xsd:dateTime .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 oa:annotatedBy user:lcw89 .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 oa:hasBody ubvu-nl-vocab:TextAndIllustrationPage .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 oa:hasTarget ubvu-nl-collections:print-218010001154 .
+instances:id_4de83ecef70fa22610b970f19f8a98d79d063478 oa:motivatedBy oa:tagging .
+
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 a oa:Annotation .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 terms:title "Small illustrations and text on page" .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 ui:annotationField <page type> .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 ui:reachedObjectWith "unknown" .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 ui:typingTime 0 .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 oa:annotatedAt "2015-11-13T12:47:54+01:00"^^xsd:dateTime .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 oa:annotatedBy user:lcw89 .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 oa:hasBody ubvu-nl-vocab:TextAndIllustrationPage .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 oa:hasTarget ubvu-nl-collections:print-218010001154 .
+instances:id_834489dd81018c469c86b1b48d6c4c44da560df5 oa:motivatedBy oa:tagging .
