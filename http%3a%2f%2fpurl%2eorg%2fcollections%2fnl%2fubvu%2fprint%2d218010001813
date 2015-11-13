@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> a oa:Annotation .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> terms:title "Partial illustration on page" .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> oa:annotatedAt "2015-11-13T12:55:41+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> oa:annotatedBy user:svalkenberg .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> oa:hasBody <http://purl.org/vocab/nl/ubvu/PartialIllustrationPage> .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> oa:hasTarget ubvu:print-218010001813 .
+<http://localhost/annotation/instances/id_9b46b74423e784a62961a3779f227e626c893845> oa:motivatedBy oa:tagging .
