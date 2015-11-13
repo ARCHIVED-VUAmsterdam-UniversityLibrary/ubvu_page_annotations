@@ -19,6 +19,17 @@ instances:id_13f34988b70e0ac5b4030ee29887e882b46352e4 oa:hasBody ubvu-nl-vocab:I
 instances:id_13f34988b70e0ac5b4030ee29887e882b46352e4 oa:hasTarget ubvu-nl-collections:print-218010001750 .
 instances:id_13f34988b70e0ac5b4030ee29887e882b46352e4 oa:motivatedBy oa:tagging .
 
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 a oa:Annotation .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 terms:title "Small illustrations and text on page" .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 ui:annotationField <page type> .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 ui:reachedObjectWith "unknown" .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 ui:typingTime 0 .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 oa:annotatedAt "2015-11-13T13:22:48+01:00"^^xsd:dateTime .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 oa:annotatedBy user:svalkenberg .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 oa:hasBody ubvu-nl-vocab:TextAndIllustrationPage .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 oa:hasTarget ubvu-nl-collections:print-218010001750 .
+instances:id_b98e14d827c4e9d12b88e72311000ba1911f3273 oa:motivatedBy oa:tagging .
+
 instances:id_e028a3a428beea42d94bc906ddafa71ad0c9f4d0 a oa:Annotation .
 instances:id_e028a3a428beea42d94bc906ddafa71ad0c9f4d0 terms:title "Small illustrations and text on page" .
 instances:id_e028a3a428beea42d94bc906ddafa71ad0c9f4d0 ui:annotationField <page type> .
