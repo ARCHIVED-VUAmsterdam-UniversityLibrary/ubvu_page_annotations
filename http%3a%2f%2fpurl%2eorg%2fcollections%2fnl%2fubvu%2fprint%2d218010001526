@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> a oa:Annotation .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> terms:title "Blank page" .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> oa:annotatedAt "2015-11-13T12:53:42+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> oa:annotatedBy user:cristina .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> oa:hasBody <http://purl.org/vocab/nl/ubvu/EmptyPage> .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> oa:hasTarget ubvu:print-218010001526 .
+<http://localhost/annotation/instances/id_17466ec6a0c0452ee8947a0141ea359bcd2859fc> oa:motivatedBy oa:tagging .
