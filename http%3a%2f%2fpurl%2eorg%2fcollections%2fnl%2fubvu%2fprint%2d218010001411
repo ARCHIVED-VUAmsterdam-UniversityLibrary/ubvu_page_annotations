@@ -19,6 +19,17 @@ instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:hasBody ubvu-nl-vocab:I
 instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:hasTarget ubvu-nl-collections:print-218010001411 .
 instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:motivatedBy oa:tagging .
 
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f a oa:Annotation .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f terms:title "Small illustrations and text on page" .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f ui:annotationField <page type> .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f ui:reachedObjectWith "unknown" .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f ui:typingTime 0 .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f oa:annotatedAt "2015-11-13T13:26:09+01:00"^^xsd:dateTime .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f oa:annotatedBy user:cristina .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f oa:hasBody ubvu-nl-vocab:TextAndIllustrationPage .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f oa:hasTarget ubvu-nl-collections:print-218010001411 .
+instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f oa:motivatedBy oa:tagging .
+
 instances:id_bcb56bd195ef70eed49900a59aa840afe1b52a28 a oa:Annotation .
 instances:id_bcb56bd195ef70eed49900a59aa840afe1b52a28 terms:title "Small illustrations and text on page" .
 instances:id_bcb56bd195ef70eed49900a59aa840afe1b52a28 ui:annotationField <page type> .
