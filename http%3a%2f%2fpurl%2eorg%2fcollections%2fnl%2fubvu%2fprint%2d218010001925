@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> a oa:Annotation .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> terms:title "Full page illustration" .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> oa:annotatedAt "2015-11-13T12:46:44+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> oa:annotatedBy user:rasvaan .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> oa:hasBody <http://purl.org/vocab/nl/ubvu/FullPageIllustration> .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> oa:hasTarget ubvu:print-218010001925 .
+<http://localhost/annotation/instances/id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff> oa:motivatedBy oa:tagging .
