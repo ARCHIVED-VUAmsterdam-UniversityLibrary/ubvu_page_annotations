@@ -29,3 +29,14 @@ instances:id_96ff342b6cd305fea461e09176ba2c419a21f79e oa:annotatedBy user:lcw89 
 instances:id_96ff342b6cd305fea461e09176ba2c419a21f79e oa:hasBody ubvu-nl-vocab:OnlyTextPage .
 instances:id_96ff342b6cd305fea461e09176ba2c419a21f79e oa:hasTarget ubvu-nl-collections:print-218010001199 .
 instances:id_96ff342b6cd305fea461e09176ba2c419a21f79e oa:motivatedBy oa:tagging .
+
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 a oa:Annotation .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 terms:title "Only text on page" .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 ui:annotationField <page type> .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 ui:reachedObjectWith "unknown" .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 ui:typingTime 0 .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:annotatedAt "2015-11-13T12:36:14+01:00"^^xsd:dateTime .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:annotatedBy user:lcw89 .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:hasBody ubvu-nl-vocab:OnlyTextPage .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:hasTarget ubvu-nl-collections:print-218010001199 .
+instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:motivatedBy oa:tagging .
