@@ -19,6 +19,17 @@ instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:hasBody ubvu-nl-vocab:I
 instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:hasTarget ubvu-nl-collections:print-218010001411 .
 instances:id_11653ac11abfd605d48371642502bde92f0dc1db oa:motivatedBy oa:tagging .
 
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 a oa:Annotation .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 terms:title "Illuminated capitals and text on page" .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 ui:annotationField <page type> .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 ui:reachedObjectWith "unknown" .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 ui:typingTime 0 .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 oa:annotatedAt "2015-11-13T13:26:13+01:00"^^xsd:dateTime .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 oa:annotatedBy user:cristina .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 oa:hasBody ubvu-nl-vocab:IlluminatedCapitalsAndTextPage .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 oa:hasTarget ubvu-nl-collections:print-218010001411 .
+instances:id_195bd622fbfe1d703338dda19643ebb6235be511 oa:motivatedBy oa:tagging .
+
 instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f a oa:Annotation .
 instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f terms:title "Small illustrations and text on page" .
 instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f ui:annotationField <page type> .
