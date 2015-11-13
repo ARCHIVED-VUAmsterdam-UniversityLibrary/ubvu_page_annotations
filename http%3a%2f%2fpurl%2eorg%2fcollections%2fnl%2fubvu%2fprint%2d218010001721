@@ -29,3 +29,14 @@ instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5 oa:annotatedBy user:svalke
 instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5 oa:hasBody ubvu-nl-vocab:PartialIllustrationPage .
 instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5 oa:hasTarget ubvu-nl-collections:print-218010001721 .
 instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5 oa:motivatedBy oa:tagging .
+
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee a oa:Annotation .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee terms:title "Partial illustration on page" .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee ui:annotationField <page type> .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee ui:reachedObjectWith "unknown" .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee ui:typingTime 0 .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee oa:annotatedAt "2015-11-13T12:58:45+01:00"^^xsd:dateTime .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee oa:annotatedBy user:svalkenberg .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee oa:hasBody ubvu-nl-vocab:PartialIllustrationPage .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee oa:hasTarget ubvu-nl-collections:print-218010001721 .
+instances:id_b048b1fe48d620431ec94957b837dd1113774fee oa:motivatedBy oa:tagging .
