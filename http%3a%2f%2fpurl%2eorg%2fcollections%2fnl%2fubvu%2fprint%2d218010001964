@@ -19,6 +19,17 @@ instances:id_434d2cc0a7649abc5279b95d27e13319bc114140 oa:hasBody ubvu-nl-vocab:P
 instances:id_434d2cc0a7649abc5279b95d27e13319bc114140 oa:hasTarget ubvu-nl-collections:print-218010001964 .
 instances:id_434d2cc0a7649abc5279b95d27e13319bc114140 oa:motivatedBy oa:tagging .
 
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 a oa:Annotation .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 terms:title "Partial illustration on page" .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 ui:annotationField <page type> .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 ui:reachedObjectWith "unknown" .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 ui:typingTime 0 .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 oa:annotatedAt "2015-11-13T13:15:28+01:00"^^xsd:dateTime .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 oa:annotatedBy user:rasvaan .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 oa:hasBody ubvu-nl-vocab:PartialIllustrationPage .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 oa:hasTarget ubvu-nl-collections:print-218010001964 .
+instances:id_77cbb6d2ab85112e7af44a0cd0cf4ff3ad900dc4 oa:motivatedBy oa:tagging .
+
 instances:id_98b5213f5d0e9470f21a9d8f77a2e4877cbd8ed1 a oa:Annotation .
 instances:id_98b5213f5d0e9470f21a9d8f77a2e4877cbd8ed1 terms:title "Page" .
 instances:id_98b5213f5d0e9470f21a9d8f77a2e4877cbd8ed1 ui:annotationField <page type> .
