@@ -8,6 +8,17 @@
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 a oa:Annotation .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 terms:title "Blank page" .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 ui:annotationField <page type> .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 ui:reachedObjectWith "unknown" .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 ui:typingTime 0 .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 oa:annotatedAt "2015-11-13T13:23:23+01:00"^^xsd:dateTime .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 oa:annotatedBy user:cristina .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 oa:hasBody ubvu-nl-vocab:EmptyPage .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 oa:hasTarget ubvu-nl-collections:print-218010001522 .
+instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9 oa:motivatedBy oa:tagging .
+
 instances:id_831666488d98ce5bfe740e345c905915d7a1d95f a oa:Annotation .
 instances:id_831666488d98ce5bfe740e345c905915d7a1d95f terms:title "Page" .
 instances:id_831666488d98ce5bfe740e345c905915d7a1d95f ui:annotationField <page type> .
