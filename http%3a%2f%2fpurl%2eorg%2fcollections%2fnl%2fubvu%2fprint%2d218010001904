@@ -2,17 +2,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix ubvu-nl-vocab: <http://purl.org/vocab/nl/ubvu/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix ubvu-nl-collections: <http://purl.org/collections/nl/ubvu/> .
+@prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> a oa:Annotation .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> terms:title "Blank page" .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> ui:annotationField <page type> .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> ui:reachedObjectWith "unknown" .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> ui:typingTime 0 .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> oa:annotatedAt "2015-11-13T12:49:23+01:00"^^xsd:dateTime .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> oa:annotatedBy user:rasvaan .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> oa:hasBody <http://purl.org/vocab/nl/ubvu/EmptyPage> .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> oa:hasTarget ubvu:print-218010001904 .
-<http://localhost/annotation/instances/id_521d72a28a9b88ad9bd56ed80103f9fd590981ca> oa:motivatedBy oa:tagging .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca a oa:Annotation .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca terms:title "Blank page" .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca ui:annotationField <page type> .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca ui:reachedObjectWith "unknown" .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca ui:typingTime 0 .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca oa:annotatedAt "2015-11-13T12:49:23+01:00"^^xsd:dateTime .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca oa:annotatedBy user:rasvaan .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca oa:hasBody ubvu-nl-vocab:EmptyPage .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca oa:hasTarget ubvu-nl-collections:print-218010001904 .
+instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca oa:motivatedBy oa:tagging .
+
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f a oa:Annotation .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f terms:title "Blank page" .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f ui:annotationField <page type> .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f ui:reachedObjectWith "unknown" .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f ui:typingTime 0 .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f oa:annotatedAt "2015-11-13T13:21:22+01:00"^^xsd:dateTime .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f oa:annotatedBy user:rasvaan .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f oa:hasBody ubvu-nl-vocab:EmptyPage .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f oa:hasTarget ubvu-nl-collections:print-218010001904 .
+instances:id_81b4932ffbbcd82ae66749832dd641198e1c077f oa:motivatedBy oa:tagging .
