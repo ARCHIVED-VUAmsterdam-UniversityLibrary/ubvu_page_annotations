@@ -8,6 +8,17 @@
 @prefix instances: <http://localhost/annotation/instances/> .
 @prefix user: <http://accurator.nl/user#> .
 
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c a oa:Annotation .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c terms:title "Partial illustration on page" .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c ui:annotationField <page type> .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c ui:reachedObjectWith "unknown" .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c ui:typingTime 0 .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c oa:annotatedAt "2015-11-13T13:08:35+01:00"^^xsd:dateTime .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c oa:annotatedBy user:cristina .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c oa:hasBody ubvu-nl-vocab:PartialIllustrationPage .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c oa:hasTarget ubvu-nl-collections:print-218010001371 .
+instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c oa:motivatedBy oa:tagging .
+
 instances:id_2234c7a79362c40ebac53826e81dde3092e1b70f a oa:Annotation .
 instances:id_2234c7a79362c40ebac53826e81dde3092e1b70f terms:title "Full page illustration" .
 instances:id_2234c7a79362c40ebac53826e81dde3092e1b70f ui:annotationField <page type> .
