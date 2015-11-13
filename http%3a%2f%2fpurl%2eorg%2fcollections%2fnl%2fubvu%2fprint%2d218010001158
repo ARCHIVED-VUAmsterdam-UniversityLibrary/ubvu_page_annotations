@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> a oa:Annotation .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> terms:title "Small illustrations and text on page" .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> oa:annotatedAt "2015-11-13T12:55:56+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> oa:annotatedBy user:lcw89 .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> oa:hasBody <http://purl.org/vocab/nl/ubvu/TextAndIllustrationPage> .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> oa:hasTarget ubvu:print-218010001158 .
+<http://localhost/annotation/instances/id_65c027ec007fd8ce888a0d8c09abeef62a99f67d> oa:motivatedBy oa:tagging .
