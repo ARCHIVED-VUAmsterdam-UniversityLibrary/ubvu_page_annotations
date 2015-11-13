@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> a oa:Annotation .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> terms:title "Illuminated capitals and text on page" .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> ui:annotationField <page type> .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> ui:reachedObjectWith "unknown" .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> ui:typingTime 0 .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> oa:annotatedAt "2015-11-13T13:06:23+01:00"^^xsd:dateTime .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> oa:annotatedBy user:rasvaan .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> oa:hasBody <http://purl.org/vocab/nl/ubvu/IlluminatedCapitalsAndTextPage> .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> oa:hasTarget ubvu:print-218010001915 .
+<http://localhost/annotation/instances/id_bf5b5367e73c4f60f1b1696e915414cb9cd283ca> oa:motivatedBy oa:tagging .
