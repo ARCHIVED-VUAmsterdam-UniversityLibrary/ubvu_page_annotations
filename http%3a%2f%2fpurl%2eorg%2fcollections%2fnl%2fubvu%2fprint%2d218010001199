@@ -51,3 +51,14 @@ instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:annotatedBy user:lcw89 
 instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:hasBody ubvu-nl-vocab:OnlyTextPage .
 instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:hasTarget ubvu-nl-collections:print-218010001199 .
 instances:id_d000cadd614a9638d9bc2891343794cb8cc044d3 oa:motivatedBy oa:tagging .
+
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 a oa:Annotation .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 terms:title "Only text on page" .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 ui:annotationField <page type> .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 ui:reachedObjectWith "unknown" .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 ui:typingTime 0 .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 oa:annotatedAt "2015-11-13T13:08:48+01:00"^^xsd:dateTime .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 oa:annotatedBy user:lcw89 .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 oa:hasBody ubvu-nl-vocab:OnlyTextPage .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 oa:hasTarget ubvu-nl-collections:print-218010001199 .
+instances:id_d0458b8d9dd9391cdb484ff981d713f4314ff801 oa:motivatedBy oa:tagging .
