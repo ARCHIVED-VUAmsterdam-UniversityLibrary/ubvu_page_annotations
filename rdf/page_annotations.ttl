@@ -14,7 +14,7 @@
 instances:id_00cfcbe25c8cd8d2276dbb16071fd24219338f1b
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:43+01:00"^^xsd:dateTime ;
@@ -26,7 +26,7 @@ instances:id_00cfcbe25c8cd8d2276dbb16071fd24219338f1b
 instances:id_01465315d4795705cde17ae01ed8bb98c41ffdfc
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:14+01:00"^^xsd:dateTime ;
@@ -38,7 +38,7 @@ instances:id_01465315d4795705cde17ae01ed8bb98c41ffdfc
 instances:id_0157baec6123f8116e2269e50751704e51b2fbf5
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:06+01:00"^^xsd:dateTime ;
@@ -50,7 +50,7 @@ instances:id_0157baec6123f8116e2269e50751704e51b2fbf5
 instances:id_0168543dd73e08043d493c8d6a7a2fb19b29607c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:05+01:00"^^xsd:dateTime ;
@@ -62,7 +62,7 @@ instances:id_0168543dd73e08043d493c8d6a7a2fb19b29607c
 instances:id_01e2361b5f3c19e38cd2e670dc8859873096560d
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:39+01:00"^^xsd:dateTime ;
@@ -74,7 +74,7 @@ instances:id_01e2361b5f3c19e38cd2e670dc8859873096560d
 instances:id_01e775dda3ac738e4b94f76b2c378edce0495d3d
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:03+01:00"^^xsd:dateTime ;
@@ -86,7 +86,7 @@ instances:id_01e775dda3ac738e4b94f76b2c378edce0495d3d
 instances:id_021710bb9d62f7791b587e4ab68596cccd475f3f
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:44+01:00"^^xsd:dateTime ;
@@ -98,7 +98,7 @@ instances:id_021710bb9d62f7791b587e4ab68596cccd475f3f
 instances:id_0257d5b7da5878775e625ead1e637a7e9a83bd28
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:22+01:00"^^xsd:dateTime ;
@@ -110,7 +110,7 @@ instances:id_0257d5b7da5878775e625ead1e637a7e9a83bd28
 instances:id_02786b21d0e620836bdf2ed3c30993c2a9488182
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:03+01:00"^^xsd:dateTime ;
@@ -122,7 +122,7 @@ instances:id_02786b21d0e620836bdf2ed3c30993c2a9488182
 instances:id_02948c4803c7c7e9ad1b925d670c293ca492150c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:05+01:00"^^xsd:dateTime ;
@@ -134,7 +134,7 @@ instances:id_02948c4803c7c7e9ad1b925d670c293ca492150c
 instances:id_02e304cedeb2adeffb25e339724ed4f0981a66df
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:03+01:00"^^xsd:dateTime ;
@@ -146,7 +146,7 @@ instances:id_02e304cedeb2adeffb25e339724ed4f0981a66df
 instances:id_0300db4266591a9396ff0e7e38f13ca834704c04
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:21+01:00"^^xsd:dateTime ;
@@ -158,7 +158,7 @@ instances:id_0300db4266591a9396ff0e7e38f13ca834704c04
 instances:id_0324be6cd80481c855b71a376b7de945044c8332
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:50+01:00"^^xsd:dateTime ;
@@ -170,7 +170,7 @@ instances:id_0324be6cd80481c855b71a376b7de945044c8332
 instances:id_0358f545de18622cc5c4973ab763b3fe969686cb
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:00:14+01:00"^^xsd:dateTime ;
@@ -182,7 +182,7 @@ instances:id_0358f545de18622cc5c4973ab763b3fe969686cb
 instances:id_037c906d5d6535937a012777a9f3b09d32772dd7
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:33+01:00"^^xsd:dateTime ;
@@ -194,7 +194,7 @@ instances:id_037c906d5d6535937a012777a9f3b09d32772dd7
 instances:id_03a4eadde42ec9ee6e24b715bf3cb62fd4577f7c
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:57:56+01:00"^^xsd:dateTime ;
@@ -206,7 +206,7 @@ instances:id_03a4eadde42ec9ee6e24b715bf3cb62fd4577f7c
 instances:id_03b2b8a75369008a216dd6a3d0ee6cb2d484c017
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:11+01:00"^^xsd:dateTime ;
@@ -218,7 +218,7 @@ instances:id_03b2b8a75369008a216dd6a3d0ee6cb2d484c017
 instances:id_0449f2bda597721a70c50502d621e410cf4c28f5
 	a oa:Annotation ;
 	dcterms:title "Text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:48:43+01:00"^^xsd:dateTime ;
@@ -230,7 +230,7 @@ instances:id_0449f2bda597721a70c50502d621e410cf4c28f5
 instances:id_044e3f8956c30da82062c9d11a48a2bc3339af53
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:59+01:00"^^xsd:dateTime ;
@@ -242,7 +242,7 @@ instances:id_044e3f8956c30da82062c9d11a48a2bc3339af53
 instances:id_047c33af4ac8a6bc1fd40d8bee99b358a69bd2ca
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:38+01:00"^^xsd:dateTime ;
@@ -254,7 +254,7 @@ instances:id_047c33af4ac8a6bc1fd40d8bee99b358a69bd2ca
 instances:id_0546c969a5206b3bfda3f080060af27271b3b5c0
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:08+01:00"^^xsd:dateTime ;
@@ -266,7 +266,7 @@ instances:id_0546c969a5206b3bfda3f080060af27271b3b5c0
 instances:id_05bf74ad22ca12c272c733cdbe5ff4b883c78062
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:11+01:00"^^xsd:dateTime ;
@@ -278,7 +278,7 @@ instances:id_05bf74ad22ca12c272c733cdbe5ff4b883c78062
 instances:id_060d3a678a6d1fde36e096df3cb090d27ffbf419
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:56+01:00"^^xsd:dateTime ;
@@ -290,7 +290,7 @@ instances:id_060d3a678a6d1fde36e096df3cb090d27ffbf419
 instances:id_0657d2d272501a6c3a4ed970ee36dfac887e1037
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:12+01:00"^^xsd:dateTime ;
@@ -302,7 +302,7 @@ instances:id_0657d2d272501a6c3a4ed970ee36dfac887e1037
 instances:id_070fe09c94300ec2f5a5a211abe01ba36c4c33e0
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:19+01:00"^^xsd:dateTime ;
@@ -314,7 +314,7 @@ instances:id_070fe09c94300ec2f5a5a211abe01ba36c4c33e0
 instances:id_074644d3fd65a2e0557670e5280b0e9dfc583191
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:02+01:00"^^xsd:dateTime ;
@@ -326,7 +326,7 @@ instances:id_074644d3fd65a2e0557670e5280b0e9dfc583191
 instances:id_0748012b25aa5fab20da909506dd73fe629e5f45
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:22:19+01:00"^^xsd:dateTime ;
@@ -338,7 +338,7 @@ instances:id_0748012b25aa5fab20da909506dd73fe629e5f45
 instances:id_07669b3a4174736aa2a82f84e0d7bb7b261f0f7d
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:35+01:00"^^xsd:dateTime ;
@@ -350,7 +350,7 @@ instances:id_07669b3a4174736aa2a82f84e0d7bb7b261f0f7d
 instances:id_07a5c9ac5b98977219b0da5e87d34e6a7e963c87
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:12+01:00"^^xsd:dateTime ;
@@ -362,7 +362,7 @@ instances:id_07a5c9ac5b98977219b0da5e87d34e6a7e963c87
 instances:id_07e08f29c5c33b2171a4548c194017405add6ba3
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:18+01:00"^^xsd:dateTime ;
@@ -374,7 +374,7 @@ instances:id_07e08f29c5c33b2171a4548c194017405add6ba3
 instances:id_08c4f2355f5990d909ce6dd46303c59c9ea2498c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:47+01:00"^^xsd:dateTime ;
@@ -386,7 +386,7 @@ instances:id_08c4f2355f5990d909ce6dd46303c59c9ea2498c
 instances:id_091cfb7bf05842f8e7a395c0c327d476c10fcd1d
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:33:44+01:00"^^xsd:dateTime ;
@@ -398,7 +398,7 @@ instances:id_091cfb7bf05842f8e7a395c0c327d476c10fcd1d
 instances:id_099dc61d99ab96ef6d46773c1cb40e9adf0ca4f0
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:07+01:00"^^xsd:dateTime ;
@@ -410,7 +410,7 @@ instances:id_099dc61d99ab96ef6d46773c1cb40e9adf0ca4f0
 instances:id_09ad2c38b9bf5301cfd3d90ef02c630ce9a4bd61
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:25:08+01:00"^^xsd:dateTime ;
@@ -422,7 +422,7 @@ instances:id_09ad2c38b9bf5301cfd3d90ef02c630ce9a4bd61
 instances:id_0a39950886e2dbb9eab073df1ad968909b18d0de
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:21+01:00"^^xsd:dateTime ;
@@ -434,7 +434,7 @@ instances:id_0a39950886e2dbb9eab073df1ad968909b18d0de
 instances:id_0a53ca106929244b35aff671774e6fa63ce0a442
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:44+01:00"^^xsd:dateTime ;
@@ -446,7 +446,7 @@ instances:id_0a53ca106929244b35aff671774e6fa63ce0a442
 instances:id_0a559a8377570a5d154be2fcad8ee4c6e662e6bc
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:45+01:00"^^xsd:dateTime ;
@@ -458,7 +458,7 @@ instances:id_0a559a8377570a5d154be2fcad8ee4c6e662e6bc
 instances:id_0a816bf116e68b0e0d0b2a8525f7d68404306641
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:44+01:00"^^xsd:dateTime ;
@@ -470,7 +470,7 @@ instances:id_0a816bf116e68b0e0d0b2a8525f7d68404306641
 instances:id_0ab0361383a3154693c2e7786ebeb5a141840b79
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:48:48+01:00"^^xsd:dateTime ;
@@ -482,7 +482,7 @@ instances:id_0ab0361383a3154693c2e7786ebeb5a141840b79
 instances:id_0ab303c6e096af64c7c6e9a417ae68d572016ed9
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:48+01:00"^^xsd:dateTime ;
@@ -494,7 +494,7 @@ instances:id_0ab303c6e096af64c7c6e9a417ae68d572016ed9
 instances:id_0afcd55e4ca2234c1904c66678195945fb778f22
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:12+01:00"^^xsd:dateTime ;
@@ -506,7 +506,7 @@ instances:id_0afcd55e4ca2234c1904c66678195945fb778f22
 instances:id_0b23a5778614381abe8bf619af5c04f77eb7f8b3
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:15+01:00"^^xsd:dateTime ;
@@ -518,7 +518,7 @@ instances:id_0b23a5778614381abe8bf619af5c04f77eb7f8b3
 instances:id_0b81b3be1999b83db0a042f26611e5a8f3caadc9
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:44:58+01:00"^^xsd:dateTime ;
@@ -530,7 +530,7 @@ instances:id_0b81b3be1999b83db0a042f26611e5a8f3caadc9
 instances:id_0b9855b124d3b6ba47c03a6497087a655d2df422
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:14+01:00"^^xsd:dateTime ;
@@ -542,7 +542,7 @@ instances:id_0b9855b124d3b6ba47c03a6497087a655d2df422
 instances:id_0b9ab64b6d1a02b58ac62c1db272b6b8fec14b44
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:35:08+01:00"^^xsd:dateTime ;
@@ -554,7 +554,7 @@ instances:id_0b9ab64b6d1a02b58ac62c1db272b6b8fec14b44
 instances:id_0bf51dfcc30f89d8d3ac163c043580e763c666a8
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:21+01:00"^^xsd:dateTime ;
@@ -566,7 +566,7 @@ instances:id_0bf51dfcc30f89d8d3ac163c043580e763c666a8
 instances:id_0c6c290673c007630c5990b21fda89f8f4155e22
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:05+01:00"^^xsd:dateTime ;
@@ -578,7 +578,7 @@ instances:id_0c6c290673c007630c5990b21fda89f8f4155e22
 instances:id_0cc7584c9f3da1fc580700f41b199f65a4ff1225
 	a oa:Annotation ;
 	dcterms:title "Text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:50+01:00"^^xsd:dateTime ;
@@ -590,7 +590,7 @@ instances:id_0cc7584c9f3da1fc580700f41b199f65a4ff1225
 instances:id_0d668c6284bd84f44e08f9d03d1ce6e26da0fc52
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:37+01:00"^^xsd:dateTime ;
@@ -602,7 +602,7 @@ instances:id_0d668c6284bd84f44e08f9d03d1ce6e26da0fc52
 instances:id_0d677f6794b1cb1702364878cdc3f9349bc2876d
 	a oa:Annotation ;
 	dcterms:title "Text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:00+01:00"^^xsd:dateTime ;
@@ -614,7 +614,7 @@ instances:id_0d677f6794b1cb1702364878cdc3f9349bc2876d
 instances:id_0d72a4e8a8634b8abf99ca2a4f709998341bcdc2
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:09+01:00"^^xsd:dateTime ;
@@ -626,7 +626,7 @@ instances:id_0d72a4e8a8634b8abf99ca2a4f709998341bcdc2
 instances:id_0d85d979029d203f7fcc93ff74625f190c32df41
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:03+01:00"^^xsd:dateTime ;
@@ -638,7 +638,7 @@ instances:id_0d85d979029d203f7fcc93ff74625f190c32df41
 instances:id_0df6ac0b2da5da92e3c72ab0239a3372ac392ed6
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:09+01:00"^^xsd:dateTime ;
@@ -650,7 +650,7 @@ instances:id_0df6ac0b2da5da92e3c72ab0239a3372ac392ed6
 instances:id_0e18ef9e8147bb29ef891776b32a6526611583bf
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:14+01:00"^^xsd:dateTime ;
@@ -662,7 +662,7 @@ instances:id_0e18ef9e8147bb29ef891776b32a6526611583bf
 instances:id_0e2d44e301373cfd60cfac97a85ac515fd2d551a
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:37+01:00"^^xsd:dateTime ;
@@ -674,7 +674,7 @@ instances:id_0e2d44e301373cfd60cfac97a85ac515fd2d551a
 instances:id_0eb0f5ac719f26d88516e3e03af642b9f6655a11
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:12+01:00"^^xsd:dateTime ;
@@ -686,7 +686,7 @@ instances:id_0eb0f5ac719f26d88516e3e03af642b9f6655a11
 instances:id_0f6d3120c05535062f357be98772a009a08a9a59
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:52+01:00"^^xsd:dateTime ;
@@ -698,7 +698,7 @@ instances:id_0f6d3120c05535062f357be98772a009a08a9a59
 instances:id_0fc0a8a062d44c1c9cd6c3a3c8cc31e0342217d4
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:18+01:00"^^xsd:dateTime ;
@@ -710,7 +710,7 @@ instances:id_0fc0a8a062d44c1c9cd6c3a3c8cc31e0342217d4
 instances:id_0fe55afbb03c66b2c28765fdfa352a38c6a63946
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:04+01:00"^^xsd:dateTime ;
@@ -722,7 +722,7 @@ instances:id_0fe55afbb03c66b2c28765fdfa352a38c6a63946
 instances:id_10080eb29dd84e4300debe40a1a7d4a77ade38b0
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:53+01:00"^^xsd:dateTime ;
@@ -734,7 +734,7 @@ instances:id_10080eb29dd84e4300debe40a1a7d4a77ade38b0
 instances:id_1085a2096b1b9be6242e25c7f1afcd510fe23558
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:48+01:00"^^xsd:dateTime ;
@@ -746,7 +746,7 @@ instances:id_1085a2096b1b9be6242e25c7f1afcd510fe23558
 instances:id_11653ac11abfd605d48371642502bde92f0dc1db
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:39:18+01:00"^^xsd:dateTime ;
@@ -758,7 +758,7 @@ instances:id_11653ac11abfd605d48371642502bde92f0dc1db
 instances:id_1180b2c072814ae9d30214049de418058d048001
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:22:22+01:00"^^xsd:dateTime ;
@@ -770,7 +770,7 @@ instances:id_1180b2c072814ae9d30214049de418058d048001
 instances:id_119f8a5435642f3a913ffde251c6b51b0c213669
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:09:10+01:00"^^xsd:dateTime ;
@@ -782,7 +782,7 @@ instances:id_119f8a5435642f3a913ffde251c6b51b0c213669
 instances:id_1224fa19322cbd244559df198dd6a51b012e1d77
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:31+01:00"^^xsd:dateTime ;
@@ -794,7 +794,7 @@ instances:id_1224fa19322cbd244559df198dd6a51b012e1d77
 instances:id_129e8c7898845d1662fcac4e70eddcd811a95fa2
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:01+01:00"^^xsd:dateTime ;
@@ -806,7 +806,7 @@ instances:id_129e8c7898845d1662fcac4e70eddcd811a95fa2
 instances:id_12f805ae0947c6b84884a16ebbd061494e959d97
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:28+01:00"^^xsd:dateTime ;
@@ -818,7 +818,7 @@ instances:id_12f805ae0947c6b84884a16ebbd061494e959d97
 instances:id_1311acf44abc9f6d7bdc23b9610c0740f6d9622e
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:20:35+01:00"^^xsd:dateTime ;
@@ -830,7 +830,7 @@ instances:id_1311acf44abc9f6d7bdc23b9610c0740f6d9622e
 instances:id_13d9d979b0f6fac509e4f9ceda5e709b709d6328
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:05+01:00"^^xsd:dateTime ;
@@ -842,7 +842,7 @@ instances:id_13d9d979b0f6fac509e4f9ceda5e709b709d6328
 instances:id_13eb66800590341db42d8edb6ec83910ed29d1eb
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:38:37+01:00"^^xsd:dateTime ;
@@ -854,7 +854,7 @@ instances:id_13eb66800590341db42d8edb6ec83910ed29d1eb
 instances:id_13f34988b70e0ac5b4030ee29887e882b46352e4
 	a oa:Annotation ;
 	dcterms:title "Illustrated page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:08:54+01:00"^^xsd:dateTime ;
@@ -866,7 +866,7 @@ instances:id_13f34988b70e0ac5b4030ee29887e882b46352e4
 instances:id_1433bef9dde13a83fe3461b175310685a8eb7155
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:45+01:00"^^xsd:dateTime ;
@@ -878,7 +878,7 @@ instances:id_1433bef9dde13a83fe3461b175310685a8eb7155
 instances:id_148174e0e4d7d4f7b9aecea163da77006040bdf3
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:11+01:00"^^xsd:dateTime ;
@@ -890,7 +890,7 @@ instances:id_148174e0e4d7d4f7b9aecea163da77006040bdf3
 instances:id_149d79483f89abc32ec4e56e5f3ea3e26a426857
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:39+01:00"^^xsd:dateTime ;
@@ -902,7 +902,7 @@ instances:id_149d79483f89abc32ec4e56e5f3ea3e26a426857
 instances:id_14ba1d38270f1125e0167aeaba75c42338e9b8ef
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:37+01:00"^^xsd:dateTime ;
@@ -914,7 +914,7 @@ instances:id_14ba1d38270f1125e0167aeaba75c42338e9b8ef
 instances:id_15084bf728fe87a968ebdc532676998a493287b3
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:45+01:00"^^xsd:dateTime ;
@@ -926,7 +926,7 @@ instances:id_15084bf728fe87a968ebdc532676998a493287b3
 instances:id_1568c7896e4e2e27111953f7454057ba3727b41a
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:55+01:00"^^xsd:dateTime ;
@@ -938,7 +938,7 @@ instances:id_1568c7896e4e2e27111953f7454057ba3727b41a
 instances:id_157675feaffe0782db938c0a1eb23075e9a97671
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:37+01:00"^^xsd:dateTime ;
@@ -950,7 +950,7 @@ instances:id_157675feaffe0782db938c0a1eb23075e9a97671
 instances:id_15ceed2ee9af3e48d67f0e62796a5565c6dead05
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:11+01:00"^^xsd:dateTime ;
@@ -962,7 +962,7 @@ instances:id_15ceed2ee9af3e48d67f0e62796a5565c6dead05
 instances:id_1638f3e4a918b13ca09915ad7b883a0560590a5d
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:54+01:00"^^xsd:dateTime ;
@@ -974,7 +974,7 @@ instances:id_1638f3e4a918b13ca09915ad7b883a0560590a5d
 instances:id_1666003213a4db7b0acb58017df2505bb0a38851
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:17+01:00"^^xsd:dateTime ;
@@ -986,7 +986,7 @@ instances:id_1666003213a4db7b0acb58017df2505bb0a38851
 instances:id_1669a86f4c144eb21e5613f54bd781bc8ec35ad3
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:03+01:00"^^xsd:dateTime ;
@@ -998,7 +998,7 @@ instances:id_1669a86f4c144eb21e5613f54bd781bc8ec35ad3
 instances:id_1708098ee6dbda23b4f293670a03109cdd07eb29
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:25+01:00"^^xsd:dateTime ;
@@ -1010,7 +1010,7 @@ instances:id_1708098ee6dbda23b4f293670a03109cdd07eb29
 instances:id_1739dc52ed76361d169d10ea06af3399949f931c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:42+01:00"^^xsd:dateTime ;
@@ -1022,7 +1022,7 @@ instances:id_1739dc52ed76361d169d10ea06af3399949f931c
 instances:id_17466ec6a0c0452ee8947a0141ea359bcd2859fc
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:42+01:00"^^xsd:dateTime ;
@@ -1034,7 +1034,7 @@ instances:id_17466ec6a0c0452ee8947a0141ea359bcd2859fc
 instances:id_1815e879c6f7dff5b4d765dc5f7b31cefbe00648
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:48+01:00"^^xsd:dateTime ;
@@ -1046,7 +1046,7 @@ instances:id_1815e879c6f7dff5b4d765dc5f7b31cefbe00648
 instances:id_1824a4338d586cc6b775c635193a5d435b11bcfa
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:19+01:00"^^xsd:dateTime ;
@@ -1058,7 +1058,7 @@ instances:id_1824a4338d586cc6b775c635193a5d435b11bcfa
 instances:id_1903fbbc7266b87ac8a1b7c978d0fca825970751
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:33+01:00"^^xsd:dateTime ;
@@ -1070,7 +1070,7 @@ instances:id_1903fbbc7266b87ac8a1b7c978d0fca825970751
 instances:id_1933507b4fea81372bf916b9cde3f7ff6d9a564e
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:38+01:00"^^xsd:dateTime ;
@@ -1082,7 +1082,7 @@ instances:id_1933507b4fea81372bf916b9cde3f7ff6d9a564e
 instances:id_195bd622fbfe1d703338dda19643ebb6235be511
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:26:13+01:00"^^xsd:dateTime ;
@@ -1094,7 +1094,7 @@ instances:id_195bd622fbfe1d703338dda19643ebb6235be511
 instances:id_198b8914ae087a0ab62ed2228de96e16adfc08a9
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:04+01:00"^^xsd:dateTime ;
@@ -1106,7 +1106,7 @@ instances:id_198b8914ae087a0ab62ed2228de96e16adfc08a9
 instances:id_1a13fee4dd5a39f2d6a5574be0aef2170ca650a4
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:11+01:00"^^xsd:dateTime ;
@@ -1118,7 +1118,7 @@ instances:id_1a13fee4dd5a39f2d6a5574be0aef2170ca650a4
 instances:id_1a9310ea596f9f6b76ca2ea9afb0a765f49cffa0
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:01+01:00"^^xsd:dateTime ;
@@ -1130,7 +1130,7 @@ instances:id_1a9310ea596f9f6b76ca2ea9afb0a765f49cffa0
 instances:id_1a940ca4e4b50a4154c533fa4d386eee32a7e69e
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:53+01:00"^^xsd:dateTime ;
@@ -1142,7 +1142,7 @@ instances:id_1a940ca4e4b50a4154c533fa4d386eee32a7e69e
 instances:id_1b10471a3fcb7dbd649615e1a238f1c68f0b7832
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:05+01:00"^^xsd:dateTime ;
@@ -1154,7 +1154,7 @@ instances:id_1b10471a3fcb7dbd649615e1a238f1c68f0b7832
 instances:id_1bf70bb19e9bc83712374b42467f340ace6a78b3
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:38+01:00"^^xsd:dateTime ;
@@ -1166,7 +1166,7 @@ instances:id_1bf70bb19e9bc83712374b42467f340ace6a78b3
 instances:id_1c1cf34d9ba43ae2b5f61aa07a930bef32e3d96b
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:15+01:00"^^xsd:dateTime ;
@@ -1178,7 +1178,7 @@ instances:id_1c1cf34d9ba43ae2b5f61aa07a930bef32e3d96b
 instances:id_1c7721fe8f99bdfb0eca5591e65ef65e4973cf28
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:50+01:00"^^xsd:dateTime ;
@@ -1190,7 +1190,7 @@ instances:id_1c7721fe8f99bdfb0eca5591e65ef65e4973cf28
 instances:id_1c8c1afe37a702e29f6a4795743205113e4f417c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:10+01:00"^^xsd:dateTime ;
@@ -1202,7 +1202,7 @@ instances:id_1c8c1afe37a702e29f6a4795743205113e4f417c
 instances:id_1cb21e96795abd830964c494a1c90562e8cf6fbf
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:32+01:00"^^xsd:dateTime ;
@@ -1214,7 +1214,7 @@ instances:id_1cb21e96795abd830964c494a1c90562e8cf6fbf
 instances:id_1cf9247662155a621532af60d07f35582d2f0677
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:32+01:00"^^xsd:dateTime ;
@@ -1226,7 +1226,7 @@ instances:id_1cf9247662155a621532af60d07f35582d2f0677
 instances:id_1d0af1bddbe5c109150b358bd1158599702ae0a4
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:59+01:00"^^xsd:dateTime ;
@@ -1238,7 +1238,7 @@ instances:id_1d0af1bddbe5c109150b358bd1158599702ae0a4
 instances:id_1d3d531987240dcc2690385c2e731264f4e6bb8b
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:36+01:00"^^xsd:dateTime ;
@@ -1250,7 +1250,7 @@ instances:id_1d3d531987240dcc2690385c2e731264f4e6bb8b
 instances:id_1e09d235546c0b7c1789b30a8ebcd0cfd55eef13
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:30+01:00"^^xsd:dateTime ;
@@ -1262,7 +1262,7 @@ instances:id_1e09d235546c0b7c1789b30a8ebcd0cfd55eef13
 instances:id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:44+01:00"^^xsd:dateTime ;
@@ -1274,7 +1274,7 @@ instances:id_1e3cfa12898725071a5d60dfae1bf4bdbdef1aff
 instances:id_1e701790f41f65997b5314b988c491931475dc9c
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:27+01:00"^^xsd:dateTime ;
@@ -1286,7 +1286,7 @@ instances:id_1e701790f41f65997b5314b988c491931475dc9c
 instances:id_1f47cce0312f8f65f3464eaba930a53fe5ab33a7
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:02+01:00"^^xsd:dateTime ;
@@ -1298,7 +1298,7 @@ instances:id_1f47cce0312f8f65f3464eaba930a53fe5ab33a7
 instances:id_1f67b108a2ecb5f5620a17a8aca168be4f630699
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:05+01:00"^^xsd:dateTime ;
@@ -1310,7 +1310,7 @@ instances:id_1f67b108a2ecb5f5620a17a8aca168be4f630699
 instances:id_1f84a2f888300f31234c6d4c8a743df4606d9158
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:53+01:00"^^xsd:dateTime ;
@@ -1322,7 +1322,7 @@ instances:id_1f84a2f888300f31234c6d4c8a743df4606d9158
 instances:id_1f88c366898803b89d2ae1c71dbb93552bf64692
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:41+01:00"^^xsd:dateTime ;
@@ -1334,7 +1334,7 @@ instances:id_1f88c366898803b89d2ae1c71dbb93552bf64692
 instances:id_1faa5fadd87f148a26af9dc74ea38ec4d0592897
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:16+01:00"^^xsd:dateTime ;
@@ -1346,7 +1346,7 @@ instances:id_1faa5fadd87f148a26af9dc74ea38ec4d0592897
 instances:id_1fb39c316734c99e2551931efc3d8af4f35e158a
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:15+01:00"^^xsd:dateTime ;
@@ -1358,7 +1358,7 @@ instances:id_1fb39c316734c99e2551931efc3d8af4f35e158a
 instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:08:35+01:00"^^xsd:dateTime ;
@@ -1370,7 +1370,7 @@ instances:id_20b281332329a79c83519d15b9be74b3d4cecc0c
 instances:id_20d28be191c6631968d9e51470b9a07bfa1d6654
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:33+01:00"^^xsd:dateTime ;
@@ -1382,7 +1382,7 @@ instances:id_20d28be191c6631968d9e51470b9a07bfa1d6654
 instances:id_20df7711889ddca6e1de72bbe78fd769fa73e199
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:45+01:00"^^xsd:dateTime ;
@@ -1394,7 +1394,7 @@ instances:id_20df7711889ddca6e1de72bbe78fd769fa73e199
 instances:id_20e21be6ef4fefa75c41e8ee30d4dd3bf51ca19f
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:21+01:00"^^xsd:dateTime ;
@@ -1406,7 +1406,7 @@ instances:id_20e21be6ef4fefa75c41e8ee30d4dd3bf51ca19f
 instances:id_20f47fc54ee41d4d17c0cd57855838dea3222ac9
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:33+01:00"^^xsd:dateTime ;
@@ -1418,7 +1418,7 @@ instances:id_20f47fc54ee41d4d17c0cd57855838dea3222ac9
 instances:id_2128659a82c70d097e8a3c4d1be362cd00f9f41f
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:38+01:00"^^xsd:dateTime ;
@@ -1430,7 +1430,7 @@ instances:id_2128659a82c70d097e8a3c4d1be362cd00f9f41f
 instances:id_217dc90cc393052df7463c32a1ebe6b68d32ead8
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:38+01:00"^^xsd:dateTime ;
@@ -1442,7 +1442,7 @@ instances:id_217dc90cc393052df7463c32a1ebe6b68d32ead8
 instances:id_21c20203a714d3aa19f79182a465cd2643a6683d
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:36+01:00"^^xsd:dateTime ;
@@ -1454,7 +1454,7 @@ instances:id_21c20203a714d3aa19f79182a465cd2643a6683d
 instances:id_2234c7a79362c40ebac53826e81dde3092e1b70f
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:44+01:00"^^xsd:dateTime ;
@@ -1466,7 +1466,7 @@ instances:id_2234c7a79362c40ebac53826e81dde3092e1b70f
 instances:id_22951ae42fa07d88ae2b10f1de4242e4e455ab0b
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:01+01:00"^^xsd:dateTime ;
@@ -1478,7 +1478,7 @@ instances:id_22951ae42fa07d88ae2b10f1de4242e4e455ab0b
 instances:id_2312d72000fc6c2e390ca9d2f0a57cc49b095005
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:37+01:00"^^xsd:dateTime ;
@@ -1490,7 +1490,7 @@ instances:id_2312d72000fc6c2e390ca9d2f0a57cc49b095005
 instances:id_23403543a3da88fec01dd19c33cc51e23e749e68
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:38+01:00"^^xsd:dateTime ;
@@ -1502,7 +1502,7 @@ instances:id_23403543a3da88fec01dd19c33cc51e23e749e68
 instances:id_241e3033734d9fb770f54c61ef76af92cbff85ab
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:49+01:00"^^xsd:dateTime ;
@@ -1514,7 +1514,7 @@ instances:id_241e3033734d9fb770f54c61ef76af92cbff85ab
 instances:id_242e3ab3f63a029fb62a84f12511bc97b3a97a3c
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:12+01:00"^^xsd:dateTime ;
@@ -1526,7 +1526,7 @@ instances:id_242e3ab3f63a029fb62a84f12511bc97b3a97a3c
 instances:id_24ab0ed4efbdfd3a87f69971d43db11682a3585d
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:39+01:00"^^xsd:dateTime ;
@@ -1538,7 +1538,7 @@ instances:id_24ab0ed4efbdfd3a87f69971d43db11682a3585d
 instances:id_24d2258bcb44d6bfb5ca1a7418adfa41ebd34161
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:09:41+01:00"^^xsd:dateTime ;
@@ -1550,7 +1550,7 @@ instances:id_24d2258bcb44d6bfb5ca1a7418adfa41ebd34161
 instances:id_24ea2a185968da3b8ac7e35bfa9cde5591c2a1c2
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:12+01:00"^^xsd:dateTime ;
@@ -1562,7 +1562,7 @@ instances:id_24ea2a185968da3b8ac7e35bfa9cde5591c2a1c2
 instances:id_254f782c7f5f723c052978e14032a9bb237eb3f9
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:25+01:00"^^xsd:dateTime ;
@@ -1574,7 +1574,7 @@ instances:id_254f782c7f5f723c052978e14032a9bb237eb3f9
 instances:id_254fc9039cd8b82a6f3042921f6de9c087810ac9
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:17+01:00"^^xsd:dateTime ;
@@ -1586,7 +1586,7 @@ instances:id_254fc9039cd8b82a6f3042921f6de9c087810ac9
 instances:id_25d53e35868a3d0b96b1675de7d8c7988caae317
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:31+01:00"^^xsd:dateTime ;
@@ -1598,7 +1598,7 @@ instances:id_25d53e35868a3d0b96b1675de7d8c7988caae317
 instances:id_267a66d782028da718d6bed6ed8007defd975308
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:46+01:00"^^xsd:dateTime ;
@@ -1610,7 +1610,7 @@ instances:id_267a66d782028da718d6bed6ed8007defd975308
 instances:id_26bf69d40540e9aa62143916b7417601d15141f2
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:07+01:00"^^xsd:dateTime ;
@@ -1622,7 +1622,7 @@ instances:id_26bf69d40540e9aa62143916b7417601d15141f2
 instances:id_26ed3be53a350caea434d3767d9c47458bc7a721
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:35+01:00"^^xsd:dateTime ;
@@ -1634,7 +1634,7 @@ instances:id_26ed3be53a350caea434d3767d9c47458bc7a721
 instances:id_271fcc7422c110dd7e40782ffdc2ed7f92251311
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:48:58+01:00"^^xsd:dateTime ;
@@ -1646,7 +1646,7 @@ instances:id_271fcc7422c110dd7e40782ffdc2ed7f92251311
 instances:id_274bbdff96ba2ec8b7dbbd723ffc2d9ba9bf8e33
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:47+01:00"^^xsd:dateTime ;
@@ -1658,7 +1658,7 @@ instances:id_274bbdff96ba2ec8b7dbbd723ffc2d9ba9bf8e33
 instances:id_279df47173fc31878c9c577be6a253a81c8a1323
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:47+01:00"^^xsd:dateTime ;
@@ -1670,7 +1670,7 @@ instances:id_279df47173fc31878c9c577be6a253a81c8a1323
 instances:id_27a2e90572078a5d776ce4cdf7648abcb339ddcc
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:25+01:00"^^xsd:dateTime ;
@@ -1682,7 +1682,7 @@ instances:id_27a2e90572078a5d776ce4cdf7648abcb339ddcc
 instances:id_27d7a6e9b394c2672963d1e73ffb17d881f5d5ac
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:09:56+01:00"^^xsd:dateTime ;
@@ -1694,7 +1694,7 @@ instances:id_27d7a6e9b394c2672963d1e73ffb17d881f5d5ac
 instances:id_28144c689d558de79567aecfb2c952e0ccbd9447
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:16+01:00"^^xsd:dateTime ;
@@ -1706,7 +1706,7 @@ instances:id_28144c689d558de79567aecfb2c952e0ccbd9447
 instances:id_284cce23051b008bc221118f5e22e2787b1a295e
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:17+01:00"^^xsd:dateTime ;
@@ -1718,7 +1718,7 @@ instances:id_284cce23051b008bc221118f5e22e2787b1a295e
 instances:id_28c63d361a644c1d38761354e3a96fb72861392a
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:51+01:00"^^xsd:dateTime ;
@@ -1730,7 +1730,7 @@ instances:id_28c63d361a644c1d38761354e3a96fb72861392a
 instances:id_28e821e22c0f23e25b0865296d22d9e31ec36b40
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:50+01:00"^^xsd:dateTime ;
@@ -1742,7 +1742,7 @@ instances:id_28e821e22c0f23e25b0865296d22d9e31ec36b40
 instances:id_29518e2324f353150ca41f499fadd988fb09b3ba
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:37+01:00"^^xsd:dateTime ;
@@ -1754,7 +1754,7 @@ instances:id_29518e2324f353150ca41f499fadd988fb09b3ba
 instances:id_29640a412e0d84abd1ebafa786d53db275e442e4
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:56+01:00"^^xsd:dateTime ;
@@ -1766,7 +1766,7 @@ instances:id_29640a412e0d84abd1ebafa786d53db275e442e4
 instances:id_29693964aede70fc0202202b735efefd444a0aaf
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:22:42+01:00"^^xsd:dateTime ;
@@ -1778,7 +1778,7 @@ instances:id_29693964aede70fc0202202b735efefd444a0aaf
 instances:id_2a338db0bac6138b9703251a380a2c21884f7907
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:12+01:00"^^xsd:dateTime ;
@@ -1790,7 +1790,7 @@ instances:id_2a338db0bac6138b9703251a380a2c21884f7907
 instances:id_2aa6f3c361bd7d08b1177f7becb46055534aa931
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:03+01:00"^^xsd:dateTime ;
@@ -1802,7 +1802,7 @@ instances:id_2aa6f3c361bd7d08b1177f7becb46055534aa931
 instances:id_2af2bfc729b400add8eedbe871e65ab2e0a796e4
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:55+01:00"^^xsd:dateTime ;
@@ -1814,7 +1814,7 @@ instances:id_2af2bfc729b400add8eedbe871e65ab2e0a796e4
 instances:id_2afccbe5d6f62ffb7060ad767faee34acb6f3dc0
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:52+01:00"^^xsd:dateTime ;
@@ -1826,7 +1826,7 @@ instances:id_2afccbe5d6f62ffb7060ad767faee34acb6f3dc0
 instances:id_2b55fdb5ffc62e3e5f1261d443bbcad7d97855d3
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:11+01:00"^^xsd:dateTime ;
@@ -1838,7 +1838,7 @@ instances:id_2b55fdb5ffc62e3e5f1261d443bbcad7d97855d3
 instances:id_2be8ac68fc95dc3e1a8b7fd83ba146b6c06d35d0
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:25:24+01:00"^^xsd:dateTime ;
@@ -1850,7 +1850,7 @@ instances:id_2be8ac68fc95dc3e1a8b7fd83ba146b6c06d35d0
 instances:id_2c0d05fab9699c5e42ac5efa64ac1858b21335c2
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:33+01:00"^^xsd:dateTime ;
@@ -1862,7 +1862,7 @@ instances:id_2c0d05fab9699c5e42ac5efa64ac1858b21335c2
 instances:id_2c6d99e9cb94e7f3ce510eeed39809307ec587d4
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:09+01:00"^^xsd:dateTime ;
@@ -1874,7 +1874,7 @@ instances:id_2c6d99e9cb94e7f3ce510eeed39809307ec587d4
 instances:id_2ced76e6965b6137eefca8fb5351503b132daf5c
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:48:36+01:00"^^xsd:dateTime ;
@@ -1886,7 +1886,7 @@ instances:id_2ced76e6965b6137eefca8fb5351503b132daf5c
 instances:id_2d374cfa65046a06e453bea18f1547519bed11a5
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:30+01:00"^^xsd:dateTime ;
@@ -1898,7 +1898,7 @@ instances:id_2d374cfa65046a06e453bea18f1547519bed11a5
 instances:id_2d6706c819282aa4f4e103231e69651021db715c
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:01+01:00"^^xsd:dateTime ;
@@ -1910,7 +1910,7 @@ instances:id_2d6706c819282aa4f4e103231e69651021db715c
 instances:id_2d86645dc4b43abed5ad4a1bd5101a9cdf452c82
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:16+01:00"^^xsd:dateTime ;
@@ -1922,7 +1922,7 @@ instances:id_2d86645dc4b43abed5ad4a1bd5101a9cdf452c82
 instances:id_2dd2a72f78bd3f231ad51989b4b3d106fd7df691
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:20+01:00"^^xsd:dateTime ;
@@ -1934,7 +1934,7 @@ instances:id_2dd2a72f78bd3f231ad51989b4b3d106fd7df691
 instances:id_2de87aa3de20c204615fdff6143a4025f41a2abf
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:22+01:00"^^xsd:dateTime ;
@@ -1946,7 +1946,7 @@ instances:id_2de87aa3de20c204615fdff6143a4025f41a2abf
 instances:id_2df497dcf856f37a43358b63ca8fba7edf8ed40c
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:01+01:00"^^xsd:dateTime ;
@@ -1958,7 +1958,7 @@ instances:id_2df497dcf856f37a43358b63ca8fba7edf8ed40c
 instances:id_2e4fc64666997c59a56626681adec624da1143a7
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:14+01:00"^^xsd:dateTime ;
@@ -1970,7 +1970,7 @@ instances:id_2e4fc64666997c59a56626681adec624da1143a7
 instances:id_2ea2ebeb1d425d78d8c60bb1adeb6f9a8344b672
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:00:43+01:00"^^xsd:dateTime ;
@@ -1982,7 +1982,7 @@ instances:id_2ea2ebeb1d425d78d8c60bb1adeb6f9a8344b672
 instances:id_2f318984c1d9c7252f6011719e0ffd6f6867f267
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:00+01:00"^^xsd:dateTime ;
@@ -1994,7 +1994,7 @@ instances:id_2f318984c1d9c7252f6011719e0ffd6f6867f267
 instances:id_2f6f09f6a3ae791b56fdbb13f21705cbd167bc6b
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:10+01:00"^^xsd:dateTime ;
@@ -2006,7 +2006,7 @@ instances:id_2f6f09f6a3ae791b56fdbb13f21705cbd167bc6b
 instances:id_2ff8ce9272f11808627c636b01f77e86e4e2d675
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:20:25+01:00"^^xsd:dateTime ;
@@ -2018,7 +2018,7 @@ instances:id_2ff8ce9272f11808627c636b01f77e86e4e2d675
 instances:id_3118bb6fcde990156909f8fdf2c3f651c273bbaa
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:49+01:00"^^xsd:dateTime ;
@@ -2030,7 +2030,7 @@ instances:id_3118bb6fcde990156909f8fdf2c3f651c273bbaa
 instances:id_318d8465fd47ebefc896171fde8d17f087ba8ce9
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:40+01:00"^^xsd:dateTime ;
@@ -2042,7 +2042,7 @@ instances:id_318d8465fd47ebefc896171fde8d17f087ba8ce9
 instances:id_323709b83c9958f525040737f22e5760bb8bfe97
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:15+01:00"^^xsd:dateTime ;
@@ -2054,7 +2054,7 @@ instances:id_323709b83c9958f525040737f22e5760bb8bfe97
 instances:id_328ab9268b3563aeef9057c1c3fab67463086f6d
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:59:48+01:00"^^xsd:dateTime ;
@@ -2066,7 +2066,7 @@ instances:id_328ab9268b3563aeef9057c1c3fab67463086f6d
 instances:id_328c97240679bbf007568ea6e84bb65400428be6
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:16+01:00"^^xsd:dateTime ;
@@ -2078,7 +2078,7 @@ instances:id_328c97240679bbf007568ea6e84bb65400428be6
 instances:id_32baf620ef6c5b785c5b7b94a09c8b072cac482a
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:36+01:00"^^xsd:dateTime ;
@@ -2090,7 +2090,7 @@ instances:id_32baf620ef6c5b785c5b7b94a09c8b072cac482a
 instances:id_33aa694aa1e8daa22b16d3bae33efc2a58f00d5f
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:53+01:00"^^xsd:dateTime ;
@@ -2102,7 +2102,7 @@ instances:id_33aa694aa1e8daa22b16d3bae33efc2a58f00d5f
 instances:id_33de8cff83020f4a94f72b95a914a3c233d23e61
 	a oa:Annotation ;
 	dcterms:title "Illustrated page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:13+01:00"^^xsd:dateTime ;
@@ -2114,7 +2114,7 @@ instances:id_33de8cff83020f4a94f72b95a914a3c233d23e61
 instances:id_33ee617d63cb7b32fb9966608a6f3c520bbd26be
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:38+01:00"^^xsd:dateTime ;
@@ -2126,7 +2126,7 @@ instances:id_33ee617d63cb7b32fb9966608a6f3c520bbd26be
 instances:id_34a1f2393ea9e575aff9dabec53d56e038d4321c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:09+01:00"^^xsd:dateTime ;
@@ -2138,7 +2138,7 @@ instances:id_34a1f2393ea9e575aff9dabec53d56e038d4321c
 instances:id_34bccf4eb1c55a05d150300a78cbb2dfe2549ab5
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:35+01:00"^^xsd:dateTime ;
@@ -2150,7 +2150,7 @@ instances:id_34bccf4eb1c55a05d150300a78cbb2dfe2549ab5
 instances:id_3584b4895dd120e80151128eec47874256ea4718
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:28+01:00"^^xsd:dateTime ;
@@ -2162,7 +2162,7 @@ instances:id_3584b4895dd120e80151128eec47874256ea4718
 instances:id_359cb51e503304a867f001140896441fbec0a879
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:59:41+01:00"^^xsd:dateTime ;
@@ -2174,7 +2174,7 @@ instances:id_359cb51e503304a867f001140896441fbec0a879
 instances:id_3618a2189e265b02419b82f1c96e0ebd753b355c
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:30+01:00"^^xsd:dateTime ;
@@ -2186,7 +2186,7 @@ instances:id_3618a2189e265b02419b82f1c96e0ebd753b355c
 instances:id_362261ba2afa92e3249bb954203db468f87c8051
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:25:36+01:00"^^xsd:dateTime ;
@@ -2198,7 +2198,7 @@ instances:id_362261ba2afa92e3249bb954203db468f87c8051
 instances:id_36c4e3a5cff37af9c2baa5d24b215a1a3fddc74f
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:08+01:00"^^xsd:dateTime ;
@@ -2210,7 +2210,7 @@ instances:id_36c4e3a5cff37af9c2baa5d24b215a1a3fddc74f
 instances:id_36e004d75dca721738bf291e811cd4dcfa6f9d81
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:16+01:00"^^xsd:dateTime ;
@@ -2222,7 +2222,7 @@ instances:id_36e004d75dca721738bf291e811cd4dcfa6f9d81
 instances:id_36fac9e34367b9f0b241278f9b2925cf1c0a1f86
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:18+01:00"^^xsd:dateTime ;
@@ -2234,7 +2234,7 @@ instances:id_36fac9e34367b9f0b241278f9b2925cf1c0a1f86
 instances:id_370cd461522bc4e45a7b9c63c98d75b10bbc6f5b
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:30+01:00"^^xsd:dateTime ;
@@ -2246,7 +2246,7 @@ instances:id_370cd461522bc4e45a7b9c63c98d75b10bbc6f5b
 instances:id_3734609fa6e57b71ab7afdbb254c99a8dc157ddd
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:44+01:00"^^xsd:dateTime ;
@@ -2258,7 +2258,7 @@ instances:id_3734609fa6e57b71ab7afdbb254c99a8dc157ddd
 instances:id_376b5f0b995ba0c793cf3aad86a6b3f3c1b9799a
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:01+01:00"^^xsd:dateTime ;
@@ -2270,7 +2270,7 @@ instances:id_376b5f0b995ba0c793cf3aad86a6b3f3c1b9799a
 instances:id_377d6e331e29cbc8ce245fb37ea5f3a8c67cc6e2
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:31+01:00"^^xsd:dateTime ;
@@ -2282,7 +2282,7 @@ instances:id_377d6e331e29cbc8ce245fb37ea5f3a8c67cc6e2
 instances:id_378a527853a4e1fcf9cb3d07a78bb40418eba123
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:47+01:00"^^xsd:dateTime ;
@@ -2294,7 +2294,7 @@ instances:id_378a527853a4e1fcf9cb3d07a78bb40418eba123
 instances:id_3835d36e037bb6b9e9ed65cf7316b1308af592e2
 	a oa:Annotation ;
 	dcterms:title "Text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:51+01:00"^^xsd:dateTime ;
@@ -2306,7 +2306,7 @@ instances:id_3835d36e037bb6b9e9ed65cf7316b1308af592e2
 instances:id_387f3e7fe96544aecb85313078edc09320d37199
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:23:05+01:00"^^xsd:dateTime ;
@@ -2318,7 +2318,7 @@ instances:id_387f3e7fe96544aecb85313078edc09320d37199
 instances:id_38beeb7c8eb0b79ae3ccb69380ac3f20942e33bc
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:39:00+01:00"^^xsd:dateTime ;
@@ -2330,7 +2330,7 @@ instances:id_38beeb7c8eb0b79ae3ccb69380ac3f20942e33bc
 instances:id_38e1c7edf9c849a65f2d42499b1b5c3a11aa8581
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:49+01:00"^^xsd:dateTime ;
@@ -2342,7 +2342,7 @@ instances:id_38e1c7edf9c849a65f2d42499b1b5c3a11aa8581
 instances:id_39706ab934882613d4cfcb80426db5f03339be45
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:13:38+01:00"^^xsd:dateTime ;
@@ -2354,7 +2354,7 @@ instances:id_39706ab934882613d4cfcb80426db5f03339be45
 instances:id_399384a563a0924fb5ef82fe43d3ce88cb120047
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:25:14+01:00"^^xsd:dateTime ;
@@ -2366,7 +2366,7 @@ instances:id_399384a563a0924fb5ef82fe43d3ce88cb120047
 instances:id_39fbbbf271b6818e9939b9ad8986f45230c8c225
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:00:45+01:00"^^xsd:dateTime ;
@@ -2378,7 +2378,7 @@ instances:id_39fbbbf271b6818e9939b9ad8986f45230c8c225
 instances:id_3a6fa11b206e0421df60211f69942103cd5e46a2
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:15+01:00"^^xsd:dateTime ;
@@ -2390,7 +2390,7 @@ instances:id_3a6fa11b206e0421df60211f69942103cd5e46a2
 instances:id_3a991df27b3358b9caaeba18a8d3d68b0a574fe4
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:28+01:00"^^xsd:dateTime ;
@@ -2402,7 +2402,7 @@ instances:id_3a991df27b3358b9caaeba18a8d3d68b0a574fe4
 instances:id_3a9ec6e6d035a49e973f83df55eaef72c30d77ad
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:55+01:00"^^xsd:dateTime ;
@@ -2414,7 +2414,7 @@ instances:id_3a9ec6e6d035a49e973f83df55eaef72c30d77ad
 instances:id_3acf5781d4366b5263a999f7ef6ef8f0e3d50302
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:28:36+01:00"^^xsd:dateTime ;
@@ -2426,7 +2426,7 @@ instances:id_3acf5781d4366b5263a999f7ef6ef8f0e3d50302
 instances:id_3b307d6fe1d9727e6c08f4a5df14033756f6997c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:26:22+01:00"^^xsd:dateTime ;
@@ -2438,7 +2438,7 @@ instances:id_3b307d6fe1d9727e6c08f4a5df14033756f6997c
 instances:id_3bd1bdfb3f343c48368f1c83020a25e486f08c00
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:13+01:00"^^xsd:dateTime ;
@@ -2450,7 +2450,7 @@ instances:id_3bd1bdfb3f343c48368f1c83020a25e486f08c00
 instances:id_3bd76ea19bf5a9edbf47e3beb4b5c435bc1d70fc
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:22+01:00"^^xsd:dateTime ;
@@ -2462,7 +2462,7 @@ instances:id_3bd76ea19bf5a9edbf47e3beb4b5c435bc1d70fc
 instances:id_3c1fae9ac08f7eb85baa6096a8989491ad3ce4d1
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:26+01:00"^^xsd:dateTime ;
@@ -2474,7 +2474,7 @@ instances:id_3c1fae9ac08f7eb85baa6096a8989491ad3ce4d1
 instances:id_3c45acf73709cc40ae9eb88d790277dc5607bb4b
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:05+01:00"^^xsd:dateTime ;
@@ -2486,7 +2486,7 @@ instances:id_3c45acf73709cc40ae9eb88d790277dc5607bb4b
 instances:id_3c9d7b99378f06acfdc8dc612ae96597556853bd
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:09+01:00"^^xsd:dateTime ;
@@ -2498,7 +2498,7 @@ instances:id_3c9d7b99378f06acfdc8dc612ae96597556853bd
 instances:id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:39+01:00"^^xsd:dateTime ;
@@ -2510,7 +2510,7 @@ instances:id_3ca707162e68bc03d0a59c1fb9b52cd9b4c2f3c4
 instances:id_3d75d38c54434c344835cf65a36903580f29db00
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:44+01:00"^^xsd:dateTime ;
@@ -2522,7 +2522,7 @@ instances:id_3d75d38c54434c344835cf65a36903580f29db00
 instances:id_3d96831d7c5c1ac09098bdd1af8329d885363b8b
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:56+01:00"^^xsd:dateTime ;
@@ -2534,7 +2534,7 @@ instances:id_3d96831d7c5c1ac09098bdd1af8329d885363b8b
 instances:id_3dfb890f82a15ee5d3218266ce4ff168fa80ec6e
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:26+01:00"^^xsd:dateTime ;
@@ -2546,7 +2546,7 @@ instances:id_3dfb890f82a15ee5d3218266ce4ff168fa80ec6e
 instances:id_3ec9eea073ac074f2e865c3f0b220b6e90092af9
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:41+01:00"^^xsd:dateTime ;
@@ -2558,7 +2558,7 @@ instances:id_3ec9eea073ac074f2e865c3f0b220b6e90092af9
 instances:id_3f3413bc9403b02d750dcf652f78ae2dac98ad3d
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:27+01:00"^^xsd:dateTime ;
@@ -2570,7 +2570,7 @@ instances:id_3f3413bc9403b02d750dcf652f78ae2dac98ad3d
 instances:id_3f54b9b7e772eb5365c025257cf2190dfd83b167
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:59+01:00"^^xsd:dateTime ;
@@ -2582,7 +2582,7 @@ instances:id_3f54b9b7e772eb5365c025257cf2190dfd83b167
 instances:id_3f78e634a07662ae0e0995e63c536a10b48c93be
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:44:28+01:00"^^xsd:dateTime ;
@@ -2594,7 +2594,7 @@ instances:id_3f78e634a07662ae0e0995e63c536a10b48c93be
 instances:id_3f868d2d2271a86412d83274867d8b170fb22b6b
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:17+01:00"^^xsd:dateTime ;
@@ -2606,7 +2606,7 @@ instances:id_3f868d2d2271a86412d83274867d8b170fb22b6b
 instances:id_403f8f5a36924e7515b61587e5de66dabd4f61e7
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:56+01:00"^^xsd:dateTime ;
@@ -2618,7 +2618,7 @@ instances:id_403f8f5a36924e7515b61587e5de66dabd4f61e7
 instances:id_40711b90a0ba7eca330fa2d4a29c62df65ec4d80
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:43+01:00"^^xsd:dateTime ;
@@ -2630,7 +2630,7 @@ instances:id_40711b90a0ba7eca330fa2d4a29c62df65ec4d80
 instances:id_4092a10badfb7f37ca463022a9b00db9e167b20e
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:22+01:00"^^xsd:dateTime ;
@@ -2642,7 +2642,7 @@ instances:id_4092a10badfb7f37ca463022a9b00db9e167b20e
 instances:id_421ea8f76080e5db1f4448fdcb7c999f3b4548f7
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:30+01:00"^^xsd:dateTime ;
@@ -2654,7 +2654,7 @@ instances:id_421ea8f76080e5db1f4448fdcb7c999f3b4548f7
 instances:id_422e8ea59afd998c1a2f73543fdffbd2ca1a0195
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:24+01:00"^^xsd:dateTime ;
@@ -2666,7 +2666,7 @@ instances:id_422e8ea59afd998c1a2f73543fdffbd2ca1a0195
 instances:id_424c77cdabbac38676cdcbee3fa8f91f92118332
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:17+01:00"^^xsd:dateTime ;
@@ -2678,7 +2678,7 @@ instances:id_424c77cdabbac38676cdcbee3fa8f91f92118332
 instances:id_4251c3083a0c95b4f156ef91eed2024a0963d529
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:50+01:00"^^xsd:dateTime ;
@@ -2690,7 +2690,7 @@ instances:id_4251c3083a0c95b4f156ef91eed2024a0963d529
 instances:id_426258827f3079e5bd19bbefd771b63e948143cb
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:08+01:00"^^xsd:dateTime ;
@@ -2702,7 +2702,7 @@ instances:id_426258827f3079e5bd19bbefd771b63e948143cb
 instances:id_428f6612b73fce341fcc59851a50b97469892ed7
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:18+01:00"^^xsd:dateTime ;
@@ -2714,7 +2714,7 @@ instances:id_428f6612b73fce341fcc59851a50b97469892ed7
 instances:id_42c89a5617c0fecfa8bf127148ac68ebc447cc49
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:47+01:00"^^xsd:dateTime ;
@@ -2726,7 +2726,7 @@ instances:id_42c89a5617c0fecfa8bf127148ac68ebc447cc49
 instances:id_42e9b87738f971b43bfff7bbc73d7f0de9203e35
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:59:06+01:00"^^xsd:dateTime ;
@@ -2738,7 +2738,7 @@ instances:id_42e9b87738f971b43bfff7bbc73d7f0de9203e35
 instances:id_431cb32ef5ef277ef130d7cfdf384e3c3540a5cb
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:49+01:00"^^xsd:dateTime ;
@@ -2750,7 +2750,7 @@ instances:id_431cb32ef5ef277ef130d7cfdf384e3c3540a5cb
 instances:id_434d2534d1c023f9cdf9d51ceb38c8888ae38710
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:09+01:00"^^xsd:dateTime ;
@@ -2762,7 +2762,7 @@ instances:id_434d2534d1c023f9cdf9d51ceb38c8888ae38710
 instances:id_434d2cc0a7649abc5279b95d27e13319bc114140
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:49+01:00"^^xsd:dateTime ;
@@ -2774,7 +2774,7 @@ instances:id_434d2cc0a7649abc5279b95d27e13319bc114140
 instances:id_4358a206b0427b16f2734c61c2e4c53eee5ef02a
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:24+01:00"^^xsd:dateTime ;
@@ -2786,7 +2786,7 @@ instances:id_4358a206b0427b16f2734c61c2e4c53eee5ef02a
 instances:id_438cef28bdcbb614c72521def4cad369aa29e96f
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:26+01:00"^^xsd:dateTime ;
@@ -2798,7 +2798,7 @@ instances:id_438cef28bdcbb614c72521def4cad369aa29e96f
 instances:id_43b1a6b363bfa40b3127802e719bb227227a3cd2
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:47+01:00"^^xsd:dateTime ;
@@ -2810,7 +2810,7 @@ instances:id_43b1a6b363bfa40b3127802e719bb227227a3cd2
 instances:id_4415ec80a57957476b0235f24f2b839f2035bc60
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:16+01:00"^^xsd:dateTime ;
@@ -2822,7 +2822,7 @@ instances:id_4415ec80a57957476b0235f24f2b839f2035bc60
 instances:id_444a1c1c8c1debe821da15929f301ff8c4fac488
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:56+01:00"^^xsd:dateTime ;
@@ -2834,7 +2834,7 @@ instances:id_444a1c1c8c1debe821da15929f301ff8c4fac488
 instances:id_445a0aa93370c5418844445b026faf9d8367ddcf
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:01+01:00"^^xsd:dateTime ;
@@ -2846,7 +2846,7 @@ instances:id_445a0aa93370c5418844445b026faf9d8367ddcf
 instances:id_445ba09edcd51c8d7c6f40350fd5d57a05a71e9b
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:43:19+01:00"^^xsd:dateTime ;
@@ -2858,7 +2858,7 @@ instances:id_445ba09edcd51c8d7c6f40350fd5d57a05a71e9b
 instances:id_44714f00e96f989cfb2864f1ed289eee56b1a284
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:45+01:00"^^xsd:dateTime ;
@@ -2870,7 +2870,7 @@ instances:id_44714f00e96f989cfb2864f1ed289eee56b1a284
 instances:id_45832a49ef9aaa8c80c7df4a1341123019e3bd47
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:56+01:00"^^xsd:dateTime ;
@@ -2882,7 +2882,7 @@ instances:id_45832a49ef9aaa8c80c7df4a1341123019e3bd47
 instances:id_45883375df66304c7628e4a11d3f32072a52b2b8
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:25:30+01:00"^^xsd:dateTime ;
@@ -2894,7 +2894,7 @@ instances:id_45883375df66304c7628e4a11d3f32072a52b2b8
 instances:id_46016ea7f9779761934fb2abfc582305897696f8
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:28+01:00"^^xsd:dateTime ;
@@ -2906,7 +2906,7 @@ instances:id_46016ea7f9779761934fb2abfc582305897696f8
 instances:id_46543c62d97150c26e72e0bf879737b59c6d5ea1
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:10+01:00"^^xsd:dateTime ;
@@ -2918,7 +2918,7 @@ instances:id_46543c62d97150c26e72e0bf879737b59c6d5ea1
 instances:id_466a5b90ff097f26108fe4e9ccf1cfe72ec3ad5f
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:22+01:00"^^xsd:dateTime ;
@@ -2930,7 +2930,7 @@ instances:id_466a5b90ff097f26108fe4e9ccf1cfe72ec3ad5f
 instances:id_46ca33bcfc42b052871fefbce92e192302ab3231
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:30+01:00"^^xsd:dateTime ;
@@ -2942,7 +2942,7 @@ instances:id_46ca33bcfc42b052871fefbce92e192302ab3231
 instances:id_471a25fcfaf9ecdf1d916e3c5b9f016d317afc55
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:21+01:00"^^xsd:dateTime ;
@@ -2954,7 +2954,7 @@ instances:id_471a25fcfaf9ecdf1d916e3c5b9f016d317afc55
 instances:id_471fb97e2226bc786a6bf3896cbcfb052e9c9a02
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:56+01:00"^^xsd:dateTime ;
@@ -2966,7 +2966,7 @@ instances:id_471fb97e2226bc786a6bf3896cbcfb052e9c9a02
 instances:id_4750b91704a9fc55aa2cf7c96f55631dbf4224d3
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:53+01:00"^^xsd:dateTime ;
@@ -2978,7 +2978,7 @@ instances:id_4750b91704a9fc55aa2cf7c96f55631dbf4224d3
 instances:id_482f316b11eb963b8407cb9014056f9b1d34088e
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:37+01:00"^^xsd:dateTime ;
@@ -2990,7 +2990,7 @@ instances:id_482f316b11eb963b8407cb9014056f9b1d34088e
 instances:id_48dd364e11f6a8e8fd05f3c6cd1cf550004b38ff
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:29+01:00"^^xsd:dateTime ;
@@ -3002,7 +3002,7 @@ instances:id_48dd364e11f6a8e8fd05f3c6cd1cf550004b38ff
 instances:id_48e875d70f9838c5868efd67a471472dbc4e0902
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:24+01:00"^^xsd:dateTime ;
@@ -3014,7 +3014,7 @@ instances:id_48e875d70f9838c5868efd67a471472dbc4e0902
 instances:id_4999381b20424104c3d28ac8460c0bff873cecbc
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:38+01:00"^^xsd:dateTime ;
@@ -3026,7 +3026,7 @@ instances:id_4999381b20424104c3d28ac8460c0bff873cecbc
 instances:id_49ffc2a13452159c3e8fc01df4703a93ddc17576
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:45+01:00"^^xsd:dateTime ;
@@ -3038,7 +3038,7 @@ instances:id_49ffc2a13452159c3e8fc01df4703a93ddc17576
 instances:id_4a4579056d4748d0e3a04fc5914c890353fb5258
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:03+01:00"^^xsd:dateTime ;
@@ -3050,7 +3050,7 @@ instances:id_4a4579056d4748d0e3a04fc5914c890353fb5258
 instances:id_4b1fb941cef2f672048621d42d724ba784c60c9d
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:44+01:00"^^xsd:dateTime ;
@@ -3062,7 +3062,7 @@ instances:id_4b1fb941cef2f672048621d42d724ba784c60c9d
 instances:id_4b9f8b454ef4f53f720e3257933ceff7f4305370
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:51+01:00"^^xsd:dateTime ;
@@ -3074,7 +3074,7 @@ instances:id_4b9f8b454ef4f53f720e3257933ceff7f4305370
 instances:id_4c0626eb9cfef2a78f12a665585e1a185cf9b54c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:36+01:00"^^xsd:dateTime ;
@@ -3086,7 +3086,7 @@ instances:id_4c0626eb9cfef2a78f12a665585e1a185cf9b54c
 instances:id_4c205090bd3aeccf0278e14c8d4f54815a6799e8
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:06+01:00"^^xsd:dateTime ;
@@ -3098,7 +3098,7 @@ instances:id_4c205090bd3aeccf0278e14c8d4f54815a6799e8
 instances:id_4c519d2508421810289dcaaea45eb82ed8158236
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:41+01:00"^^xsd:dateTime ;
@@ -3110,7 +3110,7 @@ instances:id_4c519d2508421810289dcaaea45eb82ed8158236
 instances:id_4d8b1bbea7894c21da4aa08fecf72522778baed2
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:56+01:00"^^xsd:dateTime ;
@@ -3122,7 +3122,7 @@ instances:id_4d8b1bbea7894c21da4aa08fecf72522778baed2
 instances:id_4d9e9f468cc1eb53e84f31d69e1f79e109c2c940
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:10+01:00"^^xsd:dateTime ;
@@ -3134,7 +3134,7 @@ instances:id_4d9e9f468cc1eb53e84f31d69e1f79e109c2c940
 instances:id_4da4a0e78e1e870eb53df67a092fa5701e0babe8
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:53+01:00"^^xsd:dateTime ;
@@ -3146,7 +3146,7 @@ instances:id_4da4a0e78e1e870eb53df67a092fa5701e0babe8
 instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d
 	a oa:Annotation ;
 	dcterms:title "Page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:43+01:00"^^xsd:dateTime ;
@@ -3158,7 +3158,7 @@ instances:id_4db4fa1e786765cf907a1738a4c64aea008d1a5d
 instances:id_4de51c55b5cbf950135c184bbbc4d9878ba909cb
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:00+01:00"^^xsd:dateTime ;
@@ -3170,7 +3170,7 @@ instances:id_4de51c55b5cbf950135c184bbbc4d9878ba909cb
 instances:id_4de83ecef70fa22610b970f19f8a98d79d063478
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:06+01:00"^^xsd:dateTime ;
@@ -3182,7 +3182,7 @@ instances:id_4de83ecef70fa22610b970f19f8a98d79d063478
 instances:id_4ea674f792c49fae79128cd99b79f89c25a8b373
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:51+01:00"^^xsd:dateTime ;
@@ -3194,7 +3194,7 @@ instances:id_4ea674f792c49fae79128cd99b79f89c25a8b373
 instances:id_4ebc90fe34567a3911ac9cbb8ac75e5e7691276f
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:34+01:00"^^xsd:dateTime ;
@@ -3206,7 +3206,7 @@ instances:id_4ebc90fe34567a3911ac9cbb8ac75e5e7691276f
 instances:id_4f5a7527c080dd8a7970ff9963143378af093528
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:48:20+01:00"^^xsd:dateTime ;
@@ -3218,7 +3218,7 @@ instances:id_4f5a7527c080dd8a7970ff9963143378af093528
 instances:id_4f75f09053bcbfc84d7d0ecc9242db1158da6a5a
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:01+01:00"^^xsd:dateTime ;
@@ -3230,7 +3230,7 @@ instances:id_4f75f09053bcbfc84d7d0ecc9242db1158da6a5a
 instances:id_506a3608df8c70a51bb7f9f81cdcb2891f021ee9
 	a oa:Annotation ;
 	dcterms:title "Text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:09+01:00"^^xsd:dateTime ;
@@ -3242,7 +3242,7 @@ instances:id_506a3608df8c70a51bb7f9f81cdcb2891f021ee9
 instances:id_5080799f742d6d756cdf19d9ea69aa49bf483d43
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:09+01:00"^^xsd:dateTime ;
@@ -3254,7 +3254,7 @@ instances:id_5080799f742d6d756cdf19d9ea69aa49bf483d43
 instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:20:57+01:00"^^xsd:dateTime ;
@@ -3266,7 +3266,7 @@ instances:id_509980e0bbcf17a0886b4b55a3257e905859fe58
 instances:id_50ac5eb8bfb03b0333044da8e97f44fdbfd29f34
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:18+01:00"^^xsd:dateTime ;
@@ -3278,7 +3278,7 @@ instances:id_50ac5eb8bfb03b0333044da8e97f44fdbfd29f34
 instances:id_50ada6b7cefe838e0d64422770da7ad07c045f0c
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:44+01:00"^^xsd:dateTime ;
@@ -3290,7 +3290,7 @@ instances:id_50ada6b7cefe838e0d64422770da7ad07c045f0c
 instances:id_512a2c932084385b90d7756f2526fa493b9ef780
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:30+01:00"^^xsd:dateTime ;
@@ -3302,7 +3302,7 @@ instances:id_512a2c932084385b90d7756f2526fa493b9ef780
 instances:id_513ad931790cc6ef18f3cbd4af63a1f2e6c72f40
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:57+01:00"^^xsd:dateTime ;
@@ -3314,7 +3314,7 @@ instances:id_513ad931790cc6ef18f3cbd4af63a1f2e6c72f40
 instances:id_51656c226f3ff6d6e3cb2ba0eebb735556d0da93
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:46+01:00"^^xsd:dateTime ;
@@ -3326,7 +3326,7 @@ instances:id_51656c226f3ff6d6e3cb2ba0eebb735556d0da93
 instances:id_51cb1800cf685a69403c2257a585eae0aea6a9b8
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:36+01:00"^^xsd:dateTime ;
@@ -3338,7 +3338,7 @@ instances:id_51cb1800cf685a69403c2257a585eae0aea6a9b8
 instances:id_520beebe4ad1babb5c6ea1b7d5f52cc3f5e276af
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:55+01:00"^^xsd:dateTime ;
@@ -3350,7 +3350,7 @@ instances:id_520beebe4ad1babb5c6ea1b7d5f52cc3f5e276af
 instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:23+01:00"^^xsd:dateTime ;
@@ -3362,7 +3362,7 @@ instances:id_521d72a28a9b88ad9bd56ed80103f9fd590981ca
 instances:id_52b55126aa3c4f5fade3f81002f14f6c71f1189c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:12+01:00"^^xsd:dateTime ;
@@ -3374,7 +3374,7 @@ instances:id_52b55126aa3c4f5fade3f81002f14f6c71f1189c
 instances:id_52fff8d6785c561d41b543af101ed94669f76bf0
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:50+01:00"^^xsd:dateTime ;
@@ -3386,7 +3386,7 @@ instances:id_52fff8d6785c561d41b543af101ed94669f76bf0
 instances:id_53010041edd123c45021551edc78916a07d0a868
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:14+01:00"^^xsd:dateTime ;
@@ -3398,7 +3398,7 @@ instances:id_53010041edd123c45021551edc78916a07d0a868
 instances:id_538450a7a768b33199fef53dd2260c033f5c0fd4
 	a oa:Annotation ;
 	dcterms:title "Illustrated page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:57+01:00"^^xsd:dateTime ;
@@ -3410,7 +3410,7 @@ instances:id_538450a7a768b33199fef53dd2260c033f5c0fd4
 instances:id_539a781842e8e08e73db924fc454fba79bf5b324
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:17+01:00"^^xsd:dateTime ;
@@ -3422,7 +3422,7 @@ instances:id_539a781842e8e08e73db924fc454fba79bf5b324
 instances:id_53b47108438e1314e564677ab8469f8e0f595750
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:10+01:00"^^xsd:dateTime ;
@@ -3434,7 +3434,7 @@ instances:id_53b47108438e1314e564677ab8469f8e0f595750
 instances:id_542ce1e390f53d6ccc50f732e6fd07ba6b065965
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:10+01:00"^^xsd:dateTime ;
@@ -3446,7 +3446,7 @@ instances:id_542ce1e390f53d6ccc50f732e6fd07ba6b065965
 instances:id_5482debf723b22fca01502e1212f98275cb2a2fc
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:39+01:00"^^xsd:dateTime ;
@@ -3458,7 +3458,7 @@ instances:id_5482debf723b22fca01502e1212f98275cb2a2fc
 instances:id_54972c456d5cf108d97c6edafaa5e0822d74e6c1
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:39+01:00"^^xsd:dateTime ;
@@ -3470,7 +3470,7 @@ instances:id_54972c456d5cf108d97c6edafaa5e0822d74e6c1
 instances:id_54e8030ff2da3834ae5f07a17db040f411b75065
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:00+01:00"^^xsd:dateTime ;
@@ -3482,7 +3482,7 @@ instances:id_54e8030ff2da3834ae5f07a17db040f411b75065
 instances:id_551e5a166a6429218dd5f7139791807a1847d0a0
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:09:49+01:00"^^xsd:dateTime ;
@@ -3494,7 +3494,7 @@ instances:id_551e5a166a6429218dd5f7139791807a1847d0a0
 instances:id_5522828eca61661a2bf8812cac1fd06d050cd416
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:15+01:00"^^xsd:dateTime ;
@@ -3506,7 +3506,7 @@ instances:id_5522828eca61661a2bf8812cac1fd06d050cd416
 instances:id_556f27f4c29677ebcb014f82a08f0611b031331a
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:46+01:00"^^xsd:dateTime ;
@@ -3518,7 +3518,7 @@ instances:id_556f27f4c29677ebcb014f82a08f0611b031331a
 instances:id_55964eb44965acccba2ec1a54b49b0c7f7883296
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:40+01:00"^^xsd:dateTime ;
@@ -3530,7 +3530,7 @@ instances:id_55964eb44965acccba2ec1a54b49b0c7f7883296
 instances:id_55e5774d5f6c9188bd04b1188e7a299fc0220c95
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:34+01:00"^^xsd:dateTime ;
@@ -3542,7 +3542,7 @@ instances:id_55e5774d5f6c9188bd04b1188e7a299fc0220c95
 instances:id_55fe50999d2e6f3b3f7aea798b98efdc69c0cb73
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:52+01:00"^^xsd:dateTime ;
@@ -3554,7 +3554,7 @@ instances:id_55fe50999d2e6f3b3f7aea798b98efdc69c0cb73
 instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:26:09+01:00"^^xsd:dateTime ;
@@ -3566,7 +3566,7 @@ instances:id_5618c14aee13ce38d2e7c71a759a485b1a721e8f
 instances:id_561dc9ab61fa72cb5c1966022c0195f56a767dc5
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:54+01:00"^^xsd:dateTime ;
@@ -3578,7 +3578,7 @@ instances:id_561dc9ab61fa72cb5c1966022c0195f56a767dc5
 instances:id_567ec76ca4a2905a40dc2ca2b1aa5261fe9a8df5
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:48+01:00"^^xsd:dateTime ;
@@ -3590,7 +3590,7 @@ instances:id_567ec76ca4a2905a40dc2ca2b1aa5261fe9a8df5
 instances:id_56c091c22b4c493de90cc7c70ff12ba891a4c385
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:34+01:00"^^xsd:dateTime ;
@@ -3602,7 +3602,7 @@ instances:id_56c091c22b4c493de90cc7c70ff12ba891a4c385
 instances:id_572b5c8e9fc76727e74853f20d6f51b4d4a24596
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:43:48+01:00"^^xsd:dateTime ;
@@ -3614,7 +3614,7 @@ instances:id_572b5c8e9fc76727e74853f20d6f51b4d4a24596
 instances:id_578efa944a2aaadbebf71e9fe88629c3241b71b3
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:49+01:00"^^xsd:dateTime ;
@@ -3626,7 +3626,7 @@ instances:id_578efa944a2aaadbebf71e9fe88629c3241b71b3
 instances:id_57df9c26f08420f82f5918a8f4336ccd98f1ca58
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:04+01:00"^^xsd:dateTime ;
@@ -3638,7 +3638,7 @@ instances:id_57df9c26f08420f82f5918a8f4336ccd98f1ca58
 instances:id_57f2f34c2d00d172328ac561d17e79b9dd9c25e7
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:38:56+01:00"^^xsd:dateTime ;
@@ -3650,7 +3650,7 @@ instances:id_57f2f34c2d00d172328ac561d17e79b9dd9c25e7
 instances:id_586b9913aebf641939bff8e904d5e1e37efe5661
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:40+01:00"^^xsd:dateTime ;
@@ -3662,7 +3662,7 @@ instances:id_586b9913aebf641939bff8e904d5e1e37efe5661
 instances:id_586ea71070c4ad7adfea6523054c37ead0351e02
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:10+01:00"^^xsd:dateTime ;
@@ -3674,7 +3674,7 @@ instances:id_586ea71070c4ad7adfea6523054c37ead0351e02
 instances:id_589d8edff4d770e4a2f647310abce64424b9693e
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:29+01:00"^^xsd:dateTime ;
@@ -3686,7 +3686,7 @@ instances:id_589d8edff4d770e4a2f647310abce64424b9693e
 instances:id_590cd6c60976189b05e8aae8079e5d9ede5c9e99
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:03+01:00"^^xsd:dateTime ;
@@ -3698,7 +3698,7 @@ instances:id_590cd6c60976189b05e8aae8079e5d9ede5c9e99
 instances:id_5929c70af13a5834fdcd69f250143663254c160e
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:09+01:00"^^xsd:dateTime ;
@@ -3710,7 +3710,7 @@ instances:id_5929c70af13a5834fdcd69f250143663254c160e
 instances:id_5945ec10e9f687dc997bb27abb2f9d34ddcc47bb
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:18+01:00"^^xsd:dateTime ;
@@ -3722,7 +3722,7 @@ instances:id_5945ec10e9f687dc997bb27abb2f9d34ddcc47bb
 instances:id_599c21bec731e688c36fe2c9ef56a44495e8150b
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:32:06+01:00"^^xsd:dateTime ;
@@ -3734,7 +3734,7 @@ instances:id_599c21bec731e688c36fe2c9ef56a44495e8150b
 instances:id_5a5e490be54afe4b46634eb93131790966b3e3cb
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:49+01:00"^^xsd:dateTime ;
@@ -3746,7 +3746,7 @@ instances:id_5a5e490be54afe4b46634eb93131790966b3e3cb
 instances:id_5aca96ac6fa3d05905dc80acb70dde3a48e09c9d
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:02+01:00"^^xsd:dateTime ;
@@ -3758,7 +3758,7 @@ instances:id_5aca96ac6fa3d05905dc80acb70dde3a48e09c9d
 instances:id_5ada83b0d2c43e272be27063a8d88edb56c98180
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:59+01:00"^^xsd:dateTime ;
@@ -3770,7 +3770,7 @@ instances:id_5ada83b0d2c43e272be27063a8d88edb56c98180
 instances:id_5b6c2648876f6278f0d587649dbab4275e551fe0
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:18+01:00"^^xsd:dateTime ;
@@ -3782,7 +3782,7 @@ instances:id_5b6c2648876f6278f0d587649dbab4275e551fe0
 instances:id_5b84de42e888ebecdc9e182f55149a9c0ebd7c92
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:44+01:00"^^xsd:dateTime ;
@@ -3794,7 +3794,7 @@ instances:id_5b84de42e888ebecdc9e182f55149a9c0ebd7c92
 instances:id_5c23eb262f64ec43a3dd3b23509dcc98ba7b8084
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:13+01:00"^^xsd:dateTime ;
@@ -3806,7 +3806,7 @@ instances:id_5c23eb262f64ec43a3dd3b23509dcc98ba7b8084
 instances:id_5c3fcc45f530e00eaf7f23534f7ec04109aa1f04
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:43+01:00"^^xsd:dateTime ;
@@ -3818,7 +3818,7 @@ instances:id_5c3fcc45f530e00eaf7f23534f7ec04109aa1f04
 instances:id_5c4806bc2c272b0d852d214ca7a631af3d358d50
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:40+01:00"^^xsd:dateTime ;
@@ -3830,7 +3830,7 @@ instances:id_5c4806bc2c272b0d852d214ca7a631af3d358d50
 instances:id_5c5279cc44821328695a8aaa3462f9f0a7ce73e2
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:15:50+01:00"^^xsd:dateTime ;
@@ -3842,7 +3842,7 @@ instances:id_5c5279cc44821328695a8aaa3462f9f0a7ce73e2
 instances:id_5c795bf6aeebb53cc192963b69df2bffb1fa8fea
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:22:56+01:00"^^xsd:dateTime ;
@@ -3854,7 +3854,7 @@ instances:id_5c795bf6aeebb53cc192963b69df2bffb1fa8fea
 instances:id_5cddf3e5734f47da5fbcfd6613b912455bd37380
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:02:48+01:00"^^xsd:dateTime ;
@@ -3866,7 +3866,7 @@ instances:id_5cddf3e5734f47da5fbcfd6613b912455bd37380
 instances:id_5d4694348c6a865ed67fe03cf9ab74bb9af9d7d9
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:22+01:00"^^xsd:dateTime ;
@@ -3878,7 +3878,7 @@ instances:id_5d4694348c6a865ed67fe03cf9ab74bb9af9d7d9
 instances:id_5d519962de0076c63045add12cbe9029b4b2b4f0
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:03+01:00"^^xsd:dateTime ;
@@ -3890,7 +3890,7 @@ instances:id_5d519962de0076c63045add12cbe9029b4b2b4f0
 instances:id_5d77ac9a955da1e5f4cd5ede99f07b4be79501a7
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:19:25+01:00"^^xsd:dateTime ;
@@ -3902,7 +3902,7 @@ instances:id_5d77ac9a955da1e5f4cd5ede99f07b4be79501a7
 instances:id_5dd0e5c50aef86a8b26564499308fa18a10bec73
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:09+01:00"^^xsd:dateTime ;
@@ -3914,7 +3914,7 @@ instances:id_5dd0e5c50aef86a8b26564499308fa18a10bec73
 instances:id_5e024e1ecab65ab139968b5f51b30dfea637d285
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:23+01:00"^^xsd:dateTime ;
@@ -3926,7 +3926,7 @@ instances:id_5e024e1ecab65ab139968b5f51b30dfea637d285
 instances:id_5e0f9dce7112b409e8f24dd822342c4e61585f43
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:41+01:00"^^xsd:dateTime ;
@@ -3938,7 +3938,7 @@ instances:id_5e0f9dce7112b409e8f24dd822342c4e61585f43
 instances:id_5e1d9d0b49c2e36ab3c7d2df08902256abc1eb90
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:54+01:00"^^xsd:dateTime ;
@@ -3950,7 +3950,7 @@ instances:id_5e1d9d0b49c2e36ab3c7d2df08902256abc1eb90
 instances:id_5e38b9c8ee82b79073247a27c8e9e508017ac0af
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:47:32+01:00"^^xsd:dateTime ;
@@ -3962,7 +3962,7 @@ instances:id_5e38b9c8ee82b79073247a27c8e9e508017ac0af
 instances:id_5e68ee58e17098b267583ad37274a405cbd140ea
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:26+01:00"^^xsd:dateTime ;
@@ -3974,7 +3974,7 @@ instances:id_5e68ee58e17098b267583ad37274a405cbd140ea
 instances:id_5f29d16fec090de9b7cf4fd943103391cc753f5d
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:18+01:00"^^xsd:dateTime ;
@@ -3986,7 +3986,7 @@ instances:id_5f29d16fec090de9b7cf4fd943103391cc753f5d
 instances:id_601a80b24c7069d1be57601b16e7c5b8494e592e
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:00+01:00"^^xsd:dateTime ;
@@ -3998,7 +3998,7 @@ instances:id_601a80b24c7069d1be57601b16e7c5b8494e592e
 instances:id_60a6897fdd54b82b8ea9ebc244955f0524f80426
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:58+01:00"^^xsd:dateTime ;
@@ -4010,7 +4010,7 @@ instances:id_60a6897fdd54b82b8ea9ebc244955f0524f80426
 instances:id_60ffc653a6c56a83c1b0b709de1fc18ebf5ab797
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:54+01:00"^^xsd:dateTime ;
@@ -4022,7 +4022,7 @@ instances:id_60ffc653a6c56a83c1b0b709de1fc18ebf5ab797
 instances:id_614ce12bc7f9860bbfbfbd9df1fb92be1c854474
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:20+01:00"^^xsd:dateTime ;
@@ -4034,7 +4034,7 @@ instances:id_614ce12bc7f9860bbfbfbd9df1fb92be1c854474
 instances:id_6197eef0909b2de696a0568cec320427da157df9
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:18+01:00"^^xsd:dateTime ;
@@ -4046,7 +4046,7 @@ instances:id_6197eef0909b2de696a0568cec320427da157df9
 instances:id_61d42f400ffdb8d3921c3e176c4a4ce191c760e4
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:01:14+01:00"^^xsd:dateTime ;
@@ -4058,7 +4058,7 @@ instances:id_61d42f400ffdb8d3921c3e176c4a4ce191c760e4
 instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:23:23+01:00"^^xsd:dateTime ;
@@ -4070,7 +4070,7 @@ instances:id_61ebd898cd5e6f713c37c5f98cd348c18e56ecf9
 instances:id_62201716a81af4d0228f3da661ae5bb90b511782
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:17+01:00"^^xsd:dateTime ;
@@ -4082,7 +4082,7 @@ instances:id_62201716a81af4d0228f3da661ae5bb90b511782
 instances:id_62c66199bbea96c7b1e17b593fcd55e1268b2300
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:15+01:00"^^xsd:dateTime ;
@@ -4094,7 +4094,7 @@ instances:id_62c66199bbea96c7b1e17b593fcd55e1268b2300
 instances:id_63965aaebc1da414a1f37c1352e083b4e27d2cfb
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:58+01:00"^^xsd:dateTime ;
@@ -4106,7 +4106,7 @@ instances:id_63965aaebc1da414a1f37c1352e083b4e27d2cfb
 instances:id_63968a2052abaecbeb2799ffa32302fdd46554df
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:17+01:00"^^xsd:dateTime ;
@@ -4118,7 +4118,7 @@ instances:id_63968a2052abaecbeb2799ffa32302fdd46554df
 instances:id_63ccc3ffc58d1ebc93b6e4d588a6f4450613b6a0
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:33+01:00"^^xsd:dateTime ;
@@ -4130,7 +4130,7 @@ instances:id_63ccc3ffc58d1ebc93b6e4d588a6f4450613b6a0
 instances:id_63d6c3611e2f30ccd48962efddd906167cec2fe4
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:40:57+01:00"^^xsd:dateTime ;
@@ -4142,7 +4142,7 @@ instances:id_63d6c3611e2f30ccd48962efddd906167cec2fe4
 instances:id_63f1cf48b38357ebe58d0497f1e39a12d793c139
 	a oa:Annotation ;
 	dcterms:title "Multiple illustrations on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:18+01:00"^^xsd:dateTime ;
@@ -4154,7 +4154,7 @@ instances:id_63f1cf48b38357ebe58d0497f1e39a12d793c139
 instances:id_63f784a564d01429ee9671f8e714d2940631a707
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:09+01:00"^^xsd:dateTime ;
@@ -4166,7 +4166,7 @@ instances:id_63f784a564d01429ee9671f8e714d2940631a707
 instances:id_640137309c42b86d6eefc6f1b6c5288a50d5d496
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:31+01:00"^^xsd:dateTime ;
@@ -4178,7 +4178,7 @@ instances:id_640137309c42b86d6eefc6f1b6c5288a50d5d496
 instances:id_65539e9251c769cba38a72d6c0b3ad62318f9f9e
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:42+01:00"^^xsd:dateTime ;
@@ -4190,7 +4190,7 @@ instances:id_65539e9251c769cba38a72d6c0b3ad62318f9f9e
 instances:id_65a9ff37ea05d1dbfdb4f253be4f6bf5862679d5
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:00:46+01:00"^^xsd:dateTime ;
@@ -4202,7 +4202,7 @@ instances:id_65a9ff37ea05d1dbfdb4f253be4f6bf5862679d5
 instances:id_65c027ec007fd8ce888a0d8c09abeef62a99f67d
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:56+01:00"^^xsd:dateTime ;
@@ -4214,7 +4214,7 @@ instances:id_65c027ec007fd8ce888a0d8c09abeef62a99f67d
 instances:id_65cf2affe1511c739d60167c73e90c057ffe8996
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:49:56+01:00"^^xsd:dateTime ;
@@ -4226,7 +4226,7 @@ instances:id_65cf2affe1511c739d60167c73e90c057ffe8996
 instances:id_664590bdd3e6da6f264513bc1fecc54209faf0e1
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:21+01:00"^^xsd:dateTime ;
@@ -4238,7 +4238,7 @@ instances:id_664590bdd3e6da6f264513bc1fecc54209faf0e1
 instances:id_6667932a455a2f60148443eee9dcd698723485b8
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:03+01:00"^^xsd:dateTime ;
@@ -4250,7 +4250,7 @@ instances:id_6667932a455a2f60148443eee9dcd698723485b8
 instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:56:34+01:00"^^xsd:dateTime ;
@@ -4262,7 +4262,7 @@ instances:id_66fb74116b6c5a17955fa4f00e72bc97b0e627b5
 instances:id_672af54838e893cba55c149c622999b49d641850
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:21+01:00"^^xsd:dateTime ;
@@ -4274,7 +4274,7 @@ instances:id_672af54838e893cba55c149c622999b49d641850
 instances:id_6732b24c6d976ff73e03cdf2beade39973f4c4d4
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:55+01:00"^^xsd:dateTime ;
@@ -4286,7 +4286,7 @@ instances:id_6732b24c6d976ff73e03cdf2beade39973f4c4d4
 instances:id_67688b8a9a783fbbede1b87238f0bd6ba5feefb1
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:52:58+01:00"^^xsd:dateTime ;
@@ -4298,7 +4298,7 @@ instances:id_67688b8a9a783fbbede1b87238f0bd6ba5feefb1
 instances:id_677c4d1dff93156a8b1a7b0f7297020761ddb2c4
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:22+01:00"^^xsd:dateTime ;
@@ -4310,7 +4310,7 @@ instances:id_677c4d1dff93156a8b1a7b0f7297020761ddb2c4
 instances:id_67ed83e23b22a993193ad6062d473d2474cda105
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:17:42+01:00"^^xsd:dateTime ;
@@ -4322,7 +4322,7 @@ instances:id_67ed83e23b22a993193ad6062d473d2474cda105
 instances:id_680c954555a1fd6acfca0164d1ad66fe8f1884b6
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:22+01:00"^^xsd:dateTime ;
@@ -4334,7 +4334,7 @@ instances:id_680c954555a1fd6acfca0164d1ad66fe8f1884b6
 instances:id_681c56deb2bd2f21a7e759770c6c746f3284c642
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:06+01:00"^^xsd:dateTime ;
@@ -4346,7 +4346,7 @@ instances:id_681c56deb2bd2f21a7e759770c6c746f3284c642
 instances:id_6829279a1d76d3d7b4f35e76c6cb5129b2859945
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:50:37+01:00"^^xsd:dateTime ;
@@ -4358,7 +4358,7 @@ instances:id_6829279a1d76d3d7b4f35e76c6cb5129b2859945
 instances:id_682adc0c956bbef98a9760454dc17e875c1706f5
 	a oa:Annotation ;
 	dcterms:title "Only text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:53:06+01:00"^^xsd:dateTime ;
@@ -4370,7 +4370,7 @@ instances:id_682adc0c956bbef98a9760454dc17e875c1706f5
 instances:id_68c66a9440642f4766f4955a7950717a855a6547
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:51+01:00"^^xsd:dateTime ;
@@ -4382,7 +4382,7 @@ instances:id_68c66a9440642f4766f4955a7950717a855a6547
 instances:id_694d47786776058b7445e5f3c7f50ac1f27b3a8e
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:22+01:00"^^xsd:dateTime ;
@@ -4394,7 +4394,7 @@ instances:id_694d47786776058b7445e5f3c7f50ac1f27b3a8e
 instances:id_6988cca8bead9f2fd3c7a58c1e11312297d630a1
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:23:51+01:00"^^xsd:dateTime ;
@@ -4406,7 +4406,7 @@ instances:id_6988cca8bead9f2fd3c7a58c1e11312297d630a1
 instances:id_699d862b4c57d01f5dc75ffa540917e28f6a0fb8
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:52+01:00"^^xsd:dateTime ;
@@ -4418,7 +4418,7 @@ instances:id_699d862b4c57d01f5dc75ffa540917e28f6a0fb8
 instances:id_69a0251a889d1827036de84d21603fa2d383814c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:41+01:00"^^xsd:dateTime ;
@@ -4430,7 +4430,7 @@ instances:id_69a0251a889d1827036de84d21603fa2d383814c
 instances:id_69ce666f174f050cda3c838dd1a9ba939daba707
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:34:32+01:00"^^xsd:dateTime ;
@@ -4442,7 +4442,7 @@ instances:id_69ce666f174f050cda3c838dd1a9ba939daba707
 instances:id_69f7ee31a2af2f703de3455b465d1b708551ea0d
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:34+01:00"^^xsd:dateTime ;
@@ -4454,7 +4454,7 @@ instances:id_69f7ee31a2af2f703de3455b465d1b708551ea0d
 instances:id_6a1655f768f6446e2be84a1c224e00faa5445dc1
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:27+01:00"^^xsd:dateTime ;
@@ -4466,7 +4466,7 @@ instances:id_6a1655f768f6446e2be84a1c224e00faa5445dc1
 instances:id_6a18ef9c719f2b6b067e83c64cf743d629f6c57f
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:09+01:00"^^xsd:dateTime ;
@@ -4478,7 +4478,7 @@ instances:id_6a18ef9c719f2b6b067e83c64cf743d629f6c57f
 instances:id_6a7dcfcf69612f2723dd170c5dfdb40eae34e8f6
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:08+01:00"^^xsd:dateTime ;
@@ -4490,7 +4490,7 @@ instances:id_6a7dcfcf69612f2723dd170c5dfdb40eae34e8f6
 instances:id_6ae74ae881f7720e62c5487f381df4730fe5b09a
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:58:04+01:00"^^xsd:dateTime ;
@@ -4502,7 +4502,7 @@ instances:id_6ae74ae881f7720e62c5487f381df4730fe5b09a
 instances:id_6b2f6e302e20dc1d6362ea2ef17549c0edfdd723
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:59:53+01:00"^^xsd:dateTime ;
@@ -4514,7 +4514,7 @@ instances:id_6b2f6e302e20dc1d6362ea2ef17549c0edfdd723
 instances:id_6b87285a23c4d77b5b6f19ca0627b1f73c1f6b7b
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:59+01:00"^^xsd:dateTime ;
@@ -4526,7 +4526,7 @@ instances:id_6b87285a23c4d77b5b6f19ca0627b1f73c1f6b7b
 instances:id_6bfebcbcf84480a0b07b2f70a9c48303fddc2278
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:22+01:00"^^xsd:dateTime ;
@@ -4538,7 +4538,7 @@ instances:id_6bfebcbcf84480a0b07b2f70a9c48303fddc2278
 instances:id_6c5814b16fda068f6e8de128a2ce1753443b4b31
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:44:47+01:00"^^xsd:dateTime ;
@@ -4550,7 +4550,7 @@ instances:id_6c5814b16fda068f6e8de128a2ce1753443b4b31
 instances:id_6cf98737559a93fd4779e8fed21f761eb21046e4
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:40+01:00"^^xsd:dateTime ;
@@ -4562,7 +4562,7 @@ instances:id_6cf98737559a93fd4779e8fed21f761eb21046e4
 instances:id_6d0720ea21b9130c45d7793e6a22f6fe5ef758b4
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:37:32+01:00"^^xsd:dateTime ;
@@ -4574,7 +4574,7 @@ instances:id_6d0720ea21b9130c45d7793e6a22f6fe5ef758b4
 instances:id_6d92f2de3de07cda4bbc03964ef4f0d612648c6f
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:41:36+01:00"^^xsd:dateTime ;
@@ -4586,7 +4586,7 @@ instances:id_6d92f2de3de07cda4bbc03964ef4f0d612648c6f
 instances:id_6df6a6e6b44a1c6a84ba2ebd2f492484b3179129
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:42:19+01:00"^^xsd:dateTime ;
@@ -4598,7 +4598,7 @@ instances:id_6df6a6e6b44a1c6a84ba2ebd2f492484b3179129
 instances:id_6dfe4c7857a6122fc1379fda7f62697e3bfc34d2
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:36+01:00"^^xsd:dateTime ;
@@ -4610,7 +4610,7 @@ instances:id_6dfe4c7857a6122fc1379fda7f62697e3bfc34d2
 instances:id_6e28e31d3b4631f753643aff451598fed5195be1
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:12:45+01:00"^^xsd:dateTime ;
@@ -4622,7 +4622,7 @@ instances:id_6e28e31d3b4631f753643aff451598fed5195be1
 instances:id_6e361c6f53c6b76a6fa2ddc3e9eb82ba8ed35514
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:46+01:00"^^xsd:dateTime ;
@@ -4634,7 +4634,7 @@ instances:id_6e361c6f53c6b76a6fa2ddc3e9eb82ba8ed35514
 instances:id_6e9a45bf4b4c74e2b5f3c4ba061389f95f142309
 	a oa:Annotation ;
 	dcterms:title "Partial illustration on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:11:07+01:00"^^xsd:dateTime ;
@@ -4646,7 +4646,7 @@ instances:id_6e9a45bf4b4c74e2b5f3c4ba061389f95f142309
 instances:id_6ecb1cefa8115045bed74aea9ba720174d4f0931
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:51:35+01:00"^^xsd:dateTime ;
@@ -4658,7 +4658,7 @@ instances:id_6ecb1cefa8115045bed74aea9ba720174d4f0931
 instances:id_6edbf66ad08284c5ecc7987695a1de8302137e8a
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:06:06+01:00"^^xsd:dateTime ;
@@ -4670,7 +4670,7 @@ instances:id_6edbf66ad08284c5ecc7987695a1de8302137e8a
 instances:id_6f1f61a2b2c2aaf991487dec0e51610a2c6f830a
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:57:56+01:00"^^xsd:dateTime ;
@@ -4682,7 +4682,7 @@ instances:id_6f1f61a2b2c2aaf991487dec0e51610a2c6f830a
 instances:id_6f68b783730bec75ab8ab4a18a7c38ce17dc0b98
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:25+01:00"^^xsd:dateTime ;
@@ -4694,7 +4694,7 @@ instances:id_6f68b783730bec75ab8ab4a18a7c38ce17dc0b98
 instances:id_6fa8d2c3be1eb5796c7c5e8b6a113c0fe65d77ce
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:20:53+01:00"^^xsd:dateTime ;
@@ -4706,7 +4706,7 @@ instances:id_6fa8d2c3be1eb5796c7c5e8b6a113c0fe65d77ce
 instances:id_6fad275e80ef94e500fbc68244809b5c0025ce55
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:42+01:00"^^xsd:dateTime ;
@@ -4718,7 +4718,7 @@ instances:id_6fad275e80ef94e500fbc68244809b5c0025ce55
 instances:id_6fd71561df0a9ff7ecc15931e6aeee2a01abe20c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:45:47+01:00"^^xsd:dateTime ;
@@ -4730,7 +4730,7 @@ instances:id_6fd71561df0a9ff7ecc15931e6aeee2a01abe20c
 instances:id_6ff5773b35785fe820f6da34c76f550260c5b976
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:03:59+01:00"^^xsd:dateTime ;
@@ -4742,7 +4742,7 @@ instances:id_6ff5773b35785fe820f6da34c76f550260c5b976
 instances:id_70012847e35cb22af74bd83fd3be96cdfa240602
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:54:28+01:00"^^xsd:dateTime ;
@@ -4754,7 +4754,7 @@ instances:id_70012847e35cb22af74bd83fd3be96cdfa240602
 instances:id_702a6e02c8d7930d6f7c907937215966b73fe473
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:57:10+01:00"^^xsd:dateTime ;
@@ -4766,7 +4766,7 @@ instances:id_702a6e02c8d7930d6f7c907937215966b73fe473
 instances:id_70863d4c186764ae900056b4899583967b713f62
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:36:20+01:00"^^xsd:dateTime ;
@@ -4778,7 +4778,7 @@ instances:id_70863d4c186764ae900056b4899583967b713f62
 instances:id_708734a7d01c5d718cdccfac3039f9f029125211
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:35:54+01:00"^^xsd:dateTime ;
@@ -4790,7 +4790,7 @@ instances:id_708734a7d01c5d718cdccfac3039f9f029125211
 instances:id_70c459f189b36f134f629a0af0af5871dfc63a1e
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:07:27+01:00"^^xsd:dateTime ;
@@ -4802,7 +4802,7 @@ instances:id_70c459f189b36f134f629a0af0af5871dfc63a1e
 instances:id_713a5728d3cb097584cd3400052027a408d85fda
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:18:05+01:00"^^xsd:dateTime ;
@@ -4814,7 +4814,7 @@ instances:id_713a5728d3cb097584cd3400052027a408d85fda
 instances:id_7167d764bae407d1d0b5ea8d9db4cf74e7db1e96
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:05:27+01:00"^^xsd:dateTime ;
@@ -4826,7 +4826,7 @@ instances:id_7167d764bae407d1d0b5ea8d9db4cf74e7db1e96
 instances:id_7169783c2da1ca664afc95e61e20912aca0df24c
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:16:57+01:00"^^xsd:dateTime ;
@@ -4838,7 +4838,7 @@ instances:id_7169783c2da1ca664afc95e61e20912aca0df24c
 instances:id_7191c06ef26f9eb237733d1af66cb4034ca60919
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:21:45+01:00"^^xsd:dateTime ;
@@ -4850,7 +4850,7 @@ instances:id_7191c06ef26f9eb237733d1af66cb4034ca60919
 instances:id_721322acf0e7fda919982fde347fa8a952cabd1a
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:19+01:00"^^xsd:dateTime ;
@@ -4862,7 +4862,7 @@ instances:id_721322acf0e7fda919982fde347fa8a952cabd1a
 instances:id_72c28cc4cfa5a714ea3b995c56f20f56c1333ae5
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:14:52+01:00"^^xsd:dateTime ;
@@ -4874,7 +4874,7 @@ instances:id_72c28cc4cfa5a714ea3b995c56f20f56c1333ae5
 instances:id_732a30e81315b26484389f0f409f4f58c8f236b5
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:46:57+01:00"^^xsd:dateTime ;
@@ -4886,7 +4886,7 @@ instances:id_732a30e81315b26484389f0f409f4f58c8f236b5
 instances:id_733c5daa43307605aad53198256d70ea45a46bda
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:44:32+01:00"^^xsd:dateTime ;
@@ -4898,7 +4898,7 @@ instances:id_733c5daa43307605aad53198256d70ea45a46bda
 instances:id_7364713ae150a06639ed69ff7656c09625dbfdd6
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:24:28+01:00"^^xsd:dateTime ;
@@ -4910,7 +4910,7 @@ instances:id_7364713ae150a06639ed69ff7656c09625dbfdd6
 instances:id_73793007ca66bfd40b2f641b130a00ce5df6d8b5
 	a oa:Annotation ;
 	dcterms:title "Full page illustration" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T12:55:37+01:00"^^xsd:dateTime ;
@@ -4922,7 +4922,7 @@ instances:id_73793007ca66bfd40b2f641b130a00ce5df6d8b5
 instances:id_73ae91da2e1fdf651f0c73a37d8c5a989c239fe8
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:10:12+01:00"^^xsd:dateTime ;
@@ -4934,7 +4934,7 @@ instances:id_73ae91da2e1fdf651f0c73a37d8c5a989c239fe8
 instances:id_73fc21879e44296ab2ae8504fc5fddfa940c4e57
 	a oa:Annotation ;
 	dcterms:title "Small illustrations and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:04:39+01:00"^^xsd:dateTime ;
@@ -4946,7 +4946,7 @@ instances:id_73fc21879e44296ab2ae8504fc5fddfa940c4e57
 instances:id_74571ca891ad1224c5e64dceca0222a9eef844f4
 	a oa:Annotation ;
 	dcterms:title "Illuminated capitals and text on page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:09:50+01:00"^^xsd:dateTime ;
@@ -4958,7 +4958,7 @@ instances:id_74571ca891ad1224c5e64dceca0222a9eef844f4
 instances:id_74a99b9f9f4a2146e87eeeeccd1e75f213a81ad5
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:24:22+01:00"^^xsd:dateTime ;
@@ -4970,7 +4970,7 @@ instances:id_74a99b9f9f4a2146e87eeeeccd1e75f213a81ad5
 instances:id_74c159c4278edc96d3095ac4b7f86668799213e5
 	a oa:Annotation ;
 	dcterms:title "Blank page" ;
-	ann_ui:annotationField <page type> ;
+	ann_ui:annotationField <http://accurator.nl/ui/annotation/bible#PageType> ;
 	ann_ui:reachedObjectWith "unknown" ;
 	ann_ui:typingTime 0 ;
 	oa:annotatedAt "2015-11-13T13:23:33+01:00"^^xsd:dateTime ;

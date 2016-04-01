@@ -1,0 +1,21 @@
+@prefix      void: <http://rdfs.org/ns/void#> .
+@prefix      vann: <http://purl.org/vocab/vann/> .
+@prefix       lib: <http://www.swi-prolog.org/rdf/library/> .
+@prefix       owl: <http://www.w3.org/2002/07/owl#> .
+@prefix   dcterms: <http://purl.org/dc/terms/> .
+@prefix       edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix      ubvu: <http://purl.org/collections/nl/ubvu/> .
+
+[ vann:preferredNamespacePrefix "edm" ;
+  vann:preferredNamespaceUri "http://www.europeana.eu/schemas/edm/"
+] .
+[ vann:preferredNamespacePrefix "ubvu" ;
+  vann:preferredNamespaceUri "http://purl.org/collections/nl/ubvu/"
+] .
+
+<UBVU-page-annotations>
+	a void:Dataset ;
+	lib:source <http://accurator.nl/> ;
+	dcterms:title "Dataset with page annotations for UBVU bibles." ;
+	void:dataDump
+		<page_annotations.ttl> .
