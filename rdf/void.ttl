@@ -19,3 +19,10 @@
 	dcterms:title "Dataset with page annotations for UBVU bibles." ;
 	void:dataDump
 		<page_annotations.ttl> .
+
+<UBVU-campaign>
+        a void:Dataset ;
+        lib:source <http://accurator.nl/> ;
+        dcterms:title "Dataset with targetted print within the UBVU campaign." ;
+        void:dataDump
+                <ubvu_campaign.ttl> .
